@@ -14,53 +14,6 @@ type LogEntry = {
   routines?: { name: string; scheduled_time: string } | null;
 };
 
-const DUMMY_LOGS: LogEntry[] = [
-  {
-    id: "dummy-1",
-    routine_id: "r1",
-    status: "success",
-    message: "sent 2 actions",
-    full_message: `🔔 오전 루틴\n\n📈 오늘의 증시 브리핑\n\n🇺🇸 미국 시장 마감\nS&P500 ▲ 1.75% | 나스닥 ▲ 2.54% | 다우 ▲ 1.86%\nS&P500 +1.75%, 나스닥 +2.54%, 종전 기대감으로 강세\n\n🇰🇷 코스피 예측\n상승 — 미국 증시 강세(나스닥 +2.54%), 종전 기대감, 외국인 매수 재개로 긍정적\n\n📰 주요 뉴스\n트럼프 종전 발언에 코스피 8300선 탈환, 외국인 25일만에 순매수 전환\n\n🔍 관심 종목\n• 삼성전자: 상승 — 반도체 슈퍼사이클 시작, 전날 +7.36% 강세 지속 기대\n• SK하이닉스: 상승 — 나스닥 반도체주 급등(+3.29%), 동반 상승 가능성\n• 삼성바이오로직스: 보합 — 전날 -0.23% 약세, 시장 주도주 아님\n• LG전자: 보합 — 전날 -1.33% 약세, 반도체 강세 수혜 제한적\n\n🌤️ 오늘의 날씨\n서울 현재 18°C (어제보다 2°C 높음)\n오늘 최저 14°C / 최고 23°C\n강수확률 10% | 강수량 0mm\n자외선 지수 5 (보통)\n👕 가디건이나 얇은 재킷을 챙겨요`,
-    created_at: new Date(Date.now() - 1000 * 60 * 30).toISOString(),
-    routines: { name: "오전 루틴", scheduled_time: "08:00" },
-  },
-  {
-    id: "dummy-2",
-    routine_id: "r2",
-    status: "success",
-    message: "sent 1 actions",
-    full_message: `🔔 오후 리포트\n\n📊 장 마감 리포트\n\n🇰🇷 오늘 코스피\n코스피 ▲ 4.49% (8112)\n\n🎯 예측 정확도\n부분적중 — 코스피 상승 예측은 적중했으나, 예상보다 강한 상승률(+4.49%)을 기록했습니다.\n\n🔎 차이 분석\n미국 증시 강세와 외국인 매수가 예상보다 강력했으며, 반도체주 강세가 시장을 주도했습니다.\n\n📋 관심 종목 결과\n• 삼성전자: 상승 (적중)\n• SK하이닉스: 상승 (적중)\n• 삼성바이오로직스: 보합 (적중)\n• LG전자: 하락 (빗나감)`,
-    created_at: new Date(Date.now() - 1000 * 60 * 60 * 3).toISOString(),
-    routines: { name: "오후 리포트", scheduled_time: "16:30" },
-  },
-  {
-    id: "dummy-3",
-    routine_id: "r3",
-    status: "success",
-    message: "sent 1 actions",
-    full_message: `🔔 기상 알람\n\n⏰ 기상 알람\n좋은 아침이에요! 오늘도 활기차게 시작해봐요 🌅`,
-    created_at: new Date(Date.now() - 1000 * 60 * 60 * 8).toISOString(),
-    routines: { name: "기상 알람", scheduled_time: "07:00" },
-  },
-  {
-    id: "dummy-4",
-    routine_id: "r1",
-    status: "error",
-    message: "Error: YouTube API quota exceeded",
-    full_message: `[오류] 유튜브 API 할당량 초과로 영상 조회에 실패했습니다.\nError: YouTube API quota exceeded (403)`,
-    created_at: new Date(Date.now() - 1000 * 60 * 60 * 32).toISOString(),
-    routines: { name: "오전 루틴", scheduled_time: "08:00" },
-  },
-  {
-    id: "dummy-5",
-    routine_id: "r2",
-    status: "success",
-    message: "sent 1 actions",
-    full_message: `🔔 오후 리포트\n\n📊 장 마감 리포트\n\n🇰🇷 오늘 코스피\n코스피 ▼ 0.82% (7731)\n\n🎯 예측 정확도\n빗나감 — 상승 예측과 달리 코스피가 소폭 하락 마감했습니다.\n\n🔎 차이 분석\n장 중반 외국인 매도 전환 및 원/달러 환율 급등이 예상 외 하락 요인으로 작용했습니다.\n\n📋 관심 종목 결과\n• 삼성전자: 하락 (빗나감)\n• SK하이닉스: 하락 (빗나감)\n• 삼성바이오로직스: 상승 (빗나감)\n• LG전자: 하락 (적중)`,
-    created_at: new Date(Date.now() - 1000 * 60 * 60 * 27).toISOString(),
-    routines: { name: "오후 리포트", scheduled_time: "16:30" },
-  },
-];
 
 function formatKST(utcString: string) {
   const d = new Date(utcString);
@@ -78,7 +31,6 @@ export default function LogsPage() {
   const [loading, setLoading] = useState(true);
   const [filter, setFilter] = useState<"all" | "success" | "error">("all");
   const [selected, setSelected] = useState<LogEntry | null>(null);
-  const [useDummy, setUseDummy] = useState(false);
 
   async function fetchLogs() {
     setLoading(true);
@@ -88,15 +40,8 @@ export default function LogsPage() {
       .order("created_at", { ascending: false })
       .limit(100);
 
-    if (!data || data.length === 0) {
-      setLogs(DUMMY_LOGS);
-      setUseDummy(true);
-      setSelected(DUMMY_LOGS[0]);
-    } else {
-      setLogs(data);
-      setUseDummy(false);
-      setSelected(data[0] ?? null);
-    }
+    setLogs(data || []);
+    setSelected(data?.[0] ?? null);
     setLoading(false);
   }
 
@@ -122,14 +67,7 @@ export default function LogsPage() {
             ←
           </Link>
           <div className="flex-1">
-            <div className="flex items-center gap-2">
-              <h1 className="text-xl font-bold text-slate-900">발송 이력</h1>
-              {useDummy && (
-                <span className="text-xs bg-amber-100 text-amber-600 px-2 py-0.5 rounded-full font-medium">
-                  미리보기
-                </span>
-              )}
-            </div>
+            <h1 className="text-xl font-bold text-slate-900">발송 이력</h1>
             <p className="text-sm text-slate-400 mt-0.5">최근 100건의 알림 발송 기록</p>
           </div>
           <button
