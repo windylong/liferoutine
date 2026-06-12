@@ -20,9 +20,7 @@ export default function Home() {
     setLoading(false);
   }
 
-  useEffect(() => {
-    fetchRoutines();
-  }, []);
+  useEffect(() => { fetchRoutines(); }, []);
 
   async function toggleActive(routine: Routine) {
     await supabase
@@ -35,114 +33,126 @@ export default function Home() {
   async function deleteRoutine(id: string) {
     if (!confirm("루틴을 삭제할까요?")) return;
     const { error } = await supabase.from("routines").delete().eq("id", id);
-    if (error) {
-      alert("삭제 실패: " + error.message);
-      return;
-    }
+    if (error) { alert("삭제 실패: " + error.message); return; }
     fetchRoutines();
   }
 
   return (
-    <main className="min-h-screen bg-gray-50 p-6">
-      <div className="max-w-2xl mx-auto">
+    <main className="min-h-screen bg-slate-50">
+      <div className="max-w-2xl mx-auto px-5 py-6">
+
         {/* 헤더 */}
-        <div className="flex justify-between items-center mb-6">
+        <div className="flex items-center justify-between mb-6">
           <div>
-            <h1 className="text-2xl font-bold text-gray-800">🔔 생활 루틴</h1>
-            <p className="text-sm text-gray-500">텔레그램으로 알람을 받아요</p>
+            <h1 className="text-xl font-bold text-slate-900">생활 루틴</h1>
+            <p className="text-sm text-slate-400 mt-0.5">텔레그램으로 알람을 받아요</p>
           </div>
-          <div className="flex gap-2">
+          <div className="flex items-center gap-2">
             <Link
               href="/logs"
-              className="bg-gray-100 text-gray-600 px-4 py-2 rounded-lg text-sm font-medium hover:bg-gray-200"
+              className="h-9 px-3.5 rounded-lg border border-slate-200 bg-white text-slate-600 text-sm font-medium hover:bg-slate-50 flex items-center gap-1.5 transition-colors"
             >
-              📋 발송 이력
+              <span className="text-xs">📋</span> 발송 이력
             </Link>
             <Link
               href="/watchlist"
-              className="bg-gray-100 text-gray-600 px-4 py-2 rounded-lg text-sm font-medium hover:bg-gray-200"
+              className="h-9 px-3.5 rounded-lg border border-slate-200 bg-white text-slate-600 text-sm font-medium hover:bg-slate-50 flex items-center gap-1.5 transition-colors"
             >
-              📈 관심 종목
+              <span className="text-xs">📈</span> 관심 종목
             </Link>
             <button
               onClick={() => { setEditingRoutine(null); setShowModal(true); }}
-              className="bg-blue-500 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-blue-600"
+              className="h-9 px-3.5 rounded-lg bg-blue-600 hover:bg-blue-700 text-white text-sm font-medium flex items-center gap-1.5 transition-colors"
             >
-              + 루틴 추가
+              <span>+</span> 루틴 추가
             </button>
           </div>
         </div>
 
         {/* 루틴 목록 */}
         {loading ? (
-          <p className="text-center text-gray-400 py-12">불러오는 중...</p>
+          <div className="text-center py-16 text-slate-400 text-sm">불러오는 중...</div>
         ) : routines.length === 0 ? (
-          <div className="text-center py-12 text-gray-400">
-            <p className="text-4xl mb-2">📭</p>
-            <p>아직 루틴이 없어요. 추가해보세요!</p>
+          <div className="text-center py-20 text-slate-400">
+            <p className="text-4xl mb-3">📭</p>
+            <p className="text-sm">아직 루틴이 없어요.</p>
+            <button
+              onClick={() => { setEditingRoutine(null); setShowModal(true); }}
+              className="mt-4 text-sm text-blue-600 hover:text-blue-700 font-medium"
+            >
+              첫 루틴 추가하기 →
+            </button>
           </div>
         ) : (
           <div className="space-y-3">
             {routines.map((routine) => (
               <div
                 key={routine.id}
-                className={`bg-white rounded-xl p-4 shadow-sm border ${
-                  routine.is_active ? "border-blue-100" : "border-gray-100 opacity-60"
+                className={`bg-white rounded-xl border px-4 py-4 shadow-sm transition-opacity ${
+                  routine.is_active ? "border-slate-100" : "border-slate-100 opacity-50"
                 }`}
               >
-                <div className="flex justify-between items-start">
-                  <div className="flex-1">
-                    <div className="flex items-center gap-2">
-                      <span className="text-xl font-bold text-blue-600">
+                <div className="flex items-start justify-between gap-3">
+                  <div className="flex-1 min-w-0">
+                    {/* 시간 + 이름 */}
+                    <div className="flex items-baseline gap-2.5 mb-2">
+                      <span className="text-lg font-bold text-blue-600 tabular-nums leading-none">
                         {routine.scheduled_time.slice(0, 5)}
                       </span>
-                      <span className="text-gray-700 font-medium">{routine.name}</span>
+                      <span className="text-sm font-semibold text-slate-800 truncate">
+                        {routine.name}
+                      </span>
                     </div>
-                    <div className="flex gap-1 mt-1">
-                      {[1,2,3,4,5,6,7].map((d) => (
+                    {/* 요일 칩 */}
+                    <div className="flex gap-1 mb-2.5">
+                      {[1, 2, 3, 4, 5, 6, 7].map((d) => (
                         <span
                           key={d}
-                          className={`text-xs px-1.5 py-0.5 rounded ${
+                          className={`text-xs w-6 h-6 rounded flex items-center justify-center font-medium ${
                             routine.days_of_week.includes(d)
-                              ? "bg-blue-100 text-blue-600"
-                              : "bg-gray-100 text-gray-400"
+                              ? "bg-blue-600 text-white"
+                              : "bg-slate-100 text-slate-400"
                           }`}
                         >
                           {DAY_LABELS[d]}
                         </span>
                       ))}
                     </div>
-                    <div className="mt-2 space-y-1">
+                    {/* 액션 목록 */}
+                    <div className="space-y-0.5">
                       {(routine.actions || [])
                         .filter((a) => a.is_active)
                         .sort((a, b) => a.order_index - b.order_index)
                         .map((action) => (
-                          <p key={action.id} className="text-xs text-gray-500">
+                          <p key={action.id} className="text-xs text-slate-400">
                             {action.label || action.action_type}
                           </p>
                         ))}
                     </div>
                   </div>
-                  <div className="flex items-center gap-2 ml-4">
+
+                  {/* 우측 컨트롤 */}
+                  <div className="flex items-center gap-2 shrink-0 mt-0.5">
+                    {/* 토글 */}
                     <button
                       onClick={() => toggleActive(routine)}
                       className={`relative w-10 h-6 rounded-full transition-colors ${
-                        routine.is_active ? "bg-blue-500" : "bg-gray-300"
+                        routine.is_active ? "bg-blue-600" : "bg-slate-200"
                       }`}
                     >
-                      <div className={`absolute top-1 w-4 h-4 bg-white rounded-full transition-all ${
+                      <div className={`absolute top-1 w-4 h-4 bg-white rounded-full shadow-sm transition-all ${
                         routine.is_active ? "left-5" : "left-1"
                       }`} />
                     </button>
                     <button
                       onClick={() => { setEditingRoutine(routine); setShowModal(true); }}
-                      className="text-gray-400 hover:text-blue-500 text-sm"
+                      className="w-8 h-8 rounded-lg flex items-center justify-center text-slate-400 hover:text-blue-600 hover:bg-blue-50 transition-colors"
                     >
                       ✏️
                     </button>
                     <button
                       onClick={() => deleteRoutine(routine.id)}
-                      className="text-gray-400 hover:text-red-500 text-sm"
+                      className="w-8 h-8 rounded-lg flex items-center justify-center text-slate-400 hover:text-red-500 hover:bg-red-50 transition-colors"
                     >
                       🗑️
                     </button>
