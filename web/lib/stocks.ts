@@ -1,0 +1,207 @@
+export type Stock = {
+  code: string;
+  name: string;
+  market: "KOSPI" | "KOSDAQ";
+  sector: string;
+};
+
+export const SECTORS = [
+  "IT서비스", "건설", "게임", "금융", "바이오", "반도체", "반도체소재",
+  "반도체장비", "산업재", "소비재", "소재", "식품", "에너지", "엔터",
+  "운송", "유통", "유틸리티", "이차전지", "자동차", "자동차부품",
+  "전기전자", "제약", "조선", "지주", "통신", "화장품", "화학",
+];
+
+export const ALL_STOCKS: Stock[] = [
+  // 전기전자
+  { code: "005930", name: "삼성전자", market: "KOSPI", sector: "전기전자" },
+  { code: "066570", name: "LG전자", market: "KOSPI", sector: "전기전자" },
+  { code: "009150", name: "삼성전기", market: "KOSPI", sector: "전기전자" },
+  { code: "006400", name: "삼성SDI", market: "KOSPI", sector: "전기전자" },
+  { code: "034220", name: "LG디스플레이", market: "KOSPI", sector: "전기전자" },
+  { code: "011070", name: "LG이노텍", market: "KOSPI", sector: "전기전자" },
+  // 반도체
+  { code: "000660", name: "SK하이닉스", market: "KOSPI", sector: "반도체" },
+  { code: "000990", name: "DB하이텍", market: "KOSPI", sector: "반도체" },
+  { code: "067160", name: "아프리카TV", market: "KOSDAQ", sector: "IT서비스" },
+  { code: "240810", name: "원익IPS", market: "KOSDAQ", sector: "반도체장비" },
+  { code: "104830", name: "원익머트리얼즈", market: "KOSDAQ", sector: "반도체소재" },
+  { code: "005290", name: "동진쎄미켐", market: "KOSPI", sector: "반도체소재" },
+  { code: "036830", name: "솔브레인홀딩스", market: "KOSDAQ", sector: "반도체소재" },
+  { code: "357780", name: "솔브레인", market: "KOSDAQ", sector: "반도체소재" },
+  { code: "042700", name: "한미반도체", market: "KOSPI", sector: "반도체장비" },
+  { code: "039030", name: "이오테크닉스", market: "KOSDAQ", sector: "반도체장비" },
+  { code: "140860", name: "파크시스템스", market: "KOSDAQ", sector: "반도체장비" },
+  { code: "322510", name: "제이엘케이", market: "KOSDAQ", sector: "반도체장비" },
+  // 이차전지
+  { code: "373220", name: "LG에너지솔루션", market: "KOSPI", sector: "이차전지" },
+  { code: "003670", name: "포스코퓨처엠", market: "KOSPI", sector: "이차전지" },
+  { code: "247540", name: "에코프로비엠", market: "KOSDAQ", sector: "이차전지" },
+  { code: "086520", name: "에코프로", market: "KOSDAQ", sector: "이차전지" },
+  { code: "096530", name: "씨젠", market: "KOSDAQ", sector: "바이오" },
+  { code: "278280", name: "천보", market: "KOSDAQ", sector: "이차전지" },
+  { code: "272450", name: "파나진", market: "KOSDAQ", sector: "이차전지" },
+  { code: "900290", name: "GRT", market: "KOSDAQ", sector: "이차전지" },
+  { code: "066970", name: "엘앤에프", market: "KOSDAQ", sector: "이차전지" },
+  { code: "285130", name: "SK아이이테크놀로지", market: "KOSPI", sector: "이차전지" },
+  { code: "011780", name: "금호석유", market: "KOSPI", sector: "이차전지" },
+  // 자동차
+  { code: "005380", name: "현대차", market: "KOSPI", sector: "자동차" },
+  { code: "000270", name: "기아", market: "KOSPI", sector: "자동차" },
+  { code: "003620", name: "KG모빌리티", market: "KOSPI", sector: "자동차" },
+  { code: "004370", name: "농심", market: "KOSPI", sector: "식품" },
+  // 자동차부품
+  { code: "012330", name: "현대모비스", market: "KOSPI", sector: "자동차부품" },
+  { code: "161390", name: "한국타이어앤테크놀로지", market: "KOSPI", sector: "자동차부품" },
+  { code: "018880", name: "한온시스템", market: "KOSPI", sector: "자동차부품" },
+  { code: "010620", name: "현대미포조선", market: "KOSPI", sector: "조선" },
+  { code: "064960", name: "에스엠코어", market: "KOSDAQ", sector: "자동차부품" },
+  // IT서비스
+  { code: "035420", name: "NAVER", market: "KOSPI", sector: "IT서비스" },
+  { code: "035720", name: "카카오", market: "KOSPI", sector: "IT서비스" },
+  { code: "251270", name: "넷마블", market: "KOSPI", sector: "게임" },
+  { code: "036570", name: "엔씨소프트", market: "KOSPI", sector: "게임" },
+  { code: "263750", name: "펄어비스", market: "KOSDAQ", sector: "게임" },
+  { code: "293490", name: "카카오게임즈", market: "KOSDAQ", sector: "게임" },
+  { code: "112040", name: "위메이드", market: "KOSDAQ", sector: "게임" },
+  { code: "194480", name: "데브시스터즈", market: "KOSDAQ", sector: "게임" },
+  { code: "041080", name: "위메이드맥스", market: "KOSDAQ", sector: "게임" },
+  { code: "095660", name: "네오위즈", market: "KOSDAQ", sector: "게임" },
+  { code: "225570", name: "넥슨게임즈", market: "KOSDAQ", sector: "게임" },
+  { code: "042420", name: "네오위즈홀딩스", market: "KOSDAQ", sector: "게임" },
+  { code: "377300", name: "카카오페이", market: "KOSPI", sector: "IT서비스" },
+  { code: "323410", name: "카카오뱅크", market: "KOSPI", sector: "IT서비스" },
+  { code: "400760", name: "카카오모빌리티", market: "KOSPI", sector: "IT서비스" },
+  { code: "259960", name: "크래프톤", market: "KOSPI", sector: "게임" },
+  { code: "078340", name: "컴투스", market: "KOSDAQ", sector: "게임" },
+  { code: "192080", name: "더블유게임즈", market: "KOSDAQ", sector: "게임" },
+  // 금융
+  { code: "105560", name: "KB금융", market: "KOSPI", sector: "금융" },
+  { code: "055550", name: "신한지주", market: "KOSPI", sector: "금융" },
+  { code: "086790", name: "하나금융지주", market: "KOSPI", sector: "금융" },
+  { code: "316140", name: "우리금융지주", market: "KOSPI", sector: "금융" },
+  { code: "138930", name: "BNK금융지주", market: "KOSPI", sector: "금융" },
+  { code: "139130", name: "DGB금융지주", market: "KOSPI", sector: "금융" },
+  { code: "175330", name: "JB금융지주", market: "KOSPI", sector: "금융" },
+  { code: "032830", name: "삼성생명", market: "KOSPI", sector: "금융" },
+  { code: "000810", name: "삼성화재", market: "KOSPI", sector: "금융" },
+  { code: "001450", name: "현대해상", market: "KOSPI", sector: "금융" },
+  { code: "000060", name: "메리츠화재", market: "KOSPI", sector: "금융" },
+  { code: "138040", name: "메리츠금융지주", market: "KOSPI", sector: "금융" },
+  { code: "071050", name: "한국금융지주", market: "KOSPI", sector: "금융" },
+  { code: "039490", name: "키움증권", market: "KOSPI", sector: "금융" },
+  { code: "006800", name: "미래에셋증권", market: "KOSPI", sector: "금융" },
+  { code: "016360", name: "삼성증권", market: "KOSPI", sector: "금융" },
+  { code: "003540", name: "대신증권", market: "KOSPI", sector: "금융" },
+  // 바이오/제약
+  { code: "207940", name: "삼성바이오로직스", market: "KOSPI", sector: "바이오" },
+  { code: "068270", name: "셀트리온", market: "KOSPI", sector: "바이오" },
+  { code: "091990", name: "셀트리온헬스케어", market: "KOSDAQ", sector: "바이오" },
+  { code: "196170", name: "알테오젠", market: "KOSDAQ", sector: "바이오" },
+  { code: "214150", name: "클래시스", market: "KOSDAQ", sector: "바이오" },
+  { code: "006280", name: "녹십자", market: "KOSPI", sector: "제약" },
+  { code: "000100", name: "유한양행", market: "KOSPI", sector: "제약" },
+  { code: "128940", name: "한미약품", market: "KOSPI", sector: "제약" },
+  { code: "185750", name: "종근당", market: "KOSPI", sector: "제약" },
+  { code: "003000", name: "부광약품", market: "KOSPI", sector: "제약" },
+  { code: "069620", name: "대웅제약", market: "KOSPI", sector: "제약" },
+  { code: "170900", name: "동아에스티", market: "KOSPI", sector: "제약" },
+  { code: "009420", name: "한올바이오파마", market: "KOSPI", sector: "제약" },
+  { code: "141080", name: "레고켐바이오", market: "KOSDAQ", sector: "바이오" },
+  { code: "950130", name: "엑세스바이오", market: "KOSDAQ", sector: "바이오" },
+  { code: "145020", name: "휴젤", market: "KOSDAQ", sector: "바이오" },
+  { code: "086900", name: "메디톡스", market: "KOSDAQ", sector: "바이오" },
+  { code: "018290", name: "브이티", market: "KOSDAQ", sector: "바이오" },
+  { code: "131970", name: "두산테스나", market: "KOSDAQ", sector: "반도체장비" },
+  { code: "236200", name: "슈프리마", market: "KOSDAQ", sector: "IT서비스" },
+  // 화학/소재
+  { code: "051910", name: "LG화학", market: "KOSPI", sector: "화학" },
+  { code: "011170", name: "롯데케미칼", market: "KOSPI", sector: "화학" },
+  { code: "010010", name: "화천기계", market: "KOSPI", sector: "화학" },
+  { code: "004000", name: "롯데정밀화학", market: "KOSPI", sector: "화학" },
+  { code: "010130", name: "고려아연", market: "KOSPI", sector: "소재" },
+  { code: "004020", name: "현대제철", market: "KOSPI", sector: "소재" },
+  { code: "005490", name: "POSCO홀딩스", market: "KOSPI", sector: "소재" },
+  { code: "002790", name: "아모레퍼시픽그룹", market: "KOSPI", sector: "화장품" },
+  { code: "090430", name: "아모레퍼시픽", market: "KOSPI", sector: "화장품" },
+  { code: "051600", name: "한전KPS", market: "KOSPI", sector: "유틸리티" },
+  // 에너지
+  { code: "096770", name: "SK이노베이션", market: "KOSPI", sector: "에너지" },
+  { code: "010950", name: "S-Oil", market: "KOSPI", sector: "에너지" },
+  { code: "009830", name: "한화솔루션", market: "KOSPI", sector: "에너지" },
+  { code: "015760", name: "한국전력", market: "KOSPI", sector: "유틸리티" },
+  { code: "036460", name: "한국가스공사", market: "KOSPI", sector: "유틸리티" },
+  // 통신
+  { code: "017670", name: "SK텔레콤", market: "KOSPI", sector: "통신" },
+  { code: "030200", name: "KT", market: "KOSPI", sector: "통신" },
+  { code: "032640", name: "LG유플러스", market: "KOSPI", sector: "통신" },
+  // 조선
+  { code: "042660", name: "한화오션", market: "KOSPI", sector: "조선" },
+  { code: "010140", name: "삼성중공업", market: "KOSPI", sector: "조선" },
+  { code: "329180", name: "HD현대중공업", market: "KOSPI", sector: "조선" },
+  { code: "009540", name: "HD한국조선해양", market: "KOSPI", sector: "조선" },
+  { code: "000720", name: "현대건설", market: "KOSPI", sector: "건설" },
+  // 건설
+  { code: "028260", name: "삼성물산", market: "KOSPI", sector: "건설" },
+  { code: "000210", name: "DL", market: "KOSPI", sector: "건설" },
+  { code: "047040", name: "대우건설", market: "KOSPI", sector: "건설" },
+  { code: "375500", name: "DL이앤씨", market: "KOSPI", sector: "건설" },
+  { code: "006360", name: "GS건설", market: "KOSPI", sector: "건설" },
+  { code: "000880", name: "한화", market: "KOSPI", sector: "산업재" },
+  // 지주
+  { code: "003550", name: "LG", market: "KOSPI", sector: "지주" },
+  { code: "034730", name: "SK", market: "KOSPI", sector: "지주" },
+  { code: "267250", name: "HD현대", market: "KOSPI", sector: "지주" },
+  { code: "000030", name: "우리금융지주", market: "KOSPI", sector: "금융" },
+  { code: "005935", name: "삼성전자우", market: "KOSPI", sector: "전기전자" },
+  // 유통/소비재
+  { code: "139480", name: "이마트", market: "KOSPI", sector: "유통" },
+  { code: "023530", name: "롯데쇼핑", market: "KOSPI", sector: "유통" },
+  { code: "069960", name: "현대백화점", market: "KOSPI", sector: "유통" },
+  { code: "004170", name: "신세계", market: "KOSPI", sector: "유통" },
+  { code: "282330", name: "BGF리테일", market: "KOSPI", sector: "유통" },
+  { code: "007070", name: "GS리테일", market: "KOSPI", sector: "유통" },
+  // 식품
+  { code: "097950", name: "CJ제일제당", market: "KOSPI", sector: "식품" },
+  { code: "003230", name: "삼양식품", market: "KOSPI", sector: "식품" },
+  { code: "007310", name: "오뚜기", market: "KOSPI", sector: "식품" },
+  { code: "271560", name: "오리온", market: "KOSPI", sector: "식품" },
+  { code: "005180", name: "빙그레", market: "KOSPI", sector: "식품" },
+  { code: "033920", name: "무학", market: "KOSPI", sector: "식품" },
+  { code: "000080", name: "하이트진로", market: "KOSPI", sector: "식품" },
+  { code: "009150", name: "삼성전기", market: "KOSPI", sector: "전기전자" },
+  // 엔터
+  { code: "035900", name: "JYP엔터", market: "KOSDAQ", sector: "엔터" },
+  { code: "041510", name: "에스엠", market: "KOSDAQ", sector: "엔터" },
+  { code: "352820", name: "하이브", market: "KOSPI", sector: "엔터" },
+  { code: "016360", name: "삼성증권", market: "KOSPI", sector: "금융" },
+  { code: "122870", name: "와이지엔터테인먼트", market: "KOSDAQ", sector: "엔터" },
+  { code: "950190", name: "에스엠씨지", market: "KOSDAQ", sector: "엔터" },
+  // 운송
+  { code: "003490", name: "대한항공", market: "KOSPI", sector: "운송" },
+  { code: "020560", name: "아시아나항공", market: "KOSPI", sector: "운송" },
+  { code: "011200", name: "HMM", market: "KOSPI", sector: "운송" },
+  { code: "000120", name: "CJ대한통운", market: "KOSPI", sector: "운송" },
+  { code: "006110", name: "삼아알미늄", market: "KOSPI", sector: "소재" },
+  // 산업재
+  { code: "011000", name: "한화", market: "KOSPI", sector: "산업재" },
+  { code: "047810", name: "한국항공우주", market: "KOSPI", sector: "산업재" },
+  { code: "012450", name: "한화에어로스페이스", market: "KOSPI", sector: "산업재" },
+  { code: "064350", name: "현대로템", market: "KOSPI", sector: "산업재" },
+  { code: "042670", name: "HD현대인프라코어", market: "KOSPI", sector: "산업재" },
+  { code: "000040", name: "KR모터스", market: "KOSPI", sector: "산업재" },
+  // 화장품
+  { code: "009420", name: "한올바이오파마", market: "KOSPI", sector: "제약" },
+  { code: "226320", name: "잇츠한불", market: "KOSDAQ", sector: "화장품" },
+  { code: "078520", name: "에이블씨엔씨", market: "KOSDAQ", sector: "화장품" },
+  { code: "007570", name: "일양약품", market: "KOSPI", sector: "제약" },
+  { code: "027740", name: "마니커", market: "KOSDAQ", sector: "식품" },
+];
+
+// 중복 제거
+const seen = new Set<string>();
+export const POPULAR_STOCKS: Stock[] = ALL_STOCKS.filter((s) => {
+  if (seen.has(s.code)) return false;
+  seen.add(s.code);
+  return true;
+});

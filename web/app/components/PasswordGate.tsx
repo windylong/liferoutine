@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 type Props = {
   children: React.ReactNode;
@@ -8,12 +8,13 @@ type Props = {
 
 export default function PasswordGate({ children }: Props) {
   const [input, setInput] = useState("");
-  const [authed, setAuthed] = useState(() => {
-    if (typeof window !== "undefined") {
-      return sessionStorage.getItem("authed") === "true";
-    }
-    return false;
-  });
+  const [authed, setAuthed] = useState(false);
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+    setAuthed(sessionStorage.getItem("authed") === "true");
+  }, []);
   const [error, setError] = useState(false);
 
   function handleSubmit(e: React.FormEvent) {
@@ -27,6 +28,7 @@ export default function PasswordGate({ children }: Props) {
     }
   }
 
+  if (!mounted) return null;
   if (authed) return <>{children}</>;
 
   return (

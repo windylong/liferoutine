@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import { supabase, Routine, DAY_LABELS } from "@/lib/supabase";
 import RoutineModal from "./components/RoutineModal";
+import Link from "next/link";
 
 export default function Home() {
   const [routines, setRoutines] = useState<Routine[]>([]);
@@ -50,12 +51,20 @@ export default function Home() {
             <h1 className="text-2xl font-bold text-gray-800">🔔 생활 루틴</h1>
             <p className="text-sm text-gray-500">텔레그램으로 알람을 받아요</p>
           </div>
-          <button
-            onClick={() => { setEditingRoutine(null); setShowModal(true); }}
-            className="bg-blue-500 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-blue-600"
-          >
-            + 루틴 추가
-          </button>
+          <div className="flex gap-2">
+            <Link
+              href="/watchlist"
+              className="bg-gray-100 text-gray-600 px-4 py-2 rounded-lg text-sm font-medium hover:bg-gray-200"
+            >
+              📈 관심 종목
+            </Link>
+            <button
+              onClick={() => { setEditingRoutine(null); setShowModal(true); }}
+              className="bg-blue-500 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-blue-600"
+            >
+              + 루틴 추가
+            </button>
+          </div>
         </div>
 
         {/* 루틴 목록 */}
