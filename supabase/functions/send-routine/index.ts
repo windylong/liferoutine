@@ -288,12 +288,14 @@ Deno.serve(async (req) => {
         if (msg) messages.push(msg);
       }
 
-      await sendTelegram(messages.join("\n\n"));
+      const fullMessage = messages.join("\n\n");
+      await sendTelegram(fullMessage);
 
       await supabase.from("send_logs").insert({
         routine_id: routine.id,
         status: "success",
         message: `sent ${activeActions.length} actions`,
+        full_message: fullMessage,
       });
     }
 
