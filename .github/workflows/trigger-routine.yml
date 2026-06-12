@@ -1,0 +1,16 @@
+name: Trigger Routine
+
+on:
+  schedule:
+    - cron: '* * * * *'  # 매분 실행
+  workflow_dispatch:      # 수동 실행 버튼
+
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Call Edge Function
+        run: |
+          curl -X POST "${{ secrets.SUPABASE_FUNCTION_URL }}" \
+            -H "Authorization: Bearer ${{ secrets.SUPABASE_ANON_KEY }}" \
+            -f
