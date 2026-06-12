@@ -33,7 +33,11 @@ export default function Home() {
 
   async function deleteRoutine(id: string) {
     if (!confirm("루틴을 삭제할까요?")) return;
-    await supabase.from("routines").delete().eq("id", id);
+    const { error } = await supabase.from("routines").delete().eq("id", id);
+    if (error) {
+      alert("삭제 실패: " + error.message);
+      return;
+    }
     fetchRoutines();
   }
 
