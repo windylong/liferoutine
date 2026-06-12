@@ -93,6 +93,23 @@ export default function ActionForm({ action, onChange, onRemove }: Props) {
           className="w-full border rounded px-2 py-1 text-sm focus:outline-none focus:ring-1 focus:ring-blue-300 resize-none"
         />
       )}
+
+      {type === "stock_summary" && (
+        <select
+          value={action.config?.summary_type || "morning"}
+          onChange={(e) => setConfig("summary_type", e.target.value)}
+          className="w-full border rounded px-2 py-1 text-sm bg-white focus:outline-none focus:ring-1 focus:ring-blue-300"
+        >
+          <option value="morning">📈 오전 브리핑 (코스피 예측 + 관심 종목)</option>
+          <option value="afternoon">📊 오후 리포트 (마감 결과 + 예측 정확도)</option>
+        </select>
+      )}
+
+      {type === "weekly_report" && (
+        <p className="text-xs text-gray-400 px-1">
+          📊 지난 7일간 증시 예측 정확도와 관심 종목 통계를 요약해서 보내드려요.
+        </p>
+      )}
     </div>
   );
 }

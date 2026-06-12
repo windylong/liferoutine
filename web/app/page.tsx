@@ -53,6 +53,12 @@ export default function Home() {
           </div>
           <div className="flex gap-2">
             <Link
+              href="/logs"
+              className="bg-gray-100 text-gray-600 px-4 py-2 rounded-lg text-sm font-medium hover:bg-gray-200"
+            >
+              📋 발송 이력
+            </Link>
+            <Link
               href="/watchlist"
               className="bg-gray-100 text-gray-600 px-4 py-2 rounded-lg text-sm font-medium hover:bg-gray-200"
             >

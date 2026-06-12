@@ -146,13 +146,113 @@ async function buildMessage(action: any): Promise<string | null> {
       }
     }
 
+    case "weekly_report": {
+      try {
+        // 지난 7일 날짜 범위
+        const today = new Date();
+        const sevenDaysAgo = new Date(today);
+        sevenDaysAgo.setDate(today.getDate() - 6);
+        const startDate = sevenDaysAgo.toLocaleDateString("en-CA", { timeZone: "Asia/Seoul" });
+        const endDate = today.toLocaleDateString("en-CA", { timeZone: "Asia/Seoul" });
+
+        // 지난 7일간 afternoon 분석 조회 (예측 정확도 포함)
+        const { data: afternoonList } = await supabase
+          .from("stock_analysis")
+          .select("analysis_date, analysis, raw_data")
+          .eq("analysis_type", "afternoon")
+          .gte("analysis_date", startDate)
+          .lte("analysis_date", endDate)
+          .order("analysis_date", { ascending: false });
+
+        // 지난 7일간 morning 분석 조회 (코스피 예측 포함)
+        const { data: morningList } = await supabase
+          .from("stock_analysis")
+          .select("analysis_date, analysis, raw_data")
+          .eq("analysis_type", "morning")
+          .gte("analysis_date", startDate)
+          .lte("analysis_date", endDate)
+          .order("analysis_date", { ascending: false });
+
+        if (!afternoonList || afternoonList.length === 0) {
+          return `📊 <b>${label || "주간 리포트"}</b>\n아직 분석 데이터가 충분하지 않아요.`;
+        }
+
+        // 정확도 집계
+        const accuracyCounts = { 적중: 0, 부분적중: 0, 빗나감: 0 };
+        for (const row of afternoonList) {
+          const acc = row.analysis?.accuracy as string;
+          if (acc in accuracyCounts) accuracyCounts[acc as keyof typeof accuracyCounts]++;
+        }
+        const total = afternoonList.length;
+
+        // 코스피 평균 변동폭
+        const kospiChanges = afternoonList
+          .map((r: any) => r.raw_data?.kospi?.changePct)
+          .filter((v: any) => v != null) as number[];
+        const avgChange = kospiChanges.length > 0
+          ? kospiChanges.reduce((a, b) => a + b, 0) / kospiChanges.length
+          : null;
+
+        // 관심 종목 적중률 집계
+        const stockHits: Record<string, { hit: number; total: number }> = {};
+        for (const row of afternoonList) {
+          for (const w of (row.analysis?.watchlist_accuracy || [])) {
+            const name = w.name || w.code;
+            if (!stockHits[name]) stockHits[name] = { hit: 0, total: 0 };
+            stockHits[name].total++;
+            if (w.accuracy === "적중") stockHits[name].hit++;
+          }
+        }
+        const stockLines = Object.entries(stockHits)
+          .sort((a, b) => (b[1].hit / b[1].total) - (a[1].hit / a[1].total))
+          .map(([name, s]) => `• ${name}: ${s.hit}/${s.total}일 적중 (${Math.round(s.hit / s.total * 100)}%)`)
+          .join("\n");
+
+        // 주간 코스피 방향 (주간 상승/하락 비율)
+        const upDays = kospiChanges.filter((c) => c > 0).length;
+        const downDays = kospiChanges.filter((c) => c < 0).length;
+
+        const accuracyRate = total > 0
+          ? Math.round((accuracyCounts["적중"] + accuracyCounts["부분적중"] * 0.5) / total * 100)
+          : 0;
+
+        return (
+          `📊 <b>${label || "주간 증시 리포트"}</b>\n` +
+          `<i>${startDate} ~ ${endDate}</i>\n\n` +
+          `🎯 <b>코스피 예측 정확도</b>\n` +
+          `${total}일 분석 중 적중 ${accuracyCounts["적중"]}일, 부분적중 ${accuracyCounts["부분적중"]}일, 빗나감 ${accuracyCounts["빗나감"]}일\n` +
+          `→ 종합 정확도 <b>${accuracyRate}%</b>\n\n` +
+          `📈 <b>주간 코스피 흐름</b>\n` +
+          `상승 ${upDays}일 / 하락 ${downDays}일` +
+          (avgChange != null ? ` | 평균 ${avgChange > 0 ? "+" : ""}${avgChange.toFixed(2)}%` : "") + "\n\n" +
+          (stockLines ? `🔍 <b>관심 종목 적중률</b>\n${stockLines}` : "")
+        );
+      } catch (e) {
+        return `📊 <b>${label || "주간 리포트"}</b>\n데이터를 불러오지 못했습니다.`;
+      }
+    }
+
     default:
       return null;
   }
 }
 
-Deno.serve(async (_req) => {
+Deno.serve(async (req) => {
   try {
+    // ── 테스트 모드: body에 { "test": "stock_morning" | "stock_afternoon" } ──
+    const body = await req.json().catch(() => ({}));
+    if (body.test === "stock_morning" || body.test === "stock_afternoon") {
+      const summaryType = body.test === "stock_morning" ? "morning" : "afternoon";
+      const msg = await buildMessage({ action_type: "stock_summary", label: "테스트 브리핑", config: { summary_type: summaryType } });
+      if (msg) await sendTelegram(msg);
+      return new Response(JSON.stringify({ message: "test sent", type: summaryType }), { status: 200 });
+    }
+    if (body.test === "weekly_report") {
+      const msg = await buildMessage({ action_type: "weekly_report", label: "주간 리포트 테스트", config: {} });
+      if (msg) await sendTelegram(msg);
+      return new Response(JSON.stringify({ message: "test sent", type: "weekly_report" }), { status: 200 });
+    }
+
     const now = new Date();
     // KST = UTC+9
     const kstHours = (now.getUTCHours() + 9) % 24;
