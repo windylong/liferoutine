@@ -1,9 +1,11 @@
 import { createClient } from "https://esm.sh/@supabase/supabase-js@2";
+import { getWeatherMessage } from "../_shared/weather.ts";
 
 const TELEGRAM_TOKEN = Deno.env.get("TELEGRAM_BOT_TOKEN")!;
 const TELEGRAM_CHAT_ID = Deno.env.get("TELEGRAM_CHAT_ID")!;
 const SUPABASE_URL = Deno.env.get("APP_SUPABASE_URL")!;
 const SUPABASE_KEY = Deno.env.get("APP_SUPABASE_SERVICE_ROLE_KEY")!;
+const YOUTUBE_API_KEY = Deno.env.get("YOUTUBE_API_KEY")!;
 
 const supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
 
@@ -22,8 +24,43 @@ async function buildMessage(action: any): Promise<string | null> {
 
   switch (action_type) {
     case "youtube_latest": {
-      const url = `https://www.youtube.com/@${config.channel_handle}/videos`;
-      return `▶️ <b>${label || config.channel_name}</b>\n최신 영상 보기: ${url}`;
+      try {
+        // 채널 handle로 channel ID 조회
+        const searchRes = await fetch(
+          `https://www.googleapis.com/youtube/v3/search?part=snippet&channelId=${config.channel_id || ""}&order=date&maxResults=1&type=video&key=${YOUTUBE_API_KEY}`
+        );
+
+        // channel_id가 없으면 handle로 채널 검색
+        if (!config.channel_id) {
+          const handleRes = await fetch(
+            `https://www.googleapis.com/youtube/v3/channels?part=id,snippet&forHandle=${config.channel_handle}&key=${YOUTUBE_API_KEY}`
+          );
+          const handleData = await handleRes.json();
+          const channelId = handleData.items?.[0]?.id;
+          if (!channelId) return `▶️ <b>${label || config.channel_handle}</b>\n채널을 찾을 수 없습니다.`;
+
+          const videoRes = await fetch(
+            `https://www.googleapis.com/youtube/v3/search?part=snippet&channelId=${channelId}&order=date&maxResults=1&type=video&key=${YOUTUBE_API_KEY}`
+          );
+          const videoData = await videoRes.json();
+          const video = videoData.items?.[0];
+          if (!video) return `▶️ <b>${label || config.channel_handle}</b>\n최신 영상 없음`;
+
+          const videoId = video.id.videoId;
+          const title = video.snippet.title;
+          return `▶️ <b>${label || video.snippet.channelTitle}</b>\n${title}\nhttps://www.youtube.com/watch?v=${videoId}`;
+        }
+
+        const data = await searchRes.json();
+        const video = data.items?.[0];
+        if (!video) return `▶️ <b>${label || "유튜브"}</b>\n최신 영상 없음`;
+
+        const videoId = video.id.videoId;
+        const title = video.snippet.title;
+        return `▶️ <b>${label || video.snippet.channelTitle}</b>\n${title}\nhttps://www.youtube.com/watch?v=${videoId}`;
+      } catch (e) {
+        return `▶️ <b>${label || "유튜브"}</b>\n영상 조회 실패`;
+      }
     }
 
     case "news_article": {
@@ -35,10 +72,12 @@ async function buildMessage(action: any): Promise<string | null> {
     }
 
     case "weather_briefing": {
-      const city = config.city || "Seoul";
-      const res = await fetch(`https://wttr.in/${city}?format=3`);
-      const weather = await res.text();
-      return `🌤️ <b>${label || "오늘의 날씨"}</b>\n${weather}`;
+      try {
+        const city = config.city || "Seoul";
+        return await getWeatherMessage(city, label);
+      } catch (e) {
+        return `🌤️ <b>${label || "날씨"}</b>\n날씨 정보를 불러오지 못했습니다.`;
+      }
     }
 
     case "custom_message": {
