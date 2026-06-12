@@ -84,6 +84,68 @@ async function buildMessage(action: any): Promise<string | null> {
       return `💬 <b>${label || "알림"}</b>\n${config.text}`;
     }
 
+    case "stock_summary": {
+      try {
+        const summaryType = config.summary_type || "morning"; // "morning" | "afternoon"
+        const today = new Date().toLocaleDateString("en-CA", { timeZone: "Asia/Seoul" });
+
+        const { data } = await supabase
+          .from("stock_analysis")
+          .select("analysis, raw_data")
+          .eq("analysis_type", summaryType)
+          .eq("analysis_date", today)
+          .single();
+
+        if (!data) return `📈 <b>${label || "증시 분석"}</b>\n아직 분석 데이터가 없습니다.`;
+
+        const a = data.analysis;
+        const raw = data.raw_data;
+
+        if (summaryType === "morning") {
+          // 미국 시장
+          const us = raw?.us_market;
+          const usLines = [
+            us?.sp500 ? `S&P500 ${us.sp500.changePct > 0 ? "▲" : "▼"} ${Math.abs(us.sp500.changePct).toFixed(2)}%` : "",
+            us?.nasdaq ? `나스닥 ${us.nasdaq.changePct > 0 ? "▲" : "▼"} ${Math.abs(us.nasdaq.changePct).toFixed(2)}%` : "",
+            us?.dow ? `다우 ${us.dow.changePct > 0 ? "▲" : "▼"} ${Math.abs(us.dow.changePct).toFixed(2)}%` : "",
+          ].filter(Boolean).join(" | ");
+
+          // 관심 종목
+          const watchlistLines = (a?.watchlist || [])
+            .map((w: any) => `• ${w.name || w.code}: ${w.prediction} — ${w.reason}`)
+            .join("\n");
+
+          return (
+            `📈 <b>${label || "오늘의 증시 브리핑"}</b>\n\n` +
+            `🇺🇸 <b>미국 시장 마감</b>\n${usLines || "데이터 없음"}\n${a?.us_market_summary || ""}\n\n` +
+            `🇰🇷 <b>코스피 예측</b>\n${a?.kospi_prediction || "?"} — ${a?.kospi_reason || ""}\n\n` +
+            `📰 <b>주요 뉴스</b>\n${a?.kospi_news_summary || ""}\n\n` +
+            (watchlistLines ? `🔍 <b>관심 종목</b>\n${watchlistLines}` : "")
+          );
+        } else {
+          // 오후 리포트
+          const kospi = raw?.kospi;
+          const kospiLine = kospi
+            ? `코스피 ${kospi.changePct > 0 ? "▲" : "▼"} ${Math.abs(kospi.changePct).toFixed(2)}% (${kospi.price.toFixed(0)})`
+            : "데이터 없음";
+
+          const watchlistLines = (a?.watchlist_accuracy || [])
+            .map((w: any) => `• ${w.name || w.code}: ${w.actual} (${w.accuracy})`)
+            .join("\n");
+
+          return (
+            `📊 <b>${label || "장 마감 리포트"}</b>\n\n` +
+            `🇰🇷 <b>오늘 코스피</b>\n${kospiLine}\n\n` +
+            `🎯 <b>예측 정확도</b>\n${a?.accuracy || "?"} — ${a?.accuracy_reason || ""}\n\n` +
+            `🔎 <b>차이 분석</b>\n${a?.difference_reason || ""}\n\n` +
+            (watchlistLines ? `📋 <b>관심 종목 결과</b>\n${watchlistLines}` : "")
+          );
+        }
+      } catch (e) {
+        return `📈 <b>${label || "증시 분석"}</b>\n데이터를 불러오지 못했습니다.`;
+      }
+    }
+
     default:
       return null;
   }
