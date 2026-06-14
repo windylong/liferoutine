@@ -1,0 +1,36 @@
+name: Collect Stock Data
+
+on:
+  schedule:
+    - cron: '0 21 * * 0-4'   # 오전 6시 KST (UTC+9) = 전날 21:00 UTC (월~금)
+    - cron: '30 7 * * 1-5'   # 오후 4시 30분 KST = 07:30 UTC (월~금)
+  workflow_dispatch:
+    inputs:
+      type:
+        description: 'morning or afternoon'
+        required: true
+        default: 'morning'
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Determine type
+        id: type
+        run: |
+          HOUR=$(date -u +%H)
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "type=${{ github.event.inputs.type }}" >> $GITHUB_OUTPUT
+          elif [ "$HOUR" = "21" ]; then
+            echo "type=morning" >> $GITHUB_OUTPUT
+          else
+            echo "type=afternoon" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Call Edge Function
+        run: |
+          curl -X POST "${{ secrets.SUPABASE_FUNCTION_URL_STOCK }}" \
+            -H "Authorization: Bearer ${{ secrets.SUPABASE_ANON_KEY }}" \
+            -H "Content-Type: application/json" \
+            -d "{\"type\":\"${{ steps.type.outputs.type }}\"}" \
+            -f
