@@ -291,12 +291,20 @@ Deno.serve(async (req) => {
       const fullMessage = messages.join("\n\n");
       await sendTelegram(fullMessage);
 
-      await supabase.from("send_logs").insert({
+      // full_message 컬럼이 없어도 기본 로그는 남도록 fallback
+      const { error: logError } = await supabase.from("send_logs").insert({
         routine_id: routine.id,
         status: "success",
         message: `sent ${activeActions.length} actions`,
         full_message: fullMessage,
       });
+      if (logError) {
+        await supabase.from("send_logs").insert({
+          routine_id: routine.id,
+          status: "success",
+          message: `sent ${activeActions.length} actions`,
+        });
+      }
     }
 
     return new Response(JSON.stringify({ message: "done" }), { status: 200 });
