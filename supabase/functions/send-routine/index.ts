@@ -298,20 +298,14 @@ Deno.serve(async (req) => {
       const fullMessage = messages.join("\n\n");
       await sendTelegram(fullMessage);
 
-      // full_message 컬럼이 없어도 기본 로그는 남도록 fallback
       const { error: logError } = await supabase.from("send_logs").insert({
         routine_id: routine.id,
         status: "success",
         message: `sent ${activeActions.length} actions`,
         full_message: fullMessage,
+        sent_at: new Date().toISOString(),
       });
-      if (logError) {
-        await supabase.from("send_logs").insert({
-          routine_id: routine.id,
-          status: "success",
-          message: `sent ${activeActions.length} actions`,
-        });
-      }
+      if (logError) console.error("[send_logs insert error]", JSON.stringify(logError));
     }
 
     return new Response(JSON.stringify({ message: "done" }), { status: 200 });

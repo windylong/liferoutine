@@ -10,7 +10,7 @@ type LogEntry = {
   status: string;
   message: string;
   full_message?: string;
-  created_at: string;
+  sent_at: string;
   routines?: { name: string; scheduled_time: string } | null;
 };
 
@@ -37,7 +37,7 @@ export default function LogsPage() {
     const { data } = await supabase
       .from("send_logs")
       .select("*, routines(name, scheduled_time)")
-      .order("created_at", { ascending: false })
+      .order("sent_at", { ascending: false })
       .limit(100);
 
     setLogs(data || []);
@@ -150,7 +150,7 @@ export default function LogsPage() {
                         {log.status === "success" ? "성공" : "실패"}
                       </span>
                     </div>
-                    <p className="text-xs text-slate-400">{formatKST(log.created_at)}</p>
+                    <p className="text-xs text-slate-400">{formatKST(log.sent_at)}</p>
                   </button>
                 ))
               )}
@@ -171,7 +171,7 @@ export default function LogsPage() {
                           </span>
                         )}
                       </p>
-                      <p className="text-xs text-slate-400 mt-0.5">{formatKST(selected.created_at)} 발송</p>
+                      <p className="text-xs text-slate-400 mt-0.5">{formatKST(selected.sent_at)} 발송</p>
                     </div>
                     <span className={`text-xs px-2.5 py-1 rounded-full font-medium shrink-0 ${
                       selected.status === "success"
