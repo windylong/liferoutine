@@ -101,6 +101,13 @@ async function buildMessage(action: any): Promise<string | null> {
         const a = data.analysis;
         const raw = data.raw_data;
 
+        const dateLabel = new Date().toLocaleDateString("ko-KR", {
+          timeZone: "Asia/Seoul",
+          month: "long",
+          day: "numeric",
+          weekday: "short",
+        });
+
         if (summaryType === "morning") {
           // 미국 시장
           const us = raw?.us_market;
@@ -116,7 +123,7 @@ async function buildMessage(action: any): Promise<string | null> {
             .join("\n");
 
           return (
-            `📈 <b>${label || "오늘의 증시 브리핑"}</b>\n\n` +
+            `📈 <b>${dateLabel} ${label || "증시 브리핑"}</b>\n\n` +
             `🇺🇸 <b>미국 시장 마감</b>\n${usLines || "데이터 없음"}\n${a?.us_market_summary || ""}\n\n` +
             `🇰🇷 <b>코스피 예측</b>\n${a?.kospi_prediction || "?"} — ${a?.kospi_reason || ""}\n\n` +
             `📰 <b>주요 뉴스</b>\n${a?.kospi_news_summary || ""}\n\n` +
@@ -134,7 +141,7 @@ async function buildMessage(action: any): Promise<string | null> {
             .join("\n");
 
           return (
-            `📊 <b>${label || "장 마감 리포트"}</b>\n\n` +
+            `📊 <b>${dateLabel} ${label || "장 마감 리포트"}</b>\n\n` +
             `🇰🇷 <b>오늘 코스피</b>\n${kospiLine}\n\n` +
             `🎯 <b>예측 정확도</b>\n${a?.accuracy || "?"} — ${a?.accuracy_reason || ""}\n\n` +
             `🔎 <b>차이 분석</b>\n${a?.difference_reason || ""}\n\n` +
