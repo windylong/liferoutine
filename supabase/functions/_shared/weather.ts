@@ -1,7 +1,18 @@
+const CITY_MAP: Record<string, string> = {
+  "서울": "Seoul", "부산": "Busan", "대구": "Daegu", "인천": "Incheon",
+  "광주": "Gwangju", "대전": "Daejeon", "울산": "Ulsan", "수원": "Suwon",
+  "성남": "Seongnam", "고양": "Goyang", "용인": "Yongin", "창원": "Changwon",
+  "청주": "Cheongju", "전주": "Jeonju", "천안": "Cheonan", "안산": "Ansan",
+  "세종": "Sejong", "제주": "Jeju",
+};
+
 export async function getWeatherMessage(city: string, label?: string): Promise<string> {
+  // 한글 도시명 → 영어 변환
+  const resolvedCity = CITY_MAP[city.trim()] ?? city;
+
   // 1. 도시명 → 위도/경도
   const geoRes = await fetch(
-    `https://geocoding-api.open-meteo.com/v1/search?name=${encodeURIComponent(city)}&count=1&language=ko`
+    `https://geocoding-api.open-meteo.com/v1/search?name=${encodeURIComponent(resolvedCity)}&count=1&language=ko`
   );
   const geoData = await geoRes.json();
   const loc = geoData.results?.[0];
