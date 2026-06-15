@@ -185,9 +185,13 @@ export default function LogsPage() {
                   {/* 메시지 전문 */}
                   <div className="bg-slate-50 rounded-xl p-4">
                     <p className="text-xs font-medium text-slate-400 mb-3">텔레그램 발송 내용</p>
-                    <pre className="text-sm text-slate-700 whitespace-pre-wrap font-sans leading-relaxed">
-                      {selected.full_message || selected.message || "내용 없음"}
-                    </pre>
+                    <div
+                      className="text-sm text-slate-700 whitespace-pre-wrap leading-relaxed [&_b]:font-semibold [&_i]:italic"
+                      dangerouslySetInnerHTML={{
+                        __html: (selected.full_message || selected.message || "내용 없음")
+                          .replace(/\n/g, "<br/>"),
+                      }}
+                    />
                   </div>
                 </div>
               ) : (

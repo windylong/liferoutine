@@ -89,20 +89,32 @@ async function buildMessage(action: any): Promise<string | null> {
         const summaryType = config.summary_type || "morning"; // "morning" | "afternoon"
         const today = new Date().toLocaleDateString("en-CA", { timeZone: "Asia/Seoul" });
 
-        const { data } = await supabase
+        // 오늘 데이터 우선, 없으면 최근 3일 이내 데이터로 fallback
+        let { data } = await supabase
           .from("stock_analysis")
-          .select("analysis, raw_data")
+          .select("analysis, raw_data, analysis_date")
           .eq("analysis_type", summaryType)
           .eq("analysis_date", today)
           .single();
+
+        if (!data) {
+          const { data: recent } = await supabase
+            .from("stock_analysis")
+            .select("analysis, raw_data, analysis_date")
+            .eq("analysis_type", summaryType)
+            .order("analysis_date", { ascending: false })
+            .limit(1)
+            .single();
+          data = recent;
+        }
 
         if (!data) return `📈 <b>${label || "증시 분석"}</b>\n아직 분석 데이터가 없습니다.`;
 
         const a = data.analysis;
         const raw = data.raw_data;
 
-        const dateLabel = new Date().toLocaleDateString("ko-KR", {
-          timeZone: "Asia/Seoul",
+        const dateLabel = new Date((data as any).analysis_date || today).toLocaleDateString("ko-KR", {
+          timeZone: "UTC",
           month: "long",
           day: "numeric",
           weekday: "short",
