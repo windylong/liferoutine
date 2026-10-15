@@ -12,7 +12,8 @@ export type ActionType =
   | "weather_briefing"
   | "custom_message"
   | "stock_summary"
-  | "weekly_report";
+  | "weekly_report"
+  | "news_briefing";
 
 export const ACTION_TYPE_LABELS: Record<ActionType, string> = {
   youtube_latest: "▶️ 유튜브 최신 영상",
@@ -22,6 +23,7 @@ export const ACTION_TYPE_LABELS: Record<ActionType, string> = {
   custom_message: "💬 커스텀 메시지",
   stock_summary: "📈 증시 브리핑",
   weekly_report: "📊 주간 리포트",
+  news_briefing: "📰 오늘의 뉴스 브리핑",
 };
 
 export type Routine = {

@@ -84,6 +84,95 @@ async function buildMessage(action: any): Promise<string | null> {
       return `💬 <b>${label || "알림"}</b>\n${config.text}`;
     }
 
+    case "news_briefing": {
+      try {
+        const category = config.category || "전체"; // 예: "경제", "IT", "전체"
+        const query = config.query || "오늘의 뉴스 한국";
+        const count = config.count || 5;
+
+        // Google News RSS에서 뉴스 수집
+        const encoded = encodeURIComponent(query);
+        const url = `https://news.google.com/rss/search?q=${encoded}&hl=ko&gl=KR&ceid=KR:ko`;
+        const res = await fetch(url, {
+          headers: {
+            "User-Agent": "Mozilla/5.0 (compatible; Googlebot/2.1)",
+            "Accept": "application/rss+xml, application/xml, text/xml",
+          },
+        });
+        const xml = await res.text();
+
+        // <item> 블록에서 title + description 추출
+        const items: { title: string; desc: string }[] = [];
+        const itemRegex = /<item>([\s\S]*?)<\/item>/g;
+        let itemMatch;
+        while ((itemMatch = itemRegex.exec(xml)) !== null && items.length < 20) {
+          const block = itemMatch[1];
+          const titleMatch = block.match(/<title><!\[CDATA\[([^\]]+)\]\]><\/title>|<title>([^<]+)<\/title>/);
+          const descMatch = block.match(/<description><!\[CDATA\[([^\]]+)\]\]><\/description>|<description>([^<]+)<\/description>/);
+          const title = (titleMatch?.[1] || titleMatch?.[2] || "").trim();
+          const desc = (descMatch?.[1] || descMatch?.[2] || "").replace(/<[^>]+>/g, "").trim();
+          if (title && title.length > 5) items.push({ title, desc });
+        }
+
+        if (items.length === 0) return `📰 <b>${label || "오늘의 뉴스"}</b>\n뉴스를 불러오지 못했습니다.`;
+
+        // Claude로 상위 5개 선정 + 한줄 요약
+        const ANTHROPIC_API_KEY = Deno.env.get("ANTHROPIC_API_KEY")!;
+        const newsText = items.slice(0, 15).map((it, i) => `${i + 1}. 제목: ${it.title}\n설명: ${it.desc || "없음"}`).join("\n\n");
+
+        const prompt = `아래 뉴스 목록에서 오늘 가장 중요한 ${count}개를 선정하고, 각각 한줄로 요약해주세요.
+독자는 바쁜 직장인으로, 핵심만 간결하게 전달해주세요.
+
+${newsText}
+
+반드시 아래 JSON 형식으로만 답변해주세요:
+[
+  { "title": "뉴스 제목 (원문 그대로)", "summary": "한줄 요약 40자 이내" },
+  ...
+]`;
+
+        const apiRes = await fetch("https://api.anthropic.com/v1/messages", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            "x-api-key": ANTHROPIC_API_KEY,
+            "anthropic-version": "2023-06-01",
+          },
+          body: JSON.stringify({
+            model: "claude-haiku-4-5",
+            max_tokens: 1024,
+            messages: [{ role: "user", content: prompt }],
+          }),
+        });
+        const apiData = await apiRes.json();
+        const analysisText = apiData.content?.[0]?.text || "";
+
+        let picks: { title: string; summary: string }[] = [];
+        try {
+          const jsonMatch = analysisText.match(/\[[\s\S]*\]/);
+          if (jsonMatch) picks = JSON.parse(jsonMatch[0]);
+        } catch { /* fallback below */ }
+
+        if (picks.length === 0) {
+          // 파싱 실패 시 원문 제목만 표시
+          picks = items.slice(0, count).map(it => ({ title: it.title, summary: it.desc.slice(0, 40) || "" }));
+        }
+
+        const today = new Date().toLocaleDateString("ko-KR", {
+          timeZone: "Asia/Seoul", month: "long", day: "numeric", weekday: "short",
+        });
+
+        const lines = picks.map((p, i) => `${i + 1}. <b>${p.title}</b>\n    ${p.summary}`).join("\n\n");
+
+        return (
+          `📰 <b>${today} ${label || "오늘의 뉴스"}</b>${category !== "전체" ? ` (${category})` : ""}\n\n` +
+          lines
+        );
+      } catch (e) {
+        return `📰 <b>${label || "오늘의 뉴스"}</b>\n뉴스를 불러오지 못했습니다.`;
+      }
+    }
+
     case "stock_summary": {
       try {
         const summaryType = config.summary_type || "morning"; // "morning" | "afternoon"
@@ -142,23 +231,35 @@ async function buildMessage(action: any): Promise<string | null> {
             (watchlistLines ? `🔍 <b>관심 종목</b>\n${watchlistLines}` : "")
           );
         } else {
-          // 오후 리포트
-          const kospi = raw?.kospi;
-          const kospiLine = kospi
-            ? `코스피 ${kospi.changePct > 0 ? "▲" : "▼"} ${Math.abs(kospi.changePct).toFixed(2)}% (${kospi.price.toFixed(0)})`
-            : "데이터 없음";
+          // 오후 리포트: 예측 vs 실제 비교 + 증시 분석
+          const kospiMatchIcon = a?.kospi_match === "적중" ? "✅" : "❌";
+          const kospiLine = `예측: ${a?.kospi_predicted || "?"} → 실제: ${a?.kospi_change_text || "?"} ${kospiMatchIcon}`;
 
           const watchlistLines = (a?.watchlist_accuracy || [])
-            .map((w: any) => `• ${w.name || w.code}: ${w.actual} (${w.accuracy})`)
+            .map((w: any) => {
+              const icon = w.match === "적중" ? "✅" : "❌";
+              return `• ${w.name}: ${w.predicted} 예측 → ${w.change_text || w.actual} ${icon}`;
+            })
             .join("\n");
 
-          return (
-            `📊 <b>${dateLabel} ${label || "장 마감 리포트"}</b>\n\n` +
-            `🇰🇷 <b>오늘 코스피</b>\n${kospiLine}\n\n` +
-            `🎯 <b>예측 정확도</b>\n${a?.accuracy || "?"} — ${a?.accuracy_reason || ""}\n\n` +
-            `🔎 <b>차이 분석</b>\n${a?.difference_reason || ""}\n\n` +
-            (watchlistLines ? `📋 <b>관심 종목 결과</b>\n${watchlistLines}` : "")
-          );
+          const parts = [
+            `📊 <b>${dateLabel} 오늘의 증시 결과</b>`,
+            `🇰🇷 <b>코스피</b>\n${kospiLine}`,
+          ];
+
+          if (watchlistLines) {
+            parts.push(`🔍 <b>관심 종목</b>\n${watchlistLines}`);
+          }
+
+          if (a?.overall_accuracy) {
+            parts.push(`🎯 종합 적중률: <b>${a.overall_accuracy}</b>`);
+          }
+
+          if (a?.market_analysis) {
+            parts.push(`📈 <b>증시 분석</b>\n${a.market_analysis}`);
+          }
+
+          return parts.join("\n\n");
         }
       } catch (e) {
         return `📈 <b>${label || "증시 분석"}</b>\n데이터를 불러오지 못했습니다.`;
@@ -219,7 +320,7 @@ async function buildMessage(action: any): Promise<string | null> {
             const name = w.name || w.code;
             if (!stockHits[name]) stockHits[name] = { hit: 0, total: 0 };
             stockHits[name].total++;
-            if (w.accuracy === "적중") stockHits[name].hit++;
+            if (w.match === "적중" || w.accuracy === "적중") stockHits[name].hit++;
           }
         }
         const stockLines = Object.entries(stockHits)
@@ -271,14 +372,19 @@ Deno.serve(async (req) => {
       if (msg) await sendTelegram(msg);
       return new Response(JSON.stringify({ message: "test sent", type: "weekly_report" }), { status: 200 });
     }
+    if (body.test === "news_briefing") {
+      const msg = await buildMessage({ action_type: "news_briefing", label: "오늘의 뉴스", config: { query: body.query || "오늘의 뉴스 한국", count: body.count || 5 } });
+      if (msg) await sendTelegram(msg);
+      return new Response(JSON.stringify({ message: "test sent", type: "news_briefing" }), { status: 200 });
+    }
 
     const now = new Date();
-    // KST = UTC+9
-    const kstHours = (now.getUTCHours() + 9) % 24;
-    const kstMinutes = now.getUTCMinutes();
-    // 요일: 1=월 ~ 7=일
-    const utcDay = now.getUTCDay(); // 0=일
-    const kstDay = utcDay === 0 ? 7 : utcDay;
+    // KST = UTC+9: KST 날짜 기준으로 시각과 요일 계산
+    const kstNow = new Date(now.getTime() + 9 * 60 * 60 * 1000);
+    const kstHours = kstNow.getUTCHours();
+    const kstMinutes = kstNow.getUTCMinutes();
+    const kstDayUtc = kstNow.getUTCDay(); // KST 날짜 기준 요일 (0=일)
+    const kstDay = kstDayUtc === 0 ? 7 : kstDayUtc; // 1=월 ~ 7=일
     const currentTime = `${String(kstHours).padStart(2, "0")}:${String(kstMinutes).padStart(2, "0")}`;
 
     // 현재 시간 + 오늘 요일에 맞는 활성 루틴 조회

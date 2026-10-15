@@ -198,34 +198,38 @@ async function collectAfternoon(watchlist: { code: string; name: string }[]) {
     .map(w => `${w.name}(${w.code}): ${w.price?.toFixed(0)}원 (${w.changePct > 0 ? "+" : ""}${w.changePct?.toFixed(2)}%)`)
     .join("\n");
 
-  const morningWatchlist = (morningAnalysis?.watchlist || [])
-    .map((w: any) => `${w.name || w.code}: ${w.prediction}`)
-    .join(", ");
+  const morningWatchlistText = (morningAnalysis?.watchlist || [])
+    .map((w: any) => `${w.name || w.code}: ${w.prediction} 예측`)
+    .join("\n");
 
-  const prompt = `한국 주식시장 오전 예측과 실제 결과를 비교 분석해주세요.
+  const prompt = `당신은 한국 주식시장 전문 애널리스트입니다. 오전 예측과 실제 마감 결과를 비교하고, 오늘 장을 분석해주세요.
 
 ## 오전 예측
 코스피 예측: ${morningAnalysis?.kospi_prediction || "없음"}
-예측 근거: ${morningAnalysis?.kospi_reason || "없음"}
-관심 종목 예측: ${morningWatchlist || "없음"}
+${morningWatchlistText || "없음"}
 
 ## 실제 마감 결과
 ${actualKospi}
-관심 종목 실제 (이름(코드): 등락):
+관심 종목 실제 마감:
 ${watchlistActual || "없음"}
 
-## 요청사항 (반드시 아래 JSON 형식으로만 답변, 종목은 이름으로):
+## 요청사항 (반드시 아래 JSON 형식으로만 답변):
 {
-  "accuracy": "적중" | "부분적중" | "빗나감",
-  "accuracy_reason": "정확도 분석 50자 이내",
-  "difference_reason": "예측과 차이난 이유 50자 이내",
+  "kospi_predicted": "상승" | "하락" | "보합",
+  "kospi_actual": "상승" | "하락" | "보합",
+  "kospi_change_text": "예: ▲1.23%",
+  "kospi_match": "적중" | "빗나감",
   "watchlist_accuracy": [
     {
       "name": "종목명 (한글)",
+      "predicted": "상승" | "하락" | "보합",
       "actual": "상승" | "하락" | "보합",
-      "accuracy": "적중" | "빗나감"
+      "change_text": "예: ▲0.5%",
+      "match": "적중" | "빗나감"
     }
-  ]
+  ],
+  "overall_accuracy": "예: 3/4",
+  "market_analysis": "오늘 시장 전반 분석 100자 이내 (무슨 이슈로 상승/하락했는지, 섹터 동향 등)"
 }`;
 
   const analysisText = await analyzeWithClaude(prompt);
