@@ -29,8 +29,15 @@ jobs:
 
       - name: Call Edge Function
         run: |
-          curl -X POST "${{ secrets.SUPABASE_FUNCTION_URL_STOCK }}" \
+          RESPONSE=$(curl -s -w "\n%{http_code}" -X POST "${{ secrets.SUPABASE_FUNCTION_URL_STOCK }}" \
             -H "Authorization: Bearer ${{ secrets.SUPABASE_ANON_KEY }}" \
             -H "Content-Type: application/json" \
-            -d "{\"type\":\"${{ steps.type.outputs.type }}\"}" \
-            -f
+            -d "{\"type\":\"${{ steps.type.outputs.type }}\"}")
+          HTTP_CODE=$(echo "$RESPONSE" | tail -1)
+          BODY=$(echo "$RESPONSE" | head -n -1)
+          echo "HTTP status: $HTTP_CODE"
+          echo "Response: $BODY"
+          if [ "$HTTP_CODE" -lt 200 ] || [ "$HTTP_CODE" -ge 300 ]; then
+            echo "Error: HTTP $HTTP_CODE"
+            exit 1
+          fi
