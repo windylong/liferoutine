@@ -1,0 +1,53 @@
+{
+  "morning": null,
+  "afternoon": {
+    "type": "afternoon",
+    "date": "2026-10-15",
+    "generated_at": "2026-10-15T16:42:32+09:00",
+    "analysis": {
+      "no_morning": true,
+      "kospi_actual": "하락",
+      "kospi_change_text": "▼7.57%",
+      "watchlist_accuracy": [],
+      "market_analysis": "반도체주 투매로 코스피·코스닥 7%대 폭락, 양 시장 서킷브레이커 발동. 외국인 코스피 4.8조원 순매도(8일째), 개인·기관 순매수. 미 CPI 상회·CXMT 우려."
+    },
+    "raw_data": {
+      "kospi": {
+        "price": 5554.22,
+        "changePct": -7.57
+      },
+      "kosdaq": {
+        "price": 760.82,
+        "changePct": -7.65
+      },
+      "watchlist": [
+        {
+          "code": "005930",
+          "name": "삼성전자",
+          "price": 210000,
+          "changePct": -9.48
+        },
+        {
+          "code": "000660",
+          "name": "SK하이닉스",
+          "price": 1262000,
+          "changePct": -11.06
+        }
+      ],
+      "sources": [
+        {
+          "name": "뉴스핌 마감시황",
+          "url": "https://www.newspim.com/news/view/20261015001061"
+        },
+        {
+          "name": "뉴스1",
+          "url": "https://www.news1.kr/finance/market-exr/6321408"
+        },
+        {
+          "name": "아시아경제",
+          "url": "https://view.asiae.co.kr/article/2026101515335832273"
+        }
+      ]
+    }
+  }
+}
