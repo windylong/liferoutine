@@ -187,10 +187,13 @@ ${newsText}
           .single();
 
         if (!data) {
+          // 최근 3일 이내 자료만 대신 보낸다 (더 오래된 자료는 오해를 부르므로 보내지 않음)
+          const since = new Date(Date.now() - 3 * 86400000).toLocaleDateString("en-CA", { timeZone: "Asia/Seoul" });
           const { data: recent } = await supabase
             .from("stock_analysis")
             .select("analysis, raw_data, analysis_date")
             .eq("analysis_type", summaryType)
+            .gte("analysis_date", since)
             .order("analysis_date", { ascending: false })
             .limit(1)
             .single();
@@ -264,7 +267,10 @@ ${newsText}
         } else {
           // 오후 리포트: 예측 vs 실제 비교 + 차이 원인
           const kospiMatchIcon = a?.kospi_match === "적중" ? "✅" : "❌";
-          const kospiLine = `예측: ${esc(a?.kospi_predicted || "?")} → 실제: ${esc(a?.kospi_change_text || a?.kospi_actual || "?")} ${kospiMatchIcon}` +
+          const kospiActual = esc(a?.kospi_change_text || a?.kospi_actual || "?");
+          const kospiLine = (a?.no_morning
+            ? `마감: ${kospiActual}\n<i>오늘은 오전 예측이 없어 결과만 보내요.</i>`
+            : `예측: ${esc(a?.kospi_predicted || "?")} → 실제: ${kospiActual} ${kospiMatchIcon}`) +
             (a?.kospi_miss_reason ? `\n${esc(a.kospi_miss_reason)}` : "");
 
           const watchlistLines = (a?.watchlist_accuracy || [])
