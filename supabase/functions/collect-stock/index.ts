@@ -70,13 +70,21 @@ async function analyzeWithClaude(prompt: string): Promise<string> {
       "anthropic-version": "2023-06-01",
     },
     body: JSON.stringify({
-      model: "claude-haiku-4-5",
+      model: "claude-haiku-5-5",
       max_tokens: 1024,
       messages: [{ role: "user", content: prompt }],
     }),
   });
   const data = await res.json();
-  return data.content?.[0]?.text || "";
+  if (!res.ok) {
+    console.error("Claude API error:", res.status, JSON.stringify(data));
+    throw new Error(`Claude API ${res.status}: ${data?.error?.message || JSON.stringify(data)}`);
+  }
+  const text = data.content?.[0]?.text || "";
+  if (!text) {
+    console.error("Claude API empty response:", JSON.stringify(data));
+  }
+  return text;
 }
 
 // ── 오전 수집: 미국장 마감 + 뉴스 + 예측 ───────────────
