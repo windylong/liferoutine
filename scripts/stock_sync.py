@@ -27,6 +27,13 @@ ACCURACY = {"적중", "부분적중", "빗나감"}
 DATE_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 
 
+def fail(msg: str) -> None:
+    """GitHub Actions 실행 요약(annotations)에도 보이도록 ::error:: 로 함께 출력하고 종료."""
+    if os.environ.get("GITHUB_ACTIONS"):
+        print("::error::" + msg.replace("\n", " "))
+    sys.exit(msg)
+
+
 # ── Supabase REST ──────────────────────────────────────────
 def base_url() -> str:
     url = os.environ.get("SUPABASE_URL", "").strip()
@@ -35,14 +42,14 @@ def base_url() -> str:
         m = re.match(r"^(https://[^/]+)", fn)
         url = m.group(1) if m else ""
     if not url:
-        sys.exit("SUPABASE_URL 또는 SUPABASE_FUNCTION_URL 이 필요합니다.")
+        fail("SUPABASE_URL 또는 SUPABASE_FUNCTION_URL 이 필요합니다.")
     return url.rstrip("/")
 
 
 def request(method: str, path: str, body=None, prefer: str | None = None):
     key = os.environ.get("SUPABASE_KEY", "").strip()
     if not key:
-        sys.exit("SUPABASE_KEY 가 필요합니다.")
+        fail("SUPABASE_KEY 가 필요합니다.")
     headers = {
         "apikey": key,
         "Authorization": f"Bearer {key}",
@@ -57,7 +64,9 @@ def request(method: str, path: str, body=None, prefer: str | None = None):
             text = res.read().decode("utf-8")
             return json.loads(text) if text else None
     except urllib.error.HTTPError as e:
-        sys.exit(f"Supabase {method} {path} 실패: HTTP {e.code} {e.read().decode('utf-8', 'replace')}")
+        fail(f"Supabase {method} {path} 실패 (주소 {base_url()}): HTTP {e.code} {e.read().decode('utf-8', 'replace')[:300]}")
+    except urllib.error.URLError as e:
+        fail(f"Supabase 접속 실패 (주소 {base_url()}): {e.reason}")
 
 
 # ── 관심 종목 내보내기 ─────────────────────────────────────
