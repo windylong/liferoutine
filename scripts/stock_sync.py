@@ -50,11 +50,11 @@ def request(method: str, path: str, body=None, prefer: str | None = None):
     key = os.environ.get("SUPABASE_KEY", "").strip()
     if not key:
         fail("SUPABASE_KEY 가 필요합니다.")
-    headers = {
-        "apikey": key,
-        "Authorization": f"Bearer {key}",
-        "Content-Type": "application/json",
-    }
+    key = key.strip().strip('"').strip("'")
+    headers = {"apikey": key, "Content-Type": "application/json"}
+    # 예전 JWT 키(eyJ...)는 Authorization 에도 넣고, 새 형식 키(sb_secret_/sb_publishable_)는 apikey 헤더만 쓴다
+    if not key.startswith("sb_"):
+        headers["Authorization"] = f"Bearer {key}"
     if prefer:
         headers["Prefer"] = prefer
     data = json.dumps(body, ensure_ascii=False).encode("utf-8") if body is not None else None
@@ -64,7 +64,7 @@ def request(method: str, path: str, body=None, prefer: str | None = None):
             text = res.read().decode("utf-8")
             return json.loads(text) if text else None
     except urllib.error.HTTPError as e:
-        fail(f"Supabase {method} {path} 실패 (주소 {base_url()}): HTTP {e.code} {e.read().decode('utf-8', 'replace')[:300]}")
+        fail(f"Supabase {method} {path} 실패 (주소 {base_url()}, 키 앞부분 {key[:8]}…, 길이 {len(key)}): HTTP {e.code} {e.read().decode('utf-8', 'replace')[:300]}")
     except urllib.error.URLError as e:
         fail(f"Supabase 접속 실패 (주소 {base_url()}): {e.reason}")
 
