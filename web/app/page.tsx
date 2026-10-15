@@ -49,6 +49,12 @@ export default function Home() {
           </div>
           <div className="flex items-center gap-2">
             <Link
+              href="/ai-news"
+              className="h-9 px-3.5 rounded-lg border border-slate-200 bg-white text-slate-600 text-sm font-medium hover:bg-slate-50 flex items-center gap-1.5 transition-colors"
+            >
+              <span className="text-xs">🤖</span> AI 뉴스
+            </Link>
+            <Link
               href="/logs"
               className="h-9 px-3.5 rounded-lg border border-slate-200 bg-white text-slate-600 text-sm font-medium hover:bg-slate-50 flex items-center gap-1.5 transition-colors"
             >
