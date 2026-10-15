@@ -40,7 +40,7 @@ export const ALL_STOCKS: Stock[] = [
   { code: "086520", name: "에코프로", market: "KOSDAQ", sector: "이차전지" },
   { code: "096530", name: "씨젠", market: "KOSDAQ", sector: "바이오" },
   { code: "278280", name: "천보", market: "KOSDAQ", sector: "이차전지" },
-  { code: "272450", name: "파나진", market: "KOSDAQ", sector: "이차전지" },
+  { code: "272450", name: "진에어", market: "KOSPI", sector: "운송" },
   { code: "900290", name: "GRT", market: "KOSDAQ", sector: "이차전지" },
   { code: "066970", name: "엘앤에프", market: "KOSDAQ", sector: "이차전지" },
   { code: "285130", name: "SK아이이테크놀로지", market: "KOSPI", sector: "이차전지" },
@@ -152,7 +152,6 @@ export const ALL_STOCKS: Stock[] = [
   { code: "003550", name: "LG", market: "KOSPI", sector: "지주" },
   { code: "034730", name: "SK", market: "KOSPI", sector: "지주" },
   { code: "267250", name: "HD현대", market: "KOSPI", sector: "지주" },
-  { code: "000030", name: "우리금융지주", market: "KOSPI", sector: "금융" },
   { code: "005935", name: "삼성전자우", market: "KOSPI", sector: "전기전자" },
   // 유통/소비재
   { code: "139480", name: "이마트", market: "KOSPI", sector: "유통" },
@@ -184,7 +183,6 @@ export const ALL_STOCKS: Stock[] = [
   { code: "000120", name: "CJ대한통운", market: "KOSPI", sector: "운송" },
   { code: "006110", name: "삼아알미늄", market: "KOSPI", sector: "소재" },
   // 산업재
-  { code: "011000", name: "한화", market: "KOSPI", sector: "산업재" },
   { code: "047810", name: "한국항공우주", market: "KOSPI", sector: "산업재" },
   { code: "012450", name: "한화에어로스페이스", market: "KOSPI", sector: "산업재" },
   { code: "064350", name: "현대로템", market: "KOSPI", sector: "산업재" },

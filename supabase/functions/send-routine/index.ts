@@ -209,56 +209,82 @@ ${newsText}
           weekday: "short",
         });
 
+        const esc = (v: unknown) =>
+          String(v ?? "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+        const pct = (q: any) =>
+          q && typeof q.changePct === "number"
+            ? `${q.changePct > 0 ? "▲" : q.changePct < 0 ? "▼" : "-"} ${Math.abs(q.changePct).toFixed(2)}%`
+            : "";
+        const arrow = (d: string) => (d === "상승" ? "🔺" : d === "하락" ? "🔻" : "➖");
+        const isStale = (data as any).analysis_date !== today;
+        const staleNote = isStale ? `\n<i>※ 오늘 분석이 아직 없어 ${dateLabel} 자료를 보냅니다.</i>` : "";
+
+        if (a?.market_closed) {
+          return `📈 <b>${dateLabel} ${esc(label || "증시 브리핑")}</b>\n오늘은 휴장일입니다.${a?.closed_reason ? ` (${esc(a.closed_reason)})` : ""}${staleNote}`;
+        }
+
         if (summaryType === "morning") {
           // 미국 시장
           const us = raw?.us_market;
           const usLines = [
-            us?.sp500 ? `S&P500 ${us.sp500.changePct > 0 ? "▲" : "▼"} ${Math.abs(us.sp500.changePct).toFixed(2)}%` : "",
-            us?.nasdaq ? `나스닥 ${us.nasdaq.changePct > 0 ? "▲" : "▼"} ${Math.abs(us.nasdaq.changePct).toFixed(2)}%` : "",
-            us?.dow ? `다우 ${us.dow.changePct > 0 ? "▲" : "▼"} ${Math.abs(us.dow.changePct).toFixed(2)}%` : "",
+            us?.sp500 ? `S&amp;P500 ${pct(us.sp500)}` : "",
+            us?.nasdaq ? `나스닥 ${pct(us.nasdaq)}` : "",
+            us?.dow ? `다우 ${pct(us.dow)}` : "",
+            us?.sox ? `필라델피아반도체 ${pct(us.sox)}` : "",
           ].filter(Boolean).join(" | ");
+          const fx = us?.usdkrw?.price ? `원/달러 ${Number(us.usdkrw.price).toFixed(1)}원 ${pct(us.usdkrw)}` : "";
 
-          // 관심 종목
+          // 코스피 주요 뉴스 (30자 요약 목록, 없으면 예전 한 줄 요약)
+          const newsLines = Array.isArray(a?.kospi_news) && a.kospi_news.length
+            ? a.kospi_news.map((n: any) => `• ${esc(n.summary)}`).join("\n")
+            : esc(a?.kospi_news_summary || "");
+
+          // 관심 종목: 예측 + 영향 요소(30자 요약)
           const watchlistLines = (a?.watchlist || [])
-            .map((w: any) => `• ${w.name || w.code}: ${w.prediction} — ${w.reason}`)
+            .map((w: any) => {
+              const head = `${arrow(w.prediction)} <b>${esc(w.name || w.code)}</b> ${esc(w.prediction)} — ${esc(w.reason)}`;
+              const factors = (w.factors || [])
+                .map((f: any) => `   · ${f.impact === "호재" ? "➕" : f.impact === "악재" ? "➖" : "·"} ${esc(f.summary)}`)
+                .join("\n");
+              return factors ? `${head}\n${factors}` : head;
+            })
             .join("\n");
 
+          const kospiHead = `${arrow(a?.kospi_prediction)} ${esc(a?.kospi_prediction || "?")}` +
+            (a?.kospi_change_range ? ` (${esc(a.kospi_change_range)})` : "") +
+            (a?.kospi_confidence ? ` · 확신도 ${esc(a.kospi_confidence)}` : "");
+
           return (
-            `📈 <b>${dateLabel} ${label || "증시 브리핑"}</b>\n\n` +
-            `🇺🇸 <b>미국 시장 마감</b>\n${usLines || "데이터 없음"}\n${a?.us_market_summary || ""}\n\n` +
-            `🇰🇷 <b>코스피 예측</b>\n${a?.kospi_prediction || "?"} — ${a?.kospi_reason || ""}\n\n` +
-            `📰 <b>주요 뉴스</b>\n${a?.kospi_news_summary || ""}\n\n` +
-            (watchlistLines ? `🔍 <b>관심 종목</b>\n${watchlistLines}` : "")
+            `📈 <b>${dateLabel} ${esc(label || "증시 브리핑")}</b>${staleNote}\n\n` +
+            `🇰🇷 <b>오늘 코스피 전망</b>\n${kospiHead}\n${esc(a?.kospi_reason || "")}\n\n` +
+            `🇺🇸 <b>미국 시장 마감</b>\n${usLines || "데이터 없음"}${fx ? `\n${fx}` : ""}\n${esc(a?.us_market_summary || "")}\n\n` +
+            `📰 <b>코스피 주요 뉴스</b>\n${newsLines || "없음"}` +
+            (watchlistLines ? `\n\n🔍 <b>관심 종목</b>\n${watchlistLines}` : "")
           );
         } else {
-          // 오후 리포트: 예측 vs 실제 비교 + 증시 분석
+          // 오후 리포트: 예측 vs 실제 비교 + 차이 원인
           const kospiMatchIcon = a?.kospi_match === "적중" ? "✅" : "❌";
-          const kospiLine = `예측: ${a?.kospi_predicted || "?"} → 실제: ${a?.kospi_change_text || "?"} ${kospiMatchIcon}`;
+          const kospiLine = `예측: ${esc(a?.kospi_predicted || "?")} → 실제: ${esc(a?.kospi_change_text || a?.kospi_actual || "?")} ${kospiMatchIcon}` +
+            (a?.kospi_miss_reason ? `\n${esc(a.kospi_miss_reason)}` : "");
 
           const watchlistLines = (a?.watchlist_accuracy || [])
             .map((w: any) => {
               const icon = w.match === "적중" ? "✅" : "❌";
-              return `• ${w.name}: ${w.predicted} 예측 → ${w.change_text || w.actual} ${icon}`;
+              const line = `• ${esc(w.name)}: ${esc(w.predicted)} 예측 → ${esc(w.change_text || w.actual)} ${icon}`;
+              return w.reason ? `${line}\n   ${esc(w.reason)}` : line;
             })
             .join("\n");
 
           const parts = [
-            `📊 <b>${dateLabel} 오늘의 증시 결과</b>`,
+            `📊 <b>${dateLabel} 오늘의 증시 결과</b>${staleNote}`,
             `🇰🇷 <b>코스피</b>\n${kospiLine}`,
           ];
-
-          if (watchlistLines) {
-            parts.push(`🔍 <b>관심 종목</b>\n${watchlistLines}`);
-          }
-
+          if (watchlistLines) parts.push(`🔍 <b>관심 종목</b>\n${watchlistLines}`);
           if (a?.overall_accuracy) {
-            parts.push(`🎯 종합 적중률: <b>${a.overall_accuracy}</b>`);
+            parts.push(`🎯 종합 적중률: <b>${esc(a.overall_accuracy)}</b>${a?.accuracy ? ` (${esc(a.accuracy)})` : ""}`);
           }
-
-          if (a?.market_analysis) {
-            parts.push(`📈 <b>증시 분석</b>\n${a.market_analysis}`);
-          }
-
+          if (a?.market_analysis) parts.push(`📈 <b>증시 분석</b>\n${esc(a.market_analysis)}`);
+          if (a?.lessons) parts.push(`💡 <b>다음 예측에 반영</b>\n${esc(a.lessons)}`);
           return parts.join("\n\n");
         }
       } catch (e) {

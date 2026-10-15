@@ -1,9 +1,8 @@
 name: Collect Stock Data
 
+# 2026-10: 정기 분석은 Claude 앱 예약 작업으로 옮겼다 (ingest-stock-analysis.yml 참고).
+# 같은 행을 덮어쓰지 않도록 자동 실행은 끄고, Claude 작업이 실패한 날의 수동 대체용으로만 남긴다.
 on:
-  schedule:
-    - cron: '0 21 * * 0-4'   # 오전 6시 KST (UTC+9) = 전날 21:00 UTC (월~금)
-    - cron: '30 7 * * 1-5'   # 오후 4시 30분 KST = 07:30 UTC (월~금)
   workflow_dispatch:
     inputs:
       type:
@@ -21,10 +20,8 @@ jobs:
           HOUR=$(date -u +%H)
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             echo "type=${{ github.event.inputs.type }}" >> $GITHUB_OUTPUT
-          elif [ "$HOUR" = "21" ]; then
-            echo "type=morning" >> $GITHUB_OUTPUT
           else
-            echo "type=afternoon" >> $GITHUB_OUTPUT
+            echo "type=morning" >> $GITHUB_OUTPUT
           fi
 
       - name: Call Edge Function
