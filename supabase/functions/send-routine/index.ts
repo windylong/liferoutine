@@ -84,6 +84,37 @@ async function buildMessage(action: any): Promise<string | null> {
       return `💬 <b>${label || "알림"}</b>\n${config.text}`;
     }
 
+    case "ai_news": {
+      // Claude 예약 작업이 매일 아침 저장소(web/public/ai-news)에 올리는 브리핑의 제목만 전송
+      const SITE = (Deno.env.get("AI_NEWS_SITE_URL") || "https://liferoutine-rust.vercel.app").replace(/\/$/, "");
+      const esc = (t: string) => String(t ?? "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+      try {
+        const res = await fetch(`${SITE}/ai-news/latest.json?t=${Date.now()}`, { headers: { "Cache-Control": "no-cache" } });
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        const brief = await res.json();
+        const scope = config.scope === "all" ? "all" : "top";
+        const items: { title: string }[] = scope === "all"
+          ? [...(brief.top || []), ...(brief.others || [])]
+          : (brief.top || []);
+
+        const kstToday = new Date(Date.now() + 9 * 3600 * 1000).toISOString().slice(0, 10);
+        const d = new Date(`${brief.date}T12:00:00+09:00`);
+        const dateLabel = d.toLocaleDateString("ko-KR", { timeZone: "Asia/Seoul", month: "long", day: "numeric", weekday: "short" });
+        const stale = brief.date !== kstToday ? `\n<i>오늘 브리핑이 아직 없어 ${esc(brief.date)} 브리핑을 보냅니다.</i>` : "";
+
+        let lines = items.map((it, i) => `${i + 1}. ${esc(it.title)}`).join("\n");
+        if (lines.length > 3500) lines = lines.slice(0, 3500).replace(/\n[^\n]*$/, "") + "\n…";
+
+        return (
+          `🤖 <b>${dateLabel} ${esc(label || "AI 뉴스")}</b>${stale}\n\n` +
+          (lines || "등록된 기사가 없습니다.") +
+          `\n\n<a href="${SITE}/ai-news">자세히 보기</a>`
+        );
+      } catch (e) {
+        return `🤖 <b>${esc(label || "AI 뉴스")}</b>\nAI 뉴스를 불러오지 못했습니다.`;
+      }
+    }
+
     case "news_briefing": {
       try {
         const category = config.category || "전체"; // 예: "경제", "IT", "전체"
@@ -403,6 +434,11 @@ Deno.serve(async (req) => {
       const msg = await buildMessage({ action_type: "weekly_report", label: "주간 리포트 테스트", config: {} });
       if (msg) await sendTelegram(msg);
       return new Response(JSON.stringify({ message: "test sent", type: "weekly_report" }), { status: 200 });
+    }
+    if (body.test === "ai_news") {
+      const msg = await buildMessage({ action_type: "ai_news", label: "AI 뉴스", config: { scope: body.scope || "top" } });
+      if (msg) await sendTelegram(msg);
+      return new Response(JSON.stringify({ message: "test sent", type: "ai_news" }), { status: 200 });
     }
     if (body.test === "news_briefing") {
       const msg = await buildMessage({ action_type: "news_briefing", label: "오늘의 뉴스", config: { query: body.query || "오늘의 뉴스 한국", count: body.count || 5 } });

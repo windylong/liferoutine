@@ -110,6 +110,21 @@ export default function ActionForm({ action, onChange, onRemove }: Props) {
           📊 지난 7일간 증시 예측 정확도와 관심 종목 통계를 요약해서 보내드려요.
         </p>
       )}
+      {type === "ai_news" && (
+        <>
+          <select
+            value={action.config?.scope || "top"}
+            onChange={(e) => setConfig("scope", e.target.value)}
+            className="w-full border rounded px-2 py-1 text-sm bg-white focus:outline-none focus:ring-1 focus:ring-blue-300"
+          >
+            <option value="top">핵심 5건 제목만</option>
+            <option value="all">전체 기사 제목 (중요도순)</option>
+          </select>
+          <p className="text-xs text-gray-400 px-1 mt-1">
+            🤖 매일 아침 정리된 AI 뉴스 브리핑의 제목을 보내드려요. 오전 8시 이후로 설정하세요.
+          </p>
+        </>
+      )}
     </div>
   );
 }
