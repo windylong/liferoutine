@@ -177,50 +177,82 @@
   },
   "afternoon": {
     "type": "afternoon",
-    "date": "2026-10-15",
-    "generated_at": "2026-10-15T16:42:32+09:00",
+    "date": "2026-10-16",
+    "generated_at": "2026-10-16T16:00:05+09:00",
     "analysis": {
-      "no_morning": true,
-      "kospi_actual": "하락",
-      "kospi_change_text": "▼7.57%",
-      "watchlist_accuracy": [],
-      "market_analysis": "반도체주 투매로 코스피·코스닥 7%대 폭락, 양 시장 서킷브레이커 발동. 외국인 코스피 4.8조원 순매도(8일째), 개인·기관 순매수. 미 CPI 상회·CXMT 우려."
+      "kospi_predicted": "상승",
+      "kospi_actual": "상승",
+      "kospi_change_text": "▲2.05%",
+      "kospi_match": "적중",
+      "kospi_miss_reason": "폭락 뒤 저가 매수와 외국인 순매수 전환으로 반등, 예상 범위 안. 장중 4%대에서 AI 투자 회의론에 상승폭 절반 반납",
+      "watchlist_accuracy": [
+        {
+          "code": "005930",
+          "name": "삼성전자",
+          "predicted": "상승",
+          "actual": "상승",
+          "change_text": "▲2.62%",
+          "match": "적중",
+          "reason": "낙폭 과대 인식에 반발 매수 유입, 예상대로 반등"
+        },
+        {
+          "code": "000660",
+          "name": "SK하이닉스",
+          "predicted": "상승",
+          "actual": "상승",
+          "change_text": "▲0.79%",
+          "match": "적중",
+          "reason": "방향은 맞았으나 장 후반 AI 우려에 상승폭 크게 축소"
+        }
+      ],
+      "overall_accuracy": "3/3",
+      "accuracy": "적중",
+      "market_analysis": "8거래일 만에 반등. 외국인 3410억 순매수 전환, 기관·개인 매도. 자동차·반도체 대형주 강세, 코스닥 4%대 급등. 장중 5800선 뒤 상승폭 반납",
+      "lessons": "폭락 다음날 반등은 맞았으나 AI 투자 회의론이 이어져 장중 상승폭이 꺾일 수 있음을 반영"
     },
     "raw_data": {
       "kospi": {
-        "price": 5554.22,
-        "changePct": -7.57
+        "price": 5668.05,
+        "changePct": 2.05
       },
       "kosdaq": {
-        "price": 760.82,
-        "changePct": -7.65
+        "price": 794.78,
+        "changePct": 4.46
       },
       "watchlist": [
         {
           "code": "005930",
           "name": "삼성전자",
-          "price": 210000,
-          "changePct": -9.48
+          "price": 215500,
+          "changePct": 2.62
         },
         {
           "code": "000660",
           "name": "SK하이닉스",
-          "price": 1262000,
-          "changePct": -11.06
+          "price": 1272000,
+          "changePct": 0.79
         }
       ],
       "sources": [
         {
-          "name": "뉴스핌 마감시황",
-          "url": "https://www.newspim.com/news/view/20261015001061"
+          "name": "머니투데이(코스피 마감)",
+          "url": "https://www.mt.co.kr/stock/2026/10/16/2026101615331353587"
         },
         {
-          "name": "뉴스1",
-          "url": "https://www.news1.kr/finance/market-exr/6321408"
+          "name": "머니투데이(코스닥 마감)",
+          "url": "https://www.mt.co.kr/stock/2026/10/16/2026101615332780678"
         },
         {
-          "name": "아시아경제",
-          "url": "https://view.asiae.co.kr/article/2026101515335832273"
+          "name": "블록미디어(마감시황·종목 종가·수급·환율)",
+          "url": "https://www.blockmedia.co.kr/archives/1152545"
+        },
+        {
+          "name": "싱글리스트(장중 고저·수급)",
+          "url": "https://www.slist.kr/news/articleView.html?idxno=774029"
+        },
+        {
+          "name": "파이낸셜뉴스(장중 수급·섹터)",
+          "url": "https://www.fnnews.com/news/202610161409048215"
         }
       ]
     }
