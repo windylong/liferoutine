@@ -1,0 +1,614 @@
+{
+  "date": "2026-10-16",
+  "generated_at": "2026-10-16T07:52:31+09:00",
+  "headline": "메타·엔비디아·스위스가 잇따라 대형 오픈웨이트 모델을 내놓고 마이크로소프트가 자체 2.8T 기반 모델을 공개하며 '오픈 vs 자체 모델' 경쟁이 달아올랐다. 미 FTC는 OpenAI·Anthropic 안전사고 조사에 착수했다.",
+  "others": [
+    {
+      "category": "정책·규제",
+      "id": "2026-10-16-06",
+      "links": [
+        {
+          "name": "Anthropic",
+          "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators"
+        },
+        {
+          "name": "AI Weekly",
+          "url": "https://aiweekly.co/ai-news-today"
+        }
+      ],
+      "one_line": "외부 평가기관 METR 인력 6명에게 직원 수준 접근권을 주고 위험 분석을 회사 거부권 없이 공개하도록 하는 3단계 평가 접근 체계를 발표했다.",
+      "region": "미국",
+      "score": 9,
+      "tier": "핵심",
+      "title": "Anthropic, METR 직원 상주시키고 거부권 없는 공개 권한 부여"
+    },
+    {
+      "category": "피지컬AI",
+      "id": "2026-10-16-07",
+      "links": [
+        {
+          "name": "The AI Insider",
+          "url": "https://theaiinsider.tech/2026/10/15/chinas-roboparty-launches-open-source-rp1-humanoid-for-robotics-research"
+        }
+      ],
+      "one_line": "키 1.3m·24~30자유도 휴머노이드의 기구 설계·액추에이터·펌웨어·학습 프레임워크를 GitHub에 모두 공개했다.",
+      "region": "중국",
+      "score": 9,
+      "tier": "핵심",
+      "title": "中 RoboParty, 하드웨어까지 전면 공개한 연구용 휴머노이드 'RP1' 출시"
+    },
+    {
+      "category": "연구 논문",
+      "id": "2026-10-16-08",
+      "links": [
+        {
+          "name": "Hugging Face Papers",
+          "url": "https://huggingface.co/papers/2610.20344"
+        },
+        {
+          "name": "arXiv",
+          "url": "https://arxiv.org/abs/2610.20344"
+        }
+      ],
+      "one_line": "19개 프런티어 모델에 장기 하네스 구축을 시킨 결과 최고인 GPT-6 Astra도 통과율 53%에 그쳤다.",
+      "paper_year": 2026,
+      "region": "글로벌",
+      "score": 9,
+      "tier": "핵심",
+      "title": "[논문] Doc2Harness: 코딩 에이전트 하네스를 직접 만들게 하는 벤치마크… 최고 모델도 절반 실패"
+    },
+    {
+      "category": "정책·규제",
+      "id": "2026-10-16-09",
+      "links": [
+        {
+          "name": "AI타임스(허사비스)",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=216292"
+        },
+        {
+          "name": "AI타임스(중국 모델 경고)",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=216295"
+        }
+      ],
+      "one_line": "더블린 AI 서밋에서 허사비스는 위험 수준에 맞춘 빠른 인증 제도를, OpenAI·Anthropic 임원들은 중국 오픈웨이트 모델의 통제 어려움을 경고했다.",
+      "region": "글로벌",
+      "score": 8,
+      "tier": "주목",
+      "title": "허사비스 \"AI 에이전트 해킹은 조기 경고\"… OpenAI·Anthropic은 중국 오픈모델 보안 위험 지적"
+    },
+    {
+      "category": "산업·투자",
+      "id": "2026-10-16-10",
+      "links": [
+        {
+          "name": "AI타임스",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=216294"
+        },
+        {
+          "name": "explainx",
+          "url": "https://www.explainx.ai/blog/anthropic-q3-revenue-16-8-billion-ipo-investors-claimed-vs-verified-2026"
+        }
+      ],
+      "one_line": "매출 공개(어제 보도) 이후 첫 투자자 설명회를 열었으며, 상장은 11월 중간선거 뒤로 예상되고 증류 관련 사용 차단도 매출에 영향을 줬다.",
+      "region": "미국",
+      "score": 8,
+      "tier": "주목",
+      "title": "Anthropic IPO 로드쇼 시작… 2조 달러 이상 가치 목표, 성장 둔화에 투자자 반응 엇갈려"
+    },
+    {
+      "category": "상용 LLM",
+      "id": "2026-10-16-11",
+      "links": [
+        {
+          "name": "China AI Dispatch",
+          "url": "https://chinaaidispatch.substack.com/p/deepseek-is-refunding-a-week-of-api"
+        },
+        {
+          "name": "AI Weekly",
+          "url": "https://aiweekly.co/ai-news-today"
+        }
+      ],
+      "one_line": "10월 15일 채팅·V4 Pro·V4.1 Flash API가 멈췄고, 10월 8~14일 사용액 전부를 선불 크레딧으로 돌려주기로 했다.",
+      "region": "중국",
+      "score": 8,
+      "tier": "주목",
+      "title": "딥시크 약 5시간 장애… 일주일치 API 사용액 전액 크레딧 환불"
+    },
+    {
+      "category": "상용 LLM",
+      "id": "2026-10-16-12",
+      "links": [
+        {
+          "name": "ZDNet Korea",
+          "url": "https://zdnet.co.kr/view/?no=20261015101303"
+        },
+        {
+          "name": "explainx",
+          "url": "https://www.explainx.ai/blog/claude-fable-5-5-partner-access-azure-listing-claimed-vs-verified-2026"
+        }
+      ],
+      "one_line": "LiteLLM 설정 파일과 애저 모델 목록에 이름이 올라왔지만 가격 등은 5.1 값 재사용으로 보이며 공식 일정은 없다.",
+      "region": "미국",
+      "score": 8,
+      "tier": "주목",
+      "title": "'Claude Fable 5.5' 이름이 LiteLLM·애저 설정에서 포착… 출시는 미확인"
+    },
+    {
+      "category": "기타",
+      "id": "2026-10-16-13",
+      "links": [
+        {
+          "name": "AI타임스",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=216284"
+        },
+        {
+          "name": "GBHackers",
+          "url": "https://gbhackers.com/tencent-cloud-linked-ai-agent-fleet/"
+        }
+      ],
+      "one_line": "보안 연구자들이 보안망을 우회해 알리바바 Amap을 탐색한 자율 에이전트 군집을 포착해 에이전트 오남용 우려를 키웠다.",
+      "region": "중국",
+      "score": 8,
+      "tier": "주목",
+      "title": "텐센트 클라우드발 AI 에이전트 무리가 알리바바 지도 서비스 대량 스캔"
+    },
+    {
+      "category": "LLM",
+      "id": "2026-10-16-14",
+      "links": [
+        {
+          "name": "AI타임스",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=216299"
+        }
+      ],
+      "one_line": "툴 사용 벤치마크 8개 중 5개에서 Qwen3.6-35B-A3B와 같거나 앞섰고 어휘 확대로 비라틴 문자 처리도 개선했다.",
+      "region": "미국",
+      "score": 8,
+      "tier": "주목",
+      "title": "리퀴드 AI, 활성 2B 온디바이스 에이전트 모델 'LFM2.5-24B-A2B' 오픈웨이트 공개"
+    },
+    {
+      "category": "피지컬AI",
+      "id": "2026-10-16-15",
+      "links": [
+        {
+          "name": "Unite.AI",
+          "url": "https://www.unite.ai/volvo-cars-expands-nvidia-partnership-for-door-to-door-automated-driving/"
+        },
+        {
+          "name": "AI Weekly",
+          "url": "https://aiweekly.co/ai-news-today"
+        }
+      ],
+      "one_line": "엔비디아 Hyperion·Halos OS·Alpamayo 스택을 차세대 볼보 차량에 넣어 고속도로·도심·주차까지 아우르는 자율주행을 단계적으로 도입한다.",
+      "region": "유럽",
+      "score": 8,
+      "tier": "주목",
+      "title": "볼보·엔비디아, 집 앞에서 목적지까지 자율주행 협력 확대"
+    },
+    {
+      "category": "피지컬AI",
+      "id": "2026-10-16-16",
+      "links": [
+        {
+          "name": "Investing.com(한델스블라트 인용)",
+          "url": "https://ng.investing.com/news/stock-market-news/germany-to-partner-with-nvidia-on-ai-development-initiative--report-2738904"
+        },
+        {
+          "name": "explainx",
+          "url": "https://www.explainx.ai/blog/germany-nvidia-physical-ai-partnership-handelsblatt-merz-huang-berlin-claimed-vs-verified-2026"
+        }
+      ],
+      "one_line": "한델스블라트 보도로 지멘스·아우디 등 12개사가 참여하는 로봇 학습·산업 모델 계획이 다음 주 발표될 전망이나 공식 확인은 없다.",
+      "region": "유럽",
+      "score": 8,
+      "tier": "주목",
+      "title": "독일 정부, 엔비디아와 수억 유로 규모 피지컬AI 협력 추진 보도"
+    },
+    {
+      "category": "산업·투자",
+      "id": "2026-10-16-17",
+      "links": [
+        {
+          "name": "AI타임스",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=216289"
+        },
+        {
+          "name": "ZDNet Korea",
+          "url": "https://zdnet.co.kr/view/?no=20261015115843"
+        }
+      ],
+      "one_line": "국내 MLOps 기업이 네오클라우드 사업 확대를 위해 대규모 GPU 확보 계획을 밝혔다.",
+      "region": "한국",
+      "score": 8,
+      "tier": "주목",
+      "title": "베슬AI, 올해 매출 50배 성장… 2조 원 규모 GPU 대출·2030년 GPU 20만 장 목표"
+    },
+    {
+      "category": "산업·투자",
+      "id": "2026-10-16-18",
+      "links": [
+        {
+          "name": "ZDNet Korea",
+          "url": "https://zdnet.co.kr/view/?no=20261015165946"
+        },
+        {
+          "name": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-14/apple-openai-head-to-court-in-high-stakes-ai-trade-secret-fight"
+        }
+      ],
+      "one_line": "OpenAI는 소송 진행 중 애플이 문제 삼은 정보를 쓰지 않기로 하면서도 자사 기밀도 유출됐다고 반박했다.",
+      "region": "미국",
+      "score": 8,
+      "tier": "주목",
+      "title": "OpenAI, 애플 영업비밀 소송에 맞대응… 분쟁 정보 사용 중단엔 합의"
+    },
+    {
+      "category": "연구 논문",
+      "id": "2026-10-16-19",
+      "links": [
+        {
+          "name": "Hugging Face Papers",
+          "url": "https://huggingface.co/papers/2610.20442"
+        },
+        {
+          "name": "arXiv",
+          "url": "https://arxiv.org/abs/2610.20442"
+        }
+      ],
+      "one_line": "VLA·월드모델 이후 로봇이 스스로 계획·수정하는 '에이전트형 로봇' 연구를 17개 범주로 분류했다.",
+      "paper_year": 2026,
+      "region": "글로벌",
+      "score": 8,
+      "tier": "주목",
+      "title": "[논문] 에이전트형 로봇 연구를 모델·데이터·환경·하네스 4축으로 정리한 서베이"
+    },
+    {
+      "category": "산업·투자",
+      "id": "2026-10-16-20",
+      "links": [
+        {
+          "name": "서울경제",
+          "url": "https://en.sedaily.com/international/2026/10/14/deepseek-nears-14-billion-funding-round-double-its-original"
+        },
+        {
+          "name": "AI Weekly",
+          "url": "https://aiweekly.co/ai-news-today"
+        }
+      ],
+      "one_line": "목표액을 2주 만에 두 배로 늘렸고 자금은 화웨이 어센드 16만 장 규모 데이터센터에 쓸 예정이다.",
+      "region": "중국",
+      "score": 7,
+      "tier": "주목",
+      "title": "딥시크, 1천억 위안 규모 2차 투자 유치 임박… 기업가치 5천억 위안"
+    },
+    {
+      "category": "정책·규제",
+      "id": "2026-10-16-21",
+      "links": [
+        {
+          "name": "ZDNet Korea",
+          "url": "https://zdnet.co.kr/view/?no=20261015173821"
+        }
+      ],
+      "one_line": "국정감사에서 기업 선발용 수학 문항 약 5%에 오류 가능성이 제기됐고 NIA는 외부 검증을 마쳤다고 반박했다.",
+      "region": "한국",
+      "score": 7,
+      "tier": "주목",
+      "title": "국가 AI 파운데이션 모델(독파모) 수학 평가셋 부실 검증 논란"
+    },
+    {
+      "category": "산업·투자",
+      "id": "2026-10-16-22",
+      "links": [
+        {
+          "name": "AISLE",
+          "url": "https://aisle.com/blog/aisle-and-cohere-to-join-forces"
+        },
+        {
+          "name": "AI Weekly",
+          "url": "https://aiweekly.co/ai-news-today"
+        }
+      ],
+      "one_line": "100여 개 코드베이스에서 CVE 500건 이상을 찾은 AISLE을 품고 사이버보안 조직 'Cohere Cyber'를 새로 만든다.",
+      "region": "글로벌",
+      "score": 7,
+      "tier": "주목",
+      "title": "Cohere, AI 취약점 탐지 기업 AISLE 인수 의향서 체결"
+    },
+    {
+      "category": "상용 LLM",
+      "id": "2026-10-16-23",
+      "links": [
+        {
+          "name": "AI타임스",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=216298"
+        }
+      ],
+      "one_line": "에이전트 개발·Codex 보안·실시간 음성 세션과 LG CNS·AWS 활용 사례가 소개된다.",
+      "region": "한국",
+      "score": 7,
+      "tier": "주목",
+      "title": "OpenAI 코리아, 22일 '데브데이 익스체인지: 서울' 개최"
+    },
+    {
+      "category": "기타",
+      "id": "2026-10-16-24",
+      "links": [
+        {
+          "name": "ITmedia AI+",
+          "url": "https://www.itmedia.co.jp/aiplus/article/2610/15/2000002284/"
+        }
+      ],
+      "one_line": "일본 보안 벤더가 AI 에이전트로 보이는 공격이 8시간 가까이 이어진 추이를 공개했다.",
+      "region": "일본",
+      "score": 7,
+      "tier": "주목",
+      "title": "日 보안업체, 일본 웹사이트 대상 AI 에이전트 공격 8시간 관측 공개"
+    },
+    {
+      "category": "기타",
+      "id": "2026-10-16-25",
+      "links": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/15/ai-agents-are-coming-to-rivians-cars/"
+        }
+      ],
+      "one_line": "리비안이 차량 내 AI 에이전트 기능을 예고했다.",
+      "region": "미국",
+      "score": 7,
+      "tier": "주목",
+      "title": "리비안, 차량에 AI 에이전트 도입"
+    },
+    {
+      "category": "기타",
+      "id": "2026-10-16-26",
+      "links": [
+        {
+          "name": "Simons Foundation",
+          "url": "https://www.simonsfoundation.org/news/simons-foundation-launches-15m-effort-to-help-mathematicians-navigate-ai-era/"
+        },
+        {
+          "name": "AI Weekly",
+          "url": "https://aiweekly.co/ai-news-today"
+        }
+      ],
+      "one_line": "수학자 대상 워크숍·도구 교육과 AI 활용 기준 마련을 지원한다.",
+      "region": "미국",
+      "score": 7,
+      "tier": "주목",
+      "title": "시몬스 재단·OpenAI·Anthropic, 1,500만 달러 수학자 AI 지원 사업"
+    },
+    {
+      "category": "기타",
+      "id": "2026-10-16-27",
+      "links": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/15/amazons-bee-launches-two-new-personal-ai-devices-starting-at-75/"
+        },
+        {
+          "name": "explainx",
+          "url": "https://www.explainx.ai/blog/amazon-bee-frontier-eclipse-ai-wearables-75-100-bee-pro-12-month-2026"
+        }
+      ],
+      "one_line": "Frontier·Eclipse 두 기기와 월 11.99달러 Pro 요금제를 내놨으며 원음은 저장하지 않는다고 밝혔다.",
+      "region": "미국",
+      "score": 7,
+      "tier": "주목",
+      "title": "아마존 Bee, 75달러부터 시작하는 AI 녹음 웨어러블 2종 출시"
+    },
+    {
+      "category": "산업·투자",
+      "id": "2026-10-16-28",
+      "links": [
+        {
+          "name": "Crypto Briefing",
+          "url": "https://cryptobriefing.com/tsmc-q3-2026-earnings-revenue-up-41/"
+        },
+        {
+          "name": "AI Weekly",
+          "url": "https://aiweekly.co/ai-news-today"
+        }
+      ],
+      "one_line": "AI 칩 수요로 매출·순이익이 모두 기록을 세웠다.",
+      "region": "글로벌",
+      "score": 7,
+      "tier": "주목",
+      "title": "TSMC 3분기 사상 최대 실적… AI가 매출의 68%"
+    }
+  ],
+  "sources_checked": [
+    "AI Weekly",
+    "The Neuron",
+    "explainx 데일리",
+    "TechCrunch AI",
+    "Meta AI Research",
+    "Anthropic 뉴스",
+    "OpenAI 블로그",
+    "Microsoft AI",
+    "Hugging Face Papers",
+    "Hugging Face 블로그",
+    "arXiv",
+    "VentureBeat",
+    "Axios",
+    "AI타임스",
+    "ZDNet Korea",
+    "ITmedia AI+",
+    "China AI Dispatch",
+    "The AI Insider",
+    "Unite.AI",
+    "The Decoder(최신 기사 없음)",
+    "llm-stats"
+  ],
+  "top": [
+    {
+      "category": "LLM",
+      "id": "2026-10-16-01",
+      "links": [
+        {
+          "name": "Meta AI Research",
+          "url": "https://research.meta.ai/blog/muse-spark-open"
+        },
+        {
+          "name": "AI타임스",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=216309"
+        },
+        {
+          "name": "AI Weekly",
+          "url": "https://aiweekly.co/ai-news-today"
+        }
+      ],
+      "region": "미국",
+      "score": 12,
+      "scores": {
+        "coverage": 2,
+        "impact": 3,
+        "novelty": 2,
+        "relevance": 3,
+        "trust": 2
+      },
+      "summary": [
+        "총 816B·활성 42B 파라미터의 네이티브 멀티모달 MoE 모델로, 100만 토큰 컨텍스트를 지원하며 코딩·에이전트 작업을 겨냥했다.",
+        "가중치는 Hugging Face와 주요 클라우드에 올라갔고, Groq·Fireworks·OpenRouter 등에서 API로도 쓸 수 있으며 MLX로 M5 Ultra 맥 스튜디오 2대에서 돌릴 수 있다.",
+        "라이선스는 상업 이용 조건이 붙은 자체 'Muse Model License'라 완전한 오픈소스는 아니며, 벤치마크 수치는 별도 평가 보고서로 미뤘다."
+      ],
+      "tier": "핵심",
+      "title": "메타, 816B MoE 오픈웨이트 '뮤즈 스파크 오픈' 공개… 맥 스튜디오 2대로 로컬 구동",
+      "why": "프런티어급 규모의 미국산 오픈웨이트가 나오면서 중국 오픈모델 중심이던 자체 호스팅·파인튜닝 선택지가 크게 넓어진다."
+    },
+    {
+      "category": "LLM",
+      "id": "2026-10-16-02",
+      "links": [
+        {
+          "name": "VentureBeat",
+          "url": "https://venturebeat.com/technology/nvidias-new-open-nemotron-3-5-super-vl-with-post-training-beats-claude-opus-5-gpt-6-1-sol-on-specialized-task-benchmarks"
+        },
+        {
+          "name": "explainx",
+          "url": "https://www.explainx.ai/blog/nemotron-3-5-super-vl-120b-12b-multimodal-open-agents-nvidia-2026"
+        },
+        {
+          "name": "AI Weekly",
+          "url": "https://aiweekly.co/ai-news-today"
+        }
+      ],
+      "region": "미국",
+      "score": 11,
+      "scores": {
+        "coverage": 2,
+        "impact": 3,
+        "novelty": 2,
+        "relevance": 2,
+        "trust": 2
+      },
+      "summary": [
+        "PDF·차트·표·웹페이지를 읽는 120B MoE 'Super VL'과 2비트 압축으로 24GB에 들어가는 74B 'Bolt'를 상업 이용 가능한 OpenMDW 라이선스로 풀었다.",
+        "엔비디아는 후속 학습으로 보험 청구 처리 등 특화 과제에서 정확도를 크게 올려 Claude Opus 5·GPT-6.1 Sol을 앞섰다고 주장했다.",
+        "다만 성능 수치는 자체 측정이고 범용 지수에서는 GLM·Qwen 계열 오픈모델보다 낮아 독립 검증이 필요하다."
+      ],
+      "tier": "핵심",
+      "title": "엔비디아, 120B 멀티모달 에이전트 모델 'Nemotron 3.5 Super VL' 등 오픈 공개",
+      "why": "데이터셋·학습 레시피까지 함께 공개돼 기업이 자체 도메인 에이전트를 후속 학습으로 만드는 경로가 현실화된다."
+    },
+    {
+      "category": "정책·규제",
+      "id": "2026-10-16-03",
+      "links": [
+        {
+          "name": "Axios",
+          "url": "https://www.axios.com/2026/10/15/ftc-openai-anthropic-ai-safety-investigation"
+        },
+        {
+          "name": "AI Weekly",
+          "url": "https://aiweekly.co/ai-news-today"
+        }
+      ],
+      "region": "미국",
+      "score": 10,
+      "scores": {
+        "coverage": 1,
+        "impact": 3,
+        "novelty": 2,
+        "relevance": 3,
+        "trust": 1
+      },
+      "summary": [
+        "FTC가 두 회사에 각각 50쪽 넘는 민사 조사 요구서(CID)를 보내 보안 사고와 안전 관행, 마케팅·개인정보 정책 문서를 요구했다.",
+        "향후 경영진 증언을 강제하고 다른 AI 기업에도 요구서를 보낼 계획이라고 전해졌다.",
+        "같은 날 주 법무장관들의 OpenAI 소송, 백악관 TF의 사고 신고 의무화 발표와 맞물려 미 당국의 압박이 한꺼번에 커지고 있다."
+      ],
+      "tier": "핵심",
+      "title": "미 FTC, OpenAI·Anthropic에 안전사고 관련 민사 조사 요구서 발송",
+      "why": "소비자 보호법을 근거로 한 연방 차원 조사가 시작돼 상용 LLM 제공사의 안전 공시·사고 대응 방식이 규제 대상으로 바뀌는 전환점이 될 수 있다."
+    },
+    {
+      "category": "LLM",
+      "id": "2026-10-16-04",
+      "links": [
+        {
+          "name": "Microsoft AI",
+          "url": "https://microsoft.ai/news/frontier-pre-training-at-microsoft-ai/"
+        },
+        {
+          "name": "explainx",
+          "url": "https://www.explainx.ai/blog/microsoft-ai-mai-base-2-2-8t-moe-pre-training-4-12x-efficiency-claim-2026"
+        }
+      ],
+      "region": "미국",
+      "score": 10,
+      "scores": {
+        "coverage": 1,
+        "impact": 2,
+        "novelty": 2,
+        "relevance": 3,
+        "trust": 2
+      },
+      "summary": [
+        "총 2.8T·활성 80B 파라미터의 비전 내장 MoE 기반 모델을 GB200 약 1만6천 장으로 38일 만에 학습했다고 밝혔다.",
+        "자체 평가에서 시험한 모든 오픈웨이트 모델을 앞서고 DeepSeek-V4-Pro 대비 연산 효율이 4~12배라고 주장했으며, 다른 모델 증류 없이 만든 데이터라고 강조했다.",
+        "가중치·API는 공개하지 않고 Foundry를 통한 파트너 라이선스만 언급했으며, 후속 학습 결과는 아직이다."
+      ],
+      "tier": "핵심",
+      "title": "마이크로소프트 AI, 2.8T MoE 기반 모델 'MAI-Base-2' 사전학습 결과 공개",
+      "why": "OpenAI 의존도를 낮추려는 마이크로소프트가 자체 프런티어급 사전학습 역량을 입증하면서 상용 LLM 공급 구도가 바뀔 수 있다."
+    },
+    {
+      "category": "LLM",
+      "id": "2026-10-16-05",
+      "links": [
+        {
+          "name": "Hugging Face 블로그",
+          "url": "https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes"
+        },
+        {
+          "name": "explainx",
+          "url": "https://www.explainx.ai/blog/apertus-1-5-technical-report-open-multimodal-reasoning-swiss-ai-8b-70b-2026"
+        },
+        {
+          "name": "AI Weekly",
+          "url": "https://aiweekly.co/ai-news-today"
+        }
+      ],
+      "region": "유럽",
+      "score": 10,
+      "scores": {
+        "coverage": 2,
+        "impact": 1,
+        "novelty": 2,
+        "relevance": 3,
+        "trust": 2
+      },
+      "summary": [
+        "스위스 AI 이니셔티브가 8B·70B 모델을 이어 학습해 이미지·오디오 입력과 선택형 추론 모드를 더했다.",
+        "컨텍스트는 262,144 토큰으로 1.0 대비 4배 늘었고, 라이선스는 Apache 2.0이다.",
+        "다국어 지원을 전면에 내세웠으며 음성 언어 지원은 아직 실험 단계다."
+      ],
+      "tier": "핵심",
+      "title": "스위스 'Apertus 1.5' 공개… 26만 토큰 컨텍스트·이미지·음성 입력 지원 완전 공개 모델",
+      "why": "학습 데이터와 과정까지 공개하는 유럽산 다국어 모델이라 번역·현지화 용도로 규제 친화적인 대안이 된다."
+    }
+  ]
+}
