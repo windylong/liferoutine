@@ -1,86 +1,86 @@
 {
   "morning": {
     "type": "morning",
-    "date": "2026-10-16",
-    "generated_at": "2026-10-16T06:23:33+09:00",
+    "date": "2026-10-19",
+    "generated_at": "2026-10-19T06:22:51+09:00",
     "analysis": {
-      "kospi_prediction": "상승",
-      "kospi_change_range": "+0.5~3.0%",
-      "kospi_confidence": "낮음",
-      "kospi_reason": "7.6% 폭락 뒤 기술적 반등 여지, 미 국채금리 하락·다우 강세. 반도체지수 7일 연속 약세·외국인 매도는 부담",
-      "us_market_summary": "다우 1.08%↑, 나스닥 보합권, 반도체지수 0.9%↓로 7일째 약세",
-      "kospi_news_summary": "전날 코스피 7.57% 폭락·서킷브레이커 뒤 미 증시는 방어주 중심 반등",
+      "kospi_prediction": "하락",
+      "kospi_change_range": "-1.0~-3.0%",
+      "kospi_confidence": "보통",
+      "kospi_reason": "미 반도체지수 3.8% 급락·8일 연속 약세, 야간선물·EWY 3%대 하락. 원화 강세·외국인 순매수 전환은 완충",
+      "us_market_summary": "나스닥 2.15%↓, SOX 3.83%↓, AI 투자 회의론·유가 급등",
+      "kospi_news_summary": "미 AI·반도체주 급락에 코스피 반등 이틀째 시험대, 외국인 수급이 관건",
       "kospi_news": [
         {
-          "summary": "코스피 7.57% 폭락, 양 시장 서킷브레이커 발동",
-          "source": "아시아경제/뉴스1",
-          "url": "https://www.news1.kr/finance/general-stock/6321762"
-        },
-        {
-          "summary": "뉴욕증시 다우 1%대 반등, 기술주는 제자리걸음",
-          "source": "이투데이",
-          "url": "https://www.etoday.co.kr/news/view/2636430"
-        },
-        {
-          "summary": "미 PPI 1.3% 급등에도 국채금리는 안전자산 수요로 하락",
+          "summary": "미 반도체지수 3.8% 급락, 2008년 이후 최장 8일 하락",
           "source": "서울경제",
-          "url": "https://m.sedaily.com/article/20102279"
+          "url": "https://m.sedaily.com/article/20102927"
         },
         {
-          "summary": "원·달러 환율 6.3원 오른 1344.6원, 외국인 8일째 매도",
-          "source": "베타뉴스",
-          "url": "https://www.betanews.net/article/view/beta202610150153"
+          "summary": "코어위브 12% 급락, AI 인프라 수익성 우려 확산",
+          "source": "톱스타뉴스",
+          "url": "https://www.topstarnews.net/news/articleView.html?idxno=16249511"
         },
         {
-          "summary": "서킷 발동 다음날 코스피 15번 중 9번 상승",
-          "source": "뉴스1",
-          "url": "https://www.news1.kr/finance/general-stock/6321762"
+          "summary": "브렌트유 110달러 근접, 인플레·금리 부담 재부각",
+          "source": "톱스타뉴스",
+          "url": "https://www.topstarnews.net/news/articleView.html?idxno=16249511"
+        },
+        {
+          "summary": "외국인 한 달간 30조 순매도, 2차 바닥 5300선 거론",
+          "source": "파이낸셜뉴스",
+          "url": "https://fnnews.com/news/202610181841125850"
+        },
+        {
+          "summary": "이번주 엔비디아 GTC·메타 실적이 AI 심리 분수령",
+          "source": "서울경제",
+          "url": "https://m.sedaily.com/article/20102927"
         }
       ],
       "watchlist": [
         {
           "code": "005930",
           "name": "삼성전자",
-          "prediction": "상승",
-          "reason": "9.5% 급락 뒤 반발 매수 가능성, 3분기 최대 실적 뒷받침",
+          "prediction": "하락",
+          "reason": "미 반도체 급락·야간선물 약세 반영, 실적 상향은 하단 지지",
           "factors": [
             {
-              "summary": "외국인 매도 집중에 전날 9.48% 하락",
+              "summary": "美 반도체 8일 연속 하락, 마이크론 5.6%↓",
               "impact": "악재",
-              "url": "https://www.slist.kr/news/articleView.html?idxno=773740"
+              "url": "https://www.topstarnews.net/news/articleView.html?idxno=16249511"
             },
             {
-              "summary": "3분기 사상 최대 실적에도 주가와 괴리 확대",
+              "summary": "지난주 17.8% 급락, 2008년 이후 최대 주간 낙폭",
+              "impact": "악재",
+              "url": "https://www.seoul.co.kr/news/economy/2026/10/18/20261018500084"
+            },
+            {
+              "summary": "실적 전망 상향·4분기 D램값 두 자릿수 상승 예상",
               "impact": "호재",
-              "url": "https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=04733046645613248"
-            },
-            {
-              "summary": "美 반도체지수 0.9% 하락, 7거래일 연속 약세",
-              "impact": "악재",
-              "url": "https://www.tokenpost.kr/news/market/423086"
+              "url": "https://m.sedaily.com/article/20102927"
             }
           ]
         },
         {
           "code": "000660",
           "name": "SK하이닉스",
-          "prediction": "상승",
-          "reason": "11% 폭락 뒤 기술적 반등 기대, 신용 반대매매는 부담",
+          "prediction": "하락",
+          "reason": "ADR 6.6% 급락에 약세 출발 예상, 외국인 매도 집중 부담",
           "factors": [
             {
-              "summary": "신용 반대매매 급증, 14일 893억원 규모",
+              "summary": "SK하이닉스 ADR 6.6% 하락, 미 반도체보다 낙폭 커",
               "impact": "악재",
-              "url": "https://www.daily25news.com/news/articleView.html?idxno=7821"
+              "url": "https://www.topstarnews.net/news/articleView.html?idxno=16249511"
             },
             {
-              "summary": "中 CXMT DDR5 서버 메모리 추격 우려 지속",
+              "summary": "中 CXMT 4F² D램 진전 소식에 추격 우려",
               "impact": "악재",
-              "url": "https://nocutnews.co.kr/news/6590680"
+              "url": "https://www.sedaily.com/article/20102981"
             },
             {
-              "summary": "증권가 '메모리 수요 둔화·증설 과잉' 경고",
+              "summary": "외국인 한 달간 하이닉스 16조 순매도 집중",
               "impact": "악재",
-              "url": "https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=04733046645613248"
+              "url": "https://fnnews.com/news/202610181841125850"
             }
           ]
         }
@@ -88,89 +88,95 @@
     },
     "raw_data": {
       "news_window": {
-        "from": "2026-10-15T15:30:00+09:00",
-        "to": "2026-10-16T07:00:00+09:00"
+        "from": "2026-10-16T15:30:00+09:00",
+        "to": "2026-10-19T07:00:00+09:00"
       },
       "us_market": {
         "sp500": {
-          "price": 7744.06,
-          "changePct": 0.33
+          "price": 7659.44,
+          "changePct": -1.09
         },
         "nasdaq": {
-          "price": 26713.03,
-          "changePct": 0.08
+          "price": 26140.03,
+          "changePct": -2.15
         },
         "dow": {
-          "price": 52177.69,
-          "changePct": 1.08
+          "price": 52002.41,
+          "changePct": -0.34
         },
         "sox": {
-          "price": null,
-          "changePct": -0.88
+          "price": 11137.29,
+          "changePct": -3.83
         },
         "usdkrw": {
-          "price": 1344.6,
-          "changePct": 0.47
+          "price": 1331.4,
+          "changePct": -0.98
+        },
+        "kospi200_night_futures": {
+          "price": 854.45,
+          "changePct": -2.7,
+          "note": "10/17 03:55 KST 장중 값, 현물 종가 878.16 대비"
+        },
+        "ewy": {
+          "price": null,
+          "changePct": -3.62,
+          "note": "10/17 03:55 KST 장중 값"
         }
       },
       "kospi_prev": {
-        "price": 5554.22,
-        "changePct": -7.57
+        "price": 5668.05,
+        "changePct": 2.05
       },
       "watchlist": [
         {
           "code": "005930",
           "name": "삼성전자",
-          "price": 210000,
-          "changePct": -9.48
+          "price": 215500,
+          "changePct": 2.62
         },
         {
           "code": "000660",
           "name": "SK하이닉스",
-          "price": 1262000,
-          "changePct": -11.06
+          "price": 1272000,
+          "changePct": 0.79
         }
       ],
       "sources": [
         {
-          "name": "이투데이(뉴욕증시 마감)",
-          "url": "https://www.etoday.co.kr/news/view/2636430"
+          "name": "톱스타뉴스(미 증시 마감·SOX·ADR)",
+          "url": "https://www.topstarnews.net/news/articleView.html?idxno=16249511"
         },
         {
-          "name": "서울경제(반도체지수·국채금리)",
-          "url": "https://m.sedaily.com/article/20102279"
+          "name": "파이낸셜뉴스(미 증시·코스피 종가·외국인 수급)",
+          "url": "https://fnnews.com/news/202610181841125850"
         },
         {
-          "name": "토큰포스트(반도체지수)",
-          "url": "https://www.tokenpost.kr/news/market/423086"
+          "name": "서울경제(주간 증시 전망)",
+          "url": "https://m.sedaily.com/article/20102927"
         },
         {
-          "name": "베타뉴스(원·달러 환율)",
-          "url": "https://www.betanews.net/article/view/beta202610150153"
+          "name": "서울경제(삼전닉스 주간 낙폭·CXMT)",
+          "url": "https://www.sedaily.com/article/20102981"
         },
         {
-          "name": "싱글리스트(삼성전자·SK하이닉스 종가)",
-          "url": "https://www.slist.kr/news/articleView.html?idxno=773740"
+          "name": "서울신문(종목 금요일 종가·주간 낙폭)",
+          "url": "https://www.seoul.co.kr/news/economy/2026/10/18/20261018500084"
         },
         {
-          "name": "데일리25(SK하이닉스·반대매매)",
-          "url": "https://www.daily25news.com/news/articleView.html?idxno=7821"
+          "name": "아시아경제(원/달러 10/16 마감)",
+          "url": "https://view.asiae.co.kr/article/2026101615334506679"
         },
         {
-          "name": "뉴스1(서킷브레이커 통계)",
-          "url": "https://www.news1.kr/finance/general-stock/6321762"
+          "name": "증권플러스(코스피200 야간선물·EWY)",
+          "url": "https://newsroom.stockplus.com/breaking-news/39475"
         },
         {
-          "name": "이데일리(증권가 전망)",
-          "url": "https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=04733046645613248"
+          "name": "머니투데이(10/16 코스피 마감, 전일 오후 분석)",
+          "url": "https://www.mt.co.kr/stock/2026/10/16/2026101615331353587"
         },
         {
-          "name": "노컷뉴스(CXMT)",
-          "url": "https://nocutnews.co.kr/news/6590680"
-        },
-        {
-          "name": "톱스타뉴스(코스피 전일 종가)",
-          "url": "https://www.topstarnews.net/news/articleView.html?idxno=16248382"
+          "name": "블록미디어(10/16 종목 종가, 전일 오후 분석)",
+          "url": "https://www.blockmedia.co.kr/archives/1152545"
         }
       ]
     }
