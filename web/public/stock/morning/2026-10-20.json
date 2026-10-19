@@ -1,0 +1,182 @@
+{
+  "type": "morning",
+  "date": "2026-10-20",
+  "generated_at": "2026-10-20T06:34:12+09:00",
+  "analysis": {
+    "kospi_prediction": "상승",
+    "kospi_change_range": "+0.4~1.5%",
+    "kospi_confidence": "보통",
+    "kospi_reason": "SOX 8일 하락 끝내고 1.6%↑, 하이닉스 ADR 4.7%↑·야간선물 1%대↑. 전일 1.8% 반등 선반영·유가 부담은 상단 제한",
+    "us_market_summary": "나스닥 1.11%↑, SOX 1.61%↑ 반등, 다우 약보합",
+    "kospi_news_summary": "美 반도체 8일 만에 반등, 코스피 사흘째 상승 시험대…메타 실적·GTC 주목",
+    "kospi_news": [
+      {
+        "summary": "美 반도체지수 1.6% 올라 8거래일 연속 하락 마감",
+        "source": "서울신문",
+        "url": "https://www.seoul.co.kr/news/economy/securities/2026/10/20/20261020500005"
+      },
+      {
+        "summary": "코스피200 야간선물 1%대 상승, 전일 현물 대비 강세",
+        "source": "증권플러스",
+        "url": "https://newsroom.stockplus.com/breaking-news/39658"
+      },
+      {
+        "summary": "코스피 3% 급락 출발 뒤 기관 매수로 1.8% 반등 마감",
+        "source": "서울신문",
+        "url": "https://www.seoul.co.kr/news/economy/securities/2026/10/19/20261019500233"
+      },
+      {
+        "summary": "원·달러 1330원 마감, 2년여 만에 최저 종가",
+        "source": "서울경제",
+        "url": "https://m.sedaily.com/article/20103375"
+      },
+      {
+        "summary": "후티 사우디 공격에 WTI 100달러대, 물가 부담 재부각",
+        "source": "뉴스핌",
+        "url": "https://www.newspim.com/news/view/20261020000015"
+      }
+    ],
+    "watchlist": [
+      {
+        "code": "005930",
+        "name": "삼성전자",
+        "prediction": "상승",
+        "reason": "美 반도체 반등·마이크론 3%↑ 영향, 외국인 매도 둔화 여부가 관건",
+        "factors": [
+          {
+            "summary": "마이크론·램리서치 3%대 상승, 메모리 심리 개선",
+            "impact": "호재",
+            "url": "https://www.seoul.co.kr/news/economy/securities/2026/10/20/20261020500005"
+          },
+          {
+            "summary": "10월 외국인 삼성전자 4.7조 순매도, 수급 부담 지속",
+            "impact": "악재",
+            "url": "https://www.newspim.com/news/view/20261019001384"
+          },
+          {
+            "summary": "21일 메타 실적 capex 가이던스가 AI 투자 심리 변수",
+            "impact": "중립",
+            "url": "https://mt.co.kr/stock/2026/10/19/2026101916075372592"
+          }
+        ]
+      },
+      {
+        "code": "000660",
+        "name": "SK하이닉스",
+        "prediction": "상승",
+        "reason": "ADR 4.7% 상승 대비 전일 국내 0.4% 상승에 그쳐 갭 반영 기대",
+        "factors": [
+          {
+            "summary": "하이닉스 ADR 4.67% 올라 전일 국내 상승폭 크게 웃돌아",
+            "impact": "호재",
+            "url": "https://www.seoul.co.kr/news/economy/securities/2026/10/20/20261020500005"
+          },
+          {
+            "summary": "3분기 영업익 77조 안팎 사상 최대 전망, 주주환원 기대",
+            "impact": "호재",
+            "url": "https://www.mt.co.kr/industry/2026/10/20/2026101920003485406"
+          },
+          {
+            "summary": "10월 외국인 9.4조 순매도 집중, 매물 부담 여전",
+            "impact": "악재",
+            "url": "https://www.newspim.com/news/view/20261019001384"
+          }
+        ]
+      }
+    ]
+  },
+  "raw_data": {
+    "news_window": {
+      "from": "2026-10-19T07:00:00+09:00",
+      "to": "2026-10-20T07:00:00+09:00"
+    },
+    "us_market": {
+      "sp500": {
+        "price": 7690.73,
+        "changePct": 0.41
+      },
+      "nasdaq": {
+        "price": 26430.89,
+        "changePct": 1.11
+      },
+      "dow": {
+        "price": 51966.03,
+        "changePct": -0.07
+      },
+      "sox": {
+        "price": 11316.34,
+        "changePct": 1.61
+      },
+      "usdkrw": {
+        "price": 1330.3,
+        "changePct": -0.08,
+        "note": "10/19 서울 외환시장 15:30 종가, 전일 1331.4원 대비 1.1원↓"
+      },
+      "kospi200_night_futures": {
+        "price": 902.3,
+        "changePct": 1.23,
+        "note": "10/19 19:38 KST 장중 값, 현물 종가 891.30 대비"
+      },
+      "sk_hynix_adr": {
+        "price": null,
+        "changePct": 4.67
+      }
+    },
+    "kospi_prev": {
+      "price": 5768.01,
+      "changePct": 1.76
+    },
+    "watchlist": [
+      {
+        "code": "005930",
+        "name": "삼성전자",
+        "price": 218000,
+        "changePct": 1.16
+      },
+      {
+        "code": "000660",
+        "name": "SK하이닉스",
+        "price": 1277000,
+        "changePct": 0.39
+      }
+    ],
+    "sources": [
+      {
+        "name": "서울신문(미 증시 마감·SOX·ADR)",
+        "url": "https://www.seoul.co.kr/news/economy/securities/2026/10/20/20261020500005"
+      },
+      {
+        "name": "뉴스핌(미 증시 마감·유가·이슈)",
+        "url": "https://www.newspim.com/news/view/20261020000015"
+      },
+      {
+        "name": "증권플러스(코스피200 야간선물)",
+        "url": "https://newsroom.stockplus.com/breaking-news/39658"
+      },
+      {
+        "name": "서울경제(원/달러 10/19 마감)",
+        "url": "https://m.sedaily.com/article/20103375"
+      },
+      {
+        "name": "서울신문(10/19 코스피·종목 종가·수급)",
+        "url": "https://www.seoul.co.kr/news/economy/securities/2026/10/19/20261019500233"
+      },
+      {
+        "name": "머니투데이(10/19 마감·향후 이벤트)",
+        "url": "https://mt.co.kr/stock/2026/10/19/2026101916075372592"
+      },
+      {
+        "name": "뉴스핌(10월 외국인 순매도)",
+        "url": "https://www.newspim.com/news/view/20261019001384"
+      },
+      {
+        "name": "머니투데이(SK하이닉스 3분기 전망)",
+        "url": "https://www.mt.co.kr/industry/2026/10/20/2026101920003485406"
+      },
+      {
+        "name": "이슈온(주간 이벤트 일정)",
+        "url": "https://www.issueon.co.kr/news/articleView.html?idxno=14144"
+      }
+    ]
+  }
+}
