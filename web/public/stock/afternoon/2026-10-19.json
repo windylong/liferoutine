@@ -1,0 +1,82 @@
+{
+  "type": "afternoon",
+  "date": "2026-10-19",
+  "generated_at": "2026-10-19T15:55:35+09:00",
+  "analysis": {
+    "kospi_predicted": "하락",
+    "kospi_actual": "상승",
+    "kospi_change_text": "▲1.76%",
+    "kospi_match": "빗나감",
+    "kospi_miss_reason": "미 반도체 급락은 시초가 3%대 급락으로 한꺼번에 반영됐고, 이후 기관 저가 매수와 바이오·2차전지 강세로 장중 내내 올라 고가 마감",
+    "watchlist_accuracy": [
+      {
+        "code": "005930",
+        "name": "삼성전자",
+        "predicted": "하락",
+        "actual": "상승",
+        "change_text": "▲1.16%",
+        "match": "빗나감",
+        "reason": "약세 출발 뒤 낙폭 과대 인식에 대형 반도체 매수 유입"
+      },
+      {
+        "code": "000660",
+        "name": "SK하이닉스",
+        "predicted": "하락",
+        "actual": "상승",
+        "change_text": "▲0.39%",
+        "match": "빗나감",
+        "reason": "갭하락 후 저가 매수로 만회, 상승폭은 제한적"
+      }
+    ],
+    "overall_accuracy": "0/3",
+    "accuracy": "빗나감",
+    "market_analysis": "3%대 갭하락 출발 뒤 기관 5천억대 순매수로 반전해 고가 마감. 개인 1조 매도, 외국인 소폭 매도. 삼성바이오·LG엔솔 등 바이오·2차전지 주도, 코스닥도 1.78%↑",
+    "lessons": "미국發 악재가 시초가에 선반영되면 장중 저가 매수로 반등할 수 있어 종가 방향은 보수적으로 판단"
+  },
+  "raw_data": {
+    "kospi": {
+      "price": 5768.01,
+      "changePct": 1.76
+    },
+    "kosdaq": {
+      "price": 808.89,
+      "changePct": 1.78
+    },
+    "watchlist": [
+      {
+        "code": "005930",
+        "name": "삼성전자",
+        "price": 218000,
+        "changePct": 1.16
+      },
+      {
+        "code": "000660",
+        "name": "SK하이닉스",
+        "price": 1277000,
+        "changePct": 0.39
+      }
+    ],
+    "sources": [
+      {
+        "name": "아주경제(마감시황·수급·업종)",
+        "url": "https://www.ajunews.com/view/20261019153749158"
+      },
+      {
+        "name": "위키트리(코스피 종가·종목 종가)",
+        "url": "https://www.wikitree.co.kr/articles/1167398"
+      },
+      {
+        "name": "파이낸셜뉴스(오후시황·반등 요인)",
+        "url": "https://www.fnnews.com/news/202610191406355611"
+      },
+      {
+        "name": "톱스타뉴스(장초반 급락 후 반등)",
+        "url": "https://www.topstarnews.net/news/articleView.html?idxno=16251021"
+      },
+      {
+        "name": "서울신문(개장 직후 시황)",
+        "url": "https://www.seoul.co.kr/news/economy/securities/2026/10/19/20261019500017"
+      }
+    ]
+  }
+}

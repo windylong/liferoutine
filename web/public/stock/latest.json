@@ -183,82 +183,82 @@
   },
   "afternoon": {
     "type": "afternoon",
-    "date": "2026-10-16",
-    "generated_at": "2026-10-16T16:00:05+09:00",
+    "date": "2026-10-19",
+    "generated_at": "2026-10-19T15:55:35+09:00",
     "analysis": {
-      "kospi_predicted": "상승",
+      "kospi_predicted": "하락",
       "kospi_actual": "상승",
-      "kospi_change_text": "▲2.05%",
-      "kospi_match": "적중",
-      "kospi_miss_reason": "폭락 뒤 저가 매수와 외국인 순매수 전환으로 반등, 예상 범위 안. 장중 4%대에서 AI 투자 회의론에 상승폭 절반 반납",
+      "kospi_change_text": "▲1.76%",
+      "kospi_match": "빗나감",
+      "kospi_miss_reason": "미 반도체 급락은 시초가 3%대 급락으로 한꺼번에 반영됐고, 이후 기관 저가 매수와 바이오·2차전지 강세로 장중 내내 올라 고가 마감",
       "watchlist_accuracy": [
         {
           "code": "005930",
           "name": "삼성전자",
-          "predicted": "상승",
+          "predicted": "하락",
           "actual": "상승",
-          "change_text": "▲2.62%",
-          "match": "적중",
-          "reason": "낙폭 과대 인식에 반발 매수 유입, 예상대로 반등"
+          "change_text": "▲1.16%",
+          "match": "빗나감",
+          "reason": "약세 출발 뒤 낙폭 과대 인식에 대형 반도체 매수 유입"
         },
         {
           "code": "000660",
           "name": "SK하이닉스",
-          "predicted": "상승",
+          "predicted": "하락",
           "actual": "상승",
-          "change_text": "▲0.79%",
-          "match": "적중",
-          "reason": "방향은 맞았으나 장 후반 AI 우려에 상승폭 크게 축소"
+          "change_text": "▲0.39%",
+          "match": "빗나감",
+          "reason": "갭하락 후 저가 매수로 만회, 상승폭은 제한적"
         }
       ],
-      "overall_accuracy": "3/3",
-      "accuracy": "적중",
-      "market_analysis": "8거래일 만에 반등. 외국인 3410억 순매수 전환, 기관·개인 매도. 자동차·반도체 대형주 강세, 코스닥 4%대 급등. 장중 5800선 뒤 상승폭 반납",
-      "lessons": "폭락 다음날 반등은 맞았으나 AI 투자 회의론이 이어져 장중 상승폭이 꺾일 수 있음을 반영"
+      "overall_accuracy": "0/3",
+      "accuracy": "빗나감",
+      "market_analysis": "3%대 갭하락 출발 뒤 기관 5천억대 순매수로 반전해 고가 마감. 개인 1조 매도, 외국인 소폭 매도. 삼성바이오·LG엔솔 등 바이오·2차전지 주도, 코스닥도 1.78%↑",
+      "lessons": "미국發 악재가 시초가에 선반영되면 장중 저가 매수로 반등할 수 있어 종가 방향은 보수적으로 판단"
     },
     "raw_data": {
       "kospi": {
-        "price": 5668.05,
-        "changePct": 2.05
+        "price": 5768.01,
+        "changePct": 1.76
       },
       "kosdaq": {
-        "price": 794.78,
-        "changePct": 4.46
+        "price": 808.89,
+        "changePct": 1.78
       },
       "watchlist": [
         {
           "code": "005930",
           "name": "삼성전자",
-          "price": 215500,
-          "changePct": 2.62
+          "price": 218000,
+          "changePct": 1.16
         },
         {
           "code": "000660",
           "name": "SK하이닉스",
-          "price": 1272000,
-          "changePct": 0.79
+          "price": 1277000,
+          "changePct": 0.39
         }
       ],
       "sources": [
         {
-          "name": "머니투데이(코스피 마감)",
-          "url": "https://www.mt.co.kr/stock/2026/10/16/2026101615331353587"
+          "name": "아주경제(마감시황·수급·업종)",
+          "url": "https://www.ajunews.com/view/20261019153749158"
         },
         {
-          "name": "머니투데이(코스닥 마감)",
-          "url": "https://www.mt.co.kr/stock/2026/10/16/2026101615332780678"
+          "name": "위키트리(코스피 종가·종목 종가)",
+          "url": "https://www.wikitree.co.kr/articles/1167398"
         },
         {
-          "name": "블록미디어(마감시황·종목 종가·수급·환율)",
-          "url": "https://www.blockmedia.co.kr/archives/1152545"
+          "name": "파이낸셜뉴스(오후시황·반등 요인)",
+          "url": "https://www.fnnews.com/news/202610191406355611"
         },
         {
-          "name": "싱글리스트(장중 고저·수급)",
-          "url": "https://www.slist.kr/news/articleView.html?idxno=774029"
+          "name": "톱스타뉴스(장초반 급락 후 반등)",
+          "url": "https://www.topstarnews.net/news/articleView.html?idxno=16251021"
         },
         {
-          "name": "파이낸셜뉴스(장중 수급·섹터)",
-          "url": "https://www.fnnews.com/news/202610161409048215"
+          "name": "서울신문(개장 직후 시황)",
+          "url": "https://www.seoul.co.kr/news/economy/securities/2026/10/19/20261019500017"
         }
       ]
     }
