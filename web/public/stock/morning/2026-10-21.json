@@ -1,0 +1,182 @@
+{
+  "type": "morning",
+  "date": "2026-10-21",
+  "generated_at": "2026-10-21T06:24:05+09:00",
+  "analysis": {
+    "kospi_prediction": "보합",
+    "kospi_change_range": "-0.8~+0.6%",
+    "kospi_confidence": "낮음",
+    "kospi_reason": "전일 3.7% 급락 뒤 반발 여지 있으나 SOX 0.3%↓·기술주 이탈, 외국인 반도체 매도 지속에 방향성 약함",
+    "us_market_summary": "다우 1.02%↑ 최고치, 나스닥 약보합, SOX 0.29%↓",
+    "kospi_news_summary": "다우 사상 최고·반도체 약세 속 코스피 급락 다음날 수급 시험대",
+    "kospi_news": [
+      {
+        "summary": "다우 1% 올라 최고치, 나스닥은 기술주 약세에 약보합",
+        "source": "서울신문",
+        "url": "https://www.seoul.co.kr/news/economy/securities/2026/10/21/20261021500006"
+      },
+      {
+        "summary": "美 반도체지수 0.3% 하락, 자금은 헬스케어·방어주로",
+        "source": "서울신문",
+        "url": "https://www.seoul.co.kr/news/economy/securities/2026/10/21/20261021500006"
+      },
+      {
+        "summary": "코스피 3.73% 급락 5552, 외국인·기관 동반 순매도",
+        "source": "서울신문",
+        "url": "https://www.seoul.co.kr/news/economy/securities/2026/10/20/20261020500235"
+      },
+      {
+        "summary": "원·달러 1328.1원, 증시 급락에도 연저점 다시 경신",
+        "source": "뉴스1",
+        "url": "https://www.news1.kr/finance/market-exr/6326132"
+      },
+      {
+        "summary": "AI 투자 수익성·부채 우려가 반도체 약세 배경으로 지목",
+        "source": "톱스타뉴스",
+        "url": "https://www.topstarnews.net/news/articleView.html?idxno=16252798"
+      }
+    ],
+    "watchlist": [
+      {
+        "code": "005930",
+        "name": "삼성전자",
+        "prediction": "보합",
+        "reason": "낙폭 과대 인식 있으나 SOX 약세·외국인 매도 지속으로 반등 제한",
+        "factors": [
+          {
+            "summary": "KB증권 내년 영업익 555조 전망, 장기계약 비중 높아",
+            "impact": "호재",
+            "url": "https://www.hankookilbo.com/news/article/A2026102014590002543"
+          },
+          {
+            "summary": "9월말 이후 외국인 순매도 83%가 반도체에 집중",
+            "impact": "악재",
+            "url": "https://www.hankookilbo.com/news/article/A2026102014590002543"
+          },
+          {
+            "summary": "22일 메타 실적의 AI 설비투자 전망이 심리 변수",
+            "impact": "중립",
+            "url": "https://www.topstarnews.net/news/articleView.html?idxno=16252798"
+          }
+        ]
+      },
+      {
+        "code": "000660",
+        "name": "SK하이닉스",
+        "prediction": "하락",
+        "reason": "SOX·엔비디아 약세에 고베타 하이닉스로 외국인 매물 집중 우려",
+        "factors": [
+          {
+            "summary": "하나증권 내년 영업익 추정 405조로 상향",
+            "impact": "호재",
+            "url": "https://www.hankookilbo.com/news/article/A2026102014590002543"
+          },
+          {
+            "summary": "10월 2일 대비 33.6% 하락, 메모리 노출 축소 매물",
+            "impact": "악재",
+            "url": "https://www.etoday.co.kr/news/view/2637993"
+          },
+          {
+            "summary": "28일 3분기 실적 발표 앞두고 관망 심리",
+            "impact": "중립",
+            "url": "https://www.hankookilbo.com/news/article/A2026102014590002543"
+          }
+        ]
+      }
+    ]
+  },
+  "raw_data": {
+    "news_window": {
+      "from": "2026-10-20T07:00:00+09:00",
+      "to": "2026-10-21T07:00:00+09:00"
+    },
+    "us_market": {
+      "sp500": {
+        "price": 7712.57,
+        "changePct": 0.28
+      },
+      "nasdaq": {
+        "price": 26424.82,
+        "changePct": -0.02
+      },
+      "dow": {
+        "price": 52495.88,
+        "changePct": 1.02
+      },
+      "sox": {
+        "price": 11283.81,
+        "changePct": -0.29
+      },
+      "usdkrw": {
+        "price": 1328.1,
+        "changePct": -0.17,
+        "note": "10/20 서울 외환시장 종가, 전일 1330.3원 대비 2.2원↓"
+      },
+      "kospi200_night_futures": {
+        "price": 852.45,
+        "changePct": -0.74,
+        "note": "10/20 18:10 KST 무렵 장중 값(기사 표현 1%대 하락), 현물 종가 858.78 대비. 마감값 미확인"
+      },
+      "us10y": {
+        "price": 5.114,
+        "note": "10/20 장중, 2bp 하락"
+      }
+    },
+    "kospi_prev": {
+      "price": 5552.74,
+      "changePct": -3.73
+    },
+    "watchlist": [
+      {
+        "code": "005930",
+        "name": "삼성전자",
+        "price": 211500,
+        "changePct": -2.98
+      },
+      {
+        "code": "000660",
+        "name": "SK하이닉스",
+        "price": 1223000,
+        "changePct": -4.23
+      }
+    ],
+    "sources": [
+      {
+        "name": "서울신문(美 증시 마감·SOX·종목)",
+        "url": "https://www.seoul.co.kr/news/economy/securities/2026/10/21/20261021500006"
+      },
+      {
+        "name": "국민일보(美 증시 마감·유가)",
+        "url": "https://www.kmib.co.kr/article/20261021500016"
+      },
+      {
+        "name": "서울신문(10/20 코스피·종목 종가·수급)",
+        "url": "https://www.seoul.co.kr/news/economy/securities/2026/10/20/20261020500235"
+      },
+      {
+        "name": "뉴스1(원/달러 10/20 마감)",
+        "url": "https://www.news1.kr/finance/market-exr/6326132"
+      },
+      {
+        "name": "증권플러스(코스피200 야간선물)",
+        "url": "https://newsroom.stockplus.com/breaking-news/39818"
+      },
+      {
+        "name": "토큰포스트(美 국채금리)",
+        "url": "https://www.tokenpost.kr/news/economy/424848"
+      },
+      {
+        "name": "한국일보(삼성전자·SK하이닉스 하락 원인·실적 전망)",
+        "url": "https://www.hankookilbo.com/news/article/A2026102014590002543"
+      },
+      {
+        "name": "톱스타뉴스(코스피 급락 원인·향후 변수)",
+        "url": "https://www.topstarnews.net/news/articleView.html?idxno=16252798"
+      },
+      {
+        "name": "이투데이(대형주 고점 대비 낙폭)",
+        "url": "https://www.etoday.co.kr/news/view/2637993"
+      }
+    ]
+  }
+}
