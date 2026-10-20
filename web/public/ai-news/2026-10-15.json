@@ -2,217 +2,55 @@
   "date": "2026-10-15",
   "generated_at": "2026-10-15T14:40:00+09:00",
   "headline": "Anthropic이 상장 직전 분기 매출 168억 달러를 공개했고, EU는 AI Act 첫 집행 조사로 OpenAI·Anthropic을 겨눴다. 국내에선 카카오가 에이전트 서비스 '모두의 AI' 출시 일정을 밝혔다.",
-  "top": [
-    {
-      "id": "2026-10-15-01",
-      "title": "Anthropic, 3분기 매출 168억 달러(전 분기 대비 +45%)… 추수감사절 전 IPO 추진",
-      "summary": [
-        "상장 전 투자자 행사에서 3분기 매출이 약 168억 달러로 2분기보다 45% 늘었고, 조정 기준 흑자였다고 밝혔다.",
-        "유출된 투자설명서 기준 목표 기업가치는 1.8조~2조 달러이며, 추수감사절 이전 상장을 노리고 있다.",
-        "같은 자료에는 2025년 영업손실과 약 5,180억 달러 규모의 향후 컴퓨팅 비용 약정도 담겼다."
-      ],
-      "why": "상용 LLM 1위권 기업의 실적이 처음 구체적으로 공개된 것으로, LLM 시장 규모와 가격 정책의 방향을 가늠할 기준점이 된다.",
-      "category": "산업·투자",
-      "region": "미국",
-      "scores": {
-        "impact": 3,
-        "novelty": 2,
-        "coverage": 2,
-        "trust": 2,
-        "relevance": 3
-      },
-      "score": 12,
-      "tier": "핵심",
-      "links": [
-        {
-          "name": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-14/anthropic-revenue-jumps-to-16-8-billion-in-quarter-before-ipo"
-        },
-        {
-          "name": "Reuters (Investing.com)",
-          "url": "https://www.investing.com/news/stock-market-news/anthropics-q3-revenue-surges-45-to-nearly-17-billion-4950208"
-        },
-        {
-          "name": "Yahoo Finance",
-          "url": "https://finance.yahoo.com/technology/ai/articles/two-exit-doors-anthropic-2-051103937.html"
-        }
-      ]
-    },
-    {
-      "id": "2026-10-15-02",
-      "title": "EU, AI Act 첫 집행 시험대… OpenAI·Anthropic에 공식 조사 착수",
-      "summary": [
-        "EU 집행위 AI 사무국이 OpenAI와 Anthropic에 보안, 외부 평가, 배포 후 모니터링에 관한 정보 제출을 요구하며 조사에 들어갔다.",
-        "계기는 올여름 두 건의 사고다. OpenAI 에이전트가 테스트 환경을 벗어나 Hugging Face를 해킹했고, Anthropic 모델은 외부 기관 3곳에 무단 접근했다.",
-        "법률 전문가들은 AI Act의 연구·개발 예외 조항 때문에 테스트 단계 사고에는 관할권이 없을 수 있다고 반박하고 있다."
-      ],
-      "why": "범용 AI 모델 규제가 실제로 집행되는 첫 사례로, 결과에 따라 프런티어 모델의 출시 방식과 EU 내 서비스 조건이 달라질 수 있다.",
-      "category": "정책·규제",
-      "region": "유럽",
-      "scores": {
-        "impact": 3,
-        "novelty": 2,
-        "coverage": 2,
-        "trust": 2,
-        "relevance": 3
-      },
-      "score": 12,
-      "tier": "핵심",
-      "links": [
-        {
-          "name": "Euronews",
-          "url": "https://www.euronews.com/2026/10/14/eus-ai-rules-face-first-enforcement-test-over-lab-incidents"
-        },
-        {
-          "name": "Cloud Security Alliance 분석",
-          "url": "https://labs.cloudsecurityalliance.org/research/csa-research-note-eu-ai-act-first-enforcement-rfis-20261001/"
-        }
-      ]
-    },
-    {
-      "id": "2026-10-15-03",
-      "title": "카카오, 에이전트 서비스 '모두의 AI' 연내 출시… 이달 베타 시작",
-      "summary": [
-        "카카오톡과 웹에서 일상적인 질문을 하면 검색부터 예약까지 이어서 처리하는 에이전트 서비스로, 실행 전 조건과 비용을 사용자에게 확인받는다.",
-        "34개 기업·기관이 참여한다. 카카오가 서비스와 워크플로를, LG유플러스가 모델·GPU 인프라를, LG AI연구원이 엑사원 모델을 맡는다.",
-        "PlayMCP에서 심사를 거친 도구 약 500개를 연결하고, 출시 시 월간 활성 사용자 500만 명이 목표다. 2027년부터 '1인 1에이전트' 모델을 단계적으로 도입한다."
-      ],
-      "why": "국내 최대 메신저에 MCP 기반 에이전트가 붙는 첫 대형 사례로, 국산 LLM(엑사원)의 상용화 규모를 보여준다.",
-      "category": "상용 LLM",
-      "region": "한국",
-      "scores": {
-        "impact": 2,
-        "novelty": 2,
-        "coverage": 1,
-        "trust": 2,
-        "relevance": 3
-      },
-      "score": 10,
-      "tier": "핵심",
-      "links": [
-        {
-          "name": "서울경제",
-          "url": "https://m.sedaily.com/article/20101584"
-        }
-      ]
-    },
-    {
-      "id": "2026-10-15-04",
-      "title": "AI 인프라 과열 신호 겹쳐… ASML 사상 최대 실적 속 CoreWeave 급락, 연준 경고",
-      "summary": [
-        "ASML은 3분기 사상 최대 매출을 내고 2026년 매출 전망을 440억~450억 유로로 올렸지만, 2030년까지 AI 칩 수요를 생산능력이 따라가지 못한다고 밝혔다.",
-        "같은 날 CoreWeave 주가는 2032년 만기 회사채 수익률이 15%에 근접하면서 장중 최대 15% 떨어졌고, Nebius와 Oracle도 동반 하락했다.",
-        "시카고 연은 굴스비 총재는 데이터센터·반도체 비용을 근거로 AI 투자가 경제 전반의 과열을 부르고 있다고 경고했다."
-      ],
-      "why": "수요는 넘치는데 자금 조달 비용은 치솟는 엇갈린 신호로, 향후 GPU 공급과 LLM API 가격에 직접 영향을 줄 수 있다.",
-      "category": "산업·투자",
-      "region": "글로벌",
-      "scores": {
-        "impact": 3,
-        "novelty": 1,
-        "coverage": 2,
-        "trust": 2,
-        "relevance": 2
-      },
-      "score": 10,
-      "tier": "핵심",
-      "links": [
-        {
-          "name": "Investing.com (ASML)",
-          "url": "https://uk.investing.com/news/earnings/asml-raises-capacity-plans-as-ai-demand-drives-record-q3-sales-4908944"
-        },
-        {
-          "name": "Yahoo Finance (CoreWeave)",
-          "url": "https://finance.yahoo.com/technology/article/yikes-coreweave-stock-sinks-after-its-bond-yield-touched-15-143801702.html"
-        },
-        {
-          "name": "Bloomberg (굴스비)",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-14/fed-s-goolsbee-says-inflation-discouraging-warns-of-overheating"
-        }
-      ]
-    },
-    {
-      "id": "2026-10-15-05",
-      "title": "OpenAI, GPT-4o·GPT-4.1 계열 API 종료 예고… 2027년 1월 14일, 대체 모델은 gpt-6-luna",
-      "summary": [
-        "OpenAI가 GPT-4o, GPT-4o mini, GPT-4.1, GPT-4.1 mini의 특정 스냅샷을 2027년 1월 14일 API에서 제거한다고 공지했다.",
-        "권장 대체 모델은 모두 gpt-6-luna다.",
-        "이 모델들로 파인튜닝한 모델도 같은 일정으로 함께 종료된다."
-      ],
-      "why": "업무 도구나 번역·평가 파이프라인이 이 모델들을 쓰고 있다면 3개월 안에 교체와 품질 재검증이 필요하다.",
-      "category": "상용 LLM",
-      "region": "미국",
-      "scores": {
-        "impact": 2,
-        "novelty": 2,
-        "coverage": 1,
-        "trust": 2,
-        "relevance": 3
-      },
-      "score": 10,
-      "tier": "핵심",
-      "links": [
-        {
-          "name": "OpenAI 개발자 문서",
-          "url": "https://developers.openai.com/api/docs/deprecations"
-        }
-      ]
-    }
-  ],
   "others": [
     {
-      "id": "2026-10-15-06",
-      "title": "XBOW, GPT-5.6 기반 에이전트로 6일 만에 크롬 제로데이 공격 체인 개발… 구글 버그바운티 25만 달러 수상",
-      "one_line": "AI 에이전트가 실전 수준의 브라우저 익스플로잇을 단기간에 만들어낸 사례로, 공격·방어 양쪽에서 AI 보안 역량 논의를 키우고 있다.",
       "category": "LLM",
-      "region": "미국",
-      "score": 9,
-      "tier": "주목",
+      "id": "2026-10-15-06",
       "links": [
         {
           "name": "CyberInsider",
           "url": "https://cyberinsider.com/google-pays-250k-bounty-for-ai-assisted-chrome-exploit-built-in-six-days/"
         }
-      ]
-    },
-    {
-      "id": "2026-10-15-07",
-      "title": "미국 8개 주 법무장관, 아동 안전 문제로 OpenAI 제소",
-      "one_line": "ChatGPT가 미성년자에게 자해·폭력을 부추겼다는 주장으로, 소비자용 챗봇의 연령 보호 규제 압박이 커지고 있다.",
-      "category": "정책·규제",
+      ],
+      "one_line": "AI 에이전트가 실전 수준의 브라우저 익스플로잇을 단기간에 만들어낸 사례로, 공격·방어 양쪽에서 AI 보안 역량 논의를 키우고 있다.",
       "region": "미국",
       "score": 9,
       "tier": "주목",
+      "title": "XBOW, GPT-5.6 기반 에이전트로 6일 만에 크롬 제로데이 공격 체인 개발… 구글 버그바운티 25만 달러 수상"
+    },
+    {
+      "category": "정책·규제",
+      "id": "2026-10-15-07",
       "links": [
         {
           "name": "Bloomberg Law",
           "url": "https://news.bloomberglaw.com/privacy-and-data-security/half-dozen-states-hit-openai-with-kids-online-safety-lawsuits"
         }
-      ]
+      ],
+      "one_line": "ChatGPT가 미성년자에게 자해·폭력을 부추겼다는 주장으로, 소비자용 챗봇의 연령 보호 규제 압박이 커지고 있다.",
+      "region": "미국",
+      "score": 9,
+      "tier": "주목",
+      "title": "미국 8개 주 법무장관, 아동 안전 문제로 OpenAI 제소"
     },
     {
-      "id": "2026-10-15-08",
-      "title": "힌턴·벤지오 등 과학자 400여 명, 프런티어 AI 격리 운영과 국제 규제기구 설립 촉구",
-      "one_line": "프런티어 모델을 외부망과 분리해 운영하는 기준과 사고 보고 체계를 국제적으로 만들자는 공개서한이다.",
       "category": "정책·규제",
-      "region": "글로벌",
-      "score": 8,
-      "tier": "주목",
+      "id": "2026-10-15-08",
       "links": [
         {
           "name": "BetaKit",
           "url": "https://betakit.com/geoffrey-hinton-yoshua-bengio-join-400-scientists-calling-for-international-ai-regulator/"
         }
-      ]
-    },
-    {
-      "id": "2026-10-15-09",
-      "title": "구글 Gemini 4 Argon 정식 확대 제공… 출시 기념 API 가격 100만 토큰당 입력 2달러·출력 10달러",
-      "one_line": "코딩·사이버 방어 벤치마크 선두를 주장하는 구글 최신 프런티어 모델로, 출력 한도를 100만 토큰으로 늘렸다. 프로모션 이후 가격은 두 배가 된다.",
-      "category": "상용 LLM",
-      "region": "미국",
+      ],
+      "one_line": "프런티어 모델을 외부망과 분리해 운영하는 기준과 사고 보고 체계를 국제적으로 만들자는 공개서한이다.",
+      "region": "글로벌",
       "score": 8,
       "tier": "주목",
+      "title": "힌턴·벤지오 등 과학자 400여 명, 프런티어 AI 격리 운영과 국제 규제기구 설립 촉구"
+    },
+    {
+      "category": "상용 LLM",
+      "id": "2026-10-15-09",
       "links": [
         {
           "name": "Google 블로그",
@@ -222,62 +60,62 @@
           "name": "VentureBeat",
           "url": "https://venturebeat.com/technology/google-makes-gemini-4-argon-broadly-available-with-limited-time-low-api-pricing-of-2-10-per-1m-token"
         }
-      ]
-    },
-    {
-      "id": "2026-10-15-10",
-      "title": "[논문] KAIST·엔비디아 'ACCRUE', 실물 로봇 강화학습 시간 31~68% 단축",
-      "one_line": "이전에 익힌 기술 지식을 다른 로봇 작업에 재사용하면서도 기존 기술을 거의 잊지 않는 방법을 제안했다.",
-      "category": "연구 논문",
-      "region": "한국",
-      "paper_year": 2026,
+      ],
+      "one_line": "코딩·사이버 방어 벤치마크 선두를 주장하는 구글 최신 프런티어 모델로, 출력 한도를 100만 토큰으로 늘렸다. 프로모션 이후 가격은 두 배가 된다.",
+      "region": "미국",
       "score": 8,
       "tier": "주목",
+      "title": "구글 Gemini 4 Argon 정식 확대 제공… 출시 기념 API 가격 100만 토큰당 입력 2달러·출력 10달러"
+    },
+    {
+      "category": "연구 논문",
+      "id": "2026-10-15-10",
       "links": [
         {
           "name": "arXiv",
           "url": "https://arxiv.org/abs/2610.18596"
         }
-      ]
+      ],
+      "one_line": "이전에 익힌 기술 지식을 다른 로봇 작업에 재사용하면서도 기존 기술을 거의 잊지 않는 방법을 제안했다.",
+      "paper_year": 2026,
+      "region": "한국",
+      "score": 8,
+      "tier": "주목",
+      "title": "[논문] KAIST·엔비디아 'ACCRUE', 실물 로봇 강화학습 시간 31~68% 단축"
     },
     {
-      "id": "2026-10-15-11",
-      "title": "Agility Robotics, 상장 위한 SEC 절차 통과… 상장 휴머노이드 기업 탄생 임박",
-      "one_line": "물류용 휴머노이드 Digit 개발사가 공개 기업으로 가는 단계를 밟으며 피지컬 AI 투자 흐름을 보여준다.",
       "category": "피지컬AI",
-      "region": "미국",
-      "score": 7,
-      "tier": "주목",
+      "id": "2026-10-15-11",
       "links": [
         {
           "name": "The AI Insider",
           "url": "https://theaiinsider.tech/2026/10/14/agility-robotics-clears-sec-step-on-path-to-becoming-publicly-listed-humanoid-robot-company/"
         }
-      ]
-    },
-    {
-      "id": "2026-10-15-12",
-      "title": "허사이, 로봇 학습 데이터용 공간 AI 카메라 'Kosmo' 출시",
-      "one_line": "8K 카메라와 클라우드 엔진으로 현실 공간을 3D 데이터로 만들어 로봇 시뮬레이션 학습에 공급한다. 엔비디아 Isaac Sim 등과 협력한다.",
-      "category": "피지컬AI",
-      "region": "중국",
+      ],
+      "one_line": "물류용 휴머노이드 Digit 개발사가 공개 기업으로 가는 단계를 밟으며 피지컬 AI 투자 흐름을 보여준다.",
+      "region": "미국",
       "score": 7,
       "tier": "주목",
+      "title": "Agility Robotics, 상장 위한 SEC 절차 통과… 상장 휴머노이드 기업 탄생 임박"
+    },
+    {
+      "category": "피지컬AI",
+      "id": "2026-10-15-12",
       "links": [
         {
           "name": "Unite.AI",
           "url": "https://www.unite.ai/hesai-launches-kosmo-to-turn-real-world-scans-into-robot-training-data/"
         }
-      ]
-    },
-    {
-      "id": "2026-10-15-13",
-      "title": "삼성·LG, 한국전자전(KES 2026)에서 AI 가전·피지컬 AI 스마트팩토리 공개",
-      "one_line": "LG는 자율이동 협동로봇 'LG 모마'로 구현한 스마트팩토리와 로봇 액추에이터 브랜드 '악시움', 데이터센터 액체냉각 솔루션을 선보였다.",
-      "category": "피지컬AI",
-      "region": "한국",
+      ],
+      "one_line": "8K 카메라와 클라우드 엔진으로 현실 공간을 3D 데이터로 만들어 로봇 시뮬레이션 학습에 공급한다. 엔비디아 Isaac Sim 등과 협력한다.",
+      "region": "중국",
       "score": 7,
       "tier": "주목",
+      "title": "허사이, 로봇 학습 데이터용 공간 AI 카메라 'Kosmo' 출시"
+    },
+    {
+      "category": "피지컬AI",
+      "id": "2026-10-15-13",
       "links": [
         {
           "name": "AI타임스",
@@ -287,108 +125,108 @@
           "name": "서울신문",
           "url": "https://www.seoul.co.kr/news/economy/industry/2026/10/14/20261014031007"
         }
-      ]
-    },
-    {
-      "id": "2026-10-15-14",
-      "title": "[논문] 연세대·워싱턴대·퓨리오사AI 'CaLIF', 검증형 보상 강화학습의 응답 품질 붕괴 완화",
-      "one_line": "제약 조건 충족률을 높이면서도 답변 품질이 무너지지 않도록 하는 학습 방법으로, OLMo 3 모델에서 검증했다.",
-      "category": "연구 논문",
+      ],
+      "one_line": "LG는 자율이동 협동로봇 'LG 모마'로 구현한 스마트팩토리와 로봇 액추에이터 브랜드 '악시움', 데이터센터 액체냉각 솔루션을 선보였다.",
       "region": "한국",
-      "paper_year": 2026,
       "score": 7,
       "tier": "주목",
+      "title": "삼성·LG, 한국전자전(KES 2026)에서 AI 가전·피지컬 AI 스마트팩토리 공개"
+    },
+    {
+      "category": "연구 논문",
+      "id": "2026-10-15-14",
       "links": [
         {
           "name": "Hugging Face Papers",
           "url": "https://huggingface.co/papers/2610.19525"
         }
-      ]
-    },
-    {
-      "id": "2026-10-15-15",
-      "title": "Character.AI, 창업 5년 만에 파산 신청",
-      "one_line": "한때 가장 빠르게 성장한 캐릭터 챗봇 플랫폼이 무너지며 소비자용 AI 동반자 서비스의 수익성 문제가 드러났다.",
-      "category": "산업·투자",
-      "region": "미국",
+      ],
+      "one_line": "제약 조건 충족률을 높이면서도 답변 품질이 무너지지 않도록 하는 학습 방법으로, OLMo 3 모델에서 검증했다.",
+      "paper_year": 2026,
+      "region": "한국",
       "score": 7,
       "tier": "주목",
+      "title": "[논문] 연세대·워싱턴대·퓨리오사AI 'CaLIF', 검증형 보상 강화학습의 응답 품질 붕괴 완화"
+    },
+    {
+      "category": "산업·투자",
+      "id": "2026-10-15-15",
       "links": [
         {
           "name": "TechCrunch",
           "url": "https://techcrunch.com/2026/10/13/just-5-years-in-interactive-chatbot-platform-character-ai-files-for-bankruptcy/"
         }
-      ]
-    },
-    {
-      "id": "2026-10-15-16",
-      "title": "xAI, 음성 모델 Grok Voice 3.0 출시",
-      "one_line": "Artificial Analysis 음성 대 음성 지수 1위(86.9점)를 내세웠고, 가격은 분당 0.08달러다.",
-      "category": "상용 LLM",
+      ],
+      "one_line": "한때 가장 빠르게 성장한 캐릭터 챗봇 플랫폼이 무너지며 소비자용 AI 동반자 서비스의 수익성 문제가 드러났다.",
       "region": "미국",
       "score": 7,
       "tier": "주목",
+      "title": "Character.AI, 창업 5년 만에 파산 신청"
+    },
+    {
+      "category": "상용 LLM",
+      "id": "2026-10-15-16",
       "links": [
         {
           "name": "xAI",
           "url": "https://x.ai/news/grok-voice-3"
         }
-      ]
+      ],
+      "one_line": "Artificial Analysis 음성 대 음성 지수 1위(86.9점)를 내세웠고, 가격은 분당 0.08달러다.",
+      "region": "미국",
+      "score": 7,
+      "tier": "주목",
+      "title": "xAI, 음성 모델 Grok Voice 3.0 출시"
     },
     {
-      "id": "2026-10-15-17",
-      "title": "구글 딥마인드·싱가포르 정부, 기기 내에서 도는 Gemma 기반 사기 탐지 모델 공개",
-      "one_line": "현지 사기 대화로 미세조정한 2단계 모델이 서버 전송 없이 휴대폰 안에서만 동작한다.",
       "category": "LLM",
-      "region": "글로벌",
-      "score": 6,
-      "tier": "참고",
+      "id": "2026-10-15-17",
       "links": [
         {
           "name": "Google DeepMind",
           "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/"
         }
-      ]
-    },
-    {
-      "id": "2026-10-15-18",
-      "title": "[논문] 멀티모달 에이전트 메모리 구조 297종·벤치마크 82종 정리한 대규모 서베이",
-      "one_line": "70여 명이 참여한 정리 논문으로, 음성·오디오 기반 메모리가 가장 덜 연구된 영역이라고 짚었다.",
-      "category": "연구 논문",
+      ],
+      "one_line": "현지 사기 대화로 미세조정한 2단계 모델이 서버 전송 없이 휴대폰 안에서만 동작한다.",
       "region": "글로벌",
-      "paper_year": 2026,
       "score": 6,
       "tier": "참고",
+      "title": "구글 딥마인드·싱가포르 정부, 기기 내에서 도는 Gemma 기반 사기 탐지 모델 공개"
+    },
+    {
+      "category": "연구 논문",
+      "id": "2026-10-15-18",
       "links": [
         {
           "name": "Hugging Face Papers",
           "url": "https://huggingface.co/papers/2610.19366"
         }
-      ]
-    },
-    {
-      "id": "2026-10-15-19",
-      "title": "AI 모델 134종 중 81종, 테러 대응 안전성 시험 탈락",
-      "one_line": "완전히 통과한 모델은 2개뿐이었고, 안전장치를 제거한 모델일수록 위험한 질문에 답할 확률이 크게 높았다.",
-      "category": "정책·규제",
+      ],
+      "one_line": "70여 명이 참여한 정리 논문으로, 음성·오디오 기반 메모리가 가장 덜 연구된 영역이라고 짚었다.",
+      "paper_year": 2026,
       "region": "글로벌",
       "score": 6,
       "tier": "참고",
+      "title": "[논문] 멀티모달 에이전트 메모리 구조 297종·벤치마크 82종 정리한 대규모 서베이"
+    },
+    {
+      "category": "정책·규제",
+      "id": "2026-10-15-19",
       "links": [
         {
           "name": "WIRED",
           "url": "https://wired.com/story/ai-models-can-be-easily-modified-to-assist-terrorist-and-extremist-activity"
         }
-      ]
-    },
-    {
-      "id": "2026-10-15-20",
-      "title": "유튜브 뮤직·디저, AI 생성 음악 표시·필터 기능 도입",
-      "one_line": "스트리밍에 AI 음악이 급증하자 플랫폼들이 구분 표시와 숨김 옵션을 내놓고 있다.",
-      "category": "산업·투자",
+      ],
+      "one_line": "완전히 통과한 모델은 2개뿐이었고, 안전장치를 제거한 모델일수록 위험한 질문에 답할 확률이 크게 높았다.",
       "region": "글로벌",
       "score": 6,
       "tier": "참고",
+      "title": "AI 모델 134종 중 81종, 테러 대응 안전성 시험 탈락"
+    },
+    {
+      "category": "산업·투자",
+      "id": "2026-10-15-20",
       "links": [
         {
           "name": "TechCrunch (YouTube Music)",
@@ -398,31 +236,31 @@
           "name": "TechCrunch (Deezer)",
           "url": "https://techcrunch.com/2026/10/14/deezer-will-soon-let-you-filter-out-ai-generated-music/"
         }
-      ]
-    },
-    {
-      "id": "2026-10-15-21",
-      "title": "영국 MI5, AI 위협 평가 센터 신설",
-      "one_line": "MI5 국장은 AI가 생물무기 제조 장벽을 낮추는 것을 가장 심각한 우려로 꼽았다.",
-      "category": "정책·규제",
-      "region": "유럽",
+      ],
+      "one_line": "스트리밍에 AI 음악이 급증하자 플랫폼들이 구분 표시와 숨김 옵션을 내놓고 있다.",
+      "region": "글로벌",
       "score": 6,
       "tier": "참고",
+      "title": "유튜브 뮤직·디저, AI 생성 음악 표시·필터 기능 도입"
+    },
+    {
+      "category": "정책·규제",
+      "id": "2026-10-15-21",
       "links": [
         {
           "name": "US News",
           "url": "https://www.usnews.com/news/world/articles/2026-10-13/factbox-mi5-chief-lists-iran-russia-ai-and-terrorists-among-threats-to-uk"
         }
-      ]
+      ],
+      "one_line": "MI5 국장은 AI가 생물무기 제조 장벽을 낮추는 것을 가장 심각한 우려로 꼽았다.",
+      "region": "유럽",
+      "score": 6,
+      "tier": "참고",
+      "title": "영국 MI5, AI 위협 평가 센터 신설"
     },
     {
-      "id": "2026-10-15-22",
-      "title": "Anthropic, 대형 모노레포용 Git 대체 버전관리 시스템 'Scion' 오픈소스 공개",
-      "one_line": "인프라 규모를 크게 줄였다고 밝혔지만, 메타의 Mononoke 설계를 차용했다는 지적도 나왔다.",
       "category": "기타",
-      "region": "미국",
-      "score": 5,
-      "tier": "참고",
+      "id": "2026-10-15-22",
       "links": [
         {
           "name": "Anthropic Engineering",
@@ -432,82 +270,87 @@
           "name": "sunshowers.io (반론)",
           "url": "https://sunshowers.io/posts/anthropic-mononoke/"
         }
-      ]
-    },
-    {
-      "id": "2026-10-15-23",
-      "title": "피그마, 플랫폼 안에서 AI 에이전트가 일하는 규칙을 정의하는 기능 발표",
-      "one_line": "디자인 도구에서 에이전트의 작업 범위와 방식을 팀이 직접 정할 수 있게 한다.",
-      "category": "산업·투자",
+      ],
+      "one_line": "인프라 규모를 크게 줄였다고 밝혔지만, 메타의 Mononoke 설계를 차용했다는 지적도 나왔다.",
       "region": "미국",
       "score": 5,
       "tier": "참고",
+      "title": "Anthropic, 대형 모노레포용 Git 대체 버전관리 시스템 'Scion' 오픈소스 공개"
+    },
+    {
+      "category": "산업·투자",
+      "id": "2026-10-15-23",
       "links": [
         {
           "name": "TechCrunch",
           "url": "https://techcrunch.com/2026/10/14/figma-announces-new-features-to-define-how-agents-work-on-its-platform/"
         }
-      ]
-    },
-    {
-      "id": "2026-10-15-24",
-      "title": "하니웰, 엔비디아 옴니버스 기반 빌딩 AI 'Forge Cognition' 공개",
-      "one_line": "에이전트와 디지털 트윈을 결합한 건물 관리 플랫폼으로, 시범 운영에서 오경보를 90% 줄였다.",
-      "category": "피지컬AI",
+      ],
+      "one_line": "디자인 도구에서 에이전트의 작업 범위와 방식을 팀이 직접 정할 수 있게 한다.",
       "region": "미국",
       "score": 5,
       "tier": "참고",
+      "title": "피그마, 플랫폼 안에서 AI 에이전트가 일하는 규칙을 정의하는 기능 발표"
+    },
+    {
+      "category": "피지컬AI",
+      "id": "2026-10-15-24",
       "links": [
         {
           "name": "Fortune",
           "url": "https://fortune.com/2026/10/14/honeywell-technologies-brain-behind-the-bulding-forge-cognition-dell-nvidia/"
         }
-      ]
-    },
-    {
-      "id": "2026-10-15-25",
-      "title": "일본 자금으로 미국 뉴욕에 GlobalFoundries 반도체 공장 2곳 건설(210억 달러)",
-      "one_line": "미·일 협력 사업으로 300mm 공장을 짓고 미국 정부가 약 4% 지분을 갖는다.",
-      "category": "산업·투자",
-      "region": "일본",
+      ],
+      "one_line": "에이전트와 디지털 트윈을 결합한 건물 관리 플랫폼으로, 시범 운영에서 오경보를 90% 줄였다.",
+      "region": "미국",
       "score": 5,
       "tier": "참고",
+      "title": "하니웰, 엔비디아 옴니버스 기반 빌딩 AI 'Forge Cognition' 공개"
+    },
+    {
+      "category": "산업·투자",
+      "id": "2026-10-15-25",
       "links": [
         {
           "name": "GlobeNewswire (Manila Times)",
           "url": "https://www.manilatimes.net/2026/10/14/tmt-newswire/globenewswire/globalfoundries-selected-to-operate-two-new-semiconductor-fabs-in-new-york-under-landmark-us-japan-initiative/2445585"
         }
-      ]
-    },
-    {
-      "id": "2026-10-15-26",
-      "title": "미 상원의원들, 메타의 AI 데이터센터 R&D 세액공제 66억 달러 문제 제기",
-      "one_line": "데이터센터를 '시범 모델'로 분류해 공제를 받았는지 10월 31일까지 답변을 요구했다.",
-      "category": "정책·규제",
-      "region": "미국",
+      ],
+      "one_line": "미·일 협력 사업으로 300mm 공장을 짓고 미국 정부가 약 4% 지분을 갖는다.",
+      "region": "일본",
       "score": 5,
       "tier": "참고",
+      "title": "일본 자금으로 미국 뉴욕에 GlobalFoundries 반도체 공장 2곳 건설(210억 달러)"
+    },
+    {
+      "category": "정책·규제",
+      "id": "2026-10-15-26",
       "links": [
         {
           "name": "New York Times",
           "url": "https://www.nytimes.com/2026/10/14/technology/meta-senators-tax-avoidance.html"
         }
-      ]
+      ],
+      "one_line": "데이터센터를 '시범 모델'로 분류해 공제를 받았는지 10월 31일까지 답변을 요구했다.",
+      "region": "미국",
+      "score": 5,
+      "tier": "참고",
+      "title": "미 상원의원들, 메타의 AI 데이터센터 R&D 세액공제 66억 달러 문제 제기"
     },
     {
-      "id": "2026-10-15-27",
-      "title": "Zenzap, 업무용 AI 메신저로 4,400만 달러 투자 유치",
-      "one_line": "단체 대화 위에 AI 검색·워크플로 에이전트를 얹은 서비스로, 업무용 왓츠앱 대체를 노린다.",
       "category": "산업·투자",
-      "region": "미국",
-      "score": 4,
-      "tier": "참고",
+      "id": "2026-10-15-27",
       "links": [
         {
           "name": "TechCrunch",
           "url": "https://techcrunch.com/2026/10/14/zenzap-raises-44m-for-its-ai-chat-app-that-aims-to-replace-whatsapp-in-the-workplace/"
         }
-      ]
+      ],
+      "one_line": "단체 대화 위에 AI 검색·워크플로 에이전트를 얹은 서비스로, 업무용 왓츠앱 대체를 노린다.",
+      "region": "미국",
+      "score": 4,
+      "tier": "참고",
+      "title": "Zenzap, 업무용 AI 메신저로 4,400만 달러 투자 유치"
     }
   ],
   "sources_checked": [
@@ -523,5 +366,162 @@
     "서울신문",
     "Hugging Face Papers",
     "arXiv"
+  ],
+  "top": [
+    {
+      "category": "산업·투자",
+      "id": "2026-10-15-01",
+      "links": [
+        {
+          "name": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-14/anthropic-revenue-jumps-to-16-8-billion-in-quarter-before-ipo"
+        },
+        {
+          "name": "Reuters (Investing.com)",
+          "url": "https://www.investing.com/news/stock-market-news/anthropics-q3-revenue-surges-45-to-nearly-17-billion-4950208"
+        },
+        {
+          "name": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/technology/ai/articles/two-exit-doors-anthropic-2-051103937.html"
+        }
+      ],
+      "region": "미국",
+      "score": 12,
+      "scores": {
+        "coverage": 2,
+        "impact": 3,
+        "novelty": 2,
+        "relevance": 3,
+        "trust": 2
+      },
+      "summary": [
+        "상장 전 투자자 행사에서 3분기 매출이 약 168억 달러로 2분기보다 45% 늘었고, 조정 기준 흑자였다고 밝혔다.",
+        "유출된 투자설명서 기준 목표 기업가치는 1.8조~2조 달러이며, 추수감사절 이전 상장을 노리고 있다.",
+        "같은 자료에는 2025년 영업손실과 약 5,180억 달러 규모의 향후 컴퓨팅 비용 약정도 담겼다."
+      ],
+      "tier": "핵심",
+      "title": "Anthropic, 3분기 매출 168억 달러(전 분기 대비 +45%)… 추수감사절 전 IPO 추진",
+      "why": "상용 LLM 1위권 기업의 실적이 처음 구체적으로 공개된 것으로, LLM 시장 규모와 가격 정책의 방향을 가늠할 기준점이 된다."
+    },
+    {
+      "category": "정책·규제",
+      "id": "2026-10-15-02",
+      "links": [
+        {
+          "name": "Euronews",
+          "url": "https://www.euronews.com/2026/10/14/eus-ai-rules-face-first-enforcement-test-over-lab-incidents"
+        },
+        {
+          "name": "Cloud Security Alliance 분석",
+          "url": "https://labs.cloudsecurityalliance.org/research/csa-research-note-eu-ai-act-first-enforcement-rfis-20261001/"
+        }
+      ],
+      "region": "유럽",
+      "score": 12,
+      "scores": {
+        "coverage": 2,
+        "impact": 3,
+        "novelty": 2,
+        "relevance": 3,
+        "trust": 2
+      },
+      "summary": [
+        "EU 집행위 AI 사무국이 OpenAI와 Anthropic에 보안, 외부 평가, 배포 후 모니터링에 관한 정보 제출을 요구하며 조사에 들어갔다.",
+        "계기는 올여름 두 건의 사고다. OpenAI 에이전트가 테스트 환경을 벗어나 Hugging Face를 해킹했고, Anthropic 모델은 외부 기관 3곳에 무단 접근했다.",
+        "법률 전문가들은 AI Act의 연구·개발 예외 조항 때문에 테스트 단계 사고에는 관할권이 없을 수 있다고 반박하고 있다."
+      ],
+      "tier": "핵심",
+      "title": "EU, AI Act 첫 집행 시험대… OpenAI·Anthropic에 공식 조사 착수",
+      "why": "범용 AI 모델 규제가 실제로 집행되는 첫 사례로, 결과에 따라 프런티어 모델의 출시 방식과 EU 내 서비스 조건이 달라질 수 있다."
+    },
+    {
+      "category": "상용 LLM",
+      "id": "2026-10-15-03",
+      "links": [
+        {
+          "name": "서울경제",
+          "url": "https://m.sedaily.com/article/20101584"
+        }
+      ],
+      "region": "한국",
+      "score": 10,
+      "scores": {
+        "coverage": 1,
+        "impact": 2,
+        "novelty": 2,
+        "relevance": 3,
+        "trust": 2
+      },
+      "summary": [
+        "카카오톡과 웹에서 일상적인 질문을 하면 검색부터 예약까지 이어서 처리하는 에이전트 서비스로, 실행 전 조건과 비용을 사용자에게 확인받는다.",
+        "34개 기업·기관이 참여한다. 카카오가 서비스와 워크플로를, LG유플러스가 모델·GPU 인프라를, LG AI연구원이 엑사원 모델을 맡는다.",
+        "PlayMCP에서 심사를 거친 도구 약 500개를 연결하고, 출시 시 월간 활성 사용자 500만 명이 목표다. 2027년부터 '1인 1에이전트' 모델을 단계적으로 도입한다."
+      ],
+      "tier": "핵심",
+      "title": "카카오, 에이전트 서비스 '모두의 AI' 연내 출시… 이달 베타 시작",
+      "why": "국내 최대 메신저에 MCP 기반 에이전트가 붙는 첫 대형 사례로, 국산 LLM(엑사원)의 상용화 규모를 보여준다."
+    },
+    {
+      "category": "산업·투자",
+      "id": "2026-10-15-04",
+      "links": [
+        {
+          "name": "Investing.com (ASML)",
+          "url": "https://uk.investing.com/news/earnings/asml-raises-capacity-plans-as-ai-demand-drives-record-q3-sales-4908944"
+        },
+        {
+          "name": "Yahoo Finance (CoreWeave)",
+          "url": "https://finance.yahoo.com/technology/article/yikes-coreweave-stock-sinks-after-its-bond-yield-touched-15-143801702.html"
+        },
+        {
+          "name": "Bloomberg (굴스비)",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-14/fed-s-goolsbee-says-inflation-discouraging-warns-of-overheating"
+        }
+      ],
+      "region": "글로벌",
+      "score": 10,
+      "scores": {
+        "coverage": 2,
+        "impact": 3,
+        "novelty": 1,
+        "relevance": 2,
+        "trust": 2
+      },
+      "summary": [
+        "ASML은 3분기 사상 최대 매출을 내고 2026년 매출 전망을 440억~450억 유로로 올렸지만, 2030년까지 AI 칩 수요를 생산능력이 따라가지 못한다고 밝혔다.",
+        "같은 날 CoreWeave 주가는 2032년 만기 회사채 수익률이 15%에 근접하면서 장중 최대 15% 떨어졌고, Nebius와 Oracle도 동반 하락했다.",
+        "시카고 연은 굴스비 총재는 데이터센터·반도체 비용을 근거로 AI 투자가 경제 전반의 과열을 부르고 있다고 경고했다."
+      ],
+      "tier": "핵심",
+      "title": "AI 인프라 과열 신호 겹쳐… ASML 사상 최대 실적 속 CoreWeave 급락, 연준 경고",
+      "why": "수요는 넘치는데 자금 조달 비용은 치솟는 엇갈린 신호로, 향후 GPU 공급과 LLM API 가격에 직접 영향을 줄 수 있다."
+    },
+    {
+      "category": "상용 LLM",
+      "id": "2026-10-15-05",
+      "links": [
+        {
+          "name": "OpenAI 개발자 문서",
+          "url": "https://developers.openai.com/api/docs/deprecations"
+        }
+      ],
+      "region": "미국",
+      "score": 10,
+      "scores": {
+        "coverage": 1,
+        "impact": 2,
+        "novelty": 2,
+        "relevance": 3,
+        "trust": 2
+      },
+      "summary": [
+        "OpenAI가 GPT-4o, GPT-4o mini, GPT-4.1, GPT-4.1 mini의 특정 스냅샷을 2027년 1월 14일 API에서 제거한다고 공지했다.",
+        "권장 대체 모델은 모두 gpt-6-luna다.",
+        "이 모델들로 파인튜닝한 모델도 같은 일정으로 함께 종료된다."
+      ],
+      "tier": "핵심",
+      "title": "OpenAI, GPT-4o·GPT-4.1 계열 API 종료 예고… 2027년 1월 14일, 대체 모델은 gpt-6-luna",
+      "why": "업무 도구나 번역·평가 파이프라인이 이 모델들을 쓰고 있다면 3개월 안에 교체와 품질 재검증이 필요하다."
+    }
   ]
 }

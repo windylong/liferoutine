@@ -1,0 +1,405 @@
+{
+  "date": "2026-10-21",
+  "generated_at": "2026-10-21T07:52:41+09:00",
+  "headline": "앤트로픽 상장 신고서 초안으로 매출·손실·연산 계약 규모가 드러났고, 구글·아마존·딥시크가 잇따라 엔비디아 의존을 줄이는 소프트웨어를 공개했다. 미스트랄·일레븐랩스의 음성 모델과 에카의 힘 감지 로봇 모델도 주목할 만하다.",
+  "others": [
+    {
+      "category": "산업·투자",
+      "id": "2026-10-21-06",
+      "links": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/openai-to-acquire-orchestra-bio/"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio%e2%81%a0-to-beef-up-its-biotech-business/"
+        }
+      ],
+      "one_line": "사람과 AI 에이전트가 함께 신약 프로그램을 관리하는 오케스트라 바이오를 인수해 생명과학 제품군 Rosalind에 합친다.",
+      "region": "미국",
+      "score": 9,
+      "tier": "핵심",
+      "title": "OpenAI, 신약 개발 협업 플랫폼 오케스트라 바이오 인수… 'Rosalind'에 통합"
+    },
+    {
+      "category": "상용 LLM",
+      "id": "2026-10-21-07",
+      "links": [
+        {
+          "name": "Notion",
+          "url": "https://www.notion.com/blog/notion-ai-more-for-less"
+        }
+      ],
+      "one_line": "노션이 에이전트 하네스를 다시 짜 작업 지속 시간을 5분에서 24시간 이상으로 늘리고, 품질·비용을 따져 모델을 고르는 Auto 라우터와 새 크레딧 체계를 도입했다.",
+      "region": "미국",
+      "score": 9,
+      "tier": "핵심",
+      "title": "노션 에이전트 재설계: 단일 작업 24시간+ 실행, 모델 자동 라우터로 비용 90% 절감 주장"
+    },
+    {
+      "category": "상용 LLM",
+      "id": "2026-10-21-08",
+      "links": [
+        {
+          "name": "The Decoder",
+          "url": "https://the-decoder.com/elevenlabs-releases-two-new-speech-to-speech-models-designed-for-real-time-ai-conversations/"
+        }
+      ],
+      "one_line": "응답 0.57초에 Big Bench Audio 98.8%를 기록한 Max와 저가형 Mini를 OpenAI 호환 Realtime API로 제공한다.",
+      "region": "미국",
+      "score": 9,
+      "tier": "핵심",
+      "title": "일레븐랩스, 실시간 음성-음성 모델 'Eleven Realtime' v1 Max·Mini 출시"
+    },
+    {
+      "category": "정책·규제",
+      "id": "2026-10-21-09",
+      "links": [
+        {
+          "name": "AI타임스",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=216448"
+        }
+      ],
+      "one_line": "로이터가 보도한 노르포지 연구에 따르면 중국어 사용 해커가 노출된 오픈소스 플랫폼 Cairn에서 에이전트를 돌려 1,200여 사이트를 공격하고 약 100곳을 뚫었다.",
+      "region": "글로벌",
+      "score": 9,
+      "tier": "핵심",
+      "title": "AI 에이전트로 기업 100여 곳 침해… 토큰 비용 약 5천 달러로 '해킹 대중화'"
+    },
+    {
+      "category": "정책·규제",
+      "id": "2026-10-21-10",
+      "links": [
+        {
+          "name": "The Decoder",
+          "url": "https://the-decoder.com/sam-altman-reportedly-pitched-three-endgames-for-ai-safety-one-involving-a-single-firm-melting-everyone-elses-gpus/"
+        }
+      ],
+      "one_line": "IAEA형 국제기구, 연구소 통합('데미스 플랜'), 한 기업이 압도하는 시나리오를 설명하며 1년 안에 방향을 정하겠다고 했다는 보도다.",
+      "region": "미국",
+      "score": 8,
+      "tier": "주목",
+      "title": "올트먼, 직원들에게 AI 통제 '세 가지 결말' 제시… 국제 감시기구안 선호"
+    },
+    {
+      "category": "LLM",
+      "id": "2026-10-21-11",
+      "links": [
+        {
+          "name": "AI타임스",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=216439"
+        }
+      ],
+      "one_line": "디 인포메이션 보도로, 이르면 연말부터 화웨이 칩으로 사전학습을 시작하고 차세대 어센드 960DT 물량을 우선 받는다.",
+      "region": "중국",
+      "score": 8,
+      "tier": "주목",
+      "title": "딥시크, 화웨이 어센드 950DT로 플래그십 사전학습 추진… 칩 설계 단계부터 협업"
+    },
+    {
+      "category": "LLM",
+      "id": "2026-10-21-12",
+      "links": [
+        {
+          "name": "ZDNet Korea",
+          "url": "https://zdnet.co.kr/view/?no=20261020164823"
+        }
+      ],
+      "one_line": "록브리지네트워크 보고서에 따르면 2026년 1~8월 한국 계정이 올린 신규 파생 모델의 49.3%가 중국 기반 모델에서 나왔다.",
+      "region": "한국",
+      "score": 8,
+      "tier": "주목",
+      "title": "국내 허깅페이스 파생 모델 절반이 중국산… 알리바바 큐원 편중 46.8%"
+    },
+    {
+      "category": "상용 LLM",
+      "id": "2026-10-21-13",
+      "links": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/20/chatgpt-now-lets-you-lock-your-chats/"
+        }
+      ],
+      "one_line": "민감한 대화를 별도 섹션에 잠가 두고 전용 메모리를 쓰게 했으며 무료부터 엔터프라이즈까지 순차 적용한다.",
+      "region": "미국",
+      "score": 8,
+      "tier": "주목",
+      "title": "ChatGPT '잠긴 채팅' 도입… PIN·생체인증으로 대화 숨기기"
+    },
+    {
+      "category": "연구 논문",
+      "id": "2026-10-21-14",
+      "links": [
+        {
+          "name": "Hugging Face Papers",
+          "url": "https://huggingface.co/papers/2610.22791"
+        }
+      ],
+      "one_line": "Qwen3.5-35B-A3B 기준 코딩 벤치마크 평균 해결률을 57.8%에서 64.8%로 올렸다.",
+      "paper_year": 2026,
+      "region": "미국",
+      "score": 8,
+      "tier": "주목",
+      "title": "[논문] MS 리서치 Self-HPO: 하네스와 정책을 번갈아 최적화하는 자기진화 코딩 에이전트"
+    },
+    {
+      "category": "연구 논문",
+      "id": "2026-10-21-15",
+      "links": [
+        {
+          "name": "MIT Technology Review",
+          "url": "https://www.technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play/"
+        },
+        {
+          "name": "arXiv",
+          "url": "https://arxiv.org/pdf/2610.07130"
+        }
+      ],
+      "one_line": "놀이를 경험한 에이전트가 이후 과제를 더 잘 풀었지만 연구진도 역할극일 가능성을 인정했다.",
+      "paper_year": 2026,
+      "region": "미국",
+      "score": 8,
+      "tier": "주목",
+      "title": "[논문] MIT, 가상 섬에 30시간 남겨진 Claude 에이전트들이 스스로 놀이를 만들었다"
+    },
+    {
+      "category": "기타",
+      "id": "2026-10-21-16",
+      "links": [
+        {
+          "name": "IGN",
+          "url": "https://www.ign.com/articles/steam-fans-are-begging-for-a-no-ai-filter-as-steam-next-fest-is-filled-with-slop"
+        },
+        {
+          "name": "AI Weekly",
+          "url": "https://aiweekly.co/ai-news-today"
+        }
+      ],
+      "one_line": "생성형 AI를 쓴 데모가 쏟아지자 플레이어들이 밸브에 AI 사용 게임을 걸러내는 필터를 요구하고 있다.",
+      "region": "미국",
+      "score": 7,
+      "tier": "주목",
+      "title": "스팀 넥스트 페스트에 AI 생성 데모 급증… 이용자들 'No AI' 필터 요구"
+    },
+    {
+      "category": "산업·투자",
+      "id": "2026-10-21-17",
+      "links": [
+        {
+          "name": "Fortune",
+          "url": "https://fortune.com/2026/10/20/daytona-startup-building-the-agentic-cloud-valued-at-1-billion-in-latest-funding-round/"
+        }
+      ],
+      "one_line": "에이전트가 쓸 격리 실행 환경을 빠르게 띄우는 CPU 중심 클라우드로 6천만 달러 시리즈 B를 받았다.",
+      "region": "미국",
+      "score": 6,
+      "tier": "주목",
+      "title": "데이토나, AI 에이전트용 샌드박스 클라우드로 기업가치 10억 달러"
+    },
+    {
+      "category": "피지컬AI",
+      "id": "2026-10-21-18",
+      "links": [
+        {
+          "name": "AI타임스",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=216436"
+        }
+      ],
+      "one_line": "국내 가정용 휴머노이드 개발 프로젝트에 엔비디아 기반 개발·시뮬레이션 플랫폼을 공급한다.",
+      "region": "한국",
+      "score": 5,
+      "tier": "참고",
+      "title": "MDS테크, 국내 휴머노이드 홈로봇 과제에 엔비디아 AI 플랫폼 패키지 공급"
+    },
+    {
+      "category": "상용 LLM",
+      "id": "2026-10-21-19",
+      "links": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/20/metas-muse-hits-10m-u-s-downloads-in-40-days-a-milestone-reached-by-only-11-other-apps/"
+        }
+      ],
+      "one_line": "미국에서 40일 만에 1천만 다운로드를 넘긴 앱은 지금까지 11개뿐이었다.",
+      "region": "미국",
+      "score": 5,
+      "tier": "참고",
+      "title": "메타 AI 앱 '뮤즈', 출시 40일 만에 미국 다운로드 1천만 돌파"
+    }
+  ],
+  "sources_checked": [
+    "AI Weekly",
+    "TechCrunch AI",
+    "Anthropic Newsroom",
+    "OpenAI News",
+    "Google AI Blog",
+    "Hugging Face Papers",
+    "MIT Technology Review",
+    "The Decoder",
+    "Mistral AI",
+    "GitHub(DeepSeek)",
+    "AI타임스",
+    "ZDNet Korea",
+    "量子位",
+    "ITmedia AI+",
+    "Investing.com(WSJ)"
+  ],
+  "top": [
+    {
+      "category": "산업·투자",
+      "id": "2026-10-21-01",
+      "links": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/20/anthropics-cloud-partnerships-are-getting-messy/"
+        },
+        {
+          "name": "Investing.com(WSJ 인용)",
+          "url": "https://www.investing.com/news/stock-market-news/anthropic-revenue-hits-163-billion-as-preliminary-s1-outlines-ipo-risks--wsj-4960928"
+        },
+        {
+          "name": "AI타임스",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=216446"
+        }
+      ],
+      "region": "미국",
+      "score": 11,
+      "scores": {
+        "coverage": 2,
+        "impact": 3,
+        "novelty": 2,
+        "relevance": 3,
+        "trust": 1
+      },
+      "summary": [
+        "WSJ가 입수한 상장 신고서 초안에 따르면 앤트로픽의 2026년 상반기 매출은 163억 달러로 1년 전 11억 달러에서 급증했지만 비현금성 비용 탓에 순손실이 807억 달러에 달했다.",
+        "매출의 상당 부분이 고객 두 곳에 몰려 있고, AWS·구글·MS가 경쟁자로 돌아서며 연산 자원 확보가 어렵다는 위험 요인과 함께 향후 클라우드 계약 규모를 7,500억 달러 이상으로 제시했다.",
+        "투자자에게는 3분기 매출 168억 달러(전 분기 대비 45%↑)를 알렸고 11월 상장을 노리는 가운데, 영국 엔스케일과는 450억 달러 규모 추가 연산 계약을 협상 중이다."
+      ],
+      "tier": "핵심",
+      "title": "앤트로픽 S-1 초안 유출: 상반기 매출 163억 달러·순손실 807억 달러, 클라우드 계약 7,500억 달러 전망",
+      "why": "Claude API의 공급 안정성과 가격 정책을 좌우할 앤트로픽의 재무·인프라 구조가 처음으로 숫자로 드러났다."
+    },
+    {
+      "category": "기타",
+      "id": "2026-10-21-02",
+      "links": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/20/google-has-joined-amazon-in-attacking-nvidias-stronghold-with-ai-app-developers/"
+        },
+        {
+          "name": "AI타임스(TorchNeuron)",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=216434"
+        }
+      ],
+      "region": "미국",
+      "score": 11,
+      "scores": {
+        "coverage": 2,
+        "impact": 3,
+        "novelty": 2,
+        "relevance": 2,
+        "trust": 2
+      },
+      "summary": [
+        "구글이 파이토치 앱을 설정 변경만으로 TPU에서 돌릴 수 있게 하는 TorchTPU를 오픈소스로 내놓았다.",
+        "앱 이전과 오류 수정을 돕는 TPU 에이전트 도구 모음, 파이토치 호환성을 높인 온디바이스 런타임 LiteRT 업데이트도 함께 발표했다.",
+        "메타·허깅페이스·vLLM·SGLang 팀과 협업했으며, 하루 앞서 나온 아마존 TorchNeuron과 함께 '파이토치 위의 탈엔비디아' 경쟁이 본격화됐다."
+      ],
+      "tier": "핵심",
+      "title": "구글 'TorchTPU' 오픈소스 공개… 아마존에 이어 엔비디아 CUDA 진영 정면 공략",
+      "why": "학습·추론 하드웨어 선택지가 넓어지면 모델 서빙 비용과 클라우드 협상력에 직접 영향을 준다."
+    },
+    {
+      "category": "LLM",
+      "id": "2026-10-21-03",
+      "links": [
+        {
+          "name": "GitHub",
+          "url": "https://github.com/deepseek-ai/DeepInfer"
+        },
+        {
+          "name": "The Decoder",
+          "url": "https://the-decoder.com/deepseek-open-sources-the-inference-engine-that-powers-its-fastest-and-cheapest-ai-model/"
+        }
+      ],
+      "region": "중국",
+      "score": 11,
+      "scores": {
+        "coverage": 2,
+        "impact": 2,
+        "novelty": 2,
+        "relevance": 3,
+        "trust": 2
+      },
+      "summary": [
+        "딥시크가 자사 최저가 모델 V4.1-Flash를 서빙하는 대규모 추론 프레임워크 DeepInfer를 깃허브에 공개했다.",
+        "엔비디아 SM100 GPU와 화웨이 어센드 950 NPU를 지원하며, 최적화 커널·병렬 처리·구조화 출력 기능을 담았다.",
+        "같은 날 딥시크가 화웨이 어센드 950DT를 연내 플래그십 사전학습에 투입할 계획이라는 보도도 나와 중국산 칩 기반 자립 행보가 이어졌다."
+      ],
+      "tier": "핵심",
+      "title": "딥시크, 실서비스 추론 엔진 'DeepInfer' 아파치 2.0으로 공개… 엔비디아·화웨이 칩 동시 지원",
+      "why": "저가 오픈 모델을 자체 인프라에서 운영하려는 팀에게 실서비스급 서빙 스택이 공짜로 열렸다."
+    },
+    {
+      "category": "상용 LLM",
+      "id": "2026-10-21-04",
+      "links": [
+        {
+          "name": "Mistral AI",
+          "url": "https://mistral.ai/news/voxtral-3/"
+        },
+        {
+          "name": "The Decoder",
+          "url": "https://the-decoder.com/mistral-ai-launches-voxtral-3-a-full-voice-agent-stack-that-listens-thinks-and-talks-in-real-time/"
+        }
+      ],
+      "region": "유럽",
+      "score": 11,
+      "scores": {
+        "coverage": 2,
+        "impact": 2,
+        "novelty": 2,
+        "relevance": 3,
+        "trust": 2
+      },
+      "summary": [
+        "미스트랄이 화자 분리·문맥 바이어싱을 지원하는 배치 전사 모델 2종과 실시간 전사 모델, 감정·속도 조절이 되는 TTS를 묶은 Voxtral 3를 내놨다.",
+        "전사는 EU 공식어 24개를 포함해 50개 이상 언어, 음성 합성은 35개 이상 언어를 지원하며 가격은 분당 0.0035~0.008달러, TTS는 100만 자당 13달러다.",
+        "LiveKit 기반 음성 에이전트 SDK로 전사→추론 LLM→음성 출력을 분당 0.04달러부터 연결할 수 있다."
+      ],
+      "tier": "핵심",
+      "title": "미스트랄 'Voxtral 3' 출시… 50개+ 언어 전사·TTS·음성 에이전트 SDK 한 번에",
+      "why": "다국어 음성 전사·더빙·실시간 통역형 에이전트 비용 기준점을 크게 낮추는 상용 음성 스택이다."
+    },
+    {
+      "category": "피지컬AI",
+      "id": "2026-10-21-05",
+      "links": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/20/eka-is-worth-1-45-billion-thanks-to-a-physical-ai-model-that-has-experts-raving/"
+        }
+      ],
+      "region": "미국",
+      "score": 10,
+      "scores": {
+        "coverage": 1,
+        "impact": 2,
+        "novelty": 2,
+        "relevance": 3,
+        "trust": 2
+      },
+      "summary": [
+        "MIT 풀킷 아그라왈 교수와 딥마인드 출신 연구자가 세운 에카가 a16z·F-Prime 주도로 1억 5천만 달러 시리즈 A를 받았다.",
+        "시각에 힘 감각 입력을 결합한 모델과 1천 달러 미만의 힘 감지 그리퍼를 쓰며, 사람 시연 대신 물리 시뮬레이터 대규모 강화학습으로 훈련한다.",
+        "시간당 약 1,500개 물체(사람은 약 600개)를 95% 이상 성공률로 집는다고 밝혔으나 생산 라인 장기 신뢰성은 아직 검증 전이다."
+      ],
+      "tier": "핵심",
+      "title": "에카 로보틱스, '시각-힘-행동' 로봇 모델로 1.5억 달러 유치… 기업가치 14.5억 달러",
+      "why": "VLA 일변도였던 로봇 파운데이션 모델에 '힘'이라는 새 축이 대규모 투자로 검증받기 시작했다."
+    }
+  ]
+}
