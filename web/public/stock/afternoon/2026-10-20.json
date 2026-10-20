@@ -1,0 +1,94 @@
+{
+  "type": "afternoon",
+  "date": "2026-10-20",
+  "generated_at": "2026-10-20T15:59:33+09:00",
+  "analysis": {
+    "kospi_predicted": "상승",
+    "kospi_actual": "하락",
+    "kospi_change_text": "▼3.73%",
+    "kospi_match": "빗나감",
+    "kospi_miss_reason": "美 반도체 반등을 과대평가. AI 투자 수익성 우려·中 메모리 추격론과 이틀 반등 뒤 차익매물이 겹쳐 외국인·기관 동반 매도",
+    "watchlist_accuracy": [
+      {
+        "code": "005930",
+        "name": "삼성전자",
+        "predicted": "상승",
+        "actual": "하락",
+        "change_text": "▼2.98%",
+        "match": "빗나감",
+        "reason": "마이크론 강세보다 외국인 매도·AI 우려가 컸음"
+      },
+      {
+        "code": "000660",
+        "name": "SK하이닉스",
+        "predicted": "상승",
+        "actual": "하락",
+        "change_text": "▼4.23%",
+        "match": "빗나감",
+        "reason": "ADR 갭 반영 대신 시가부터 밀려 매물 집중"
+      }
+    ],
+    "overall_accuracy": "0/3",
+    "accuracy": "빗나감",
+    "market_analysis": "美 반도체 반등에도 약세 출발 후 낙폭 확대, 장중 5493까지 밀림. 반도체·2차전지·자동차 등 전 업종 하락, 외국인 5300억·기관 1조 순매도",
+    "lessons": "야간선물·ADR 신호보다 AI 수익성 우려와 반등 후 차익매물, 외국인 매도 지속을 더 무겁게 볼 것"
+  },
+  "raw_data": {
+    "kospi": {
+      "price": 5552.74,
+      "changePct": -3.73
+    },
+    "kosdaq": {
+      "price": 781.97,
+      "changePct": -3.33
+    },
+    "watchlist": [
+      {
+        "code": "005930",
+        "name": "삼성전자",
+        "price": 211500,
+        "changePct": -2.98
+      },
+      {
+        "code": "000660",
+        "name": "SK하이닉스",
+        "price": 1223000,
+        "changePct": -4.23
+      }
+    ],
+    "flows": {
+      "kospi": {
+        "foreign_krw_100m": -5300,
+        "institution_krw_100m": -10048,
+        "individual_krw_100m": 8981
+      },
+      "note": "단위 억원, 머니투데이 마감 기사 기준"
+    },
+    "sources": [
+      {
+        "name": "머니투데이(코스피·코스닥 마감·수급·종목 종가)",
+        "url": "https://www.mt.co.kr/stock/2026/10/20/2026102015384373141"
+      },
+      {
+        "name": "아시아경제(코스피 마감 지수)",
+        "url": "https://view.asiae.co.kr/article/2026102015380933517"
+      },
+      {
+        "name": "국제뉴스(마감 종목 등락)",
+        "url": "https://www.gukjenews.com/news/articleView.html?idxno=3726984"
+      },
+      {
+        "name": "이투데이(장중 수급·AI 우려 분석)",
+        "url": "https://www.etoday.co.kr/news/view/2637872"
+      },
+      {
+        "name": "디지털데일리(장초반 하락 원인·中 메모리 추격 우려)",
+        "url": "https://www.ddaily.co.kr/page/view/2026102009244434998"
+      },
+      {
+        "name": "Investing.com(아시아 반도체 급락·AI 우려·美 선물)",
+        "url": "https://kr.investing.com/news/stock-market-news/article-2132444"
+      }
+    ]
+  }
+}
