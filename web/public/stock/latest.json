@@ -1,86 +1,86 @@
 {
   "morning": {
     "type": "morning",
-    "date": "2026-10-21",
-    "generated_at": "2026-10-21T06:24:05+09:00",
+    "date": "2026-10-22",
+    "generated_at": "2026-10-22T06:23:17+09:00",
     "analysis": {
-      "kospi_prediction": "보합",
-      "kospi_change_range": "-0.8~+0.6%",
-      "kospi_confidence": "낮음",
-      "kospi_reason": "전일 3.7% 급락 뒤 반발 여지 있으나 SOX 0.3%↓·기술주 이탈, 외국인 반도체 매도 지속에 방향성 약함",
-      "us_market_summary": "다우 1.02%↑ 최고치, 나스닥 약보합, SOX 0.29%↓",
-      "kospi_news_summary": "다우 사상 최고·반도체 약세 속 코스피 급락 다음날 수급 시험대",
+      "kospi_prediction": "상승",
+      "kospi_change_range": "+0.3~1.2%",
+      "kospi_confidence": "보통",
+      "kospi_reason": "SOX 1.97%↑·메타 설비투자 상향·환율 연저점이 우호적. 전일 3%대 급반등 차익실현·금통위가 상단 제한",
+      "us_market_summary": "3대 지수 상승, 나스닥 1.05%↑·SOX 1.97%↑",
+      "kospi_news_summary": "美 기술주·반도체 강세, 메타 호실적 속 금통위 동결 여부 주목",
       "kospi_news": [
         {
-          "summary": "다우 1% 올라 최고치, 나스닥은 기술주 약세에 약보합",
-          "source": "서울신문",
-          "url": "https://www.seoul.co.kr/news/economy/securities/2026/10/21/20261021500006"
+          "summary": "美 반도체지수 2%가량 올라 30종목 중 29개 상승",
+          "source": "TradingKey",
+          "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262230142-us-stock-close-nasdaq-dow-sp500-rise-spacex-tesla-crowdstike-tradingkey"
         },
         {
-          "summary": "美 반도체지수 0.3% 하락, 자금은 헬스케어·방어주로",
-          "source": "서울신문",
-          "url": "https://www.seoul.co.kr/news/economy/securities/2026/10/21/20261021500006"
+          "summary": "메타 3분기 매출 사상 최대, 설비투자 하단 상향",
+          "source": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/live/earnings-live-updates-all-eyes-on-musk-and-meta-as-q3-earnings-roll-on-134152191.html"
         },
         {
-          "summary": "코스피 3.73% 급락 5552, 외국인·기관 동반 순매도",
-          "source": "서울신문",
-          "url": "https://www.seoul.co.kr/news/economy/securities/2026/10/20/20261020500235"
+          "summary": "한은 금통위 오늘 결정, 시장은 동결·11월 인상 예상",
+          "source": "파이낸셜뉴스",
+          "url": "https://www.fnnews.com/news/202610180605279651"
         },
         {
-          "summary": "원·달러 1328.1원, 증시 급락에도 연저점 다시 경신",
-          "source": "뉴스1",
-          "url": "https://www.news1.kr/finance/market-exr/6326132"
+          "summary": "원/달러 1325원대 마감, 2년 만에 최저 수준",
+          "source": "뉴시스",
+          "url": "https://www.newsis.com/view/NISX20261021_0003835346"
         },
         {
-          "summary": "AI 투자 수익성·부채 우려가 반도체 약세 배경으로 지목",
-          "source": "톱스타뉴스",
-          "url": "https://www.topstarnews.net/news/articleView.html?idxno=16252798"
+          "summary": "전일 코스피 3.29% 반등, 외국인 6600억 순매수",
+          "source": "블록미디어",
+          "url": "https://www.blockmedia.co.kr/archives/1154366"
         }
       ],
       "watchlist": [
         {
           "code": "005930",
           "name": "삼성전자",
-          "prediction": "보합",
-          "reason": "낙폭 과대 인식 있으나 SOX 약세·외국인 매도 지속으로 반등 제한",
+          "prediction": "상승",
+          "reason": "SOX 강세·메타 투자 확대에 외국인 매수 연장 기대",
           "factors": [
             {
-              "summary": "KB증권 내년 영업익 555조 전망, 장기계약 비중 높아",
+              "summary": "메타 설비투자 하단 상향, AI 메모리 수요 기대",
               "impact": "호재",
-              "url": "https://www.hankookilbo.com/news/article/A2026102014590002543"
+              "url": "https://finance.yahoo.com/markets/live/earnings-live-updates-all-eyes-on-musk-and-meta-as-q3-earnings-roll-on-134152191.html"
             },
             {
-              "summary": "9월말 이후 외국인 순매도 83%가 반도체에 집중",
+              "summary": "마이크론 대만 노조 파업 예고, D램 공급 우려",
+              "impact": "호재",
+              "url": "https://www.etoday.co.kr/news/view/2638196"
+            },
+            {
+              "summary": "전일 5.67% 급등으로 단기 차익매물 가능",
               "impact": "악재",
-              "url": "https://www.hankookilbo.com/news/article/A2026102014590002543"
-            },
-            {
-              "summary": "22일 메타 실적의 AI 설비투자 전망이 심리 변수",
-              "impact": "중립",
-              "url": "https://www.topstarnews.net/news/articleView.html?idxno=16252798"
+              "url": "https://m.sedaily.com/article/20104381"
             }
           ]
         },
         {
           "code": "000660",
           "name": "SK하이닉스",
-          "prediction": "하락",
-          "reason": "SOX·엔비디아 약세에 고베타 하이닉스로 외국인 매물 집중 우려",
+          "prediction": "상승",
+          "reason": "美 반도체 동반 강세·실적 기대, 다만 외국인 매도세 변수",
           "factors": [
             {
-              "summary": "하나증권 내년 영업익 추정 405조로 상향",
+              "summary": "28일 3분기 실적 발표, 역대 최대 영업익 전망",
               "impact": "호재",
-              "url": "https://www.hankookilbo.com/news/article/A2026102014590002543"
+              "url": "https://www.fnnews.com/news/202610181834154488"
             },
             {
-              "summary": "10월 2일 대비 33.6% 하락, 메모리 노출 축소 매물",
+              "summary": "마이크론 파업 시 HBM 공급 차질 가능성 거론",
+              "impact": "호재",
+              "url": "https://www.etoday.co.kr/news/view/2638196"
+            },
+            {
+              "summary": "외국인 20일까지 18거래일 연속 순매도",
               "impact": "악재",
-              "url": "https://www.etoday.co.kr/news/view/2637993"
-            },
-            {
-              "summary": "28일 3분기 실적 발표 앞두고 관망 심리",
-              "impact": "중립",
-              "url": "https://www.hankookilbo.com/news/article/A2026102014590002543"
+              "url": "https://www.etoday.co.kr/news/view/2638196"
             }
           ]
         }
@@ -88,95 +88,98 @@
     },
     "raw_data": {
       "news_window": {
-        "from": "2026-10-20T07:00:00+09:00",
-        "to": "2026-10-21T07:00:00+09:00"
+        "from": "2026-10-21T07:00:00+09:00",
+        "to": "2026-10-22T07:00:00+09:00"
       },
       "us_market": {
         "sp500": {
-          "price": 7712.57,
-          "changePct": 0.28
+          "price": 7757.17,
+          "changePct": 0.58
         },
         "nasdaq": {
-          "price": 26424.82,
-          "changePct": -0.02
+          "price": 26702.86,
+          "changePct": 1.05
         },
         "dow": {
-          "price": 52495.88,
-          "changePct": 1.02
+          "price": 52856.09,
+          "changePct": 0.69
         },
         "sox": {
-          "price": 11283.81,
-          "changePct": -0.29
+          "price": 11505.56,
+          "changePct": 1.97
         },
         "usdkrw": {
-          "price": 1328.1,
-          "changePct": -0.17,
-          "note": "10/20 서울 외환시장 종가, 전일 1330.3원 대비 2.2원↓"
-        },
-        "kospi200_night_futures": {
-          "price": 852.45,
-          "changePct": -0.74,
-          "note": "10/20 18:10 KST 무렵 장중 값(기사 표현 1%대 하락), 현물 종가 858.78 대비. 마감값 미확인"
+          "price": 1325.2,
+          "changePct": -0.22,
+          "note": "10/21 서울 외환시장 주간 종가, 전일 1328.1원 대비 2.9원↓"
         },
         "us10y": {
-          "price": 5.114,
-          "note": "10/20 장중, 2bp 하락"
+          "price": 5.15,
+          "note": "10/21 기준, 3bp 상승 (Yahoo Finance)"
         }
       },
       "kospi_prev": {
-        "price": 5552.74,
-        "changePct": -3.73
+        "price": 5735.66,
+        "changePct": 3.29
       },
       "watchlist": [
         {
           "code": "005930",
           "name": "삼성전자",
-          "price": 211500,
-          "changePct": -2.98
+          "price": 223500,
+          "changePct": 5.67
         },
         {
           "code": "000660",
           "name": "SK하이닉스",
-          "price": 1223000,
-          "changePct": -4.23
+          "price": 1294000,
+          "changePct": 5.81
         }
       ],
       "sources": [
         {
-          "name": "서울신문(美 증시 마감·SOX·종목)",
-          "url": "https://www.seoul.co.kr/news/economy/securities/2026/10/21/20261021500006"
+          "name": "이투데이(美 3대 지수 종가)",
+          "url": "https://www.etoday.co.kr/news/view/2638601"
         },
         {
-          "name": "국민일보(美 증시 마감·유가)",
-          "url": "https://www.kmib.co.kr/article/20261021500016"
+          "name": "TradingKey(美 지수·SOX 종가)",
+          "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262230142-us-stock-close-nasdaq-dow-sp500-rise-spacex-tesla-crowdstike-tradingkey"
         },
         {
-          "name": "서울신문(10/20 코스피·종목 종가·수급)",
-          "url": "https://www.seoul.co.kr/news/economy/securities/2026/10/20/20261020500235"
+          "name": "Yahoo Finance(메타·테슬라·넷플릭스 실적, 美 10년물)",
+          "url": "https://finance.yahoo.com/markets/live/earnings-live-updates-all-eyes-on-musk-and-meta-as-q3-earnings-roll-on-134152191.html"
         },
         {
-          "name": "뉴스1(원/달러 10/20 마감)",
-          "url": "https://www.news1.kr/finance/market-exr/6326132"
+          "name": "뉴시스(원/달러 종가)",
+          "url": "https://www.newsis.com/view/NISX20261021_0003835346"
         },
         {
-          "name": "증권플러스(코스피200 야간선물)",
-          "url": "https://newsroom.stockplus.com/breaking-news/39818"
+          "name": "블록미디어(코스피·종목 종가·수급)",
+          "url": "https://www.blockmedia.co.kr/archives/1154366"
         },
         {
-          "name": "토큰포스트(美 국채금리)",
-          "url": "https://www.tokenpost.kr/news/economy/424848"
+          "name": "서울경제(코스피·종목 마감)",
+          "url": "https://m.sedaily.com/article/20104381"
         },
         {
-          "name": "한국일보(삼성전자·SK하이닉스 하락 원인·실적 전망)",
-          "url": "https://www.hankookilbo.com/news/article/A2026102014590002543"
+          "name": "이투데이(반도체 강세 요인·마이크론 파업·외국인 수급)",
+          "url": "https://www.etoday.co.kr/news/view/2638196"
         },
         {
-          "name": "톱스타뉴스(코스피 급락 원인·향후 변수)",
-          "url": "https://www.topstarnews.net/news/articleView.html?idxno=16252798"
+          "name": "파이낸셜뉴스(금통위 전망)",
+          "url": "https://www.fnnews.com/news/202610180605279651"
         },
         {
-          "name": "이투데이(대형주 고점 대비 낙폭)",
-          "url": "https://www.etoday.co.kr/news/view/2637993"
+          "name": "파이낸셜뉴스(SK하이닉스 실적 전망)",
+          "url": "https://www.fnnews.com/news/202610181834154488"
+        },
+        {
+          "name": "스탁플러스(SK하이닉스 실적 발표일)",
+          "url": "https://newsroom.stockplus.com/breaking-news/39522"
+        },
+        {
+          "name": "톱스타뉴스(일정·전망)",
+          "url": "https://www.topstarnews.net/news/articleView.html?idxno=16253121"
         }
       ]
     }
