@@ -1,0 +1,86 @@
+{
+  "type": "afternoon",
+  "date": "2026-10-21",
+  "generated_at": "2026-10-21T15:58:00+09:00",
+  "analysis": {
+    "kospi_predicted": "보합",
+    "kospi_actual": "상승",
+    "kospi_change_text": "▲3.29%",
+    "kospi_match": "빗나감",
+    "kospi_miss_reason": "급락 뒤 반발 강도를 과소평가. 외국인이 순매수로 돌아서고 반도체 수출 급증·美 AI 실적 호조가 겹쳐 장중 매수 사이드카까지 발동",
+    "watchlist_accuracy": [
+      {
+        "code": "005930",
+        "name": "삼성전자",
+        "predicted": "보합",
+        "actual": "상승",
+        "change_text": "▲5.67%",
+        "match": "빗나감",
+        "reason": "외국인 매도 지속 가정이 틀려 반도체로 매수 유입"
+      },
+      {
+        "code": "000660",
+        "name": "SK하이닉스",
+        "predicted": "하락",
+        "actual": "상승",
+        "change_text": "▲5.81%",
+        "match": "빗나감",
+        "reason": "SOX 약세보다 낙폭 과대 반발·수급 전환이 강했음"
+      }
+    ],
+    "overall_accuracy": "0/3",
+    "accuracy": "빗나감",
+    "market_analysis": "전일 급락 후 반도체 대형주 주도로 갭상승해 3%대 반등, 장중 매수 사이드카 발동. 외국인 6600억 순매수, 개인·기관은 매도. 환율 1325원으로 하락",
+    "lessons": "3%대 급락 다음날은 반발 매수와 외국인 수급 전환 가능성을 크게 보고, SOX 소폭 약세 비중은 낮출 것"
+  },
+  "raw_data": {
+    "kospi": {
+      "price": 5735.66,
+      "changePct": 3.29
+    },
+    "kosdaq": {
+      "price": 792.76,
+      "changePct": 1.38
+    },
+    "watchlist": [
+      {
+        "code": "005930",
+        "name": "삼성전자",
+        "price": 223500,
+        "changePct": 5.67
+      },
+      {
+        "code": "000660",
+        "name": "SK하이닉스",
+        "price": 1294000,
+        "changePct": 5.81
+      }
+    ],
+    "flows": {
+      "kospi": {
+        "foreign_krw_100m": 6600,
+        "institution_krw_100m": -722,
+        "individual_krw_100m": -11308
+      },
+      "note": "단위 억원, 블록미디어 마감 기사 기준"
+    },
+    "usdkrw": {
+      "price": 1325.2,
+      "note": "주간거래 종가, 전일 대비 2.9원↓"
+    },
+    "sources": [
+      {
+        "name": "블록미디어(코스피·코스닥 마감·종목 종가·수급·환율)",
+        "url": "https://www.blockmedia.co.kr/archives/1154366"
+      },
+      {
+        "name": "서울경제(마감 지수·종목 종가·상승 원인)",
+        "url": "https://m.sedaily.com/article/20104381"
+      },
+      {
+        "name": "헤럴드경제(개장 직후 흐름)",
+        "url": "https://biz.heraldcorp.com/article/10909541"
+      }
+    ]
+  }
+}
