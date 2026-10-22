@@ -1,0 +1,516 @@
+{
+  "date": "2026-10-23",
+  "generated_at": "2026-10-23T08:05:00+09:00",
+  "headline": "경쟁사들이 에이전트 규격을 리눅스재단에 함께 넘기고, OpenAI는 서울에서 구독 사용량을 외부 앱에 쓰게 하는 '챗GPT로 로그인'을 내놨다. 한편 중국 연계 해커가 LLM 에이전트로 공급망을 뚫은 사례가 나와 에이전트 신원·격리 인프라(구글 ACE) 경쟁에 무게가 실렸다.",
+  "others": [
+    {
+      "category": "LLM",
+      "id": "2026-10-23-06",
+      "links": [
+        {
+          "name": "Redwood Research",
+          "url": "https://blog.redwoodresearch.org/p/red-teaming-openais-internal-agent"
+        }
+      ],
+      "one_line": "3주간 내부 코드 접근 권한을 받아 점검한 외부 연구진이 압축 구간 미감시, 헤더로 감시 해제 등 빈틈을 공개했다(어제 보도된 오픈AI 자체 공개의 후속).",
+      "region": "미국",
+      "score": 10,
+      "tier": "핵심",
+      "title": "METR·레드우드 '오픈AI 내부 에이전트 감시 시스템에 우회 경로 여럿'… 오픈AI는 패치 완료 주장"
+    },
+    {
+      "category": "LLM",
+      "id": "2026-10-23-07",
+      "links": [
+        {
+          "name": "AI타임스",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=216544"
+        }
+      ],
+      "one_line": "전사 3종과 감정·속도 태그 제어형 TTS, 1초 내 턴을 목표로 한 LiveKit 기반 SDK를 API 프리뷰로 내놨다.",
+      "region": "유럽",
+      "score": 10,
+      "tier": "핵심",
+      "title": "미스트랄 음성 모델군 'Voxtral 3'·음성 에이전트 SDK 공개… 35개 이상 언어 TTS"
+    },
+    {
+      "category": "상용 LLM",
+      "id": "2026-10-23-08",
+      "links": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/21/while-amazon-blocks-ai-agents-walmart-rolls-out-the-welcome-mat/"
+        },
+        {
+          "name": "AI타임스",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=216536"
+        }
+      ],
+      "one_line": "승인된 에이전트가 재고 검색·구매를 하되 결제정보 접근은 막고, 건별 승인이나 지출 한도로 통제하게 했다.",
+      "region": "미국",
+      "score": 10,
+      "tier": "핵심",
+      "title": "월마트, AI 쇼핑 에이전트용 MCP 서버 'Agent Gateway' 공개"
+    },
+    {
+      "category": "연구 논문",
+      "id": "2026-10-23-09",
+      "links": [
+        {
+          "name": "Hugging Face Papers",
+          "url": "https://huggingface.co/papers/2610.27999"
+        }
+      ],
+      "one_line": "게임 규칙은 경량 엔진이, 화면은 자기회귀 비디오 모델이 맡아 RTX 5090 한 장에서 480p·60fps를 냈고 코드와 가중치를 공개했다.",
+      "paper_year": 2026,
+      "region": "중국",
+      "score": 10,
+      "tier": "핵심",
+      "title": "[논문] 스카이워크 Matrix-Game 4.0: 게임 엔진+비디오 렌더러로 실시간 플레이 가능한 생성형 게임 세계"
+    },
+    {
+      "category": "산업·투자",
+      "id": "2026-10-23-10",
+      "links": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions/"
+        }
+      ],
+      "one_line": "블룸버그 보도로 텐센트·CATL 등이 참여한 중국 최대급 라운드이며, 인프라와 오픈 모델 투자를 늘릴 것으로 보인다.",
+      "region": "중국",
+      "score": 9,
+      "tier": "핵심",
+      "title": "딥시크, 미 연방기관 퇴출 명령 이틀 만에 약 150억 달러 조달 보도"
+    },
+    {
+      "category": "연구 논문",
+      "id": "2026-10-23-11",
+      "links": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/22/microsofts-mustafa-suleyman-says-its-ai-outperforms-doctors-on-hard-cases-as-he-chases-medical-superintelligence/"
+        }
+      ],
+      "one_line": "사이언스 게재 연구로, 성능 향상 대부분은 기반 모델에서 나왔고 오케스트레이션은 복잡한 사례와 약한 모델에서 효과가 컸다.",
+      "paper_year": 2026,
+      "region": "미국",
+      "score": 9,
+      "tier": "핵심",
+      "title": "[논문] MS 진단 오케스트레이터 MAI-DxO, NEJM 난제 사례 정답률 83%… 일반의 36%"
+    },
+    {
+      "category": "상용 LLM",
+      "id": "2026-10-23-12",
+      "links": [
+        {
+          "name": "AI타임스",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=216549"
+        }
+      ],
+      "one_line": "엔터프라이즈 고객 대상으로 연속 분석, 다중 저장소 프로젝트, API·웹훅·MCP 커넥터를 더했고 연말까지 무료 크레딧을 준다.",
+      "region": "미국",
+      "score": 9,
+      "tier": "핵심",
+      "title": "앤트로픽 '클로드 시큐리티' 새 버전 공개 베타… 저장소 상시 감시·위협 모델 기반 우선순위"
+    },
+    {
+      "category": "상용 LLM",
+      "id": "2026-10-23-13",
+      "links": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/"
+        }
+      ],
+      "one_line": "Luna 모델을 재구성한 저지연 판단 모델로 음성·이미지 입력과 지역 추론을 더해 모든 고객에게 열었다.",
+      "region": "미국",
+      "score": 9,
+      "tier": "핵심",
+      "title": "OpenAI 'Decisions API' 전면 출시… 선택지 판단을 100~180ms에 처리"
+    },
+    {
+      "category": "피지컬AI",
+      "id": "2026-10-23-14",
+      "links": [
+        {
+          "name": "Unite.AI",
+          "url": "https://www.unite.ai/agility-robotics-standardizes-digit-5-on-nvidia-igx-thor-compute/"
+        }
+      ],
+      "one_line": "안전 인증 체계 Halos와 묶어 2027년 상반기 조기 공급을 시작하고 이후 6~9개월에 걸쳐 물량을 늘린다.",
+      "region": "미국",
+      "score": 9,
+      "tier": "핵심",
+      "title": "애질리티, 휴머노이드 Digit 5 온보드 컴퓨터를 엔비디아 IGX Thor로 단일화"
+    },
+    {
+      "category": "기타",
+      "id": "2026-10-23-15",
+      "links": [
+        {
+          "name": "ITmedia",
+          "url": "https://www.itmedia.co.jp/news/article/2610/22/2000002498/"
+        }
+      ],
+      "one_line": "25개 프로젝트에서 493건 문제를 찾았고 OpenSSH 10.6에 반영됐으며, 기법을 OSS 스캐너용 스킬로 만들 계획이다.",
+      "region": "미국",
+      "score": 9,
+      "tier": "핵심",
+      "title": "앤트로픽, 클로드로 오픈소스 공격 표면 축소 연구… OpenSSH 인증 전 노출 코드 정리에 기여"
+    },
+    {
+      "category": "연구 논문",
+      "id": "2026-10-23-16",
+      "links": [
+        {
+          "name": "Hugging Face Papers",
+          "url": "https://huggingface.co/papers/2610.26855"
+        }
+      ],
+      "one_line": "허깅페이스 데일리 페이퍼 상위권에 오른 연구로, 사람 데이터를 활용해 서로 다른 로봇 몸체에 세계모델을 일반화한다.",
+      "paper_year": 2026,
+      "region": "글로벌",
+      "score": 8,
+      "tier": "주목",
+      "title": "[논문] Ropedia W0: 사람 경험 데이터로 여러 로봇 형태에 걸친 이동·조작 세계모델 확장"
+    },
+    {
+      "category": "산업·투자",
+      "id": "2026-10-23-17",
+      "links": [
+        {
+          "name": "Yahoo Finance(Bloomberg)",
+          "url": "https://finance.yahoo.com/technology/articles/meta-reports-825-billion-future-113547626.html"
+        }
+      ],
+      "one_line": "7월 약 7,000억 달러에서 늘어난 수치로, 미반영 리스만 3,557억 달러에 이른다(어제 실적 보도의 후속 공시).",
+      "region": "미국",
+      "score": 8,
+      "tier": "주목",
+      "title": "메타, 향후 AI 인프라 임대·계약 약정 약 8,250억 달러 공시"
+    },
+    {
+      "category": "정책·규제",
+      "id": "2026-10-23-18",
+      "links": [
+        {
+          "name": "The Decoder",
+          "url": "https://the-decoder.com/major-us-banks-are-locking-out-ai-agents-that-log-in-with-customer-credentials/"
+        }
+      ],
+      "one_line": "모건스탠리는 전면 차단, JP모건·BoA·씨티도 유사 조치로 알려졌고 대부분 읽기 전용 허용을 검토한다.",
+      "region": "미국",
+      "score": 8,
+      "tier": "주목",
+      "title": "미 대형 은행들, 고객 자격증명으로 접속하는 AI 에이전트 차단"
+    },
+    {
+      "category": "피지컬AI",
+      "id": "2026-10-23-19",
+      "links": [
+        {
+          "name": "MONOist",
+          "url": "https://monoist.itmedia.co.jp/mn/articles/2610/21/news073.html"
+        }
+      ],
+      "one_line": "자연어 지시를 작업 계획으로 바꿔 기계와 휴머노이드에 나눠 맡기며, JIMTOF2026에서 시연하고 2030년 실용화를 노린다.",
+      "region": "일본",
+      "score": 8,
+      "tier": "주목",
+      "title": "미쓰비시전기, 범용 휴머노이드와 CNC 공작기계 협업 가공 시스템 발표"
+    },
+    {
+      "category": "기타",
+      "id": "2026-10-23-20",
+      "links": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password/"
+        },
+        {
+          "name": "BetaKit",
+          "url": "https://betakit.com/1password-tops-500-million-usd-arr-on-the-back-of-accelerating-ai-demand/"
+        }
+      ],
+      "one_line": "에이전트가 자격증명을 보관하지 않고 인증하게 하는 기능으로, 회사는 연 반복매출 5억 달러를 넘겼다고 밝혔다.",
+      "region": "미국",
+      "score": 8,
+      "tier": "주목",
+      "title": "1Password, 비밀번호를 보지 않고 대신 로그인하는 '1Password for Agents' 출시"
+    },
+    {
+      "category": "산업·투자",
+      "id": "2026-10-23-21",
+      "links": [
+        {
+          "name": "AI타임스",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=216548"
+        }
+      ],
+      "one_line": "B300 수출이 막히자 바이트댄스·알리바바·텐센트가 추론용 워크스테이션 GPU로 몰렸으나 공급은 요청량의 일부에 그친다는 로이터 보도다.",
+      "region": "중국",
+      "score": 7,
+      "tier": "주목",
+      "title": "중국 빅테크, 엔비디아 RTX PRO 5500 300만 장 이상 주문… 약 350억 달러 규모"
+    },
+    {
+      "category": "상용 LLM",
+      "id": "2026-10-23-22",
+      "links": [
+        {
+          "name": "ZDNet Korea",
+          "url": "https://zdnet.co.kr/view/?no=20261022191127"
+        }
+      ],
+      "one_line": "서울 데브데이 행사에서 재판매 현황과 함께 토큰 비용 급증 관리, 에이전트 권한 경계 설정의 중요성을 강조했다.",
+      "region": "한국",
+      "score": 7,
+      "tier": "주목",
+      "title": "LG CNS '국내 챗GPT 엔터프라이즈 사용자 약 3만 명'"
+    },
+    {
+      "category": "상용 LLM",
+      "id": "2026-10-23-23",
+      "links": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work/"
+        }
+      ],
+      "one_line": "1천 명 시범 사용자의 80%가 비개발자였고 운영 데이터 분석·교육자료 현지화 도구 등을 직접 만들었다.",
+      "region": "미국",
+      "score": 7,
+      "tier": "주목",
+      "title": "우버, 전 직원 3만 명에 'ChatGPT Work' 도입"
+    },
+    {
+      "category": "피지컬AI",
+      "id": "2026-10-23-24",
+      "links": [
+        {
+          "name": "AI타임스",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=216533"
+        }
+      ],
+      "one_line": "산업부 온디바이스 AI 반도체 과제로 모빌린트가 NPU·모듈·SW를 통합하고 LG전자가 단계적으로 검증한다.",
+      "region": "한국",
+      "score": 7,
+      "tier": "주목",
+      "title": "모빌린트·LG전자, 홈서비스 휴머노이드용 NPU 플랫폼 공동 개발"
+    },
+    {
+      "category": "기타",
+      "id": "2026-10-23-25",
+      "links": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/"
+        }
+      ],
+      "one_line": "사진 대신 사람이 만든 디자인 템플릿으로 학습했으며 캔바 앱과 API로 제공한다.",
+      "region": "글로벌",
+      "score": 7,
+      "tier": "주목",
+      "title": "캔바, 템플릿으로 학습한 첫 자체 이미지 생성 모델 'Craft' 출시"
+    },
+    {
+      "category": "연구 논문",
+      "id": "2026-10-23-26",
+      "links": [
+        {
+          "name": "Perplexity",
+          "url": "https://www.perplexity.ai/hub/blog/a-good-teacher-meets-the-student-where-they-are"
+        }
+      ],
+      "one_line": "교사 역할이 학생 상태에 맞게 피드백을 조정하는 학습법으로 수학·코딩·에이전트 과제에서 개선을 보고했다.",
+      "paper_year": 2026,
+      "region": "미국",
+      "score": 7,
+      "tier": "주목",
+      "title": "[연구] 퍼플렉시티 JOLT: 한 모델이 교사·학생을 겸하며 학생 수준에 맞춰 피드백"
+    },
+    {
+      "category": "산업·투자",
+      "id": "2026-10-23-27",
+      "links": [
+        {
+          "name": "The Decoder",
+          "url": "https://the-decoder.com/only-13-percent-of-companies-see-real-returns-from-ai-gartner-survey-finds/"
+        }
+      ],
+      "one_line": "AI 투자 대비 성과를 체감하는 기업이 소수에 그친다는 설문 결과다.",
+      "region": "글로벌",
+      "score": 5,
+      "tier": "참고",
+      "title": "가트너 '기업 13%만 AI에서 실질 수익'"
+    }
+  ],
+  "sources_checked": [
+    "AI Weekly",
+    "TechCrunch AI",
+    "Anthropic News",
+    "Linux Foundation",
+    "Redwood Research",
+    "Hugging Face Papers",
+    "AI타임스",
+    "ZDNet Korea",
+    "The Decoder",
+    "ITmedia AI+",
+    "MONOist",
+    "Sina 科技(AI 热点)",
+    "The Neuron",
+    "The Hacker News",
+    "Unite.AI",
+    "Yahoo Finance(Bloomberg)"
+  ],
+  "top": [
+    {
+      "category": "LLM",
+      "id": "2026-10-23-01",
+      "links": [
+        {
+          "name": "Linux Foundation",
+          "url": "https://www.linuxfoundation.org/press/agentic-ai-foundation-announces-four-new-projects-agent-skills-open-responses-openenv-and-opensandbox"
+        },
+        {
+          "name": "Anthropic",
+          "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation"
+        }
+      ],
+      "region": "글로벌",
+      "score": 12,
+      "scores": {
+        "coverage": 2,
+        "impact": 3,
+        "novelty": 2,
+        "relevance": 3,
+        "trust": 2
+      },
+      "summary": [
+        "Agentic AI Foundation이 AGNTCon+MCPCon에서 신규 프로젝트 4개를 받아 호스팅 프로젝트가 10개로 늘었다.",
+        "앤트로픽은 에이전트용 지침·스크립트 묶음 규격 Agent Skills, OpenAI는 Responses API 기반의 공급사 공통 LLM 인터페이스 규격 Open Responses를 기증했다.",
+        "허깅페이스는 강화학습 환경 허브 OpenEnv, 알리바바는 코딩 에이전트·평가용 샌드박스 OpenSandbox를 냈다."
+      ],
+      "tier": "핵심",
+      "title": "리눅스재단 AAIF, 앤트로픽 'Agent Skills'·OpenAI 'Open Responses' 등 에이전트 표준 4종 편입",
+      "why": "경쟁사들이 에이전트 기능 패키징·API 호출 방식을 중립 재단 표준으로 묶기 시작해, 모델을 바꿔도 같은 에이전트 자산을 재사용할 길이 열린다."
+    },
+    {
+      "category": "상용 LLM",
+      "id": "2026-10-23-02",
+      "links": [
+        {
+          "name": "ZDNet Korea",
+          "url": "https://zdnet.co.kr/view/?no=20261022183455"
+        },
+        {
+          "name": "ZDNet Korea(LG CNS 발표)",
+          "url": "https://zdnet.co.kr/view/?no=20261022191127"
+        }
+      ],
+      "region": "한국",
+      "score": 11,
+      "scores": {
+        "coverage": 1,
+        "impact": 3,
+        "novelty": 2,
+        "relevance": 3,
+        "trust": 2
+      },
+      "summary": [
+        "'OpenAI DevDay Exchange: 서울'에서 사용자가 Plus·Pro 구독을 외부 앱에 연결해 개발자 대신 자기 사용 한도로 AI 기능을 쓰는 방식을 발표했다.",
+        "초기 파트너는 Devin·Notion·Vercel 등 16곳이며, 상용 앱은 선정 파트너 대상 시험 단계이고 오픈소스·개인 프로젝트는 바로 쓸 수 있다.",
+        "챗GPT 사이드바·작업 패널에서 도는 플러그인형 앱도 심사를 거쳐 배포할 수 있게 했다."
+      ],
+      "tier": "핵심",
+      "title": "OpenAI, 서울 데브데이서 '챗GPT로 로그인' 공개… 외부 앱이 사용자의 챗GPT 구독 사용량을 쓴다",
+      "why": "API 비용을 개발자가 아닌 구독자가 부담하는 구조라 소규모 앱의 LLM 도입 비용과 과금 설계가 크게 달라질 수 있다."
+    },
+    {
+      "category": "기타",
+      "id": "2026-10-23-03",
+      "links": [
+        {
+          "name": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/china-linked-hackers-use-artex-ai.html"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/22/chinese-hackers-spied-on-thousands-of-companies-after-breaching-it-giant-connectwise/"
+        }
+      ],
+      "region": "중국",
+      "score": 11,
+      "scores": {
+        "coverage": 2,
+        "impact": 3,
+        "novelty": 2,
+        "relevance": 2,
+        "trust": 2
+      },
+      "summary": [
+        "마이크로소프트가 중국 국가 연계 그룹이 AI 에이전트 침투 프레임워크 ARTEX로 커넥트와이즈 클라우드 백업을 거쳐 고객사까지 침입했다고 공개했다.",
+        "분당 약 2,900회 로그인 시도로 2,250여 개 테넌트를 노렸고, 탈취한 앱 신원으로 Graph·디렉터리 권한까지 건드렸다.",
+        "지스케일러 분석에서 ARTEX는 딥시크·GLM·그록을 역할 분담시켜 서로 결과를 검토하게 구성돼 있었다."
+      ],
+      "tier": "핵심",
+      "title": "MS '중국 연계 Storm-0940, 에이전트형 해킹 도구 ARTEX로 커넥트와이즈 공급망 뚫어'",
+      "why": "상용·오픈 LLM을 엮은 에이전트가 실제 국가급 공급망 공격에 쓰인 사례로, 에이전트 신원·권한 관리가 보안 핵심 과제가 됐다."
+    },
+    {
+      "category": "상용 LLM",
+      "id": "2026-10-23-04",
+      "links": [
+        {
+          "name": "The Decoder",
+          "url": "https://the-decoder.com/googles-agent-compute-engine-gives-every-gemini-agent-its-own-hardware-isolated-micro-virtual-machine/"
+        }
+      ],
+      "region": "미국",
+      "score": 10,
+      "scores": {
+        "coverage": 1,
+        "impact": 2,
+        "novelty": 2,
+        "relevance": 3,
+        "trust": 2
+      },
+      "summary": [
+        "구글이 에이전트 하나당 Titanium 칩으로 보호되는 전용 마이크로VM을 주는 실행 환경을 공개했고, 이미 제미나이 내부에서 쓰고 있다.",
+        "쿠버네티스 런타임 Agent Substrate는 오픈소스로 내놨으며, 20만 에이전트 시험에서 일시정지·재개가 0.5초 안에 끝났다고 밝혔다.",
+        "토큰 추적·모델 라우팅·외부 ID 연동 같은 통제 기능을 Cloud Run·GKE로 넓히고, 서비스는 수개월 내 프리뷰로 연다."
+      ],
+      "tier": "핵심",
+      "title": "구글 'Agent Compute Engine' 발표… 제미나이 에이전트마다 하드웨어 격리 마이크로VM",
+      "why": "대규모 에이전트 운영에서 격리·비용·거버넌스를 클라우드 기본 기능으로 묶는 경쟁이 본격화했다."
+    },
+    {
+      "category": "피지컬AI",
+      "id": "2026-10-23-05",
+      "links": [
+        {
+          "name": "AI타임스",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=216528"
+        }
+      ],
+      "region": "미국",
+      "score": 10,
+      "scores": {
+        "coverage": 1,
+        "impact": 2,
+        "novelty": 2,
+        "relevance": 3,
+        "trust": 2
+      },
+      "summary": [
+        "로봇·사람 영상을 보고 동작 구간, 시간별 설명, 성공·실패 원인을 자동으로 기록하는 9B·27B 모델 세 종을 허깅페이스에 올렸다.",
+        "GR00T 학습용 데이터 엔진으로 쓰이며 GB300 서버 512대로 하루 20만 시간 영상을 처리한다고 밝혔다.",
+        "원본 영상 1시간당 약 0.72달러로 최고 추론 설정의 GPT-6 Astra보다 120배 이상 싸다고 주장했고, 라이선스는 비상업 연구용이다."
+      ],
+      "tier": "핵심",
+      "title": "엔비디아, 로봇 영상 자동 주석 모델군 'Flora' 공개… GPT-6 Astra 대비 비용 약 1/125",
+      "why": "휴머노이드 학습의 병목인 데이터 라벨링 비용을 크게 낮추는 도구로, 피지컬AI 데이터 파이프라인 표준 후보가 될 수 있다."
+    }
+  ]
+}
