@@ -188,100 +188,94 @@
   },
   "afternoon": {
     "type": "afternoon",
-    "date": "2026-10-22",
-    "generated_at": "2026-10-22T16:02:00+09:00",
+    "date": "2026-10-23",
+    "generated_at": "2026-10-23T16:05:00+09:00",
     "analysis": {
-      "kospi_predicted": "상승",
-      "kospi_actual": "하락",
-      "kospi_change_text": "▼3.52%",
+      "kospi_predicted": "하락",
+      "kospi_actual": "보합",
+      "kospi_change_text": "▲0.30%",
       "kospi_match": "빗나감",
-      "kospi_miss_reason": "전일 급반등 뒤 차익실현 압력을 과소평가. 美 반도체 강세가 전이되지 않았고 기관 대량 매도·AI 투자 회의론에 반도체·2차전지가 함께 밀림",
+      "kospi_miss_reason": "장초반 4%대 급락까지는 예상대로였으나, 개장 전 나온 솔리다임 상장 철회와 전일 급락분 반발 매수로 반도체가 반등하며 강보합 마감",
       "watchlist_accuracy": [
         {
           "code": "005930",
           "name": "삼성전자",
-          "predicted": "상승",
-          "actual": "하락",
-          "change_text": "▼4.03%",
+          "predicted": "하락",
+          "actual": "상승",
+          "change_text": "▲0.47%",
           "match": "빗나감",
-          "reason": "전일 급등 차익매물·자사주 매입 종료로 수급 약화"
+          "reason": "장중 2%대 하락 뒤 반발 매수로 소폭 상승 전환"
         },
         {
           "code": "000660",
           "name": "SK하이닉스",
-          "predicted": "상승",
-          "actual": "하락",
-          "change_text": "▼5.49%",
+          "predicted": "하락",
+          "actual": "상승",
+          "change_text": "▲4.42%",
           "match": "빗나감",
-          "reason": "40조 자사주 매입 조기 완료로 지지 매수 사라짐"
+          "reason": "솔리다임 상장 철회로 중복상장 우려 해소, 급반등"
         }
       ],
       "overall_accuracy": "0/3",
       "accuracy": "빗나감",
-      "market_analysis": "5670 출발 뒤 낙폭 키워 3.5% 급락, 전일 상승분 반납. 반도체·2차전지 약세, 시총 상위주 대부분 하락. 기관 4621억 순매도, 개인·외국인 순매수",
-      "lessons": "급등 다음날 차익실현과 자사주 매입 종료 같은 수급 공백을 美 증시 강세보다 크게 볼 것"
+      "market_analysis": "美 반도체 폭락 여파로 장초반 4% 넘게 밀렸으나 SK하이닉스·제약바이오가 반등을 이끌어 강보합. 외국인 1조원대 순매도를 기관이 받아냈고, 코스닥은 2차전지 약세로 하락",
+      "lessons": "전일 급락 선반영 시 반발 매수 강도와 개장 전 개별 호재를 더 반영, 범위 하단을 좁힐 것"
     },
     "raw_data": {
       "kospi": {
-        "price": 5533.77,
-        "changePct": -3.52
+        "price": 5550.3,
+        "changePct": 0.3
       },
       "kosdaq": {
-        "price": 764.1,
-        "changePct": -3.62
+        "price": 751.69,
+        "changePct": -1.62
       },
       "watchlist": [
         {
           "code": "005930",
           "name": "삼성전자",
-          "price": 214500,
-          "changePct": -4.03
+          "price": 215500,
+          "changePct": 0.47
         },
         {
           "code": "000660",
           "name": "SK하이닉스",
-          "price": 1223000,
-          "changePct": -5.49
+          "price": 1277000,
+          "changePct": 4.42
         }
       ],
-      "flows": {
-        "kospi": {
-          "individual": 3802,
-          "foreign": 614,
-          "institution": -4621,
-          "unit": "억원"
-        },
-        "kosdaq": {
-          "individual": 2204,
-          "foreign": -1200,
-          "institution": -997,
-          "unit": "억원"
-        }
-      },
-      "usdkrw": {
-        "price": 1324.2,
-        "note": "15:30 기준"
-      },
       "sources": [
         {
-          "name": "블록미디어(코스피·코스닥·종목 종가, 수급, 환율)",
-          "url": "https://www.blockmedia.co.kr/archives/1154900"
+          "name": "싱글리스트(코스피·코스닥·종목 종가)",
+          "url": "https://www.slist.kr/news/articleView.html?idxno=775900"
         },
         {
-          "name": "뉴스1(장중 흐름·하락 원인)",
-          "url": "https://www.news1.kr/finance/general-stock/6328626"
+          "name": "서울경제TV(코스피·코스닥 종가)",
+          "url": "https://www.sentv.co.kr/article/view/sentv202610230128"
         },
         {
-          "name": "서울신문(SK하이닉스 종가)",
-          "url": "https://www.seoul.co.kr/news/economy/securities/2026/10/22/20261022500213"
+          "name": "아주경제(마감시황·반등 원인)",
+          "url": "https://www.ajunews.com/view/20261023151318414"
         },
         {
-          "name": "뉴스핌(자사주 매입 종료·반도체 약세)",
-          "url": "https://www.newspim.com/news/view/20261022000569"
+          "name": "이투데이(마감 흐름·수급·업종)",
+          "url": "https://www.etoday.co.kr/news/view/2639488"
         },
         {
-          "name": "글로벌이코노믹(장중 섹터·수급)",
-          "url": "https://www.g-enews.com/article/Securities/2026/10/2026102213084878923c501012_1"
+          "name": "재경일보(삼성전자 종가)",
+          "url": "https://news.jkn.co.kr/post/1044602"
+        },
+        {
+          "name": "재경일보(SK하이닉스 종가)",
+          "url": "https://news.jkn.co.kr/post/1044603"
+        },
+        {
+          "name": "PPSS(장중 급락·수급)",
+          "url": "https://www.ppss.kr/news/articleView.html?idxno=317045"
+        },
+        {
+          "name": "머니투데이(개장 전 솔리다임 IPO 철회)",
+          "url": "https://www.mt.co.kr/stock/2026/10/23/2026102308175144786"
         }
       ]
     }

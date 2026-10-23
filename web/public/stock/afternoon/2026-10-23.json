@@ -1,0 +1,94 @@
+{
+  "type": "afternoon",
+  "date": "2026-10-23",
+  "generated_at": "2026-10-23T16:05:00+09:00",
+  "analysis": {
+    "kospi_predicted": "하락",
+    "kospi_actual": "보합",
+    "kospi_change_text": "▲0.30%",
+    "kospi_match": "빗나감",
+    "kospi_miss_reason": "장초반 4%대 급락까지는 예상대로였으나, 개장 전 나온 솔리다임 상장 철회와 전일 급락분 반발 매수로 반도체가 반등하며 강보합 마감",
+    "watchlist_accuracy": [
+      {
+        "code": "005930",
+        "name": "삼성전자",
+        "predicted": "하락",
+        "actual": "상승",
+        "change_text": "▲0.47%",
+        "match": "빗나감",
+        "reason": "장중 2%대 하락 뒤 반발 매수로 소폭 상승 전환"
+      },
+      {
+        "code": "000660",
+        "name": "SK하이닉스",
+        "predicted": "하락",
+        "actual": "상승",
+        "change_text": "▲4.42%",
+        "match": "빗나감",
+        "reason": "솔리다임 상장 철회로 중복상장 우려 해소, 급반등"
+      }
+    ],
+    "overall_accuracy": "0/3",
+    "accuracy": "빗나감",
+    "market_analysis": "美 반도체 폭락 여파로 장초반 4% 넘게 밀렸으나 SK하이닉스·제약바이오가 반등을 이끌어 강보합. 외국인 1조원대 순매도를 기관이 받아냈고, 코스닥은 2차전지 약세로 하락",
+    "lessons": "전일 급락 선반영 시 반발 매수 강도와 개장 전 개별 호재를 더 반영, 범위 하단을 좁힐 것"
+  },
+  "raw_data": {
+    "kospi": {
+      "price": 5550.3,
+      "changePct": 0.3
+    },
+    "kosdaq": {
+      "price": 751.69,
+      "changePct": -1.62
+    },
+    "watchlist": [
+      {
+        "code": "005930",
+        "name": "삼성전자",
+        "price": 215500,
+        "changePct": 0.47
+      },
+      {
+        "code": "000660",
+        "name": "SK하이닉스",
+        "price": 1277000,
+        "changePct": 4.42
+      }
+    ],
+    "sources": [
+      {
+        "name": "싱글리스트(코스피·코스닥·종목 종가)",
+        "url": "https://www.slist.kr/news/articleView.html?idxno=775900"
+      },
+      {
+        "name": "서울경제TV(코스피·코스닥 종가)",
+        "url": "https://www.sentv.co.kr/article/view/sentv202610230128"
+      },
+      {
+        "name": "아주경제(마감시황·반등 원인)",
+        "url": "https://www.ajunews.com/view/20261023151318414"
+      },
+      {
+        "name": "이투데이(마감 흐름·수급·업종)",
+        "url": "https://www.etoday.co.kr/news/view/2639488"
+      },
+      {
+        "name": "재경일보(삼성전자 종가)",
+        "url": "https://news.jkn.co.kr/post/1044602"
+      },
+      {
+        "name": "재경일보(SK하이닉스 종가)",
+        "url": "https://news.jkn.co.kr/post/1044603"
+      },
+      {
+        "name": "PPSS(장중 급락·수급)",
+        "url": "https://www.ppss.kr/news/articleView.html?idxno=317045"
+      },
+      {
+        "name": "머니투데이(개장 전 솔리다임 IPO 철회)",
+        "url": "https://www.mt.co.kr/stock/2026/10/23/2026102308175144786"
+      }
+    ]
+  }
+}
