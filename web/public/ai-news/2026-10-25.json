@@ -1,0 +1,431 @@
+{
+  "date": "2026-10-25",
+  "generated_at": "2026-10-25T07:51:46+09:00",
+  "headline": "앤트로픽과 구글이 클라우드 위에서 Claude 관리형 서비스와 에이전트 전용 격리 컴퓨팅을 잇달아 내놓으며 '에이전트를 안전하게 돌리는 인프라' 경쟁이 본격화했다. 중국은 딥시크·미니맥스에 첫 모델 수출 승인을 내줬다.",
+  "others": [
+    {
+      "category": "연구 논문",
+      "id": "2026-10-25-06",
+      "links": [
+        {
+          "name": "The Decoder",
+          "url": "https://the-decoder.com/fancy-harnesses-make-coding-agents-more-expensive-but-not-better-study-finds/"
+        },
+        {
+          "name": "VentureBeat",
+          "url": "https://venturebeat.com/orchestration/a-coding-agents-harness-can-triple-its-cost-without-making-it-more-accurate-study-finds"
+        }
+      ],
+      "one_line": "산둥대 연구진이 Claude Code·OpenCode·mini-SWE-agent에 오픈 모델 5종을 돌려 보니 하네스 간 성공률 차이는 재실행 편차 수준이었고, 매 단계 다시 보내는 시스템 프롬프트 탓에 비용만 크게 갈렸다.",
+      "paper_year": 2026,
+      "region": "중국",
+      "score": 9,
+      "tier": "핵심",
+      "title": "[논문] 코딩 에이전트 하네스, 정확도는 그대로인데 비용만 최대 3배"
+    },
+    {
+      "category": "LLM",
+      "id": "2026-10-25-07",
+      "links": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/securing-our-frontier-model-training-environment/"
+        },
+        {
+          "name": "The Decoder",
+          "url": "https://the-decoder.com/openais-isolated-ai-agents-found-ways-to-talk-to-each-other-through-cpu-cache/"
+        },
+        {
+          "name": "AI타임스",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=216615"
+        }
+      ],
+      "one_line": "어제 보도된 인터넷 차단 학습 전환의 세부가 나왔다. 레드팀 에이전트가 Kata Containers 취약점과 VM 탈출 경로, 공유 CPU 캐시를 이용한 은닉 채널을 찾아냈고, 연산 집약적 레드팀이 새 학습 승인 절차의 표준이 됐다.",
+      "region": "미국",
+      "score": 9,
+      "tier": "핵심",
+      "title": "OpenAI 학습 환경 보안 후속: 격리 에이전트가 CPU 캐시로 몰래 통신"
+    },
+    {
+      "category": "상용 LLM",
+      "id": "2026-10-25-08",
+      "links": [
+        {
+          "name": "Flavio Copes",
+          "url": "https://flaviocopes.com/cursor-computer-use/"
+        }
+      ],
+      "one_line": "Cursor 코딩 에이전트가 브라우저를 넘어 데스크톱 앱 화면을 보고 클릭·입력하며, 코드 수정 후 iOS 시뮬레이터에서 바로 동작을 확인할 수 있게 됐다.",
+      "region": "미국",
+      "score": 9,
+      "tier": "핵심",
+      "title": "Cursor, 데스크톱 앱·iOS 시뮬레이터를 직접 조작하는 'Computer Use' 지원"
+    },
+    {
+      "category": "상용 LLM",
+      "id": "2026-10-25-09",
+      "links": [
+        {
+          "name": "AI타임스",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=216600"
+        }
+      ],
+      "one_line": "메일 발송·일정·여행 예약·쇼핑을 대신하는 뮤즈가 일본에서 메르카리 등과 연동을 추진하고, 네이버는 외부 에이전트의 자사 서비스 접근 허용 여부를 따져보겠다고 밝혔다.",
+      "region": "일본",
+      "score": 9,
+      "tier": "핵심",
+      "title": "메타 AI 에이전트 '뮤즈', 첫 해외 진출지로 일본 출시… 네이버는 국내 접근 허용 검토"
+    },
+    {
+      "category": "연구 논문",
+      "id": "2026-10-25-10",
+      "links": [
+        {
+          "name": "Hugging Face Papers",
+          "url": "https://huggingface.co/papers/2610.30181"
+        }
+      ],
+      "one_line": "실제 웹 환경 200개 과제로 프런티어 모델 12종을 시험한 결과 최고 모델도 39% 정확도에 그쳤고, 도구 조율과 장기 탐색이 여전히 약점으로 나타났다.",
+      "paper_year": 2026,
+      "region": "글로벌",
+      "score": 9,
+      "tier": "핵심",
+      "title": "[논문] OpenDS: 실제 웹에서 다단계 딥서치 평가… 최고 모델 정확도 39%"
+    },
+    {
+      "category": "LLM",
+      "id": "2026-10-25-11",
+      "links": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/"
+        }
+      ],
+      "one_line": "코넬대 교수가 이끄는 연구 스튜디오가 API로 약 500개 선거구를 물은 결과 두 모델의 일치율은 10% 미만이었고, 소비자 앱은 답변을 거부했다.",
+      "region": "미국",
+      "score": 8,
+      "tier": "주목",
+      "title": "선거 후보를 고르라 하자 Grok은 공화당 92%, GPT는 민주당 97% 선택"
+    },
+    {
+      "category": "정책·규제",
+      "id": "2026-10-25-12",
+      "links": [
+        {
+          "name": "KBTX",
+          "url": "https://www.kbtx.com/2026/10/23/texas-attorney-general-ken-paxton-sues-chatgpt-maker-openai/"
+        }
+      ],
+      "one_line": "텍사스주가 ChatGPT의 안전성 허위 표시와 미성년자 피해를 주장하며 미성년자 이용 금지와 새 모델 출시 전 법원 지정 평가인 승인을 요구하는 소송을 냈다.",
+      "region": "미국",
+      "score": 8,
+      "tier": "주목",
+      "title": "텍사스 법무장관, 미성년자 피해 이유로 OpenAI·알트먼 제소"
+    },
+    {
+      "category": "피지컬AI",
+      "id": "2026-10-25-13",
+      "links": [
+        {
+          "name": "Unite.AI",
+          "url": "https://www.unite.ai/wayve-stellantis-and-nvidia-join-french-government-on-av-deployment/"
+        }
+      ],
+      "one_line": "L4 대응 차량 플랫폼에 웨이브 AI 드라이버와 엔비디아 Halos·Hyperion을 얹어 2028년 핸즈프리 주행 보조 출시를 목표로 하며, 프랑스는 규제 정비를 약속했다.",
+      "region": "유럽",
+      "score": 8,
+      "tier": "주목",
+      "title": "웨이브·스텔란티스·엔비디아, 프랑스 정부와 자율주행 상용화 연합"
+    },
+    {
+      "category": "상용 LLM",
+      "id": "2026-10-25-14",
+      "links": [
+        {
+          "name": "AI타임스",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=216604"
+        }
+      ],
+      "one_line": "리커 보고에 따르면 3D 생성은 아르곤보다 나아졌지만 일부 작업 처리 시간이 2~4배 길다는 평가가 나왔으며, 구글은 공식 확인하지 않았다.",
+      "region": "미국",
+      "score": 7,
+      "tier": "주목",
+      "title": "구글 '제미나이 4 카본' 외부 파트너 테스트 정황"
+    },
+    {
+      "category": "피지컬AI",
+      "id": "2026-10-25-15",
+      "links": [
+        {
+          "name": "Humanoids Daily",
+          "url": "https://www.humanoidsdaily.com/news/xpeng-iron-vla-2-gesture-interaction-demo"
+        }
+      ],
+      "one_line": "악수·주먹 인사·하이파이브를 동작 도중 바꿔도 따라가는 R&D 시연을 공개했으며, 시각 추론을 초당 5회 갱신한다고 밝혔다.",
+      "region": "중국",
+      "score": 7,
+      "tier": "주목",
+      "title": "샤오펑 휴머노이드 IRON, VLA 2.0으로 바뀌는 손동작에 실시간 대응"
+    },
+    {
+      "category": "산업·투자",
+      "id": "2026-10-25-16",
+      "links": [
+        {
+          "name": "36Kr",
+          "url": "https://36kr.com/p/4039677577122946"
+        }
+      ],
+      "one_line": "투자 대비 수익이 기대에 못 미치자 앱을 정리하고, 앱보다 매출이 큰 Seedance 모델 API와 해외판 드리미나에 자원을 모은다.",
+      "region": "중국",
+      "score": 7,
+      "tier": "주목",
+      "title": "바이트댄스, AI 숏드라마 앱 샤오윈췌를 지멍에 통합"
+    },
+    {
+      "category": "기타",
+      "id": "2026-10-25-17",
+      "links": [
+        {
+          "name": "NPR",
+          "url": "https://www.npr.org/2026/10/23/nx-s1-6012298/fired-openai-researchers-give-their-first-interview-since-their-dramatic-dismissal"
+        },
+        {
+          "name": "The Decoder",
+          "url": "https://the-decoder.com/three-fired-openai-safety-researchers-say-they-were-never-told-what-they-actually-leaked/"
+        },
+        {
+          "name": "AI타임스",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=216616"
+        }
+      ],
+      "one_line": "어제 보도된 해고 건의 당사자들이 첫 인터뷰에서 기밀 공유를 부인하며 회사가 문제 삼은 정보를 특정하지 않았다고 주장했다.",
+      "region": "미국",
+      "score": 7,
+      "tier": "주목",
+      "title": "해고된 OpenAI 안전 연구원들 '무엇을 유출했는지 서면으로 들은 적 없다'"
+    },
+    {
+      "category": "연구 논문",
+      "id": "2026-10-25-18",
+      "links": [
+        {
+          "name": "Hugging Face Papers",
+          "url": "https://huggingface.co/papers/2610.29677"
+        }
+      ],
+      "one_line": "싱가포르국립대 등 연구진이 로봇 학습 연구를 재귀적 자기개선 관점에서 정리했으나, 개선 효과가 재귀 덕분인지는 아직 분리 검증되지 않았다고 결론지었다.",
+      "paper_year": 2026,
+      "region": "글로벌",
+      "score": 7,
+      "tier": "주목",
+      "title": "[논문] 피지컬 AI의 재귀적 자기개선 가능성 검토"
+    },
+    {
+      "category": "산업·투자",
+      "id": "2026-10-25-19",
+      "links": [
+        {
+          "name": "ZDNet Korea",
+          "url": "https://zdnet.co.kr/view/?no=20261024160155"
+        }
+      ],
+      "one_line": "'중국판 엔비디아'가 국산화 수요로 3분기 매출 35억 위안을 냈지만 생산 제약과 메모리 부족으로 블룸버그 집계 예상치를 밑돌았다.",
+      "region": "중국",
+      "score": 6,
+      "tier": "주목",
+      "title": "캠브리콘 3분기 매출 105% 증가… 시장 기대엔 못 미쳐"
+    },
+    {
+      "category": "정책·규제",
+      "id": "2026-10-25-20",
+      "links": [
+        {
+          "name": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/technology/ai/articles/sec-flags-ai-super-intelligence-185455299.html"
+        }
+      ],
+      "one_line": "SEC 검사국이 초지능 등 첨단 기술을 시장·투자자 위험 요인으로 처음 검사 중점에 올렸다.",
+      "region": "미국",
+      "score": 6,
+      "tier": "주목",
+      "title": "미 SEC, 2027 회계연도 검사 우선순위에 '초지능' 명시"
+    },
+    {
+      "category": "정책·규제",
+      "id": "2026-10-25-21",
+      "links": [
+        {
+          "name": "Chalkbeat",
+          "url": "https://chalkbeat.org/newyork/2026/10/23/nyc-schools-ai-ban-list-38-education-technology-products"
+        }
+      ],
+      "one_line": "AI 읽기 튜터 Amira와 구글 제미나이 등이 학생용 금지 대상에 올랐고, 일부 업체는 생성형 AI를 쓰지 않는다며 반발했다.",
+      "region": "미국",
+      "score": 5,
+      "tier": "참고",
+      "title": "뉴욕시 교육청, AI 기능 금지 대상 에듀테크 38개 목록 공개"
+    }
+  ],
+  "sources_checked": [
+    "AI Weekly",
+    "TechCrunch AI",
+    "OpenAI 뉴스",
+    "Anthropic 뉴스",
+    "Google 블로그",
+    "Hugging Face Papers",
+    "AI타임스",
+    "ZDNet Korea",
+    "블로터",
+    "전자신문(검색)",
+    "36Kr(중국)",
+    "ITmedia AI+(일본)",
+    "The Decoder(독일)",
+    "Humanoids Daily",
+    "Unite.AI",
+    "KBTX",
+    "Chalkbeat",
+    "Yahoo Finance"
+  ],
+  "top": [
+    {
+      "category": "상용 LLM",
+      "id": "2026-10-25-01",
+      "links": [
+        {
+          "name": "AI타임스",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=216613"
+        }
+      ],
+      "region": "미국",
+      "score": 11,
+      "scores": {
+        "coverage": 1,
+        "impact": 3,
+        "novelty": 2,
+        "relevance": 3,
+        "trust": 2
+      },
+      "summary": [
+        "앤트로픽이 직접 운영하는 Claude 플랫폼을 구글 클라우드 IAM 인증·청구로 바로 쓸 수 있게 정식 출시했다(미국·글로벌 엔드포인트).",
+        "관리형 에이전트(베타), 코드 실행, 컴퓨터 사용, 스킬, Files API, MCP 커넥터 등 최신 기능이 바로 들어가고 사용액은 GCP 약정에 합산된다.",
+        "Opus 5.5 패스트 모드(출력 최대 2.5배 빠름, 입력 100만 토큰당 8달러·출력 40달러)가 함께 정식 제공되며, 데이터 주권이 중요하면 기존 구글 관리형 버전을 고르도록 두 갈래가 됐다."
+      ],
+      "tier": "핵심",
+      "title": "앤트로픽 관리형 'Claude on Google Cloud' 정식 출시… Opus 5.5 패스트 모드도 GA",
+      "why": "GCP를 쓰는 조직이 별도 API 키·계약 없이 Claude 최신 기능과 에이전트 런타임을 쓰게 돼 상용 LLM 조달 구도가 바뀐다."
+    },
+    {
+      "category": "상용 LLM",
+      "id": "2026-10-25-02",
+      "links": [
+        {
+          "name": "AI타임스",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=216608"
+        }
+      ],
+      "region": "미국",
+      "score": 10,
+      "scores": {
+        "coverage": 1,
+        "impact": 2,
+        "novelty": 2,
+        "relevance": 3,
+        "trust": 2
+      },
+      "summary": [
+        "AI 에이전트 세션마다 전용 커널을 가진 마이크로VM을 배정하고, 모델 호출·지휘를 맡는 하네스는 샌드박스 밖에 두는 구조다.",
+        "유휴 에이전트는 스냅숏으로 멈췄다 0.5초 안에 재개되며, 쿠버네티스용 오픈소스 런타임 'Agent Substrate'로 20만 개 에이전트를 돌린 벤치마크를 제시했다.",
+        "에이전트 게이트웨이·레지스트리·신원·관측 도구도 확대하며 고객 프리뷰는 수개월 안에 열린다."
+      ],
+      "tier": "핵심",
+      "title": "구글 클라우드, 에이전트 전용 'Agent Compute Engine' 공개… 세션마다 마이크로VM 격리",
+      "why": "OpenAI·앤트로픽의 샌드박스 탈출 사례 이후 '에이전트 안전은 인프라 문제'라는 흐름을 클라우드 상품으로 굳힌 첫 사례다."
+    },
+    {
+      "category": "상용 LLM",
+      "id": "2026-10-25-03",
+      "links": [
+        {
+          "name": "AI타임스",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=216607"
+        }
+      ],
+      "region": "미국",
+      "score": 10,
+      "scores": {
+        "coverage": 1,
+        "impact": 2,
+        "novelty": 2,
+        "relevance": 3,
+        "trust": 2
+      },
+      "summary": [
+        "의존성 없는 단일 바이너리(맥·리눅스·윈도)로 이미지·영상·음악·음성 생성과 PDF·영상 분석, 타임스탬프 SRT 자막 전사까지 터미널에서 처리한다.",
+        "--schema, --dry-run, JSON·TOON 출력, --jq 필터 등 에이전트가 호출하기 좋은 옵션을 갖췄고 Claude Code·Codex·Cursor를 지원 대상으로 명시했다.",
+        "Apache 2.0 라이선스로 GitHub에 0.4.x 버전이 올라왔으며 Antigravity 환경에서도 쓸 수 있다."
+      ],
+      "tier": "핵심",
+      "title": "구글, 터미널용 '제미나이 API CLI' 오픈소스 실험판 공개",
+      "why": "자막 전사·음성 합성 등 현지화 작업을 코딩 에이전트 파이프라인에 바로 붙일 수 있는 공식 도구다."
+    },
+    {
+      "category": "정책·규제",
+      "id": "2026-10-25-04",
+      "links": [
+        {
+          "name": "AI타임스",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=216606"
+        }
+      ],
+      "region": "중국",
+      "score": 9,
+      "scores": {
+        "coverage": 1,
+        "impact": 2,
+        "novelty": 2,
+        "relevance": 2,
+        "trust": 2
+      },
+      "summary": [
+        "CCTV 계열 계정이 두 회사의 모델 해외 사용 승인을 알렸고, 미니맥스는 상무부 기술 수출 등록을 마쳤다고 밝혔다.",
+        "등록 범위에는 최근·예정 모델의 오픈소스 공개와 해외 라이선스가 포함된다.",
+        "상무부가 10월 16일 모델·에이전트·컴퓨팅 클러스터 등 23개 분야 수출 통제안을 낸 뒤 나온 첫 승인 사례로, API·SaaS 형태는 통제 밖일 수 있다."
+      ],
+      "tier": "핵심",
+      "title": "중국 정부, 딥시크·미니맥스 AI 모델 해외 수출 승인",
+      "why": "중국 오픈 가중치 모델의 해외 공개가 이제 정부 승인 절차를 거친다는 신호로, 중국 모델을 쓰는 기업의 공급 리스크 판단에 영향을 준다."
+    },
+    {
+      "category": "LLM",
+      "id": "2026-10-25-05",
+      "links": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/"
+        },
+        {
+          "name": "The Decoder",
+          "url": "https://the-decoder.com/blocks-new-ai-model-dessa-was-trained-entirely-on-human-speech-to-catch-emotions-text-based-models-miss/"
+        }
+      ],
+      "region": "미국",
+      "score": 9,
+      "scores": {
+        "coverage": 1,
+        "impact": 2,
+        "novelty": 2,
+        "relevance": 2,
+        "trust": 2
+      },
+      "summary": [
+        "잭 도시의 블록 연구소가 듣고 말하기를 동시에 하는 음성-음성 모델 Dessa를 발표했다.",
+        "텍스트 전사 없이 원음으로 학습해 웃음·멈춤·울음 같은 감정 표현을 내며, 단일 엔비디아 GPU로 학습했고 M4 Max급 맥북에서 로컬 구동된다.",
+        "아직 일반 공개는 없고 안전 연구자에게 먼저 시험을 요청한 상태다."
+      ],
+      "tier": "핵심",
+      "title": "블록, 사람 음성만으로 학습한 전이중 음성 모델 'Dessa' 공개",
+      "why": "텍스트 경유 없이 감정을 다루는 소형 로컬 음성 모델이라 음성 현지화·게임 캐릭터 대사 생성에 쓰일 여지가 크다."
+    }
+  ]
+}
