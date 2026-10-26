@@ -1,0 +1,82 @@
+{
+  "type": "afternoon",
+  "date": "2026-10-26",
+  "generated_at": "2026-10-26T16:05:00+09:00",
+  "analysis": {
+    "kospi_predicted": "보합",
+    "kospi_actual": "하락",
+    "kospi_change_text": "▼1.46%",
+    "kospi_match": "빗나감",
+    "kospi_miss_reason": "외국인 7천억원대 매도가 이어지는데 받쳐 줄 매수 주체가 없었고, 美 제조업 지표 호조로 긴축 우려까지 겹쳐 하단(-0.6%)을 크게 밑돌며 7개월 만에 최저 마감",
+    "watchlist_accuracy": [
+      {
+        "code": "005930",
+        "name": "삼성전자",
+        "predicted": "보합",
+        "actual": "하락",
+        "change_text": "▼1.16%",
+        "match": "빗나감",
+        "reason": "실적 기대보다 외국인 매도와 지수 약세 영향이 컸음"
+      },
+      {
+        "code": "000660",
+        "name": "SK하이닉스",
+        "predicted": "상승",
+        "actual": "보합",
+        "change_text": "▼0.16%",
+        "match": "빗나감",
+        "reason": "ADR 강세로 장중 1%대 올랐으나 지수 약세에 상승분 반납"
+      }
+    ],
+    "overall_accuracy": "0/3",
+    "accuracy": "빗나감",
+    "market_analysis": "FOMC·실적·美 중간선거를 앞둔 관망 속 거래대금이 9조원대로 줄며 전 업종 하락. 외국인이 7천억원 넘게 팔고 기관이 6천억원 받았으며, 코스닥은 바이오·반도체 장비 급락에 3%대 하락",
+    "lessons": "외국인 연속 매도 국면에선 이벤트 전 관망이 하락으로 기울기 쉬움, 범위 하단을 넓힐 것"
+  },
+  "raw_data": {
+    "kospi": {
+      "price": 5469.47,
+      "changePct": -1.46
+    },
+    "kosdaq": {
+      "price": 727.21,
+      "changePct": -3.26
+    },
+    "watchlist": [
+      {
+        "code": "005930",
+        "name": "삼성전자",
+        "price": 213000,
+        "changePct": -1.16
+      },
+      {
+        "code": "000660",
+        "name": "SK하이닉스",
+        "price": 1275000,
+        "changePct": -0.16
+      }
+    ],
+    "usdkrw": {
+      "price": 1323.1,
+      "changePct": null
+    },
+    "sources": [
+      {
+        "name": "뉴스핌(지수·수급·종목 종가·환율)",
+        "url": "https://www.newspim.com/news/view/20261026000894"
+      },
+      {
+        "name": "이투데이(지수·수급·업종·하락 원인)",
+        "url": "https://www.etoday.co.kr/news/view/2640178"
+      },
+      {
+        "name": "머니투데이(코스피 종가)",
+        "url": "https://www.mt.co.kr/stock/2026/10/26/2026102615270574977"
+      },
+      {
+        "name": "톱스타뉴스(SK하이닉스 장중 흐름)",
+        "url": "https://www.topstarnews.net/news/articleView.html?idxno=16257938"
+      }
+    ]
+  }
+}
