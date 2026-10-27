@@ -177,82 +177,90 @@
   },
   "afternoon": {
     "type": "afternoon",
-    "date": "2026-10-26",
-    "generated_at": "2026-10-26T16:05:00+09:00",
+    "date": "2026-10-27",
+    "generated_at": "2026-10-27T15:58:41+09:00",
     "analysis": {
-      "kospi_predicted": "보합",
-      "kospi_actual": "하락",
-      "kospi_change_text": "▼1.46%",
-      "kospi_match": "빗나감",
-      "kospi_miss_reason": "외국인 7천억원대 매도가 이어지는데 받쳐 줄 매수 주체가 없었고, 美 제조업 지표 호조로 긴축 우려까지 겹쳐 하단(-0.6%)을 크게 밑돌며 7개월 만에 최저 마감",
+      "kospi_predicted": "상승",
+      "kospi_actual": "상승",
+      "kospi_change_text": "▲3.09%",
+      "kospi_match": "적중",
+      "kospi_miss_reason": "美 반도체 급등·앤트로픽 상장 효과로 방향은 맞았으나, 외국인 매수 전환과 사이드카까지 나온 반등 강도를 과소평가해 상단을 크게 넘음",
       "watchlist_accuracy": [
         {
           "code": "005930",
           "name": "삼성전자",
-          "predicted": "보합",
-          "actual": "하락",
-          "change_text": "▼1.16%",
-          "match": "빗나감",
-          "reason": "실적 기대보다 외국인 매도와 지수 약세 영향이 컸음"
+          "predicted": "상승",
+          "actual": "상승",
+          "change_text": "▲4.23%",
+          "match": "적중",
+          "reason": "SOX 급등과 외국인 매수 복귀로 반도체 반등 주도"
         },
         {
           "code": "000660",
           "name": "SK하이닉스",
           "predicted": "상승",
-          "actual": "보합",
-          "change_text": "▼0.16%",
-          "match": "빗나감",
-          "reason": "ADR 강세로 장중 1%대 올랐으나 지수 약세에 상승분 반납"
+          "actual": "상승",
+          "change_text": "▲5.18%",
+          "match": "적중",
+          "reason": "ADR 강세와 실적·배당 기대로 장중 7%대까지 상승"
         }
       ],
-      "overall_accuracy": "0/3",
-      "accuracy": "빗나감",
-      "market_analysis": "FOMC·실적·美 중간선거를 앞둔 관망 속 거래대금이 9조원대로 줄며 전 업종 하락. 외국인이 7천억원 넘게 팔고 기관이 6천억원 받았으며, 코스닥은 바이오·반도체 장비 급락에 3%대 하락",
-      "lessons": "외국인 연속 매도 국면에선 이벤트 전 관망이 하락으로 기울기 쉬움, 범위 하단을 넓힐 것"
+      "overall_accuracy": "3/3",
+      "accuracy": "적중",
+      "market_analysis": "앤트로픽 상장 신청발 AI 기대에 반도체가 지수를 끌어 매수 사이드카 발동 후 5700선 돌파, 오후 일부 반납. 외국인 5930억·기관 2804억 순매수, 개인 9478억 순매도",
+      "lessons": "외국인 매도 과열 후 美 반도체 급등일엔 되돌림 폭이 클 수 있어 범위 상단을 넓힐 것"
     },
     "raw_data": {
       "kospi": {
-        "price": 5469.47,
-        "changePct": -1.46
+        "price": 5638.34,
+        "changePct": 3.09
       },
       "kosdaq": {
-        "price": 727.21,
-        "changePct": -3.26
+        "price": 743.83,
+        "changePct": 2.29
       },
       "watchlist": [
         {
           "code": "005930",
           "name": "삼성전자",
-          "price": 213000,
-          "changePct": -1.16
+          "price": 222000,
+          "changePct": 4.23
         },
         {
           "code": "000660",
           "name": "SK하이닉스",
-          "price": 1275000,
-          "changePct": -0.16
+          "price": 1341000,
+          "changePct": 5.18
         }
       ],
       "usdkrw": {
-        "price": 1323.1,
+        "price": 1324.3,
         "changePct": null
       },
       "sources": [
         {
-          "name": "뉴스핌(지수·수급·종목 종가·환율)",
-          "url": "https://www.newspim.com/news/view/20261026000894"
+          "name": "블록미디어(마감 지수·수급·종목 종가·환율)",
+          "url": "https://www.blockmedia.co.kr/archives/1156886"
         },
         {
-          "name": "이투데이(지수·수급·업종·하락 원인)",
-          "url": "https://www.etoday.co.kr/news/view/2640178"
+          "name": "세계일보(코스피·코스닥 종가, 사이드카 시각)",
+          "url": "https://www.segye.com/newsView/20261027513946"
         },
         {
-          "name": "머니투데이(코스피 종가)",
-          "url": "https://www.mt.co.kr/stock/2026/10/26/2026102615270574977"
+          "name": "아주경제(코스피 종가 속보)",
+          "url": "https://www.ajunews.com/view/20261027153300500"
         },
         {
-          "name": "톱스타뉴스(SK하이닉스 장중 흐름)",
-          "url": "https://www.topstarnews.net/news/articleView.html?idxno=16257938"
+          "name": "위키트리(투자자별 순매수·종목 종가)",
+          "url": "https://www.wikitree.co.kr/articles/1169590"
+        },
+        {
+          "name": "뉴스핌(장중 외국인 순매수·사이드카)",
+          "url": "https://www.newspim.com/news/view/20261027000458"
+        },
+        {
+          "name": "글로벌이코노믹(장중 상승분 축소)",
+          "url": "https://www.g-enews.com/article/Securities/2026/10/202610271303517710923c501012_1"
         }
       ]
     }
