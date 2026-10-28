@@ -1,40 +1,40 @@
 {
   "morning": {
     "type": "morning",
-    "date": "2026-10-28",
-    "generated_at": "2026-10-28T06:23:12+09:00",
+    "date": "2026-10-29",
+    "generated_at": "2026-10-29T06:22:38+09:00",
     "analysis": {
       "kospi_prediction": "상승",
-      "kospi_change_range": "+0.2~1.2%",
+      "kospi_change_range": "-0.3~+1.2%",
       "kospi_confidence": "낮음",
-      "kospi_reason": "SOX 3.6% 상승이 반도체 강세를 잇지만 전일 3% 급등 부담, 하이닉스 실적·FOMC 앞둔 경계로 상단 제한",
-      "us_market_summary": "앤트로픽 훈풍에 나스닥 1.2%↑, SOX 3.6%↑ 3일째 상승",
-      "kospi_news_summary": "美 반도체 3일 연속 상승, 오늘 SK하이닉스 실적·주주환원 발표",
+      "kospi_reason": "하이닉스 ADR 13%↑·SOX 1.8%↑로 반도체 온기 지속, 전일 6.6% 폭등 차익실현·환율 급등이 상단 제한",
+      "us_market_summary": "연준 동결에 3대 지수 소폭↑, SOX 1.8%↑ 반도체 강세",
+      "kospi_news_summary": "연준 금리 동결·SK하이닉스 ADR 13% 급등, 오늘 삼성전자 확정실적",
       "kospi_news": [
         {
-          "summary": "뉴욕 3대 지수 상승, 나스닥 1.18%↑ 반도체 주도",
+          "summary": "연준 기준금리 3.75~4.00% 동결, 2명 인상 주장",
           "source": "아시아경제",
-          "url": "https://view.asiae.co.kr/article/2026102805214620175"
+          "url": "https://view.asiae.co.kr/article/2026102905313419654"
         },
         {
-          "summary": "SOX 3.6%↑, AMD 5%·브로드컴 4% 올라 3일 연속 강세",
-          "source": "뉴스1",
-          "url": "https://www.news1.kr/world/international-economy/6334054"
+          "summary": "SK하이닉스 ADR 13.3% 급등, 마이크론도 5.9%↑",
+          "source": "서울경제",
+          "url": "https://www.sedaily.com/article/20107472"
         },
         {
-          "summary": "이란 분쟁 종식 협의설에 WTI 100달러 아래로 하락",
-          "source": "글로벌이코노믹",
-          "url": "https://www.g-enews.com/article/Securities/2026/10/202610280533084715e250e8e188_1"
+          "summary": "알파벳 실적 부진에 시간외 8%대 급락, AI 투자 부담",
+          "source": "파이낸셜뉴스",
+          "url": "https://www.fnnews.com/news/202610290519037325"
         },
         {
-          "summary": "전일 코스피 3.09% 급등 5638, 외국인 순매수 복귀",
-          "source": "머니투데이",
-          "url": "https://mt.co.kr/stock/2026/10/27/2026102716110627181"
+          "summary": "원/달러 14원 오른 1337.7원, 수입 결제·해외투자 수요",
+          "source": "뉴시스",
+          "url": "https://www.newsis.com/view/NISX20261028_0003845022"
         },
         {
-          "summary": "FOMC 동결 전망 속 연말 정책 신호에 관심 집중",
-          "source": "글로벌이코노믹",
-          "url": "https://www.g-enews.com/article/Securities/2026/10/202610280533084715e250e8e188_1"
+          "summary": "美 10년물 금리 5.03%, WTI 102달러로 다시 상승",
+          "source": "아시아경제",
+          "url": "https://view.asiae.co.kr/article/2026102905313419654"
         }
       ],
       "watchlist": [
@@ -42,22 +42,22 @@
           "code": "005930",
           "name": "삼성전자",
           "prediction": "상승",
-          "reason": "美 반도체 강세와 29일 확정실적·배당 기대가 전일 급등 부담을 상쇄",
+          "reason": "오늘 확정실적·배당 규모 발표 기대, 美 메모리주 강세 우호적",
           "factors": [
             {
-              "summary": "SOX 3.6% 상승으로 반도체 투자심리 우호적",
+              "summary": "오늘 3분기 확정실적, 잠정 영업익 107조 확인",
               "impact": "호재",
-              "url": "https://www.news1.kr/world/international-economy/6334054"
+              "url": "https://www.fnnews.com/news/202610290430383575"
             },
             {
-              "summary": "29일 확정실적, 영업익 107조 잠정치 확인 앞둬",
+              "summary": "현금배당 약 30조 등 주주환원 규모 이사회 결정",
               "impact": "호재",
-              "url": "https://www.ajunews.com/view/20261027144125188"
+              "url": "https://www.fnnews.com/news/202610290430383575"
             },
             {
-              "summary": "자사주 매입 종료로 수급 버팀목 약해진 상태",
+              "summary": "전일 9% 급등으로 단기 차익실현 매물 부담",
               "impact": "악재",
-              "url": "https://www.fnnews.com/news/202610270733520579"
+              "url": "https://www.blockmedia.co.kr/archives/1157530"
             }
           ]
         },
@@ -65,22 +65,22 @@
           "code": "000660",
           "name": "SK하이닉스",
           "prediction": "상승",
-          "reason": "오늘 실적·추가 주주환원 발표 기대, 다만 차익실현 변동성 큼",
+          "reason": "ADR 13.3%↑가 국내 10.9% 상승폭을 웃돌아 추가 반영 여지",
           "factors": [
             {
-              "summary": "오늘 3분기 실적, 영업익 약 77조 전망",
+              "summary": "ADR 13.3% 급등, 국내 상승폭보다 커",
               "impact": "호재",
-              "url": "https://www.ajunews.com/view/20261027144125188"
+              "url": "https://www.g-enews.com/article/Securities/2026/10/202610290527577006e250e8e188_1"
             },
             {
-              "summary": "이사회서 특별배당 등 추가 환원 발표 가능성",
+              "summary": "3분기 영업익 83조·매출 100조 첫 돌파",
               "impact": "호재",
-              "url": "https://www.fnnews.com/news/202610270733520579"
+              "url": "https://www.sedaily.com/article/20107472"
             },
             {
-              "summary": "ADR 1.9%↑로 전일 국내 5% 급등보다 상승폭 작아",
-              "impact": "중립",
-              "url": "https://www.news1.kr/world/international-economy/6334054"
+              "summary": "알파벳 시간외 급락에 AI 투자 회의론 재부각 우려",
+              "impact": "악재",
+              "url": "https://www.fnnews.com/news/202610290519037325"
             }
           ]
         }
@@ -88,81 +88,89 @@
     },
     "raw_data": {
       "news_window": {
-        "from": "2026-10-27T07:00:00+09:00",
-        "to": "2026-10-28T07:00:00+09:00"
+        "from": "2026-10-28T07:00:00+09:00",
+        "to": "2026-10-29T07:00:00+09:00"
       },
       "us_market": {
         "sp500": {
-          "price": 7722.6,
-          "changePct": 0.6
+          "price": 7743.98,
+          "changePct": 0.28
         },
         "nasdaq": {
-          "price": 26477.81,
-          "changePct": 1.18
+          "price": 26549.85,
+          "changePct": 0.27
         },
         "dow": {
-          "price": 52377.57,
-          "changePct": 0.03
+          "price": 52475.1,
+          "changePct": 0.19
         },
         "sox": {
           "price": null,
-          "changePct": 3.6
+          "changePct": 1.76
         },
         "usdkrw": {
-          "price": 1323.7,
-          "changePct": 0.05
+          "price": 1337.7,
+          "changePct": 1.06
         }
       },
       "kospi_prev": {
-        "price": 5638.34,
-        "changePct": 3.09
+        "price": 6012.44,
+        "changePct": 6.63
       },
       "watchlist": [
         {
           "code": "005930",
           "name": "삼성전자",
-          "price": 222000,
-          "changePct": 4.23
+          "price": 242000,
+          "changePct": 9.01
         },
         {
           "code": "000660",
           "name": "SK하이닉스",
-          "price": 1341000,
-          "changePct": 5.18
+          "price": 1487000,
+          "changePct": 10.89
         }
       ],
       "sources": [
         {
-          "name": "글로벌이코노믹(뉴욕 3대 지수 종가·유가·FOMC)",
-          "url": "https://www.g-enews.com/article/Securities/2026/10/202610280533084715e250e8e188_1"
+          "name": "아시아경제(뉴욕 3대 지수 종가·FOMC·국채금리·유가)",
+          "url": "https://view.asiae.co.kr/article/2026102905313419654"
         },
         {
-          "name": "블록미디어(뉴욕증시 마감 지수·종목)",
-          "url": "https://www.blockmedia.co.kr/archives/1157196"
+          "name": "서울경제(3대 지수·빅테크·반도체 종목 등락)",
+          "url": "https://www.sedaily.com/article/20107472"
         },
         {
-          "name": "아시아경제(3대 지수 등락률)",
-          "url": "https://view.asiae.co.kr/article/2026102805214620175"
+          "name": "블록미디어(뉴욕증시 마감·FOMC)",
+          "url": "https://www.blockmedia.co.kr/archives/1157833"
         },
         {
-          "name": "뉴스1(SOX 3.60%·SK하이닉스 ADR 1.92%)",
-          "url": "https://www.news1.kr/world/international-economy/6334054"
+          "name": "이투데이(필라델피아 반도체지수 1.76%↑)",
+          "url": "https://www.etoday.co.kr/news/view/2641392"
         },
         {
-          "name": "이투데이(원/달러 27일 종가 1323.7원)",
-          "url": "https://www.etoday.co.kr/news/view/2640697"
+          "name": "글로벌이코노믹(SK하이닉스 ADR 13.30%↑ 164.70달러)",
+          "url": "https://www.g-enews.com/article/Securities/2026/10/202610290527577006e250e8e188_1"
         },
         {
-          "name": "머니투데이(코스피·관심 종목 27일 종가, 수급)",
-          "url": "https://mt.co.kr/stock/2026/10/27/2026102716110627181"
+          "name": "뉴시스(원/달러 28일 종가 1337.7원, +14.0원)",
+          "url": "https://www.newsis.com/view/NISX20261028_0003845022"
         },
         {
-          "name": "아주경제(삼전닉스 3분기 실적 전망·일정)",
-          "url": "https://www.ajunews.com/view/20261027144125188"
+          "name": "블록미디어(코스피·관심 종목 28일 종가)",
+          "url": "https://www.blockmedia.co.kr/archives/1157530"
         },
         {
-          "name": "파이낸셜뉴스(주주환원·특별배당 관측)",
-          "url": "https://www.fnnews.com/news/202610270733520579"
+          "name": "파이낸셜뉴스(코스피 6012.44 마감)",
+          "url": "https://www.fnnews.com/news/202610281523015061"
+        },
+        {
+          "name": "파이낸셜뉴스(알파벳 실적·시간외 급락)",
+          "url": "https://www.fnnews.com/news/202610290519037325"
+        },
+        {
+          "name": "파이낸셜뉴스(삼성전자 확정실적·배당 쟁점)",
+          "url": "https://www.fnnews.com/news/202610290430383575"
         }
       ]
     }
