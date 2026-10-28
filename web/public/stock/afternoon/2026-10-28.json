@@ -1,0 +1,78 @@
+{
+  "type": "afternoon",
+  "date": "2026-10-28",
+  "generated_at": "2026-10-28T15:58:00+09:00",
+  "analysis": {
+    "kospi_predicted": "상승",
+    "kospi_actual": "상승",
+    "kospi_change_text": "▲6.63%",
+    "kospi_match": "적중",
+    "kospi_miss_reason": "美 반도체 강세가 이어진다는 방향은 맞았으나, 하이닉스 영업익 83조·대규모 환원 발표로 예상폭(+1.2%)을 크게 넘김",
+    "watchlist_accuracy": [
+      {
+        "code": "005930",
+        "name": "삼성전자",
+        "predicted": "상승",
+        "actual": "상승",
+        "change_text": "▲9.01%",
+        "match": "적중",
+        "reason": "반도체 강세 판단 적중, 하이닉스 효과로 동반 급등"
+      },
+      {
+        "code": "000660",
+        "name": "SK하이닉스",
+        "predicted": "상승",
+        "actual": "상승",
+        "change_text": "▲10.89%",
+        "match": "적중",
+        "reason": "실적·주주환원 기대가 맞았고 발표 규모가 예상 웃돔"
+      }
+    ],
+    "overall_accuracy": "3/3",
+    "accuracy": "적중",
+    "market_analysis": "하이닉스 사상 최대 실적과 추가 환원에 반도체가 급등, 코스피 6000선 회복. 외국인 8158억·기관 9608억 동반 순매수, 장중 매수 사이드카 발동",
+    "lessons": "실적·환원 발표일엔 전일 급등 부담보다 이벤트 상방 위험을 더 크게 반영"
+  },
+  "raw_data": {
+    "kospi": {
+      "price": 6012.44,
+      "changePct": 6.63
+    },
+    "kosdaq": {
+      "price": 771.28,
+      "changePct": 3.69
+    },
+    "watchlist": [
+      {
+        "code": "005930",
+        "name": "삼성전자",
+        "price": 242000,
+        "changePct": 9.01
+      },
+      {
+        "code": "000660",
+        "name": "SK하이닉스",
+        "price": 1487000,
+        "changePct": 10.89
+      }
+    ],
+    "sources": [
+      {
+        "name": "블록미디어(마감시황: 지수·종목 종가·수급·환율)",
+        "url": "https://www.blockmedia.co.kr/archives/1157530"
+      },
+      {
+        "name": "직썰(코스피·코스닥 마감·종목 등락)",
+        "url": "https://www.ziksir.com/news/articleView.html?idxno=151114"
+      },
+      {
+        "name": "파이낸셜뉴스(코스피 6012.44 마감 속보)",
+        "url": "https://www.fnnews.com/news/202610281523015061"
+      },
+      {
+        "name": "뉴스1(장중 6000선 터치·하이닉스 실적 효과)",
+        "url": "https://www.news1.kr/finance/market-exr/6334667"
+      }
+    ]
+  }
+}
