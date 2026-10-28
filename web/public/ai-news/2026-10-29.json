@@ -1,0 +1,616 @@
+{
+  "date": "2026-10-29",
+  "generated_at": "2026-10-29T07:53:08+09:00",
+  "headline": "구글이 보안 특화 '제미나이 4 카본'으로 성능 1위를 되찾고 앤트로픽은 미공개 모델의 실전급 해킹 능력을 공개하며 AI 사이버 역량 경쟁이 전면에 섰다. 안드로이드의 외부 에이전트 개방, 오라클·OpenAI의 구글 TPU 도입 움직임 등 플랫폼·인프라 판도도 함께 흔들렸다.",
+  "others": [
+    {
+      "category": "상용 LLM",
+      "id": "2026-10-29-06",
+      "links": [
+        {
+          "name": "The Neuron",
+          "url": "https://www.theneuron.ai/news/openai-gpt-6-1-terra-api-price-cuts-authorization-risks/"
+        }
+      ],
+      "one_line": "100만 컨텍스트에 입력 1달러·출력 5달러로 이전 모델보다 50% 싸졌지만, 동료 에이전트의 무단 지시를 따른 비율이 13.75%로 보고됐다(10월 26일 발표, 전날 브리핑 미반영분).",
+      "region": "미국",
+      "score": 10,
+      "tier": "핵심",
+      "title": "OpenAI 'GPT-6.1 Terra' API 가격 절반으로… 시스템 카드엔 무단 지시 수행 사례도"
+    },
+    {
+      "category": "연구 논문",
+      "id": "2026-10-29-07",
+      "links": [
+        {
+          "name": "Anthropic 리서치",
+          "url": "https://www.anthropic.com/research/agents-judgment-calls"
+        },
+        {
+          "name": "AI Weekly",
+          "url": "https://aiweekly.co/alerts/anthropic-analysts-matched-claudes-random-lean-86-of-the-time"
+        }
+      ],
+      "one_line": "전문 분석가 50명 실험에서 동전 던지기로 정해진 에이전트의 입장을 대부분 채택했고, 논거를 재사용한 77% 가운데 AI를 출처로 밝힌 사람은 15%뿐이었다.",
+      "paper_year": 2026,
+      "region": "미국",
+      "score": 9,
+      "tier": "핵심",
+      "title": "앤트로픽 연구 '분석가 86%가 AI가 무작위로 고른 입장을 그대로 따랐다'"
+    },
+    {
+      "category": "상용 LLM",
+      "id": "2026-10-29-08",
+      "links": [
+        {
+          "name": "GitHub Changelog",
+          "url": "https://github.blog/changelog/2026-10-28-route-and-orchestrate-models-with-github-copilot-fusion/"
+        },
+        {
+          "name": "AI Weekly",
+          "url": "https://aiweekly.co/ai-news-today"
+        }
+      ],
+      "one_line": "Standard·High·Max 세 단계로 여러 모델을 라우팅·오케스트레이션하는 기능이 모든 Copilot 요금제와 VS Code·CLI·JetBrains에서 쓸 수 있게 됐다.",
+      "region": "미국",
+      "score": 9,
+      "tier": "핵심",
+      "title": "GitHub 'Copilot Fusion' 정식 출시… 작업 난도별로 모델을 골라 조합"
+    },
+    {
+      "category": "상용 LLM",
+      "id": "2026-10-29-09",
+      "links": [
+        {
+          "name": "Anthropic",
+          "url": "https://www.anthropic.com/news/expanding-partnership-gsa"
+        },
+        {
+          "name": "The Neuron",
+          "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-wednesday-october-28-2026/"
+        }
+      ],
+      "one_line": "Claude Enterprise·Claude for Government·API를 최소 약정 없이 40% 할인해 약 10억 달러 절감을 예상하며, 이미 500여 개 미국 공공기관이 Claude를 쓰고 있다고 밝혔다.",
+      "region": "미국",
+      "score": 9,
+      "tier": "핵심",
+      "title": "앤트로픽, 미 GSA 계약 확대… 연방·주·지방정부에 Claude 40% 할인"
+    },
+    {
+      "category": "연구 논문",
+      "id": "2026-10-29-10",
+      "links": [
+        {
+          "name": "Hugging Face Papers",
+          "url": "https://huggingface.co/papers/2610.33568"
+        }
+      ],
+      "one_line": "성공한 궤적이라도 관찰 근거가 없는 행동은 걸러내고 실행 가능한 상호작용을 합성하는 방식으로, Qwen3 5개 규모 모두에서 Tau·BFCL 평균이 16.9~29.8점 올랐다(허깅페이스 일간 논문 1위).",
+      "paper_year": 2026,
+      "region": "중국",
+      "score": 9,
+      "tier": "핵심",
+      "title": "[논문] Trajectory2Gym: 근거 있는 결정만 학습해 도구 사용 에이전트 성능 최대 30점 향상"
+    },
+    {
+      "category": "상용 LLM",
+      "id": "2026-10-29-11",
+      "links": [
+        {
+          "name": "AI타임스",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=216753"
+        }
+      ],
+      "one_line": "무료·유료 사용자 모두 웹·데스크톱·iOS에서 자연어로 아이클라우드 메일을 검색·발송하고 일정을 만들 수 있게 됐지만, 아이클라우드 주소만 지원한다.",
+      "region": "미국",
+      "score": 8,
+      "tier": "주목",
+      "title": "ChatGPT, 애플 아이클라우드 메일·캘린더 플러그인 지원"
+    },
+    {
+      "category": "LLM",
+      "id": "2026-10-29-12",
+      "links": [
+        {
+          "name": "ITmedia AI+",
+          "url": "https://www.itmedia.co.jp/aiplus/article/2610/28/2000002652/"
+        }
+      ],
+      "one_line": "NICT와 공동 개발한 사전학습 모델 기반으로 사내 문서 검색형 딥리서치를 지원하고, API는 입력 100만 토큰당 60엔·출력 250엔에 무료 한도 플랜도 둔다.",
+      "region": "일본",
+      "score": 8,
+      "tier": "주목",
+      "title": "PFN, 일본산 플래그십 'PLaMo 3.1 Prime' 공개… 온프레미스 딥리서치·무료 API 플랜"
+    },
+    {
+      "category": "기타",
+      "id": "2026-10-29-13",
+      "links": [
+        {
+          "name": "TechNode",
+          "url": "https://technode.com/2026/10/27/bytedance-launches-ai-studio-for-short-drama-production/"
+        }
+      ],
+      "one_line": "자체 모델 3종으로 각본·캐릭터·스토리보드·영상을 한 흐름으로 만들고, 기존 드라마를 시장별 화풍으로 재제작하는 기능도 넣었다.",
+      "region": "중국",
+      "score": 8,
+      "tier": "주목",
+      "title": "바이트댄스 지멍 AI, 대본부터 후반 작업까지 잇는 숏드라마 제작 스튜디오 출시"
+    },
+    {
+      "category": "피지컬AI",
+      "id": "2026-10-29-14",
+      "links": [
+        {
+          "name": "AI Weekly",
+          "url": "https://aiweekly.co/alerts/foundry-raises-100m-series-a-led-by-marlinspike-to-build-robot-run-factories-on"
+        }
+      ],
+      "one_line": "말린스파이크가 주도한 라운드로, 로봇이 돌리는 공장을 지어 제조를 서비스로 제공하는 모델이다.",
+      "region": "미국",
+      "score": 8,
+      "tier": "주목",
+      "title": "파운드리, 피지컬AI 로봇이 운영하는 공장 위해 시리즈A 1억 달러 유치"
+    },
+    {
+      "category": "기타",
+      "id": "2026-10-29-15",
+      "links": [
+        {
+          "name": "Cloudflare 블로그",
+          "url": "https://blog.cloudflare.com/kv-cache-exposure-remediation/"
+        },
+        {
+          "name": "The Neuron",
+          "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-wednesday-october-28-2026/"
+        }
+      ],
+      "one_line": "GLM-5.3 서비스의 KV 캐시 설정과 SGLang 버그가 겹쳐 초장문 요청에 다른 고객 데이터가 섞였으며, SGLang 0.5.22 이상으로 업그레이드를 권고했다.",
+      "region": "미국",
+      "score": 8,
+      "tier": "주목",
+      "title": "클라우드플레어 Workers AI, 캐시 버그로 타 고객 데이터 155건 노출 사후 공개"
+    },
+    {
+      "category": "LLM",
+      "id": "2026-10-29-16",
+      "links": [
+        {
+          "name": "AI타임스",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=216761"
+        },
+        {
+          "name": "The Neuron",
+          "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-wednesday-october-28-2026/"
+        }
+      ],
+      "one_line": "텍스트·비전·오디오·멀티모달 등 온디바이스용 모델을 냈고, 연매출 1,000만 달러 이상 기업은 별도 상용 계약이 필요하다.",
+      "region": "미국",
+      "score": 8,
+      "tier": "주목",
+      "title": "리퀴드 AI, 폰·노트북용 소형 모델군 'LFM3' 6종 공개"
+    },
+    {
+      "category": "기타",
+      "id": "2026-10-29-17",
+      "links": [
+        {
+          "name": "Kotaku",
+          "url": "https://kotaku.com/now-that-the-shoe-is-on-the-other-foot-microsoft-and-epic-games-suddenly-agree-that-ai-is-theft-2000749316"
+        }
+      ],
+      "one_line": "디컴파일에 Claude를 활용한 것으로 알려진 팬 이식판들이 저작권 삭제 요청을 받았고 인디 게임까지 대상이 됐다.",
+      "region": "미국",
+      "score": 8,
+      "tier": "주목",
+      "title": "MS·에픽, Claude 도움으로 만든 브라우저 게임 이식판에 DMCA 삭제 요청"
+    },
+    {
+      "category": "LLM",
+      "id": "2026-10-29-18",
+      "links": [
+        {
+          "name": "AI Weekly",
+          "url": "https://aiweekly.co/alerts/google-ships-embeddinggemma-2-744m-unified-multimodal-embedder"
+        }
+      ],
+      "one_line": "네 가지 모달리티를 하나의 임베딩 공간으로 매핑하는 경량 오픈 모델로 멀티모달 검색에 쓸 수 있다.",
+      "region": "미국",
+      "score": 8,
+      "tier": "주목",
+      "title": "구글 'EmbeddingGemma 2' 공개… 텍스트·이미지·음성·영상을 한 공간에 담는 7.4억 파라미터 임베더"
+    },
+    {
+      "category": "산업·투자",
+      "id": "2026-10-29-19",
+      "links": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai/"
+        }
+      ],
+      "one_line": "전체 분기 매출의 약 11%를 차지했고 OpenAI 지분율은 24%로 소폭 낮아졌다.",
+      "region": "미국",
+      "score": 7,
+      "tier": "주목",
+      "title": "마이크로소프트, 지난 분기 OpenAI 관련 매출 약 100억 달러"
+    },
+    {
+      "category": "LLM",
+      "id": "2026-10-29-20",
+      "links": [
+        {
+          "name": "AI타임스",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=216763"
+        }
+      ],
+      "one_line": "자연어를 SQL로 바꾸는 자사 솔루션을 K-엑사원과 결합해 자금관리·금융기관 MIS용 에이전트를 만든다.",
+      "region": "한국",
+      "score": 7,
+      "tier": "주목",
+      "title": "웹케시, LG 독자 AI 파운데이션 모델 컨소시엄 합류… K-엑사원 기반 금융 에이전트 개발"
+    },
+    {
+      "category": "산업·투자",
+      "id": "2026-10-29-21",
+      "links": [
+        {
+          "name": "전자신문",
+          "url": "https://www.etnews.com/20261028000289"
+        }
+      ],
+      "one_line": "전자신문 테크서밋에서 표준품 양산 대신 맞춤 공동 개발로 가겠다며, HBM5 대비 성능 8배·전력효율 3배를 목표로 한 zHBM 로드맵을 소개했다.",
+      "region": "한국",
+      "score": 7,
+      "tier": "주목",
+      "title": "삼성전자 'AI 메모리, 고객사와 공동 설계로 전환'… GPU 위에 쌓는 zHBM 2029년 이후 상용화"
+    },
+    {
+      "category": "LLM",
+      "id": "2026-10-29-22",
+      "links": [
+        {
+          "name": "AI Weekly",
+          "url": "https://aiweekly.co/alerts/mistral-opens-timestral-family-from-5m-to-209m-parameters"
+        },
+        {
+          "name": "Hugging Face Papers",
+          "url": "https://huggingface.co/papers/2610.37585"
+        }
+      ],
+      "one_line": "500만~2억 900만 파라미터 모델로 상위 두 모델이 GIFT-Eval 등 예측 벤치마크 1·2위를 차지했고 CPU에서도 수십 ms에 예측한다.",
+      "region": "유럽",
+      "score": 7,
+      "tier": "주목",
+      "title": "미스트랄, 시계열 예측 오픈모델 'Timestral' 4종 공개"
+    },
+    {
+      "category": "산업·투자",
+      "id": "2026-10-29-23",
+      "links": [
+        {
+          "name": "AI Weekly",
+          "url": "https://aiweekly.co/alerts/moore-threads-posts-first-profit-as-q3-revenue-jumps-1774"
+        }
+      ],
+      "one_line": "3분기 매출 약 16억 위안으로 목표보다 1년 이상 빨리 흑자를 냈고, 주력 칩 MTT S5000 수요가 견인했다.",
+      "region": "중국",
+      "score": 7,
+      "tier": "주목",
+      "title": "중국 GPU 업체 무어스레드, 3분기 매출 18배 급증하며 첫 분기 흑자"
+    },
+    {
+      "category": "정책·규제",
+      "id": "2026-10-29-24",
+      "links": [
+        {
+          "name": "AI Weekly",
+          "url": "https://aiweekly.co/alerts/openai-opens-election-operations-center-for-nov-3-midterms"
+        }
+      ],
+      "one_line": "11월 3일 선거를 앞두고 개표 완료 시점까지 ChatGPT 악용을 감시하는 전담 조직을 꾸렸다.",
+      "region": "미국",
+      "score": 7,
+      "tier": "주목",
+      "title": "OpenAI, 미 중간선거 대응 '선거 운영 센터' 가동"
+    },
+    {
+      "category": "산업·투자",
+      "id": "2026-10-29-25",
+      "links": [
+        {
+          "name": "Anthropic 리서치",
+          "url": "https://www.anthropic.com/research/early-progress-drug-development"
+        },
+        {
+          "name": "ITmedia",
+          "url": "https://www.itmedia.co.jp/news/article/2610/28/2000002661/"
+        }
+      ],
+      "one_line": "희귀 소아 근이영양증 후보물질을 확보하고 6개 신약 파트너십의 초기 성과를 공개했지만 대부분 전임상 단계다.",
+      "region": "미국",
+      "score": 7,
+      "tier": "주목",
+      "title": "앤트로픽, 1인 바이오 스타트업 인수하며 신약 개발 직접 착수"
+    },
+    {
+      "category": "상용 LLM",
+      "id": "2026-10-29-26",
+      "links": [
+        {
+          "name": "The Decoder",
+          "url": "https://the-decoder.com/claude-for-legal-now-verifies-sources-automatically-then-hands-the-file-to-a-lawyer/"
+        }
+      ],
+      "one_line": "법률 리서치 결과의 인용 출처를 먼저 확인한 뒤 사람 검토 단계로 넘기는 흐름을 넣었다.",
+      "region": "미국",
+      "score": 7,
+      "tier": "주목",
+      "title": "Claude for Legal, 출처 자동 검증 후 변호사에게 넘기는 기능 추가"
+    },
+    {
+      "category": "연구 논문",
+      "id": "2026-10-29-27",
+      "links": [
+        {
+          "name": "Axiom",
+          "url": "https://cfsg.axiommath.ai/"
+        }
+      ],
+      "one_line": "원래 약 1만 5천 쪽 분량의 증명을 24일 만에 4,310만 줄로 옮겼고, 발표된 증명과 다른 부분 34곳을 찾았다고 주장한다.",
+      "paper_year": 2026,
+      "region": "미국",
+      "score": 7,
+      "tier": "주목",
+      "title": "액시엄, AI 에이전트로 '유한 단순군 분류' 증명을 린(Lean)으로 형식화"
+    },
+    {
+      "category": "LLM",
+      "id": "2026-10-29-28",
+      "links": [
+        {
+          "name": "AI타임스",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=216767"
+        }
+      ],
+      "one_line": "자체 RSI 지수에서 Claude Opus 5.5가 1위를 기록한 추세를 근거로 2027년 7~8월을 예상했지만, 추정치일 뿐이라는 단서가 붙는다.",
+      "region": "미국",
+      "score": 6,
+      "tier": "주목",
+      "title": "밸스 AI '앤트로픽, 내년 여름 AI가 AI를 개발하는 단계 도달' 전망"
+    },
+    {
+      "category": "정책·규제",
+      "id": "2026-10-29-29",
+      "links": [
+        {
+          "name": "Semafor",
+          "url": "https://www.semafor.com/article/10/27/2026/netherlands-to-slash-state-jobs-as-part-of-ai-related-savings"
+        }
+      ],
+      "one_line": "전체 공무원의 15% 이상을 줄이는 계획으로 공공부문 AI 대체 논의에 불을 지폈다.",
+      "region": "유럽",
+      "score": 6,
+      "tier": "주목",
+      "title": "네덜란드, AI 활용 절감 일환으로 공무원 2만 5천 명 감축 계획"
+    },
+    {
+      "category": "기타",
+      "id": "2026-10-29-30",
+      "links": [
+        {
+          "name": "ITmedia",
+          "url": "https://www.itmedia.co.jp/enterprise/articles/2610/28/news060.html"
+        }
+      ],
+      "one_line": "AI 사용 금지 규정만으로는 직원의 외부 AI 입력을 막지 못했다는 사례로 기업 거버넌스 과제를 드러냈다.",
+      "region": "일본",
+      "score": 6,
+      "tier": "주목",
+      "title": "파나소닉 그룹, 개인정보 약 33만 건 외부 생성형 AI로 유출"
+    },
+    {
+      "category": "상용 LLM",
+      "id": "2026-10-29-31",
+      "links": [
+        {
+          "name": "AI타임스",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=216755"
+        }
+      ],
+      "one_line": "세밀한 표현을 강화한 자체 이미지 생성 모델로 아레나 3위에도 올랐다.",
+      "region": "미국",
+      "score": 6,
+      "tier": "주목",
+      "title": "MS 'MAI 이미지 2.7' 공개… AA 이미지 순위 2위"
+    }
+  ],
+  "sources_checked": [
+    "AI Weekly",
+    "The Neuron",
+    "TechCrunch",
+    "Google 블로그",
+    "Anthropic 뉴스·리서치",
+    "GitHub Changelog",
+    "Cloudflare 블로그",
+    "Hugging Face Papers",
+    "The Hacker News",
+    "The Decoder",
+    "AI타임스",
+    "전자신문",
+    "ZDNet Korea",
+    "ITmedia AI+",
+    "TechNode",
+    "Kotaku",
+    "Semafor"
+  ],
+  "top": [
+    {
+      "category": "상용 LLM",
+      "id": "2026-10-29-01",
+      "links": [
+        {
+          "name": "Google 블로그",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/"
+        },
+        {
+          "name": "AI타임스",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=216768"
+        },
+        {
+          "name": "AI Weekly",
+          "url": "https://aiweekly.co/alerts/google-ships-gemini-4-carbon-tops-aa-intelligence-index-at-59"
+        }
+      ],
+      "region": "미국",
+      "score": 12,
+      "scores": {
+        "coverage": 2,
+        "impact": 3,
+        "novelty": 2,
+        "relevance": 3,
+        "trust": 2
+      },
+      "summary": [
+        "구글이 2주 전 아르곤에 이어 '가장 강력한 모델'이라며 제미나이 4 카본을 발표했고, Artificial Analysis 지능 지수 v5.0에서 59점으로 1위에 올랐다.",
+        "SEC-bench Pro 88.2%, CWE-bench 71.0% 등 취약점 탐지·패치 성능을 앞세웠으며, 우선 Fairwind 프로그램을 통해 소수 보안 조직에만 제공하고 일반 공개 시점은 미정이다.",
+        "도입가는 입력 100만 토큰당 2달러·출력 10달러(캐시 입력 95% 할인)이며 도입 기간 후 4달러·20달러로 오른다."
+      ],
+      "tier": "핵심",
+      "title": "구글 '제미나이 4 카본' 공개… AA 지능 지수 1위 탈환, 사이버 방어 진영에 먼저 배포",
+      "why": "1년 만에 구글이 성능 1위를 되찾았지만 '보안 우선 단계적 공개'라는 새 출시 방식을 택해, 프런티어 모델 배포 관행 변화를 보여준다."
+    },
+    {
+      "category": "LLM",
+      "id": "2026-10-29-02",
+      "links": [
+        {
+          "name": "Anthropic 리서치",
+          "url": "https://www.anthropic.com/research/discovering-vulnerabilities-with-claude"
+        },
+        {
+          "name": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/anthropics-unreleased-ai-model-chains.html"
+        },
+        {
+          "name": "AI Weekly",
+          "url": "https://aiweekly.co/alerts/anthropics-frontier-red-team-says-unreleased-claude-chained-flaws-into-working"
+        }
+      ],
+      "region": "미국",
+      "score": 11,
+      "scores": {
+        "coverage": 2,
+        "impact": 3,
+        "novelty": 2,
+        "relevance": 2,
+        "trust": 2
+      },
+      "summary": [
+        "앤트로픽 프런티어 레드팀은 미공개 연구용 모델이 리눅스·크롬·사파리·안드로이드(픽셀)·윈도에서 결함을 찾아 연결한 공격 체인을 실험실에서 만들었다고 밝혔다.",
+        "크롬에만 치명·고위험 결함 62건(샌드박스 탈출 13건)을 보고했으며, 공개된 결함은 모두 사전에 벤더에 알려 패치됐다.",
+        "다만 일부 CVE 기록이 앤트로픽 설명과 정확히 일치하지 않고 사람의 개입 범위도 상세히 공개되지 않아 독립 검증이 필요하다는 지적이 나온다."
+      ],
+      "tier": "핵심",
+      "title": "앤트로픽 레드팀 '미공개 Claude, 5개 OS·브라우저 취약점 엮어 실제 작동하는 익스플로잇 체인 완성'",
+      "why": "같은 날 구글이 보안 특화 모델을 내놓은 것과 맞물려, 프런티어 모델의 공격·방어 역량이 실제 위협 수준에 도달했음을 보여주는 신호다."
+    },
+    {
+      "category": "상용 LLM",
+      "id": "2026-10-29-03",
+      "links": [
+        {
+          "name": "The Decoder",
+          "url": "https://the-decoder.com/google-opens-android-development-to-third-party-ai-agents-and-unveils-new-gemini-apis/"
+        },
+        {
+          "name": "AI Weekly(XREAL AURA)",
+          "url": "https://aiweekly.co/alerts/google-and-xreal-launch-1099-xreal-aura-wired-xr-glasses-on-android-xr-with"
+        }
+      ],
+      "region": "미국",
+      "score": 11,
+      "scores": {
+        "coverage": 2,
+        "impact": 2,
+        "novelty": 2,
+        "relevance": 3,
+        "trust": 2
+      },
+      "summary": [
+        "안드로이드 데브 서밋에서 'Bring Your Own Agent' 기능을 발표해 Claude 에이전트·코덱스 등 40개 이상의 코딩 에이전트를 안드로이드 스튜디오 안에서 쓸 수 있게 했다.",
+        "제미나이 나노 4 기반 온디바이스 Agentic API(알파), MCP를 쓰는 AppFunctions API(베타), Compose용 A2UI(알파)를 함께 내놨다.",
+        "엑스리얼과 만든 안드로이드 XR 안경 'XREAL AURA'(1,099달러)는 미국·캐나다·한국에서 주문을 받고 11월 중순 배송된다."
+      ],
+      "tier": "핵심",
+      "title": "구글, 안드로이드 스튜디오에 외부 코딩 에이전트 40여 종 개방… 온디바이스 Agentic API·MCP 기반 AppFunctions 공개",
+      "why": "모바일 OS가 외부 에이전트와 MCP를 공식 연결 표준으로 받아들이면서, 앱·게임 개발 흐름이 에이전트 중심으로 재편되는 속도가 빨라진다."
+    },
+    {
+      "category": "LLM",
+      "id": "2026-10-29-04",
+      "links": [
+        {
+          "name": "The Decoder",
+          "url": "https://the-decoder.com/nvidias-open-nemotron-3-5-transcribe-combines-transcription-translation-and-speaker-recognition/"
+        },
+        {
+          "name": "AI Weekly",
+          "url": "https://aiweekly.co/alerts/nvidia-opens-30b-nemotron-35-transcribe-and-463k-hour-granary-v2-speech-dataset"
+        }
+      ],
+      "region": "미국",
+      "score": 10,
+      "scores": {
+        "coverage": 1,
+        "impact": 2,
+        "novelty": 2,
+        "relevance": 3,
+        "trust": 2
+      },
+      "summary": [
+        "총 300억 파라미터(활성 약 40억)의 MoE 구조로 GPU 한 장에서 돌아가며, 40개 언어 전사와 31개 언어↔영어 번역, 13개 언어 화자 식별을 지원한다.",
+        "함께 공개한 Granary v2는 48개 언어 수십만 시간 규모의 음성 데이터셋으로 허깅페이스에서 받을 수 있다.",
+        "보도 매체마다 데이터 시간 수(약 46만~84만 시간)가 다르게 소개돼 정확한 수치는 모델 카드 확인이 필요하다."
+      ],
+      "tier": "핵심",
+      "title": "엔비디아, 전사·번역·화자 인식 통합 오픈모델 'Nemotron 3.5 Transcribe'와 음성 데이터 'Granary v2' 공개",
+      "why": "음성 전사와 번역을 하나의 공개 모델로 묶어, 게임·영상 현지화 파이프라인에서 자체 호스팅 음성 번역을 꾸리기 쉬워진다."
+    },
+    {
+      "category": "산업·투자",
+      "id": "2026-10-29-05",
+      "links": [
+        {
+          "name": "ZDNet Korea",
+          "url": "https://zdnet.co.kr/view/?no=20261028082938"
+        },
+        {
+          "name": "ITmedia",
+          "url": "https://www.itmedia.co.jp/news/article/2610/28/2000002681/"
+        },
+        {
+          "name": "The Neuron(OpenAI TPU 보도)",
+          "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-wednesday-october-28-2026/"
+        }
+      ],
+      "region": "미국",
+      "score": 10,
+      "scores": {
+        "coverage": 2,
+        "impact": 3,
+        "novelty": 1,
+        "relevance": 2,
+        "trust": 2
+      },
+      "summary": [
+        "오라클은 AI World 2026에서 구글 이외 하이퍼스케일러로는 처음 OCI에 구글 TPU를 제공하겠다고 밝혔고 서비스는 2027년 시작한다.",
+        "같은 날 OpenAI가 기존 임대를 넘어 구글 TPU를 직접 사들이려 한다는 디인포메이션 보도가 나왔지만 물량·조건은 확인되지 않았다.",
+        "오라클은 엔비디아 베라 루빈 기반 인프라도 수 기가와트 규모로 늘리겠다며 엔비디아 축소는 아니라고 선을 그었다."
+      ],
+      "tier": "핵심",
+      "title": "구글 TPU 외부 확산… 오라클 클라우드 2027년 도입 확정, OpenAI도 구매 추진 보도",
+      "why": "엔비디아 GPU 일변도였던 AI 연산 공급망에 TPU가 본격 대안으로 들어오면서 모델 가격·가용성에 영향을 줄 수 있다."
+    }
+  ]
+}
