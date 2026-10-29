@@ -1,0 +1,176 @@
+{
+  "type": "morning",
+  "date": "2026-10-30",
+  "generated_at": "2026-10-30T06:38:00+09:00",
+  "analysis": {
+    "kospi_prediction": "하락",
+    "kospi_change_range": "-1.5~0.0%",
+    "kospi_confidence": "보통",
+    "kospi_reason": "알파벳·아마존發 AI 투자 회의론에 나스닥 1.4%↓·반도체 약세, 전일 1.2% 하락으로 일부 선반영",
+    "us_market_summary": "알파벳 12%대 급락에 나스닥 1.4%↓, 반도체주 동반 약세",
+    "kospi_news_summary": "알파벳 쇼크로 나스닥 1.4% 하락, 아마존·인텔 시간외 급락",
+    "kospi_news": [
+      {
+        "summary": "알파벳 실적 실망에 12%대 급락, 나스닥 1.4%↓",
+        "source": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-october-29-dow-sp-500-nasdaq-alphabet-microsoft-earnings-130305714.html"
+      },
+      {
+        "summary": "아마존 매출·이익 예상 하회, 시간외 7% 추가 하락",
+        "source": "파이낸셜뉴스",
+        "url": "https://www.fnnews.com/news/202610300602194135"
+      },
+      {
+        "summary": "인텔 4분기 매출 전망 부진에 시간외 17%대 급락",
+        "source": "StockTitan",
+        "url": "https://www.stocktitan.net/articles/stock-market-today-live-october-29-2026"
+      },
+      {
+        "summary": "美 9월 PCE 물가 3.6%로 가속, 12월 인상 우려 커져",
+        "source": "아시아경제",
+        "url": "https://view.asiae.co.kr/article/2026102908285410082"
+      },
+      {
+        "summary": "원/달러 0.9원 내린 1336.8원 마감, 환율 진정",
+        "source": "아시아경제",
+        "url": "https://view.asiae.co.kr/article/2026102915355929222"
+      }
+    ],
+    "watchlist": [
+      {
+        "code": "005930",
+        "name": "삼성전자",
+        "prediction": "하락",
+        "reason": "환원 실망 매물 여진에 美 메모리주 약세·AI 투자 회의론 겹쳐",
+        "factors": [
+          {
+            "summary": "30조 배당 확정, 잔여 환원안은 내년 1월 발표",
+            "impact": "악재",
+            "url": "https://www.hankookilbo.com/news/article/A2026102914400002086"
+          },
+          {
+            "summary": "우선주 중심 자사주 매입 검토에 보통주 실망",
+            "impact": "악재",
+            "url": "https://www.hankookilbo.com/news/article/A2026102914400002086"
+          },
+          {
+            "summary": "마이크론·샌디스크 5%대 하락, 메모리주 약세",
+            "impact": "악재",
+            "url": "https://www.mediapen.com/news/view/1133703"
+          }
+        ]
+      },
+      {
+        "code": "000660",
+        "name": "SK하이닉스",
+        "prediction": "하락",
+        "reason": "ADR 3% 가까이 밀리고 빅테크 현금흐름 악화로 AI 투자 우려",
+        "factors": [
+          {
+            "summary": "SK하이닉스 ADR 전일 급등 후 2.8% 하락",
+            "impact": "악재",
+            "url": "https://www.mediapen.com/news/view/1133703"
+          },
+          {
+            "summary": "알파벳 잉여현금흐름 적자, AI 설비투자 부담 부각",
+            "impact": "악재",
+            "url": "https://www.newspim.com/news/view/20261029001426"
+          },
+          {
+            "summary": "전일 지수 약세 속 2.6% 상승, 상대 강세 유지",
+            "impact": "중립",
+            "url": "https://www.nocutnews.co.kr/news/6599323"
+          }
+        ]
+      }
+    ]
+  },
+  "raw_data": {
+    "news_window": {
+      "from": "2026-10-29T07:00:00+09:00",
+      "to": "2026-10-30T07:00:00+09:00"
+    },
+    "us_market": {
+      "sp500": {
+        "price": 7720.39,
+        "changePct": -0.3
+      },
+      "nasdaq": {
+        "price": 26184.73,
+        "changePct": -1.38
+      },
+      "dow": {
+        "price": 52342.56,
+        "changePct": -0.25
+      },
+      "sox": {
+        "price": null,
+        "changePct": null
+      },
+      "usdkrw": {
+        "price": 1336.8,
+        "changePct": -0.07
+      }
+    },
+    "kospi_prev": {
+      "price": 5937.66,
+      "changePct": -1.24
+    },
+    "watchlist": [
+      {
+        "code": "005930",
+        "name": "삼성전자",
+        "price": 232000,
+        "changePct": -4.13
+      },
+      {
+        "code": "000660",
+        "name": "SK하이닉스",
+        "price": 1526000,
+        "changePct": 2.62
+      }
+    ],
+    "sources": [
+      {
+        "name": "Yahoo Finance(뉴욕 3대 지수 종가·10년물·아마존·인텔 시간외)",
+        "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-october-29-dow-sp-500-nasdaq-alphabet-microsoft-earnings-130305714.html"
+      },
+      {
+        "name": "StockTitan(지수 등락·알파벳·인텔·마벨)",
+        "url": "https://www.stocktitan.net/articles/stock-market-today-live-october-29-2026"
+      },
+      {
+        "name": "미디어펜(반도체주·SK하이닉스 ADR 장중 등락, SOX 오후 약 2%↓)",
+        "url": "https://www.mediapen.com/news/view/1133703"
+      },
+      {
+        "name": "뉴스핌(반도체주 프리마켓·하락 원인)",
+        "url": "https://www.newspim.com/news/view/20261029001426"
+      },
+      {
+        "name": "아시아경제(원/달러 1336.8원, -0.9원)",
+        "url": "https://view.asiae.co.kr/article/2026102915355929222"
+      },
+      {
+        "name": "아시아경제(PCE·GDP)",
+        "url": "https://view.asiae.co.kr/article/2026102908285410082"
+      },
+      {
+        "name": "파이낸셜뉴스(아마존 실적·시간외)",
+        "url": "https://www.fnnews.com/news/202610300602194135"
+      },
+      {
+        "name": "한국일보(삼성전자 배당·잔여 환원 방침, 종가 등락)",
+        "url": "https://www.hankookilbo.com/news/article/A2026102914400002086"
+      },
+      {
+        "name": "한국경제(29일 코스피·관심 종목 종가)",
+        "url": "https://www.hankyung.com/article/2026102939116"
+      },
+      {
+        "name": "노컷뉴스(29일 코스피 마감·삼성전자·하이닉스)",
+        "url": "https://www.nocutnews.co.kr/news/6599323"
+      }
+    ]
+  }
+}
