@@ -177,78 +177,90 @@
   },
   "afternoon": {
     "type": "afternoon",
-    "date": "2026-10-28",
-    "generated_at": "2026-10-28T15:58:00+09:00",
+    "date": "2026-10-29",
+    "generated_at": "2026-10-29T16:04:19+09:00",
     "analysis": {
       "kospi_predicted": "상승",
-      "kospi_actual": "상승",
-      "kospi_change_text": "▲6.63%",
-      "kospi_match": "적중",
-      "kospi_miss_reason": "美 반도체 강세가 이어진다는 방향은 맞았으나, 하이닉스 영업익 83조·대규모 환원 발표로 예상폭(+1.2%)을 크게 넘김",
+      "kospi_actual": "하락",
+      "kospi_change_text": "▼1.24%",
+      "kospi_match": "빗나감",
+      "kospi_miss_reason": "반도체 강세로 상승 출발했으나 삼성전자 추가 환원안 발표가 내년 1월로 밀려 실망 매물, 체코 원전 협상 결렬로 건설·기계도 급락",
       "watchlist_accuracy": [
         {
           "code": "005930",
           "name": "삼성전자",
           "predicted": "상승",
-          "actual": "상승",
-          "change_text": "▲9.01%",
-          "match": "적중",
-          "reason": "반도체 강세 판단 적중, 하이닉스 효과로 동반 급등"
+          "actual": "하락",
+          "change_text": "▼4.13%",
+          "match": "빗나감",
+          "reason": "환원 재원 활용안 발표 연기로 기대 꺾여 실망 매물"
         },
         {
           "code": "000660",
           "name": "SK하이닉스",
           "predicted": "상승",
           "actual": "상승",
-          "change_text": "▲10.89%",
+          "change_text": "▲2.62%",
           "match": "적중",
-          "reason": "실적·주주환원 기대가 맞았고 발표 규모가 예상 웃돔"
+          "reason": "ADR 강세 추가 반영 판단이 맞아 지수 약세에도 상승"
         }
       ],
-      "overall_accuracy": "3/3",
-      "accuracy": "적중",
-      "market_analysis": "하이닉스 사상 최대 실적과 추가 환원에 반도체가 급등, 코스피 6000선 회복. 외국인 8158억·기관 9608억 동반 순매수, 장중 매수 사이드카 발동",
-      "lessons": "실적·환원 발표일엔 전일 급등 부담보다 이벤트 상방 위험을 더 크게 반영"
+      "overall_accuracy": "1/3",
+      "accuracy": "부분적중",
+      "market_analysis": "삼성전자 환원 실망에 상승분 반납, 건설·기계 5%대 급락. 기관 5776억·외국인 3077억 순매도를 개인이 받아냄. 증권·보험만 강세, 코스닥 2%대↓",
+      "lessons": "실적 발표일엔 이미 알려진 호재보다 시장 기대치 대비 발표 내용 미달 위험을 더 크게 볼 것"
     },
     "raw_data": {
       "kospi": {
-        "price": 6012.44,
-        "changePct": 6.63
+        "price": 5937.66,
+        "changePct": -1.24
       },
       "kosdaq": {
-        "price": 771.28,
-        "changePct": 3.69
+        "price": 753.23,
+        "changePct": -2.34
       },
       "watchlist": [
         {
           "code": "005930",
           "name": "삼성전자",
-          "price": 242000,
-          "changePct": 9.01
+          "price": 232000,
+          "changePct": -4.13
         },
         {
           "code": "000660",
           "name": "SK하이닉스",
-          "price": 1487000,
-          "changePct": 10.89
+          "price": 1526000,
+          "changePct": 2.62
         }
       ],
       "sources": [
         {
-          "name": "블록미디어(마감시황: 지수·종목 종가·수급·환율)",
-          "url": "https://www.blockmedia.co.kr/archives/1157530"
+          "name": "한국경제(마감: 지수·종목 종가·수급·업종·환율)",
+          "url": "https://www.hankyung.com/article/2026102939116"
         },
         {
-          "name": "직썰(코스피·코스닥 마감·종목 등락)",
-          "url": "https://www.ziksir.com/news/articleView.html?idxno=151114"
+          "name": "SBS뉴스(코스피·코스닥 종가, 시가·장중 저점)",
+          "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008821458"
         },
         {
-          "name": "파이낸셜뉴스(코스피 6012.44 마감 속보)",
-          "url": "https://www.fnnews.com/news/202610281523015061"
+          "name": "아주경제(코스피·코스닥 마감 속보)",
+          "url": "https://www.ajunews.com/view/20261029153235068"
         },
         {
-          "name": "뉴스1(장중 6000선 터치·하이닉스 실적 효과)",
-          "url": "https://www.news1.kr/finance/market-exr/6334667"
+          "name": "파이낸셜뉴스(코스피 5937.66 마감 속보)",
+          "url": "https://www.fnnews.com/news/202610291531274783"
+        },
+        {
+          "name": "이투데이(코스닥 753.23 마감)",
+          "url": "https://www.etoday.co.kr/news/view/2641860"
+        },
+        {
+          "name": "국민일보(장중 삼성전자 급락·기관 매도·환원 실망)",
+          "url": "https://www.kmib.co.kr/article/20261029500734"
+        },
+        {
+          "name": "아주경제(삼성전자 주주환원 내년 1월 연기)",
+          "url": "https://www.ajunews.com/view/20261029103714858"
         }
       ]
     }
