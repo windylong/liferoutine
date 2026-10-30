@@ -1,0 +1,82 @@
+{
+  "type": "afternoon",
+  "date": "2026-10-30",
+  "generated_at": "2026-10-30T15:58:00+09:00",
+  "analysis": {
+    "kospi_predicted": "하락",
+    "kospi_actual": "하락",
+    "kospi_change_text": "▼3.48%",
+    "kospi_match": "적중",
+    "kospi_miss_reason": "美 AI 투자 회의론 반영한 하락 방향은 맞음. 다만 외국인 1.8조 투매·매도 사이드카까지 번져 낙폭은 예상 범위(-1.5%)의 2배 넘게 커짐",
+    "watchlist_accuracy": [
+      {
+        "code": "005930",
+        "name": "삼성전자",
+        "predicted": "하락",
+        "actual": "하락",
+        "change_text": "▼3.02%",
+        "match": "적중",
+        "reason": "환원 구체안 부재와 반도체 약세가 겹쳐 이틀째 하락"
+      },
+      {
+        "code": "000660",
+        "name": "SK하이닉스",
+        "predicted": "하락",
+        "actual": "하락",
+        "change_text": "▼7.08%",
+        "match": "적중",
+        "reason": "ADR 약세 반영 판단 맞았으나 외국인 매도로 낙폭 확대"
+      }
+    ],
+    "overall_accuracy": "3/3",
+    "accuracy": "적중",
+    "market_analysis": "알파벳·아마존발 AI 수익성 우려에 반도체 대형주 급락, 10시 매도 사이드카 발동. 외국인 1조8천억 순매도를 개인·기관이 받음. 삼성바이오 강세, 기아·한화에어로 급락",
+    "lessons": "美 기술주 급락 다음날엔 외국인 대량 매도 가능성을 반영해 하락 범위를 더 넓게 잡을 것"
+  },
+  "raw_data": {
+    "kospi": {
+      "price": 5730.74,
+      "changePct": -3.48
+    },
+    "kosdaq": {
+      "price": 724.38,
+      "changePct": -3.83
+    },
+    "watchlist": [
+      {
+        "code": "005930",
+        "name": "삼성전자",
+        "price": 225000,
+        "changePct": -3.02
+      },
+      {
+        "code": "000660",
+        "name": "SK하이닉스",
+        "price": 1418000,
+        "changePct": -7.08
+      }
+    ],
+    "sources": [
+      {
+        "name": "파이낸셜뉴스(마감시황·수급·종목 등락)",
+        "url": "https://www.fnnews.com/news/202610301540505038"
+      },
+      {
+        "name": "글로벌이코노믹(삼성전자·SK하이닉스 종가)",
+        "url": "https://www.g-enews.com/article/Securities/2026/10/202610301548059611923c501012_1"
+      },
+      {
+        "name": "뉴스1(코스피 종가)",
+        "url": "https://www.news1.kr/finance/market-exr/6338040"
+      },
+      {
+        "name": "뉴스핌(장중 사이드카·수급)",
+        "url": "https://www.newspim.com/news/view/20261030000583"
+      },
+      {
+        "name": "EBN(주주환원 이슈·장중 수급)",
+        "url": "https://www.ebn.co.kr/news/articleView.html?idxno=1729861"
+      }
+    ]
+  }
+}
