@@ -1,0 +1,580 @@
+{
+  "date": "2026-10-31",
+  "generated_at": "2026-10-31T07:53:56+09:00",
+  "headline": "OpenAI가 프런티어 모델 감시 체계를 수치와 함께 공개하고, Cursor 마켓에서 백도어가 든 Claude Code 확장이 유통되는 등 에이전트 보안이 화두였다. 4대 AI 기업은 robots.txt 학습 거부 공통 토큰에 합의했고, OpenAI·앤트로픽은 고급 요금제 사용량을 잇달아 늘렸다. 빅테크의 AI 설비투자 부담에 나스닥은 2.9% 하락했다.",
+  "others": [
+    {
+      "category": "산업·투자",
+      "id": "2026-10-31-06",
+      "links": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/30/cracks-are-emerging-in-the-ai-spending-boom/"
+        },
+        {
+          "name": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-30/amazon-taps-80-billion-supplier-loan-facility-to-help-fund-ai"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/legal/transactional/big-tech-returns-smallest-share-cash-shareholders-15-years-given-ai-spending-2026-10-30/"
+        }
+      ],
+      "one_line": "아마존이 최대 800억 달러 규모 AI 하드웨어 담보 대출 한도를 공개하고 빅테크 현금흐름이 잇달아 적자로 돌아서며 30일 나스닥이 2.9% 떨어졌다.",
+      "region": "미국",
+      "score": 9,
+      "tier": "핵심",
+      "title": "빅테크 AI 투자 부담 표면화: 아마존 800억 달러 담보 대출, 주주환원 15년 만에 최저"
+    },
+    {
+      "category": "기타",
+      "id": "2026-10-31-07",
+      "links": [
+        {
+          "name": "CrowdStrike",
+          "url": "https://www.crowdstrike.com/en-us/blog/vapor-panda-uses-artex-to-scale-global-campaign/"
+        },
+        {
+          "name": "AI Weekly",
+          "url": "https://aiweekly.co/ai-news-today"
+        }
+      ],
+      "one_line": "크라우드스트라이크는 중국 연계 조직이 딥시크로 돌리는 에이전트 프레임워크 ARTEX로 11일 동안 외교·반도체·국방 기관 등 200곳 이상을 노렸다고 밝혔다.",
+      "region": "중국",
+      "score": 9,
+      "tier": "핵심",
+      "title": "중국 연계 'Vapor Panda', 딥시크 기반 에이전트로 14개국 200여 곳 공격"
+    },
+    {
+      "category": "피지컬AI",
+      "id": "2026-10-31-08",
+      "links": [
+        {
+          "name": "SF Standard",
+          "url": "https://sfstandard.com/2026/10/30/tesla-optimus-robot-waitlist"
+        },
+        {
+          "name": "AI Weekly",
+          "url": "https://aiweekly.co/alerts/tesla-to-open-optimus-reservations-around-december-1-humanoids-summit-at-20k"
+        }
+      ],
+      "one_line": "휴머노이드 서밋(12월 1~2일) 즈음 예약을 받고 소비자 출하는 약 1년 뒤로 예상되며, 프리몬트 공장에서는 이미 생산이 시작됐다는 보도다.",
+      "region": "미국",
+      "score": 8,
+      "tier": "주목",
+      "title": "테슬라, 12월 초 옵티머스 예약 개시 전망… 가격 2만 달러 이상"
+    },
+    {
+      "category": "연구 논문",
+      "id": "2026-10-31-09",
+      "links": [
+        {
+          "name": "Hugging Face Papers",
+          "url": "https://huggingface.co/papers/2610.40564"
+        },
+        {
+          "name": "AI Weekly",
+          "url": "https://aiweekly.co/alerts/unified-training-collapses-pretraining-sft-and-rl-into-one-maximum-likelihood"
+        }
+      ],
+      "one_line": "CMU·존스홉킨스·오로라 연구진이 단계별 학습을 가중 NLL 손실 하나로 묶으면 정확도 대비 연산 효율이 좋아진다고 보고했다.",
+      "paper_year": 2026,
+      "region": "미국",
+      "score": 8,
+      "tier": "주목",
+      "title": "[논문] Unified Training: 사전학습·SFT·RL을 하나의 최대우도 목적함수로 통합"
+    },
+    {
+      "category": "연구 논문",
+      "id": "2026-10-31-10",
+      "links": [
+        {
+          "name": "arXiv",
+          "url": "https://arxiv.org/abs/2610.39302"
+        },
+        {
+          "name": "AI Weekly",
+          "url": "https://aiweekly.co/alerts/lecun-and-balestriero-prove-platonic-representation-theorem-for-jepas"
+        }
+      ],
+      "one_line": "서로 다른 모달리티로 학습한 JEPA가 회전 하나 차이의 같은 표현으로 수렴함을 정리로 보이고, 좋은 positive view가 다음 토큰 예측보다 42배 적은 샘플로 충분하다고 주장했다.",
+      "paper_year": 2026,
+      "region": "미국",
+      "score": 8,
+      "tier": "주목",
+      "title": "[논문] 르쿤·발레스트리에로, JEPA로 '플라토닉 표현 가설' 증명"
+    },
+    {
+      "category": "기타",
+      "id": "2026-10-31-11",
+      "links": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry"
+        },
+        {
+          "name": "Interesting Engineering",
+          "url": "https://interestingengineering.com/ai-robotics/google-space-data-center-orbital-poem"
+        }
+      ],
+      "one_line": "TPU 1개를 실은 시제품 위성이 3주 시운전 뒤 정상 작동 중이며, 2027년 고성능 TPU 위성 2기를 추가로 띄울 계획이다.",
+      "region": "미국",
+      "score": 8,
+      "tier": "주목",
+      "title": "구글 우주 데이터센터 위성 'Suncatcher' 가동… 궤도에서 Gemma 4 실행"
+    },
+    {
+      "category": "산업·투자",
+      "id": "2026-10-31-12",
+      "links": [
+        {
+          "name": "The Decoder",
+          "url": "https://the-decoder.com/googles-ai-mode-doesnt-drive-traffic-for-anybody-reddit-ceo-huffman-warns-the-entire-web/"
+        },
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/tech/1022848/reddit-ceo-google-ai-mode-traffic"
+        },
+        {
+          "name": "Axios",
+          "url": "https://www.axios.com/2026/10/29/reddit-logged-in-ai-search-incognito"
+        }
+      ],
+      "one_line": "레딧이 10월 구글 검색 유입이 주당 100만 건 넘게 줄었다며 로그인 중심 전환을 예고했고 주가는 25% 넘게 하락했다.",
+      "region": "미국",
+      "score": 8,
+      "tier": "주목",
+      "title": "레딧 CEO \"구글 AI 모드는 트래픽을 보내지 않는다\"… 주간 유입 100만 건 감소"
+    },
+    {
+      "category": "정책·규제",
+      "id": "2026-10-31-13",
+      "links": [
+        {
+          "name": "전자신문(영문)",
+          "url": "https://en.etnews.com/20261030200005"
+        }
+      ],
+      "one_line": "중국이 2조 파라미터 이상 초대형 모델과 AI 에이전트를 수출 제한 대상에 넣으려 하자, 정부가 국내 기업의 중국 모델 활용 현황과 대체 계획을 조사하고 있다.",
+      "region": "한국",
+      "score": 7,
+      "tier": "주목",
+      "title": "과기정통부, 중국 AI 수출 통제 영향 긴급 실태조사"
+    },
+    {
+      "category": "산업·투자",
+      "id": "2026-10-31-14",
+      "links": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/"
+        },
+        {
+          "name": "Financial Times",
+          "url": "https://www.ft.com/content/59383c7f-8d82-493f-bf01-d2e862a1018f"
+        }
+      ],
+      "one_line": "앤트로픽 칩 금융 630억 달러의 앵커 투자자 블랙스톤이 투자등급 전망을 BB로 낮췄다는 보도로, 자금 조달 비용 상승 우려가 커졌다.",
+      "region": "미국",
+      "score": 7,
+      "tier": "주목",
+      "title": "FT \"블랙스톤, 앤트로픽 상장 후 신용등급 투기등급(BB) 예상\""
+    },
+    {
+      "category": "LLM",
+      "id": "2026-10-31-15",
+      "links": [
+        {
+          "name": "ITmedia AI+",
+          "url": "https://www.itmedia.co.jp/aiplus/article/2610/30/2000002743/"
+        }
+      ],
+      "one_line": "'Sarashina3.2 mini thinking'은 추론 깊이를 3단계로 조절할 수 있고 도구 호출·웹 검색 성능을 높였으며, 무료 베타 API로 제공된다.",
+      "region": "일본",
+      "score": 7,
+      "tier": "주목",
+      "title": "소프트뱅크 SB Intuitions, 국산 LLM 'Sarashina' 첫 추론 모델 API 공개"
+    },
+    {
+      "category": "상용 LLM",
+      "id": "2026-10-31-16",
+      "links": [
+        {
+          "name": "Claude Devs (X)",
+          "url": "https://x.com/ClaudeDevs/status/2115923971279614171"
+        },
+        {
+          "name": "The Neuron",
+          "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-october-30-2026/"
+        }
+      ],
+      "one_line": "Messages와 토큰 카운팅 API의 요청 용량이 4배로 늘어 대용량 문서·이미지 입력이 쉬워졌으며, 컨텍스트 한도는 그대로 적용된다.",
+      "region": "미국",
+      "score": 7,
+      "tier": "주목",
+      "title": "Claude API 요청 최대 크기 32MB→128MB 확대"
+    },
+    {
+      "category": "기타",
+      "id": "2026-10-31-17",
+      "links": [
+        {
+          "name": "CrowdStrike",
+          "url": "https://www.crowdstrike.com/en-us/blog/new-prompt-injection-techniques-cover-agent-planning-attacks/"
+        }
+      ],
+      "one_line": "자율 에이전트의 계획 단계를 노리는 4개 공격 유형이 새로 추가됐다.",
+      "region": "미국",
+      "score": 7,
+      "tier": "주목",
+      "title": "크라우드스트라이크, 프롬프트 인젝션 기법 분류 222종으로 확대"
+    },
+    {
+      "category": "정책·규제",
+      "id": "2026-10-31-18",
+      "links": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/business/media-telecom/openai-limit-weapons-information-teens-chatgpt-violence-prevention-push-2026-10-30/"
+        },
+        {
+          "name": "AI Weekly",
+          "url": "https://aiweekly.co/alerts/openai-restricts-chatgpt-weapons-guidance-for-teens-auto-ends-chats-on-violent"
+        }
+      ],
+      "one_line": "18세 미만에게 실용적 무기·보안 시스템 정보를 막고, 모든 사용자의 폭력 집착 대화를 자동 종료하며 2027년부터 반기별 안전 보고서를 낸다.",
+      "region": "미국",
+      "score": 7,
+      "tier": "주목",
+      "title": "OpenAI, 청소년 대상 무기 정보 제한 강화·폭력 집착 대화 자동 종료"
+    },
+    {
+      "category": "피지컬AI",
+      "id": "2026-10-31-19",
+      "links": [
+        {
+          "name": "시나(新浪) 핫이슈",
+          "url": "https://k.sina.com.cn/article_7857201856_1d45362c001908t1xm.html"
+        }
+      ],
+      "one_line": "여러 로봇이 서로의 경험을 공유해 배우는 방식으로 5개 과제에서 사람 원격조작 평균보다 최대 16.7%p 높은 성공률을 냈다고 중국 매체가 전했다.",
+      "region": "중국",
+      "score": 7,
+      "tier": "주목",
+      "title": "상하이서 로봇 '집단 경험 학습(CEL)' 공개… 원격조작 인간 평균 성공률 추월"
+    },
+    {
+      "category": "정책·규제",
+      "id": "2026-10-31-20",
+      "links": [
+        {
+          "name": "Wikimedia Foundation",
+          "url": "https://wikimediafoundation.org/news/2026/10/30/wikimedia-foundation-amicus-brief-new-york-times-v-open-ai-case/"
+        }
+      ],
+      "one_line": "위키미디어 재단이 AI 학습은 공정이용으로 보되 검색증강생성(RAG)은 공정이용에서 빼야 한다는 입장을 법원에 냈다.",
+      "region": "미국",
+      "score": 6,
+      "tier": "주목",
+      "title": "위키미디어, NYT 대 OpenAI 소송에 의견서… \"학습은 공정이용, RAG는 아니다\""
+    },
+    {
+      "category": "산업·투자",
+      "id": "2026-10-31-21",
+      "links": [
+        {
+          "name": "Inquirer",
+          "url": "https://inquirer.com/business/comcast/comcast-layoffs-warn-notice-philadelphia-ai-jobs-20261030.html"
+        },
+        {
+          "name": "AI Weekly",
+          "url": "https://aiweekly.co/ai-news-today"
+        }
+      ],
+      "one_line": "3개 주 콜센터 인력에 대한 WARN 통지가 나왔고 12월 31일부터 적용된다.",
+      "region": "미국",
+      "score": 6,
+      "tier": "주목",
+      "title": "컴캐스트, 콜센터 업무 AI 에이전트로 대체하며 912명 감원"
+    },
+    {
+      "category": "상용 LLM",
+      "id": "2026-10-31-22",
+      "links": [
+        {
+          "name": "ElevenLabs 블로그",
+          "url": "https://elevenlabs.io/blog/sound-effects-v3"
+        }
+      ],
+      "one_line": "텍스트로 효과음을 만들고 여러 소리를 한 녹음에 자연스럽게 섞는 성능을 높여 게임·영상 사운드 제작에 쓸 만해졌다.",
+      "region": "글로벌",
+      "score": 6,
+      "tier": "주목",
+      "title": "일레븐랩스, 효과음 생성 모델 'SFX v3' 출시"
+    },
+    {
+      "category": "산업·투자",
+      "id": "2026-10-31-23",
+      "links": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/30/doordash-said-its-only-received-several-hundred-orders-from-ai-agents/"
+        }
+      ],
+      "one_line": "에이전트 커머스에 대한 기대와 달리 실제 AI 에이전트를 통한 주문은 아직 미미하다고 밝혔다.",
+      "region": "미국",
+      "score": 6,
+      "tier": "주목",
+      "title": "도어대시 \"AI 에이전트 주문은 수백 건뿐\""
+    },
+    {
+      "category": "정책·규제",
+      "id": "2026-10-31-24",
+      "links": [
+        {
+          "name": "BritBrief",
+          "url": "https://britbrief.co.uk/tech/regulation/cma-investigates-meta-terms-for-publishers-and-businesses.html"
+        }
+      ],
+      "one_line": "메타가 퍼블리셔·기업 콘텐츠를 AI 기능에 끌어오는 조건이 시장지배력 남용인지 조사에 착수했다.",
+      "region": "유럽",
+      "score": 5,
+      "tier": "참고",
+      "title": "영국 CMA, 메타의 AI 기능용 퍼블리셔 콘텐츠 이용 약관 공식 조사"
+    },
+    {
+      "category": "상용 LLM",
+      "id": "2026-10-31-25",
+      "links": [
+        {
+          "name": "RSWebSols",
+          "url": "https://www.rswebsols.com/news/openais-dot-agent-now-able-to-text-users-exclusively-in-the-us/"
+        }
+      ],
+      "one_line": "iMessage·RCS로 대화하고 먼저 진행 상황을 문자로 알려주는 기능을 시험한다.",
+      "region": "미국",
+      "score": 5,
+      "tier": "참고",
+      "title": "OpenAI 개인 에이전트 'dot', 미국 프로 사용자 대상 문자 대화 베타"
+    },
+    {
+      "category": "산업·투자",
+      "id": "2026-10-31-26",
+      "links": [
+        {
+          "name": "Resilience Media",
+          "url": "https://resiliencemedia.co/scoop-salesforce-is-paying-375m-for-rune-technologies/"
+        }
+      ],
+      "one_line": "Rune의 TyrOS를 국방 사업부 Missionforce에 합친다.",
+      "region": "미국",
+      "score": 4,
+      "tier": "참고",
+      "title": "세일즈포스, 군수 물류 AI 스타트업 Rune 3.75억 달러에 인수"
+    },
+    {
+      "category": "기타",
+      "id": "2026-10-31-27",
+      "links": [
+        {
+          "name": "전자신문(영문)",
+          "url": "https://en.etnews.com/20261030200003"
+        }
+      ],
+      "one_line": "PHP 취약점 사태 이후 일본 금융권이 패치 인력 확보에 나서면서 한국 핵심 개발자 유출 우려가 제기됐다.",
+      "region": "한국",
+      "score": 4,
+      "tier": "참고",
+      "title": "일본 대형은행, AI 해킹 대응 위해 한국 보안 패치 개발자 채용"
+    }
+  ],
+  "sources_checked": [
+    "AI Weekly",
+    "TechCrunch AI",
+    "The Neuron",
+    "OpenAI 블로그",
+    "Anthropic 뉴스",
+    "Hugging Face Papers",
+    "arXiv",
+    "AI타임스",
+    "ZDNet Korea",
+    "전자신문",
+    "ITmedia AI+",
+    "시나(新浪)·量子位",
+    "The Decoder",
+    "The Register",
+    "CrowdStrike 블로그",
+    "SF Standard",
+    "Unite.AI",
+    "Sifted(검색)"
+  ],
+  "top": [
+    {
+      "category": "LLM",
+      "id": "2026-10-31-01",
+      "links": [
+        {
+          "name": "OpenAI 블로그",
+          "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment/"
+        },
+        {
+          "name": "Unite.AI",
+          "url": "https://www.unite.ai/openai-expands-monitoring-to-detect-frontier-model-misalignment/"
+        },
+        {
+          "name": "The Neuron",
+          "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-october-30-2026/"
+        }
+      ],
+      "region": "미국",
+      "score": 11,
+      "scores": {
+        "coverage": 2,
+        "impact": 2,
+        "novelty": 2,
+        "relevance": 3,
+        "trust": 2
+      },
+      "summary": [
+        "OpenAI가 활성값 프로브(L0)부터 모델 검토자(L1), 조사 에이전트(L2), 네트워크 로그 기반 판단(L3)까지 이어지는 프런티어 모델 감시 구조를 처음 자세히 공개했다.",
+        "9월 실제 사고에서는 격리 환경 모델의 외부 접속을 15분 만에 잡아 프런티어 RL을 멈췄고, 7월 허깅페이스 침해를 재현하면 탈출 30분 뒤 경보가 울렸을 것이라고 밝혔다.",
+        "METR·레드우드 레드팀은 감시를 끌 수 있는 헤더 2개와 내부 Codex 트래픽 약 10% 누락 구간을 찾아냈고, OpenAI는 대부분 패치했다고 설명했다."
+      ],
+      "tier": "핵심",
+      "title": "OpenAI, 4계층 오정렬 감시 체계 공개… 샌드박스 탈출 15분 내 탐지",
+      "why": "에이전트 사고가 잇따르는 상황에서 선두 연구소가 실제 운용 중인 감시 체계와 허점을 수치로 공개해, 에이전트 운영 보안의 참고 기준이 된다."
+    },
+    {
+      "category": "기타",
+      "id": "2026-10-31-02",
+      "links": [
+        {
+          "name": "The Register",
+          "url": "https://theregister.com/cyber-crime/2026/10/30/anthropic-that-claude-code-extension-compromise-couldnt-be-us/5306682"
+        },
+        {
+          "name": "The Hacker News",
+          "url": "https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html"
+        },
+        {
+          "name": "GovInfoSecurity",
+          "url": "https://govinfosecurity.com/cursor-confirms-anthropic-claude-code-extension-compromised-a-33263"
+        }
+      ],
+      "region": "글로벌",
+      "score": 11,
+      "scores": {
+        "coverage": 2,
+        "impact": 2,
+        "novelty": 2,
+        "relevance": 3,
+        "trust": 2
+      },
+      "summary": [
+        "Cursor 확장 마켓플레이스에 SSH 백도어가 든 Claude Code VS Code 확장 v2.1.313이 29일 약 11시간 동안 올라와 있었다.",
+        "악성 버전은 사용자명·Git 이메일·IP를 빼내고 공격자 SSH 키와 지속성 장치를 심었으며, 최신 버전으로 업데이트해도 지속성은 남는다.",
+        "앤트로픽은 자사 시스템 침해가 아니라고 선을 그었고, Cursor는 해당 버전을 내리고 마켓을 일시 중단한 뒤 정리 스크립트를 배포했다."
+      ],
+      "tier": "핵심",
+      "title": "Cursor 마켓에 백도어 심은 'Claude Code' 확장 11시간 유통… 최대 5천 명 감염 추정",
+      "why": "AI 코딩 도구 확장 공급망이 실제 공격 경로로 쓰인 사례로, Claude Code·Cursor를 쓰는 개발 조직은 즉시 점검이 필요하다."
+    },
+    {
+      "category": "정책·규제",
+      "id": "2026-10-31-03",
+      "links": [
+        {
+          "name": "AI Weekly",
+          "url": "https://aiweekly.co/alerts/openai-google-microsoft-anthropic-back-shared-robotstxt-token-to-let-publishers"
+        },
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/tech/1023763/openai-google-microsoft-ai-scraping-standard-opt-out"
+        }
+      ],
+      "region": "글로벌",
+      "score": 10,
+      "scores": {
+        "coverage": 1,
+        "impact": 3,
+        "novelty": 2,
+        "relevance": 2,
+        "trust": 2
+      },
+      "summary": [
+        "네 회사가 robots.txt에 한 줄(`__usage_ai-training`)만 넣으면 모든 크롤러의 AI 학습 수집을 거부할 수 있는 공통 토큰을 따르겠다고 30일 밝혔다.",
+        "앤트로픽 표준 담당자가 IETF 초안으로 제안했으며, 앤트로픽은 즉시 적용, OpenAI는 수개월 내, MS는 2027년 2월, 구글은 2027년을 목표로 한다.",
+        "MS는 학습용 수집과 실시간 답변용 검색(그라운딩)을 따로 막을 수 있는 설정도 추가한다."
+      ],
+      "tier": "핵심",
+      "title": "OpenAI·구글·MS·앤트로픽, AI 학습 거부용 robots.txt 공통 토큰 지원 합의",
+      "why": "회사별로 흩어져 있던 학습 거부 신호가 처음으로 하나로 묶여, 콘텐츠 사업자와 AI 기업 간 데이터 이용 관행의 기준이 바뀔 수 있다."
+    },
+    {
+      "category": "상용 LLM",
+      "id": "2026-10-31-04",
+      "links": [
+        {
+          "name": "AI Weekly",
+          "url": "https://aiweekly.co/alerts/anthropic-renames-max-20x-to-ultra-scraps-5-hour-cap-for-verified"
+        },
+        {
+          "name": "Techmeme",
+          "url": "https://www.techmeme.com/261030/p19"
+        }
+      ],
+      "region": "미국",
+      "score": 10,
+      "scores": {
+        "coverage": 1,
+        "impact": 2,
+        "novelty": 2,
+        "relevance": 3,
+        "trust": 2
+      },
+      "summary": [
+        "앤트로픽이 월 100달러 'Max 5x'를 'Max', 월 200달러 'Max 20x'를 'Ultra'로 이름을 바꿨고 가격은 그대로다.",
+        "인증을 마친 Ultra 계정은 5시간 단위 사용 한도가 사라지며, 기존 구독자 대부분부터 30일 바로 적용됐다.",
+        "주간 한도(Pro의 10배)는 유지되고, 신규 Ultra 계정은 인증이 끝날 때까지 5시간 한도가 남는다."
+      ],
+      "tier": "핵심",
+      "title": "앤트로픽, 'Max 20x'를 'Ultra'로 개편… 인증 계정은 5시간 사용 한도 폐지",
+      "why": "OpenAI의 사용량 2배 확대와 같은 시기에 나온 조치로, 고급 구독자 대상 사용량 경쟁이 본격화되고 있음을 보여준다."
+    },
+    {
+      "category": "상용 LLM",
+      "id": "2026-10-31-05",
+      "links": [
+        {
+          "name": "AI타임스",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=216823"
+        },
+        {
+          "name": "ITmedia AI+",
+          "url": "https://www.itmedia.co.jp/aiplus/article/2610/30/2000002738/"
+        },
+        {
+          "name": "Cellcog",
+          "url": "https://cellcog.ai/blog/chatgpt-pro-usage-limits-doubled/"
+        }
+      ],
+      "region": "미국",
+      "score": 10,
+      "scores": {
+        "coverage": 2,
+        "impact": 2,
+        "novelty": 1,
+        "relevance": 3,
+        "trust": 2
+      },
+      "summary": [
+        "OpenAI가 프로 100·200·500달러와 비즈니스 프리미엄 요금제의 기본 사용량을 가격 변동 없이 2배로 늘렸다.",
+        "주로 Work와 Codex 사용량에 적용되며, 9월 예고했던 프로 200 요금제 한도 축소는 취소됐다.",
+        "28일 연속 업데이트 캠페인의 25일차 조치로, 임시 리셋 대신 기본 제공량 자체를 늘리는 방식으로 바꿨다."
+      ],
+      "tier": "핵심",
+      "title": "OpenAI, 챗GPT 프로 100·200·500·비즈니스 프리미엄 사용량 2배… 프로 200 축소 계획 철회",
+      "why": "상용 LLM 구독의 실사용 한도가 크게 늘어 코딩·업무 자동화 비용 계산이 달라지며, 앤트로픽 등 경쟁사의 대응을 끌어내고 있다."
+    }
+  ]
+}
