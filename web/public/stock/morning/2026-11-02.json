@@ -1,0 +1,176 @@
+{
+  "type": "morning",
+  "date": "2026-11-02",
+  "generated_at": "2026-11-02T06:22:47+09:00",
+  "analysis": {
+    "kospi_prediction": "하락",
+    "kospi_change_range": "-4.5~-1.5%",
+    "kospi_confidence": "높음",
+    "kospi_reason": "인텔발 SOX 7.2%↓·EWY 5.5%↓로 갭하락 부담, 저PER과 기관 매수가 낙폭 제한 변수",
+    "us_market_summary": "인텔 28.6% 폭락에 나스닥 2.86%↓, 반도체 7.2%↓",
+    "kospi_news_summary": "인텔 쇼크로 美 반도체지수 7.2% 급락, 이번주 美 중간선거 주목",
+    "kospi_news": [
+      {
+        "summary": "인텔 28.6% 폭락, 美 반도체지수 7.2% 급락",
+        "source": "머니투데이",
+        "url": "https://www.mt.co.kr/world/2026/10/31/2026103106132489524"
+      },
+      {
+        "summary": "아마존 실적 미달·현금 유출에 AI 투자 회의론",
+        "source": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-october-30-dow-sp-500-nasdaq-amazon-intel-ai-sell-off-191429143.html"
+      },
+      {
+        "summary": "이란 확전 우려에 브렌트유 117달러대로 상승",
+        "source": "머니투데이",
+        "url": "https://www.mt.co.kr/world/2026/10/31/2026103106132489524"
+      },
+      {
+        "summary": "10월 반도체 수출 564억달러, 1년새 259% 늘어",
+        "source": "파이낸셜뉴스",
+        "url": "https://www.fnnews.com/news/202611011817475807"
+      },
+      {
+        "summary": "이번주 코스피 5300~5820 예상, 美 선거가 분수령",
+        "source": "서울파이낸스",
+        "url": "https://seoulfn.com/news/articleView.html?idxno=641578"
+      }
+    ],
+    "watchlist": [
+      {
+        "code": "005930",
+        "name": "삼성전자",
+        "prediction": "하락",
+        "reason": "美 반도체 급락·외국인 매도 부담, 실적 호조가 낙폭 완충 변수",
+        "factors": [
+          {
+            "summary": "마이크론 5.3%↓ 등 美 메모리·반도체주 동반 급락",
+            "impact": "악재",
+            "url": "https://www.greened.kr/news/articleView.html?idxno=353554"
+          },
+          {
+            "summary": "3분기 영업이익 107조원대, 반도체가 대부분 차지",
+            "impact": "호재",
+            "url": "https://www.greened.kr/news/articleView.html?idxno=353554"
+          },
+          {
+            "summary": "대신증권, 내년 HBM 점유율 1위 가능성 제시",
+            "impact": "호재",
+            "url": "https://www.hankyung.com/article/2026103049266"
+          }
+        ]
+      },
+      {
+        "code": "000660",
+        "name": "SK하이닉스",
+        "prediction": "하락",
+        "reason": "ADR 7.95% 급락이 시초가 부담, 전일 7%↓로 일부 선반영",
+        "factors": [
+          {
+            "summary": "SK하이닉스 ADR 7.95% 급락, 시초가 하락 압력",
+            "impact": "악재",
+            "url": "https://www.fnnews.com/news/202611011254230508"
+          },
+          {
+            "summary": "20조원 자사주 매입 진행, 내년 1월까지 수급 지원",
+            "impact": "호재",
+            "url": "https://seoulfn.com/news/articleView.html?idxno=641578"
+          },
+          {
+            "summary": "3분기 영업이익 83.3조원 사상 최대 실적 기록",
+            "impact": "호재",
+            "url": "https://www.greened.kr/news/articleView.html?idxno=353554"
+          }
+        ]
+      }
+    ]
+  },
+  "raw_data": {
+    "news_window": {
+      "from": "2026-10-30T15:30:00+09:00",
+      "to": "2026-11-02T07:00:00+09:00"
+    },
+    "us_market": {
+      "sp500": {
+        "price": 7580.07,
+        "changePct": -1.82
+      },
+      "nasdaq": {
+        "price": 25437.0,
+        "changePct": -2.86
+      },
+      "dow": {
+        "price": 51770.31,
+        "changePct": -1.09
+      },
+      "sox": {
+        "price": 10688.8,
+        "changePct": -7.2
+      },
+      "usdkrw": {
+        "price": 1334.3,
+        "changePct": -0.19
+      },
+      "ewy": {
+        "price": null,
+        "changePct": -5.52
+      }
+    },
+    "kospi_prev": {
+      "price": 5730.74,
+      "changePct": -3.48
+    },
+    "watchlist": [
+      {
+        "code": "005930",
+        "name": "삼성전자",
+        "price": 225000,
+        "changePct": -3.02
+      },
+      {
+        "code": "000660",
+        "name": "SK하이닉스",
+        "price": 1418000,
+        "changePct": -7.08
+      }
+    ],
+    "sources": [
+      {
+        "name": "머니투데이(뉴욕 3대 지수 종가·SOX 등락·인텔·유가)",
+        "url": "https://www.mt.co.kr/world/2026/10/31/2026103106132489524"
+      },
+      {
+        "name": "Yahoo Finance(지수 종가·10년물·아마존·연준 발언)",
+        "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-october-30-dow-sp-500-nasdaq-amazon-intel-ai-sell-off-191429143.html"
+      },
+      {
+        "name": "녹색경제신문(SOX 종가·마이크론·30일 코스피·종목 종가·수급·3분기 실적)",
+        "url": "https://www.greened.kr/news/articleView.html?idxno=353554"
+      },
+      {
+        "name": "파이낸셜뉴스(SK하이닉스 ADR·주간 일정·증권가 분석)",
+        "url": "https://www.fnnews.com/news/202611011254230508"
+      },
+      {
+        "name": "서울파이낸스(EWY·코스피 주간 예상 범위·자사주 매입)",
+        "url": "https://seoulfn.com/news/articleView.html?idxno=641578"
+      },
+      {
+        "name": "베타뉴스(원/달러 1334.3원, -2.5원)",
+        "url": "https://www.betanews.net/article/view/beta202610300056"
+      },
+      {
+        "name": "파이낸셜뉴스(10월 반도체 수출)",
+        "url": "https://www.fnnews.com/news/202611011817475807"
+      },
+      {
+        "name": "한국경제(대신증권 삼성전자 분석)",
+        "url": "https://www.hankyung.com/article/2026103049266"
+      },
+      {
+        "name": "CalendarLabs(KRX 휴장일 확인)",
+        "url": "https://www.calendarlabs.com/krx-market-holidays-2026/"
+      }
+    ]
+  }
+}
