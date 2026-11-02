@@ -1,0 +1,172 @@
+{
+  "type": "morning",
+  "date": "2026-11-03",
+  "generated_at": "2026-11-03T06:23:01+09:00",
+  "analysis": {
+    "kospi_prediction": "하락",
+    "kospi_change_range": "-1.5~-0.4%",
+    "kospi_confidence": "낮음",
+    "kospi_reason": "SOX 3.37%↓·마이크론 급락과 전일 급반등 부담, 유가 급락·저가매수가 낙폭 제한 변수",
+    "us_market_summary": "AI 과잉투자 우려에 SOX 3.37%↓, 다우만 상승",
+    "kospi_news_summary": "오라클·마벨발 AI 우려에 美 반도체 3.37% 하락, 오늘 美 중간선거·AMD 실적 주목",
+    "kospi_news": [
+      {
+        "summary": "코스피 2.24% 올라 5859 마감, 반도체가 반등 주도",
+        "source": "뉴스핌",
+        "url": "https://www.newspim.com/news/view/20261102001391"
+      },
+      {
+        "summary": "美 반도체지수 3.37% 하락, 마이크론 5.85% 급락",
+        "source": "서울신문",
+        "url": "https://www.seoul.co.kr/news/economy/securities/2026/11/03/20261103500006"
+      },
+      {
+        "summary": "오라클 200억달러 조달·마벨 대형 인수에 AI 우려",
+        "source": "미디어펜",
+        "url": "https://www.mediapen.com/news/view/1134533"
+      },
+      {
+        "summary": "美·이란 외교 기대에 WTI 7.6% 내린 96달러대",
+        "source": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-2-dow-sp-500-nasdaq-091835095.html"
+      },
+      {
+        "summary": "오늘 美 중간선거·AMD 실적, 12월 금리인상 76% 반영",
+        "source": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-2-dow-sp-500-nasdaq-091835095.html"
+      }
+    ],
+    "watchlist": [
+      {
+        "code": "005930",
+        "name": "삼성전자",
+        "prediction": "하락",
+        "reason": "美 메모리·반도체 약세, 자사주 매입 공백이 부담",
+        "factors": [
+          {
+            "summary": "마이크론 5.85%↓ 등 美 반도체주 동반 약세",
+            "impact": "악재",
+            "url": "https://www.seoul.co.kr/news/economy/securities/2026/11/03/20261103500006"
+          },
+          {
+            "summary": "자사주 매입 내년 1월께 예상, 당장 수급 방어 없어",
+            "impact": "악재",
+            "url": "https://kbthink.com/news-list/view.html?newsId=20261102104223600"
+          },
+          {
+            "summary": "전일 외국인 1210억 순매수로 매수세 일부 복귀",
+            "impact": "호재",
+            "url": "https://www.g-enews.com/article/Securities/2026/11/202611021601494159923c501012_1"
+          }
+        ]
+      },
+      {
+        "code": "000660",
+        "name": "SK하이닉스",
+        "prediction": "보합",
+        "reason": "美 메모리 급락 부담을 자사주 매입 수급이 상쇄",
+        "factors": [
+          {
+            "summary": "내년 1월까지 자사주 1492만주 매입 진행 중",
+            "impact": "호재",
+            "url": "https://kbthink.com/news-list/view.html?newsId=20261102104223600"
+          },
+          {
+            "summary": "전일 기관 2558억 순매수, 연기금도 가세",
+            "impact": "호재",
+            "url": "https://www.g-enews.com/article/Securities/2026/11/202611021601494159923c501012_1"
+          },
+          {
+            "summary": "美 마이크론 5.85%↓, 메모리 투자심리 위축",
+            "impact": "악재",
+            "url": "https://www.seoul.co.kr/news/economy/securities/2026/11/03/20261103500006"
+          }
+        ]
+      }
+    ]
+  },
+  "raw_data": {
+    "news_window": {
+      "from": "2026-11-02T07:00:00+09:00",
+      "to": "2026-11-03T07:00:00+09:00"
+    },
+    "us_market": {
+      "sp500": {
+        "price": 7541.4,
+        "changePct": -0.51
+      },
+      "nasdaq": {
+        "price": 25164.32,
+        "changePct": -1.07
+      },
+      "dow": {
+        "price": 51983.98,
+        "changePct": 0.41
+      },
+      "sox": {
+        "price": 10328.33,
+        "changePct": -3.37
+      },
+      "usdkrw": {
+        "price": 1343.8,
+        "changePct": 0.71
+      }
+    },
+    "kospi_prev": {
+      "price": 5859.08,
+      "changePct": 2.24
+    },
+    "watchlist": [
+      {
+        "code": "005930",
+        "name": "삼성전자",
+        "price": 229000,
+        "changePct": 1.78
+      },
+      {
+        "code": "000660",
+        "name": "SK하이닉스",
+        "price": 1472000,
+        "changePct": 3.81
+      }
+    ],
+    "sources": [
+      {
+        "name": "서울신문(美 지수·SOX 종가, 반도체 종목 등락)",
+        "url": "https://www.seoul.co.kr/news/economy/securities/2026/11/03/20261103500006"
+      },
+      {
+        "name": "Yahoo Finance(美 지수 교차 확인, 유가, 금리, 일정)",
+        "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-2-dow-sp-500-nasdaq-091835095.html"
+      },
+      {
+        "name": "미디어펜(오라클·마벨 악재, 하이닉스 ADR 장중)",
+        "url": "https://www.mediapen.com/news/view/1134533"
+      },
+      {
+        "name": "뉴스핌(코스피 종가)",
+        "url": "https://www.newspim.com/news/view/20261102001391"
+      },
+      {
+        "name": "직썰(원/달러 주간 종가 1343.8원, 전일비 +9.5원; 등락률은 전일 1334.3원 기준 계산)",
+        "url": "https://www.ziksir.com/news/articleView.html?idxno=151715"
+      },
+      {
+        "name": "뉴스1(달러·원 15:30 1344.20원, 선거 관망)",
+        "url": "https://www.news1.kr/finance/market-exr/6340185"
+      },
+      {
+        "name": "글로벌이코노믹(종목 종가, 11/2 수급)",
+        "url": "https://www.g-enews.com/article/Securities/2026/11/202611021601494159923c501012_1"
+      },
+      {
+        "name": "KB Think(하이닉스 자사주 매입, 삼성전자 비교)",
+        "url": "https://kbthink.com/news-list/view.html?newsId=20261102104223600"
+      },
+      {
+        "name": "한국경제(삼전닉스 반등 배경, 증권가 시각)",
+        "url": "https://www.hankyung.com/article/2026110208686"
+      }
+    ]
+  }
+}
