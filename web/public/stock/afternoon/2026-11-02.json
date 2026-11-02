@@ -1,0 +1,82 @@
+{
+  "type": "afternoon",
+  "date": "2026-11-02",
+  "generated_at": "2026-11-02T16:00:17+09:00",
+  "analysis": {
+    "kospi_predicted": "하락",
+    "kospi_actual": "상승",
+    "kospi_change_text": "▲2.24%",
+    "kospi_match": "빗나감",
+    "kospi_miss_reason": "갭하락 출발은 맞았으나 기관 1.2조 순매수와 하이닉스 자사주 매입으로 장중 반전. 저가 매수 강도를 과소평가",
+    "watchlist_accuracy": [
+      {
+        "code": "005930",
+        "name": "삼성전자",
+        "predicted": "하락",
+        "actual": "상승",
+        "change_text": "▲1.78%",
+        "match": "빗나감",
+        "reason": "장중 -3.56%서 기관 매수로 반등, 저가매수 과소평가"
+      },
+      {
+        "code": "000660",
+        "name": "SK하이닉스",
+        "predicted": "하락",
+        "actual": "상승",
+        "change_text": "▲3.81%",
+        "match": "빗나감",
+        "reason": "자사주 매입·기관 유입에 반등, ADR 급락 과대평가"
+      }
+    ],
+    "overall_accuracy": "0/3",
+    "accuracy": "빗나감",
+    "market_analysis": "5616까지 밀린 뒤 기관 1.2조 순매수로 3거래일 만에 반등. 외국인 3684억·개인 1.3조 순매도. 반도체 대형주·SK스퀘어 주도, 삼성바이오 약세",
+    "lessons": "美 급락발 갭하락은 장중 되돌림 가능. 연기금·자사주 수급 있으면 확신도 낮출 것"
+  },
+  "raw_data": {
+    "kospi": {
+      "price": 5859.08,
+      "changePct": 2.24
+    },
+    "kosdaq": {
+      "price": 734.36,
+      "changePct": 1.38
+    },
+    "watchlist": [
+      {
+        "code": "005930",
+        "name": "삼성전자",
+        "price": 229000,
+        "changePct": 1.78
+      },
+      {
+        "code": "000660",
+        "name": "SK하이닉스",
+        "price": 1472000,
+        "changePct": 3.81
+      }
+    ],
+    "sources": [
+      {
+        "name": "파이낸셜뉴스(코스피·코스닥 종가, 수급, 장중 고저, 종목 종가)",
+        "url": "https://www.fnnews.com/news/202611021536225140"
+      },
+      {
+        "name": "국제뉴스(지수·종목 종가 교차 확인, 시총 상위 등락)",
+        "url": "https://www.gukjenews.com/news/articleView.html?idxno=3739754"
+      },
+      {
+        "name": "서울경제(연기금·기타법인 수급, 하이닉스 자사주 매입)",
+        "url": "https://m.sedaily.com/article/20109094"
+      },
+      {
+        "name": "뉴스핌(장중 반등 원인, 수출 호조, 오전 환율)",
+        "url": "https://www.newspim.com/news/view/20261102001038"
+      },
+      {
+        "name": "전남일보/연합(시가, 장중 저점, 11시 수급·업종)",
+        "url": "https://www.jnilbo.com/news/articleView.html?idxno=90000078728"
+      }
+    ]
+  }
+}
