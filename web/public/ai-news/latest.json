@@ -1,641 +1,716 @@
 {
-  "date": "2026-11-03",
-  "generated_at": "2026-11-03T07:53:29+09:00",
-  "headline": "앤트로픽 투자설명서가 매출 12배 성장과 233억 달러 순손실, 8,950억 달러 컴퓨팅 약정을 드러냈고, 마벨의 1,150억 달러 루멘텀 인수와 빅테크 대규모 자금 조달이 같은 날 겹쳐 AI 인프라 비용이 하루의 중심이 됐다. 골드만삭스의 코딩 도구 회수와 Grok Bot 한도 축소 보도도 비용 통제 흐름을 보여 준다.",
+  "date": "2026-11-04",
+  "generated_at": "2026-11-04T07:54:07+09:00",
+  "headline": "앤트로픽이 상장 서류에서 AI의 자기 개선 가속 기준에 곧 닿을 수 있다고 경고했고, 애플은 Siri AI를 모든 개발자에게 열었다. 엔비디아의 중국 비중 제한 요구, 솔라 프로 4의 행정망 탑재, 현대차의 외부 AI 차단은 누구의 모델과 컴퓨팅을 쓸지가 안보·보안 문제로 옮겨 가고 있음을 보여 준다.",
   "others": [
     {
-      "category": "산업·투자",
-      "id": "2026-11-03-06",
-      "links": [
-        {
-          "name": "TNW",
-          "url": "https://thenextweb.com/news/alphabet-6bn-euro-bond-sale-ai-debt"
-        },
-        {
-          "name": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html"
-        },
-        {
-          "name": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-02/meta-readies-cross-border-investment-bond-offering"
-        }
-      ],
-      "one_line": "알파벳 유로채에 170억 유로 넘는 주문이 들어온 반면 오라클은 주식 $100억·채권 $100억 발행 소식에 주가가 약 6% 빠져, AI 부채를 보는 시장의 시각이 엇갈렸다.",
-      "region": "미국",
-      "score": 10,
-      "tier": "핵심",
-      "title": "빅테크 AI 자금 조달 하루에 몰려: 알파벳 €60억, 오라클 $200억, 메타 $200억+ 검토"
-    },
-    {
       "category": "상용 LLM",
-      "id": "2026-11-03-07",
+      "id": "2026-11-04-06",
       "links": [
         {
-          "name": "AI타임스",
-          "url": "https://www.aitimes.com/news/articleView.html?idxno=216891"
+          "name": "Claude 문서",
+          "url": "https://platform.claude.com/docs/en/build-with-claude/message-threads"
         },
         {
-          "name": "Business Insider",
-          "url": "https://www.businessinsider.com/anthropic-claude-internal-ai-use-exceeds-employee-pay-tokens-2026-11"
-        },
-        {
-          "name": "AI Weekly",
-          "url": "https://aiweekly.co/ai-news-today"
+          "name": "The Decoder",
+          "url": "https://the-decoder.com/anthropics-message-threads-cut-time-to-first-token-by-35-percent-for-long-conversations/"
         }
       ],
-      "one_line": "IPO 서류에 따르면 4월부터 사용 가치가 주식 보상을 뺀 월 보상액을 넘었고 신규 코드의 90% 이상을 Claude가 쓰지만, 소매가 환산이라 실제 현금 지출과는 다르다.",
+      "one_line": "변경분만 보내는 API로 50만~100만 토큰 요청에서 효과가 크며 토큰 사용량은 그대로이고, 5분 비활동 시 만료되고 ZDR·HIPAA 대상이 아니다.",
       "region": "미국",
       "score": 10,
       "tier": "핵심",
-      "title": "앤트로픽 내부 Claude 사용 가치, 소매가 기준으로 직원 보상 추월… 토큰은 9개월 새 250배"
-    },
-    {
-      "category": "정책·규제",
-      "id": "2026-11-03-08",
-      "links": [
-        {
-          "name": "Korea Herald",
-          "url": "https://www.koreaherald.com/article/10922482"
-        },
-        {
-          "name": "AI Weekly",
-          "url": "https://aiweekly.co/ai-news-today"
-        }
-      ],
-      "one_line": "반도체·데이터센터·피지컬 AI를 묶은 3대 메가프로젝트와 세계 최고 성능 자체 모델 확보에 재원을 배정한 820.9조 원 예산안의 초당적 처리를 요청했다.",
-      "region": "한국",
-      "score": 9,
-      "tier": "핵심",
-      "title": "이재명 대통령 국회 연설: 2027년 예산에 AI 메가프로젝트 21.3조·소버린 모델 4.6조"
-    },
-    {
-      "category": "LLM",
-      "id": "2026-11-03-09",
-      "links": [
-        {
-          "name": "TechNode",
-          "url": "https://technode.com/2026/11/02/meituan-launches-longcat-2-5-multimodal-ai-model-for-extended-coding-tasks/"
-        },
-        {
-          "name": "10jqka(프리뷰)",
-          "url": "https://stock.10jqka.com.cn/20260926/c680285995.shtml"
-        },
-        {
-          "name": "AI Weekly",
-          "url": "https://aiweekly.co/ai-news-today"
-        }
-      ],
-      "one_line": "9월 프리뷰에 이어 채팅·API로 먼저 제공하고 GitHub·Hugging Face 공개는 추후 예정이며, 장기 코딩 작업 강화는 회사 주장으로 벤치마크 수치는 제시되지 않았다.",
-      "region": "중국",
-      "score": 9,
-      "tier": "핵심",
-      "title": "메이퇀 LongCat-2.5 정식 출시: 1.6조 파라미터, 토큰당 480억 활성"
+      "title": "앤트로픽 Message Threads 베타: 긴 대화 첫 토큰 시간 약 35% 단축"
     },
     {
       "category": "연구 논문",
-      "id": "2026-11-03-10",
-      "links": [
-        {
-          "name": "Hugging Face Papers",
-          "url": "https://huggingface.co/papers/2610.42053"
-        },
-        {
-          "name": "AI Weekly",
-          "url": "https://aiweekly.co/ai-news-today"
-        }
-      ],
-      "one_line": "실행 정책이 상위 모델을 기다리지 않는 구조로 LIBERO-Pro 성공률 95.9%를 내며 제어 스텝을 25% 줄였고, 실제 Unitree G1에서도 비교군 중 최고였다고 저자들이 보고했다.",
-      "paper_year": 2026,
-      "region": "글로벌",
-      "score": 9,
-      "tier": "핵심",
-      "title": "[논문] REA: 로봇 에이전트를 '뇌·라우터·소뇌'로 나눠 비동기 실행"
-    },
-    {
-      "category": "LLM",
-      "id": "2026-11-03-11",
-      "links": [
-        {
-          "name": "Weight-Space Programming",
-          "url": "https://rikiyat.github.io/blog/weight-space-programming/"
-        },
-        {
-          "name": "AI Weekly",
-          "url": "https://aiweekly.co/ai-news-today"
-        }
-      ],
-      "one_line": "가중치 0.016%만 수정해 수학 점수를 올렸지만 Gemma에서는 실패했고, 저자들은 없던 능력을 더하지는 못한다고 해석했으며 동료 심사 전의 초기 블로그 결과다.",
-      "region": "글로벌",
-      "score": 9,
-      "tier": "핵심",
-      "title": "'Astra가 가중치를 직접 고친다': Qwen3.5 MATH-500 7.9→48.1% 실험"
-    },
-    {
-      "category": "산업·투자",
-      "id": "2026-11-03-12",
-      "links": [
-        {
-          "name": "The National",
-          "url": "https://www.thenationalnews.com/news/uae/2026/11/02/abu-dhabi-agrees-openai-deals-to-boost-government-services-and-education"
-        },
-        {
-          "name": "AI Weekly",
-          "url": "https://aiweekly.co/ai-news-today"
-        }
-      ],
-      "one_line": "식품 수입 심사에 시범 적용 중이며 최종 결정은 공무원이 맡고, 추론은 UAE 내 GPU에서 처리하며 Inception42와는 5년 계약을 맺었다.",
-      "region": "글로벌",
-      "score": 9,
-      "tier": "핵심",
-      "title": "OpenAI·아부다비, 정부 서비스·투자·교육 협약… 행정 규정을 기계판독형으로 전환"
-    },
-    {
-      "category": "상용 LLM",
-      "id": "2026-11-03-13",
+      "id": "2026-11-04-07",
       "links": [
         {
           "name": "The Decoder",
-          "url": "https://the-decoder.com/spacexsi-apparently-cuts-grok-bot-quotas-weeks-after-musk-called-it-his-fastest-growing-product/"
+          "url": "https://the-decoder.com/rapid-llm-development-is-outrunning-the-research-meant-to-explain-it-study-finds/"
         }
       ],
-      "one_line": "2주 전 최고 성장 제품이라던 서비스의 한도가 줄었다는 텔레그래프 보도로, 머스크는 축소를 명시적으로 확인하지 않은 채 매출 대비 비용 부담을 언급했다.",
+      "one_line": "20개 모델로 다시 시험해 수명 평균은 15.7개월이었고, 한계 주장은 빨리 낡는 반면 자기 출력 선호·아첨 같은 성향은 유지돼 모델·버전·날짜를 기록하라고 권했다.",
+      "paper_year": 2026,
       "region": "미국",
-      "score": 9,
+      "score": 10,
       "tier": "핵심",
-      "title": "스페이스X, Grok Bot 할당량 절반 축소 보도… 머스크 \"운영 비용이 너무 높다\""
+      "title": "[논문] 스탠퍼드: LLM 연구 결과 50건 재검증, 44%는 이미 효력 상실"
     },
     {
-      "category": "상용 LLM",
-      "id": "2026-11-03-14",
+      "category": "산업·투자",
+      "id": "2026-11-04-08",
       "links": [
         {
-          "name": "量子位",
-          "url": "https://www.qbitai.com/2026/11/507082.html"
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/03/ai-inference-startup-fal-doubles-its-valuation-to-16b-as-demand-surges/"
+        },
+        {
+          "name": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-03/ai-inference-startup-fal-raises-capital-at-16-billion-valuation"
+        },
+        {
+          "name": "AI Weekly",
+          "url": "https://aiweekly.co/ai-news-today"
         }
       ],
-      "one_line": "공식 발표 없이 사용자 관찰과 사이트 코드 흔적만 있는 내용이고, Hugging Face의 'Mythos 유출 가중치' 저장소는 진짜일 가능성이 낮아 내려받지 않는 편이 안전하다.",
-      "region": "글로벌",
-      "score": 8,
-      "tier": "주목",
-      "title": "[미확인] GPT-6.2 Astra 일부 사용자 테스트 정황, Claude Mythos 5.5 코드 노출"
+      "one_line": "베세머 주도로 엔비디아 등이 참여했고, 영상·이미지·음성 모델 호스팅 수요가 성장을 이끌지만 추론 업계의 낮은 마진은 여전한 과제다.",
+      "region": "미국",
+      "score": 10,
+      "tier": "핵심",
+      "title": "추론 스타트업 Fal, 13억 달러 조달… 기업가치 7개월 새 160억 달러로 두 배"
+    },
+    {
+      "category": "산업·투자",
+      "id": "2026-11-04-09",
+      "links": [
+        {
+          "name": "AMD 실적 발표",
+          "url": "https://www.globenewswire.com/news-release/2026/11/03/3394824/0/en/amd-reports-third-quarter-2026-financial-results.html"
+        },
+        {
+          "name": "AI Weekly",
+          "url": "https://aiweekly.co/ai-news-today"
+        }
+      ],
+      "one_line": "전체 매출은 134억 달러로 45% 늘었고, Helios 랙에서 앤트로픽·메타·MS·OpenAI·OCI가 모델을 돌린다고 회사가 밝혀 엔비디아 대안의 무게가 커졌다.",
+      "region": "미국",
+      "score": 10,
+      "tier": "핵심",
+      "title": "AMD 3분기 데이터센터 매출 85억 달러, 97% 증가… MI450 출시, 4분기 170억 달러 전망"
     },
     {
       "category": "피지컬AI",
-      "id": "2026-11-03-15",
+      "id": "2026-11-04-10",
+      "links": [
+        {
+          "name": "AI타임스",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=216928"
+        }
+      ],
+      "one_line": "영상을 4초·8프레임 단위로 처리하고 공간 추론 벤치마크에서 8B급 Ministral-3 추론 모델을 앞섰다는 회사 평가이며, 용접 특화판을 냈지만 배포 방식과 라이선스는 기사에 없다.",
+      "region": "한국",
+      "score": 9,
+      "tier": "핵심",
+      "title": "NC AI, 피지컬AI용 3B 비전-언어 모델 '배키 비전 3B' 공개"
+    },
+    {
+      "category": "기타",
+      "id": "2026-11-04-11",
+      "links": [
+        {
+          "name": "AI타임스",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=216970"
+        }
+      ],
+      "one_line": "월 3,900원 무제한 모델로 뛰어들었지만 대화량에 비례하는 추론 비용 때문에 수익성이 과제이고, 지스타 2026 메인 스폰서는 처음으로 AI 기업 뤼튼이 맡는다.",
+      "region": "한국",
+      "score": 9,
+      "tier": "핵심",
+      "title": "크래프톤 K팝 캐릭터챗 '키프' 출시, 컴투스도 개발… 게임사 AI 캐릭터챗 가세"
+    },
+    {
+      "category": "정책·규제",
+      "id": "2026-11-04-12",
       "links": [
         {
           "name": "전자신문",
-          "url": "https://www.etnews.com/20261102000077"
-        },
-        {
-          "name": "AI타임스",
-          "url": "https://www.aitimes.com/news/articleView.html?idxno=216906"
+          "url": "https://www.etnews.com/20261103000455"
         }
       ],
-      "one_line": "최대 120MW로 확장 가능하게 설계해 2028년 말 준공을 목표로 하며, 삼성 계열 제조 로봇 전환의 학습 연산 기반도 맡는다.",
+      "one_line": "10월 말부터 ChatGPT·Claude·Qwen·DeepSeek 등이 막혔고 사내 서버에서 돌릴 수 있는 Gemma는 예외로 전해지며, 재개 시점은 정해지지 않았다.",
       "region": "한국",
-      "score": 8,
-      "tier": "주목",
-      "title": "삼성SDS, 구미 60MW AI 데이터센터 착공… 영남권 60조 투자의 첫 성과"
-    },
-    {
-      "category": "피지컬AI",
-      "id": "2026-11-03-16",
-      "links": [
-        {
-          "name": "The Information",
-          "url": "https://www.theinformation.com/articles/inside-apples-slog-create-first-robot"
-        },
-        {
-          "name": "AI Weekly",
-          "url": "https://aiweekly.co/ai-news-today"
-        }
-      ],
-      "one_line": "팔 위에서 9인치 화면이 도는 첫 로봇을 터너스 CEO가 밀고 있으나 진척이 더디다는 디인포메이션 보도로, 유료 기사라 세부 내용은 확인하지 못했다.",
-      "region": "미국",
-      "score": 8,
-      "tier": "주목",
-      "title": "애플, 2027년 목표 1천 달러대 탁상형 로봇 개발 난항 보도"
-    },
-    {
-      "category": "연구 논문",
-      "id": "2026-11-03-17",
-      "links": [
-        {
-          "name": "AI타임스",
-          "url": "https://www.aitimes.com/news/articleView.html?idxno=216915"
-        }
-      ],
-      "one_line": "지침 재사용·미사용 도구 제거·실패 루프 개입을 플러그인으로 넣어 Claude Code·Codex 등에 붙이며, 실제 개발자의 장기 작업 기록으로는 아직 검증되지 않았다.",
-      "paper_year": 2026,
-      "region": "미국",
-      "score": 8,
-      "tier": "주목",
-      "title": "[논문] MS·UC버클리 TokenEconomizer: 코딩 에이전트 비용 최대 30.9% 절감"
-    },
-    {
-      "category": "LLM",
-      "id": "2026-11-03-18",
-      "links": [
-        {
-          "name": "PANews",
-          "url": "https://panews.io/articles/01a19d57-6ab1-7345-934a-c0d1eb79d628"
-        },
-        {
-          "name": "AI Weekly",
-          "url": "https://aiweekly.co/ai-news-today"
-        }
-      ],
-      "one_line": "아이디어를 바로 쓸 수 있는 플러그인으로 만드는 기능으로, 어제 전한 오픈소스 코딩 에이전트 공개에 이어 에이전트 제품 경쟁력을 높이려는 움직임이다.",
-      "region": "중국",
-      "score": 8,
-      "tier": "주목",
-      "title": "DeepSeek Harness에 플러그인 제작용 '크리에이터 모드' 추가"
-    },
-    {
-      "category": "LLM",
-      "id": "2026-11-03-19",
-      "links": [
-        {
-          "name": "AI타임스",
-          "url": "https://www.aitimes.com/news/articleView.html?idxno=216916"
-        }
-      ],
-      "one_line": "실제 오픈소스 기반 132개 과제로 평가하며, 추론 수준을 최대로 올려도 완결성 실패가 15.3% 남았고 추론을 높이자 오히려 호환성을 깨뜨린 사례도 나왔다.",
-      "region": "미국",
-      "score": 7,
-      "tier": "주목",
-      "title": "코그니션 FrontierCode 2.0: 1위 Opus 5.5도 45.5%, 숨은 요구사항에서 약점"
+      "score": 9,
+      "tier": "핵심",
+      "title": "현대차그룹, 자율주행·로봇 등 핵심 연구조직에 외부 생성형 AI 사용 일시 금지"
     },
     {
       "category": "상용 LLM",
-      "id": "2026-11-03-20",
+      "id": "2026-11-04-13",
       "links": [
+        {
+          "name": "Big Technology",
+          "url": "https://www.bigtechnology.com/p/openai-chatgpt-search-is-about-20"
+        },
+        {
+          "name": "AI Weekly",
+          "url": "https://aiweekly.co/ai-news-today"
+        }
+      ],
+      "one_line": "제품 책임자의 대담 발언으로, 웹 검색이 실행될 때마다 1건으로 세는 회사 기준이며 구글 수치와 대조할 수 없어 독립 검증은 아니다.",
+      "region": "미국",
+      "score": 9,
+      "tier": "핵심",
+      "title": "OpenAI \"ChatGPT 주간 사용자 12억, 검색형 질의는 구글의 약 20%\""
+    },
+    {
+      "category": "LLM",
+      "id": "2026-11-04-14",
+      "links": [
+        {
+          "name": "The Decoder",
+          "url": "https://the-decoder.com/openai-says-gpt-6-astra-designed-a-hardware-device-from-scratch-in-under-a-week/"
+        }
+      ],
+      "one_line": "외형·기판·펌웨어까지 맡겼지만 제조 제약을 놓쳐 여러 번 수정했고, 시제품 생산엔 최대 한 달이 더 걸렸으며 수치는 모두 회사 자체 발표다.",
+      "region": "미국",
+      "score": 9,
+      "tier": "핵심",
+      "title": "OpenAI \"GPT-6 Astra로 Codex 대화 기기를 일주일 안에 설계\""
+    },
+    {
+      "category": "LLM",
+      "id": "2026-11-04-15",
+      "links": [
+        {
+          "name": "AI타임스",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=216967"
+        }
+      ],
+      "one_line": "GLM-5.3 기반 MIT 라이선스 모델로 FrontierScience-Research에서 GPT-6 Astra를 앞섰다고 했지만 자체 평가이고, NMR 구조 규명에서는 뒤졌다.",
+      "region": "중국",
+      "score": 9,
+      "tier": "핵심",
+      "title": "딥 프린시플 하이드로젠-1.0: 7,530억 파라미터 과학 특화 오픈웨이트 공개"
+    },
+    {
+      "category": "산업·투자",
+      "id": "2026-11-04-16",
+      "links": [
+        {
+          "name": "AI타임스",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=216948"
+        },
+        {
+          "name": "전자신문",
+          "url": "https://etnews.com/20261102000300"
+        }
+      ],
+      "one_line": "GPU 8,496개로 이론 성능 614PF이며 대학·연구기관·기업의 AI 연구에도 쓰이고, 세계 순위 10위권 진입 전망은 아직 발표 전 기대치다.",
+      "region": "한국",
+      "score": 9,
+      "tier": "핵심",
+      "title": "국가 슈퍼컴 6호기 '한강' 가동식… 12월 14일 서비스 시작"
+    },
+    {
+      "category": "산업·투자",
+      "id": "2026-11-04-17",
+      "links": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/03/crowdstrike-to-shell-out-nearly-500m-for-2-ai-security-startups-as-the-market-for-securing-agents-takes-off/"
+        },
+        {
+          "name": "SecurityWeek",
+          "url": "https://www.securityweek.com/crowdstrike-reportedly-paying-495-million-for-ai-security-firms-fiddler-dreadnode/"
+        },
+        {
+          "name": "AI Weekly",
+          "url": "https://aiweekly.co/ai-news-today"
+        }
+      ],
+      "one_line": "WSJ 인용 보도로 Fiddler 약 4억 달러·Dreadnode 약 9,500만 달러이며, 에이전트 감시와 출시 전 공격 시험을 Falcon 제품군에 넣는다.",
+      "region": "미국",
+      "score": 9,
+      "tier": "핵심",
+      "title": "크라우드스트라이크, AI 에이전트 보안 2곳 약 5억 달러에 인수"
+    },
+    {
+      "category": "정책·규제",
+      "id": "2026-11-04-18",
+      "links": [
+        {
+          "name": "Washington Post 전재",
+          "url": "https://molawyersmedia.com/2026/11/03/google-deepmind-workers-demand-freedom-from-non-disparagement/"
+        },
+        {
+          "name": "Washington Post",
+          "url": "https://www.washingtonpost.com/technology/2026/11/03/google-deepmind-staff-protest-lifetime-ban-criticizing-company/"
+        },
+        {
+          "name": "AI Weekly",
+          "url": "https://aiweekly.co/ai-news-today"
+        }
+      ],
+      "one_line": "AI 위험을 공개적으로 경고할 수 있어야 한다는 요구이고, 구글은 퇴사자에게 집행하지 않으며 신규 계약에서 뺐다고 했지만 기존 계약 변경 여부는 밝히지 않았다.",
+      "region": "유럽",
+      "score": 9,
+      "tier": "핵심",
+      "title": "구글 딥마인드 영국 직원들, 퇴사 후에도 묶는 비방 금지 조항 철회 요구"
+    },
+    {
+      "category": "상용 LLM",
+      "id": "2026-11-04-19",
+      "links": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50352757"
+        },
+        {
+          "name": "AI Weekly",
+          "url": "https://aiweekly.co/ai-news-today"
+        }
+      ],
+      "one_line": "해커뉴스 제보로 회사 답변은 확인되지 않았지만, 민감한 코드를 다룬다면 '모두를 위한 모델 개선' 설정을 지금 점검해 볼 만하다.",
+      "region": "미국",
+      "score": 8,
+      "tier": "주목",
+      "title": "[미확인] OpenAI, Codex 대화 학습 설정을 몰래 다시 켰다는 사용자 제보"
+    },
+    {
+      "category": "상용 LLM",
+      "id": "2026-11-04-20",
+      "links": [
+        {
+          "name": "Convika",
+          "url": "https://convika.com/blog/ai-model-retirements-november-2026-february-2027/"
+        },
         {
           "name": "OpenAI 개발자 문서",
           "url": "https://developers.openai.com/api/docs/deprecations"
         }
       ],
-      "one_line": "새 공지는 아니지만 한 달여 남은 일정으로, GPT-4o·GPT-4.1 계열은 2027년 1월 14일에 종료되니 고정 모델 ID를 미리 확인할 필요가 있다.",
-      "region": "미국",
-      "score": 7,
+      "one_line": "OpenAI Agent Builder·Evals도 30일 종료되는 등 벤더별 날짜가 다르며, 10월 24일 기준 제3자 정리표라 실제 날짜는 각 벤더 공지로 확인해야 한다.",
+      "region": "글로벌",
+      "score": 8,
       "tier": "주목",
-      "title": "OpenAI API 종료 일정 점검: 12월 1일 gpt-image-1.5 등, 12월 11일 gpt-5·o3"
+      "title": "11월 모델 종료 일정 점검: Azure o시리즈 19일, Copilot Opus 5 16일, Sonnet 4.5 30일"
     },
     {
-      "category": "기타",
-      "id": "2026-11-03-21",
+      "category": "상용 LLM",
+      "id": "2026-11-04-21",
       "links": [
         {
           "name": "AI타임스",
-          "url": "https://www.aitimes.com/news/articleView.html?idxno=216893"
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=216934"
         }
       ],
-      "one_line": "약 5,900개 메시지를 절차와 장부에 쓰며 건설에 실패했고, 대결 게임에서는 GPT 군집이 Claude 군집을 이겨 의사결정 구조가 성능을 좌우한다는 해석이 나왔다.",
+      "one_line": "7월 출시한 새 앱으로 옮기며 대화 기록은 이전된다고 했고, 12월의 ChatGPT·Codex 공통 사용량 전환으로 실제 한도가 얼마나 바뀌는지는 나오지 않았다.",
       "region": "미국",
-      "score": 7,
+      "score": 8,
       "tier": "주목",
-      "title": "YC·올람 랩스 에이전트 군집 실험: GPT 50개에 문명 건설 시켰더니 규칙 만들다 실패"
+      "title": "OpenAI 데스크톱 'ChatGPT Classic' 2027년 1월 30일 종료"
     },
     {
-      "category": "피지컬AI",
-      "id": "2026-11-03-22",
-      "links": [
-        {
-          "name": "AI타임스",
-          "url": "https://www.aitimes.com/news/articleView.html?idxno=216904"
-        }
-      ],
-      "one_line": "모델마다 허공 글씨·모스 부호 등을 골라 단어 정확도 90%를 넘겼지만, 명시적으로 지시한 실험이며 전체 시행 수는 아직 공개되지 않았다.",
-      "region": "미국",
-      "score": 7,
-      "tier": "주목",
-      "title": "Robocurve 실험: 격리된 같은 모델끼리 로봇 팔 몸짓으로 비밀 단어 전달"
-    },
-    {
-      "category": "정책·규제",
-      "id": "2026-11-03-23",
+      "category": "산업·투자",
+      "id": "2026-11-04-22",
       "links": [
         {
           "name": "The Decoder",
-          "url": "https://the-decoder.com/openai-prepares-lobbying-blitz-for-a-post-midterm-washington/"
+          "url": "https://the-decoder.com/openai-hires-ex-army-secretary-gaining-bipartisan-reach-just-as-midterms-loom/"
         },
         {
-          "name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/"
-        }
-      ],
-      "one_line": "악시오스 보도로, 프런티어 모델 안전 규칙을 '속도 제한'으로 내세워 새 의회에서 추진하고 지역 반발에는 경제적 이익 약속으로 대응한다는 구상이다.",
-      "region": "미국",
-      "score": 7,
-      "tier": "주목",
-      "title": "OpenAI, 중간선거 후 로비 강화 준비… 데이터센터는 'AI Compute Campus'로 개명 검토"
-    },
-    {
-      "category": "피지컬AI",
-      "id": "2026-11-03-24",
-      "links": [
-        {
-          "name": "Forbes",
-          "url": "https://www.forbes.com/sites/johnwerner/2026/11/02/tutor-intelligence-why-not-just-teach-the-robots-ourselves/"
+          "name": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-03/uber-president-longtime-executive-hazelbaker-departs-for-openai"
         },
         {
           "name": "AI Weekly",
           "url": "https://aiweekly.co/ai-news-today"
         }
       ],
-      "one_line": "원격 튜터 입력으로 창고 로봇을 학습시키는 회사로 2027년 말 계약 로봇 1,000대 이상을 예상하지만, 투자자가 쓴 기고문이고 수치는 회사 제공이다.",
+      "one_line": "국가안보 고문과 대외 총괄 자리로, 정부 계약과 규제 논의에서 입지를 넓히려는 움직임으로 풀이된다.",
       "region": "미국",
-      "score": 7,
+      "score": 8,
       "tier": "주목",
-      "title": "Tutor Intelligence, a16z 주도 7,500만 달러 시리즈 B"
+      "title": "OpenAI, 드리스콜 전 육군장관·우버 헤이즐베이커 사장 영입"
     },
     {
-      "category": "피지컬AI",
-      "id": "2026-11-03-25",
+      "category": "기타",
+      "id": "2026-11-04-23",
       "links": [
         {
-          "name": "전자신문",
-          "url": "https://www.etnews.com/20261102000173"
-        }
-      ],
-      "one_line": "유니트리·애지봇이 인증과 판매망을 넓히는 가운데, 병행수입품은 사후관리 편차가 커 구매 전 지원 체계를 확인해야 한다는 조언이 나온다.",
-      "region": "한국",
-      "score": 7,
-      "tier": "주목",
-      "title": "중국 휴머노이드, 국내 특성화고·일반 기업까지 확산… 수리·SW 지원 공백이 과제"
-    },
-    {
-      "category": "산업·투자",
-      "id": "2026-11-03-26",
-      "links": [
-        {
-          "name": "전자신문",
-          "url": "https://www.etnews.com/20261102000316"
-        },
-        {
-          "name": "AI타임스",
-          "url": "https://www.aitimes.com/news/articleView.html?idxno=216917"
-        }
-      ],
-      "one_line": "군수 분야 실전 활용을 겨냥한 업무협약으로, 단신 보도만 확인해 세부 조건은 알 수 없다.",
-      "region": "한국",
-      "score": 7,
-      "tier": "주목",
-      "title": "네이버클라우드, 육군 군수사령부와 군수용 AI 에이전트 개발 협약"
-    },
-    {
-      "category": "산업·투자",
-      "id": "2026-11-03-27",
-      "links": [
-        {
-          "name": "The Register",
-          "url": "https://www.theregister.com/software/2026/11/02/suse-to-cut-one-in-ten-employees-because-of-ai/5306950"
+          "name": "GitHub",
+          "url": "https://github.com/postmanlabs/postman-app-support/issues/14370"
         },
         {
           "name": "AI Weekly",
           "url": "https://aiweekly.co/ai-news-today"
         }
       ],
-      "one_line": "약 1,900명 중 190명 안팎이 대상으로 추정되며, 9월 자발적 퇴사 신청이 부족했던 뒤의 조치로 대상 직무는 공개되지 않았다.",
-      "region": "유럽",
-      "score": 7,
+      "one_line": "전역 설정 변경과 훅 자동 승인 정황을 담은 GitHub 이슈이며, 제보자도 깨끗한 환경에서 재현하진 못했고 데이터 유출은 주장하지 않았으며 회사 답변도 아직 없다.",
+      "region": "미국",
+      "score": 8,
       "tier": "주목",
-      "title": "SUSE, 자동화·AI를 이유로 인력 약 10% 감원"
+      "title": "Postman 데스크톱이 Claude Code·Codex에 플러그인을 동의 없이 설치했다는 제보"
     },
     {
-      "category": "기타",
-      "id": "2026-11-03-28",
+      "category": "상용 LLM",
+      "id": "2026-11-04-24",
       "links": [
         {
-          "name": "AI타임스",
-          "url": "https://www.aitimes.com/news/articleView.html?idxno=216899"
+          "name": "The Decoder",
+          "url": "https://the-decoder.com/bug-hunters-can-now-earn-up-to-172000-from-openai-as-company-ramps-up-security/"
         }
       ],
-      "one_line": "2억5천만·5억 규모 대형 모델보다 4개 지표에서 앞섰고 복원 후 음성 인식 정확도가 76.5%에서 87.1%로 올랐다는 보도로, 사용 전 라이선스 확인이 필요하다.",
+      "one_line": "ChatGPT·Codex 치명 취약점 기본 보상을 3만 달러까지 올리고 최근 30일 제보분은 차액을 소급 지급하며, 보안 업체와 내부 점검도 벌인다.",
       "region": "미국",
-      "score": 7,
+      "score": 8,
       "tier": "주목",
-      "title": "엔비디아 RE-USE: 960만 파라미터 초경량 음성 복원 오픈 모델"
+      "title": "OpenAI 버그 바운티 네 배로 확대, 최대 약 17만 2천 달러"
     },
     {
-      "category": "기타",
-      "id": "2026-11-03-29",
+      "category": "상용 LLM",
+      "id": "2026-11-04-25",
       "links": [
         {
-          "name": "AI타임스",
-          "url": "https://www.aitimes.com/news/articleView.html?idxno=216918"
-        }
-      ],
-      "one_line": "포춘 보도로, 4주 안에 실현 가능성을 입증하는 것이 첫 관문이며 실제 달성 여부는 아직 검증되지 않았다.",
-      "region": "미국",
-      "score": 7,
-      "tier": "주목",
-      "title": "시스코, 2인 팀에 토큰 무제한 주고 2년 내 기존 코드 98% 리팩터링 지시"
-    },
-    {
-      "category": "산업·투자",
-      "id": "2026-11-03-30",
-      "links": [
-        {
-          "name": "AI타임스",
-          "url": "https://www.aitimes.com/news/articleView.html?idxno=216907"
-        }
-      ],
-      "one_line": "상위 10개 제약사 중 9곳이 지출 고객이라고 밝혔지만 생명과학 매출은 공개하지 않았고, AI 설계 신약의 FDA 승인 사례는 아직 알려지지 않았다.",
-      "region": "미국",
-      "score": 6,
-      "tier": "주목",
-      "title": "앤트로픽, IPO 서류에서 생명과학을 차세대 성장축으로 제시"
-    },
-    {
-      "category": "산업·투자",
-      "id": "2026-11-03-31",
-      "links": [
-        {
-          "name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/02/42ai-comes-out-of-stealth-with-62-5m-and-a-world-model-that-can-predict-human-behavior/"
+          "name": "The Decoder",
+          "url": "https://the-decoder.com/anthropic-cracks-down-on-game-cloning-in-claude-code-after-wave-of-ai-built-knockoffs/"
         },
-        {
-          "name": "AI Weekly",
-          "url": "https://aiweekly.co/ai-news-today"
-        }
-      ],
-      "one_line": "대형 브로커리지 10곳에 공급 중이고 게임·사기 방지로 확장을 모색하지만, 정확도 98%는 회사 주장이며 고객 프로파일링 우려도 제기된다.",
-      "region": "글로벌",
-      "score": 6,
-      "tier": "주목",
-      "title": "이스라엘 42AI, 행동 예측 '월드 모델'로 6,250만 달러 시드와 함께 공개"
-    },
-    {
-      "category": "기타",
-      "id": "2026-11-03-32",
-      "links": [
-        {
-          "name": "전자신문",
-          "url": "https://www.etnews.com/20261102000368"
-        }
-      ],
-      "one_line": "MS는 조사 대상 8개 조직 중 3곳이 실제 공격에 적극 쓴다고 분석했고, 개발자 저장소를 노린 공급망 공격도 함께 경고됐다.",
-      "region": "한국",
-      "score": 6,
-      "tier": "주목",
-      "title": "북한 해킹 조직, 표적 조사·피싱·악성코드 개발에 AI 활용 확대"
-    },
-    {
-      "category": "정책·규제",
-      "id": "2026-11-03-33",
-      "links": [
-        {
-          "name": "The Moscow Times",
-          "url": "https://www.themoscowtimes.com/2026/11/02/putin-orders-private-data-centers-to-set-aside-10-of-capacity-to-support-it-infrastructure-a94159"
-        },
-        {
-          "name": "AI Weekly",
-          "url": "https://aiweekly.co/ai-news-today"
-        }
-      ],
-      "one_line": "위원회 결정 후 24시간 내 접근을 제공해야 하며, 최근 드론 공격으로 러시아 데이터센터가 피격된 상황이 배경이다.",
-      "region": "글로벌",
-      "score": 6,
-      "tier": "주목",
-      "title": "푸틴, 민간 데이터센터에 용량 10% 국가 예비 의무화"
-    },
-    {
-      "category": "기타",
-      "id": "2026-11-03-34",
-      "links": [
         {
           "name": "量子位",
-          "url": "https://www.qbitai.com/2026/11/507107.html"
+          "url": "https://www.qbitai.com/2026/11/507038.html"
         }
       ],
-      "one_line": "음성으로 PC의 Codex 등에 일을 맡기고 캐릭터로 진행 상황을 보여 주는 기기로, 인기로 일부 부품값이 올랐다는 보도다.",
-      "region": "중국",
-      "score": 6,
+      "one_line": "이름을 바꾼 복제도 막되 자체 게임은 허용한다고 설명했지만 오탐 불만이 이어져, 회사는 규칙을 계속 조정하겠다고 했다.",
+      "region": "미국",
+      "score": 8,
       "tier": "주목",
-      "title": "샤오미 내부팀, 부품비 150위안 AI 에이전트 단말 HachimoDock 오픈소스 공개"
+      "title": "[후속] Claude Code 게임 복제 제한, 앤트로픽 직원이 시스템 프롬프트 변경 확인"
     },
     {
-      "category": "피지컬AI",
-      "id": "2026-11-03-35",
-      "links": [
-        {
-          "name": "AI타임스",
-          "url": "https://www.aitimes.com/news/articleView.html?idxno=216922"
-        }
-      ],
-      "one_line": "중국 하이토크 기체에 자체 소프트웨어를 얹어 공공 행사에 11대를 운용 중이며, 현재 월 약 1억 원인 매출을 내년 월 10억 원으로 늘리는 것이 목표다.",
-      "region": "한국",
-      "score": 6,
-      "tier": "주목",
-      "title": "유튜버 긱블, 루드다이나믹스로 캐릭터 로봇 사업 진출"
-    },
-    {
-      "category": "기타",
-      "id": "2026-11-03-36",
-      "links": [
-        {
-          "name": "Terence Tao 블로그",
-          "url": "https://terrytao.wordpress.com/2026/11/02/egoless-mathematics-in-the-ai-era/"
-        }
-      ],
-      "one_line": "카르틱 C.S. 등 3인의 게스트 글로, 논문·인용 같은 성과 지표에서 벗어나 진리 이해 자체에 의미를 두자고 제안한다.",
-      "region": "글로벌",
-      "score": 5,
-      "tier": "참고",
-      "title": "타오 블로그 기고 '에고 없는 수학': AI 시대 수학자의 가치를 다시 묻다"
-    },
-    {
-      "category": "정책·규제",
-      "id": "2026-11-03-37",
+      "category": "LLM",
+      "id": "2026-11-04-26",
       "links": [
         {
           "name": "Crypto Briefing",
-          "url": "https://cryptobriefing.com/openai-grid-protectors-program-data-centers/"
+          "url": "https://cryptobriefing.com/deepseek-v5-huawei-ascend-950-training/"
+        },
+        {
+          "name": "AI Weekly 9월 알림",
+          "url": "https://aiweekly.co/alerts/deepseek-plans-160000-huawei-ascend-chips-for-1gw-ulanqab-site"
         },
         {
           "name": "AI Weekly",
           "url": "https://aiweekly.co/ai-news-today"
         }
       ],
-      "one_line": "큐레이션 요약으로만 확인했고 원문을 열지 못해 세부 조건은 미확인이다.",
+      "one_line": "큐레이션 제목으로만 확인했고 원문은 열지 못했으며, 앞선 보도에서는 16만 개가 추론용이고 950DT 학습은 연말에야 시작될 수 있다고 전해 내용이 엇갈린다.",
+      "region": "중국",
+      "score": 8,
+      "tier": "주목",
+      "title": "[미확인] DeepSeek V5, 화웨이 어센드 16만 개로 사전학습 계획"
+    },
+    {
+      "category": "LLM",
+      "id": "2026-11-04-27",
+      "links": [
+        {
+          "name": "Simon Willison",
+          "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/"
+        },
+        {
+          "name": "AI Weekly",
+          "url": "https://aiweekly.co/ai-news-today"
+        }
+      ],
+      "one_line": "사이먼 윌리슨이 노트북에서 게임 신경망을 1시간 안팎 추론으로 맞혔지만, 원 논문이 질문을 뒤섞었다는 비판과 소스코드 무용론은 과하다는 평가가 함께 나왔다.",
+      "region": "글로벌",
+      "score": 7,
+      "tier": "주목",
+      "title": "[후속] 가중치 직접 해석 실험, 로컬 Qwen 3.8 27B에서도 재현 시도"
+    },
+    {
+      "category": "산업·투자",
+      "id": "2026-11-04-28",
+      "links": [
+        {
+          "name": "The Decoder",
+          "url": "https://the-decoder.com/huawei-tells-customers-to-find-their-own-ai-chip-memory-effectively-outsourcing-procurement-to-the-black-market/"
+        }
+      ],
+      "one_line": "디인포메이션 인용 보도로 밀수 HBM3E 값이 개당 약 4천 달러까지 올라 칩당 메모리 비용이 최대 3만 2천 달러에 이를 수 있다.",
+      "region": "중국",
+      "score": 7,
+      "tier": "주목",
+      "title": "화웨이, 일부 고객에 AI 칩용 HBM 직접 조달 요구 보도"
+    },
+    {
+      "category": "산업·투자",
+      "id": "2026-11-04-29",
+      "links": [
+        {
+          "name": "Korea Times(로이터)",
+          "url": "https://www.koreatimes.co.kr/world/20261104/sk-hynixs-new-york-chip-plans-hit-snag-over-us-restrictions-on-china-sources-say"
+        },
+        {
+          "name": "AI Weekly",
+          "url": "https://aiweekly.co/ai-news-today"
+        }
+      ],
+      "one_line": "로이터 보도로 다롄 증설용 장비 허가가 멈춰 있고, 솔리다임은 아직 어떤 결정도 내리지 않았다는 입장이다.",
+      "region": "한국",
+      "score": 7,
+      "tier": "주목",
+      "title": "SK하이닉스 미국 낸드 450억 달러 계획, 중국 공장 수출 허가에 발목"
+    },
+    {
+      "category": "LLM",
+      "id": "2026-11-04-30",
+      "links": [
+        {
+          "name": "AI타임스",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=216963"
+        }
+      ],
+      "one_line": "포크봇은 자연어로 실제 로봇을 움직이는 무료 API를, 네이스AI는 270억 파라미터 의사결정 모델을 냈고 다수 수치는 개발사 자체 평가다.",
+      "region": "글로벌",
+      "score": 7,
+      "tier": "주목",
+      "title": "이번 주 신규 모델 6종: 로봇 제어 RoboAPI, 오픈웨이트 Drex Max 등"
+    },
+    {
+      "category": "피지컬AI",
+      "id": "2026-11-04-31",
+      "links": [
+        {
+          "name": "量子位",
+          "url": "https://www.qbitai.com/2026/11/507507.html"
+        }
+      ],
+      "one_line": "무인 피킹 스테이션과 AI 에이전트를 묶는 계획으로, 시범 현장의 효율 2배·정확도 99.99% 이상은 회사 제공 수치다.",
+      "region": "중국",
+      "score": 7,
+      "tier": "주목",
+      "title": "Geek+, 휴머노이드 Gino 1 포함한 24시간 자율 창고 계획 발표"
+    },
+    {
+      "category": "피지컬AI",
+      "id": "2026-11-04-32",
+      "links": [
+        {
+          "name": "MONOist(ITmedia)",
+          "url": "https://monoist.itmedia.co.jp/mn/articles/2611/04/news044.html"
+        }
+      ],
+      "one_line": "공장 자동화 현장의 제어 코딩으로 에이전트가 들어오는 사례로, 검색 결과 제목으로만 확인했다.",
+      "region": "일본",
+      "score": 7,
+      "tier": "주목",
+      "title": "키엔스, 자연어로 래더 프로그램을 짜는 PLC 전용 AI 에이전트 발매 예정"
+    },
+    {
+      "category": "산업·투자",
+      "id": "2026-11-04-33",
+      "links": [
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/02/palantir-pltr-earnings-q3-2026.html"
+        },
+        {
+          "name": "SEC 8-K",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001321655/000132165526000045/a2026q3ex991pressrelease.htm"
+        },
+        {
+          "name": "AI Weekly",
+          "url": "https://aiweekly.co/ai-news-today"
+        }
+      ],
+      "one_line": "기업의 AI 도구 수요가 이끌었다는 내용으로, CNBC 본문과 공시를 열지 못해 큐레이션 요약과 검색 결과로만 확인했다.",
       "region": "미국",
-      "score": 5,
-      "tier": "참고",
-      "title": "OpenAI 'Grid Protectors': 향후 데이터센터에 1GW 유연 수요 제공 약속"
+      "score": 7,
+      "tier": "주목",
+      "title": "팔란티어 3분기 미국 상업 매출 148% 증가"
+    },
+    {
+      "category": "기타",
+      "id": "2026-11-04-34",
+      "links": [
+        {
+          "name": "New York Times",
+          "url": "https://www.nytimes.com/2026/11/03/us/google-search-schools-restrict-ai.html"
+        },
+        {
+          "name": "AI Weekly",
+          "url": "https://aiweekly.co/ai-news-today"
+        }
+      ],
+      "one_line": "뉴욕타임스 기사 접근이 막혀 큐레이션 제목으로만 확인했고, 적용 범위 같은 세부 내용은 미확인이다.",
+      "region": "미국",
+      "score": 7,
+      "tier": "주목",
+      "title": "구글, 학교가 AI를 모두 차단하면 검색도 끈다고 안내 보도"
+    },
+    {
+      "category": "산업·투자",
+      "id": "2026-11-04-35",
+      "links": [
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/03/brookfield-ai-data-center-yorkshire-drax.html"
+        },
+        {
+          "name": "AI Weekly",
+          "url": "https://aiweekly.co/ai-news-today"
+        }
+      ],
+      "one_line": "CNBC 본문을 열지 못해 큐레이션 요약으로만 확인했으며, Drax 부지의 데이터센터 전환 계획이 구체화된 것으로 보인다.",
+      "region": "유럽",
+      "score": 7,
+      "tier": "주목",
+      "title": "Drax·Brookfield·Radiant, 영국 1GW AI 데이터센터에 200억 파운드 계획"
+    },
+    {
+      "category": "산업·투자",
+      "id": "2026-11-04-36",
+      "links": [
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/03/shopify-q3-2026-earnings-gmv.html"
+        },
+        {
+          "name": "AI Weekly",
+          "url": "https://aiweekly.co/ai-news-today"
+        }
+      ],
+      "one_line": "에이전트 쇼핑 흐름을 보여 주는 지표이나 CNBC 본문을 열지 못해 큐레이션 요약으로만 확인했다.",
+      "region": "글로벌",
+      "score": 7,
+      "tier": "주목",
+      "title": "쇼피파이 3분기 매출 32% 증가, AI 에이전트 유입 2.6배"
+    },
+    {
+      "category": "산업·투자",
+      "id": "2026-11-04-37",
+      "links": [
+        {
+          "name": "AI타임스",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=216962"
+        }
+      ],
+      "one_line": "장중 49% 올랐다가 1만 4,220원으로 끝나 시가총액이 2,071억 원에 그쳐, AI 인프라 소프트웨어주에 대한 시장의 경계를 드러냈다.",
+      "region": "한국",
+      "score": 7,
+      "tier": "주목",
+      "title": "래블업 코스닥 상장 첫날 공모가 대비 25% 하락 마감"
+    },
+    {
+      "category": "산업·투자",
+      "id": "2026-11-04-38",
+      "links": [
+        {
+          "name": "PYMNTS",
+          "url": "https://www.pymnts.com/earnings/2026/fiserv-wants-ai-to-fix-what-decades-of-payments-growth-made-expensive/"
+        },
+        {
+          "name": "AI Weekly",
+          "url": "https://aiweekly.co/ai-news-today"
+        }
+      ],
+      "one_line": "사기 심사·고객 응대·개발에 AI를 쓴다고 밝혔지만, 사례 수치는 운영 지표이지 전사 절감의 증거는 아니다.",
+      "region": "미국",
+      "score": 7,
+      "tier": "주목",
+      "title": "Fiserv, 3천 명 감축 속 AI 활용 비용 절감 목표 10억 달러로 상향"
+    },
+    {
+      "category": "기타",
+      "id": "2026-11-04-39",
+      "links": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/03/data-centers-are-turning-to-old-jet-engines-as-the-wait-for-power-grows/"
+        },
+        {
+          "name": "New York Times",
+          "url": "https://www.nytimes.com/2026/11/03/climate/jet-engines-ai-data-center-generators-boneyard.html"
+        },
+        {
+          "name": "AI Weekly",
+          "url": "https://aiweekly.co/ai-news-today"
+        }
+      ],
+      "one_line": "xAI와 크루소가 도입했지만 효율이 낮고 오염이 많아 단기 해법에 가깝다는 분석이다.",
+      "region": "미국",
+      "score": 6,
+      "tier": "주목",
+      "title": "데이터센터, 전력 대기 탓에 퇴역 제트엔진을 발전기로 개조"
+    },
+    {
+      "category": "기타",
+      "id": "2026-11-04-40",
+      "links": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/03/netflixs-new-ai-discover-tab-helps-you-find-something-to-watch-based-on-your-mood/"
+        }
+      ],
+      "one_line": "사용자 반응을 보고 살릴 기능을 정하는 실험 공간으로 영어권 사용자에게 제공한다.",
+      "region": "미국",
+      "score": 6,
+      "tier": "주목",
+      "title": "넷플릭스, 미국 TV에서 기분 기반 추천 'AI Discover' 탭 시험"
     }
   ],
   "sources_checked": [
     "AI Weekly",
     "TechCrunch AI",
     "The Decoder",
-    "Anthropic 뉴스",
+    "Anthropic 뉴스·연구",
+    "Claude 개발자 문서",
+    "Apple Developer",
+    "OpenAI 개발자 문서(지원 종료, 11월 신규 공지 없음)",
     "Google 블로그(최신 글 날짜 미표시, 신규 확인 못함)",
-    "OpenAI 뉴스(접속 실패, 개발자 문서·TechCrunch·The Decoder로 대체)",
-    "OpenAI 개발자 문서(지원 종료)",
-    "Hugging Face Papers",
+    "Hugging Face Papers(10월 30일자 목록, 신규 없음)",
+    "arXiv",
     "AI타임스",
     "전자신문",
-    "ZDNet Korea(목록이 10월 27일자까지만 확인됨)",
-    "Korea Herald",
-    "ITmedia AI+",
+    "ZDNet Korea(검색에서 11월 신규 기사 확인 못함)",
+    "Korea Times",
     "量子位",
-    "36Kr(보안 검사로 접속 실패)",
-    "TechNode",
-    "TNW",
-    "The Register",
-    "The National",
-    "Humanoids Daily",
-    "CNBC·Bloomberg·Business Insider(본문 접속 실패, 헤드라인과 타 매체 보도로 확인)"
+    "36Kr·机器之心(검색에서 신규 기사 확인 못함)",
+    "ITmedia AI+·MONOist",
+    "Big Technology",
+    "Simon Willison",
+    "SecurityWeek",
+    "GlobeNewswire",
+    "PYMNTS",
+    "Convika",
+    "CNBC·Bloomberg·Washington Post·New York Times·Crypto Briefing·SEC(본문 접속 실패, 헤드라인과 타 매체 보도로 확인)"
   ],
   "top": [
     {
-      "category": "산업·투자",
-      "id": "2026-11-03-01",
+      "category": "상용 LLM",
+      "id": "2026-11-04-01",
       "links": [
         {
-          "name": "The Decoder",
-          "url": "https://the-decoder.com/anthropic-grows-revenue-twelvefold-but-posts-23-billion-loss/"
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/"
         },
         {
-          "name": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html"
-        },
-        {
-          "name": "AI Weekly",
-          "url": "https://aiweekly.co/ai-news-today"
+          "name": "量子位",
+          "url": "https://www.qbitai.com/2026/11/507382.html"
         }
       ],
       "region": "미국",
-      "score": 12,
+      "score": 11,
       "scores": {
-        "coverage": 2,
+        "coverage": 1,
         "impact": 3,
         "novelty": 2,
         "relevance": 3,
         "trust": 2
       },
       "summary": [
-        "분기 매출은 1년 전의 약 12배로 늘었지만 영업비용이 매출을 넘어 영업손실로 돌아섰고, 순손실은 전년 동기 121억 달러에서 233억 달러로 커졌다.",
-        "단기 컴퓨팅 확보에 50억 달러, 직원 기부 매칭에 20억 달러가 들었고, 컴퓨팅·데이터센터 임대 약정 총액은 8,950억 달러로 제시됐다.",
-        "올해 전력 사용량은 3.5GW 이상, 내년은 그 두 배가 계획이며, 상장 조달액은 약 1,000억 달러까지 거론되나 상장 날짜는 나오지 않았다."
+        "11월 2일 수정 S-1의 위험 요인에 내부 추정상 차기 모델이 책임 있는 확장 정책(RSP)의 'AI로 인한 급격한 진전 가속' 정의에 곧 해당할 수 있다는 문구가 들어갔다.",
+        "AI를 활용해 만든 모델의 성능 도약을 당시 알아채지 못한 적이 있다고 밝혔고, 다만 현재 모델 중 그 기준을 넘었다고 지정한 것은 없으며 데이터를 평가 중이다.",
+        "사람의 감독 없이 Claude가 차세대 모델을 설계하게 두는 것은 안전하지 않다고 보고 RSP 개정을 검토한다. 투자설명서는 홍보 성격도 있어 그대로 받아들이기 어렵다는 지적이 함께 나왔다."
       ],
       "tier": "핵심",
-      "title": "앤트로픽, 수정 투자설명서 공개: 3분기 매출 약 170억 달러, 순손실 233억 달러",
-      "why": "프런티어 LLM 기업의 원가 구조가 처음으로 상세히 드러나, 최근 이어지는 구독 한도 축소와 API 가격의 지속 가능성을 가늠할 기준이 된다."
+      "title": "앤트로픽 수정 투자설명서, '재귀적 자기개선' 기준 도달 임박 가능성 경고",
+      "why": "상장 서류라는 법적 문서에서 나온 경고여서 프런티어 모델 출시 속도와 규제 논의의 기준점이 될 수 있다."
     },
     {
       "category": "상용 LLM",
-      "id": "2026-11-03-02",
+      "id": "2026-11-04-02",
       "links": [
         {
-          "name": "The Decoder",
-          "url": "https://the-decoder.com/goldman-sachs-pulls-ai-coding-tools-from-traders-and-bankers/"
+          "name": "Apple Developer",
+          "url": "https://developer.apple.com/news/?id=gdk2umrf"
         },
         {
-          "name": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-02/goldman-restricts-traders-and-bankers-from-using-some-ai-tools"
+          "name": "Apple 문서",
+          "url": "https://developer.apple.com/documentation/appintents/siri-ai-developer-preview"
         },
         {
           "name": "AI Weekly",
@@ -645,63 +720,63 @@
       "region": "미국",
       "score": 11,
       "scores": {
-        "coverage": 2,
-        "impact": 2,
+        "coverage": 1,
+        "impact": 3,
         "novelty": 2,
         "relevance": 3,
         "trust": 2
       },
       "summary": [
-        "블룸버그가 보도한 10월 내부 지침에 따르면 고급 AI 코딩 도구는 엔지니어에게만 남고 대부분의 직원은 쓸 수 없다.",
-        "트레이더·뱅커는 수개월간 거래 흐름 모니터링과 콘텐츠 제작에 써 왔고, 사내 불만이 나온다고 전해진다. 7월 CIO가 비개발자의 바이브 코딩을 칭찬한 것과 정반대 조치다.",
-        "회사는 생산성과 위험 관리를 이유로 들며 실험 단계가 끝났다고 설명했지만, 구체적인 근거는 공개되지 않았다."
+        "iOS·iPadOS·macOS·visionOS 27.3 베타에서 앱의 콘텐츠와 동작을 App Intents로 노출하면 Siri AI가 화면 맥락·개인 맥락과 함께 호출하고, Skills로 여러 동작을 묶을 수 있다.",
+        "일반 사용자 제공은 수개월 뒤, 앱스토어 제출은 내년 봄이다. 지원 언어에 한국어·일본어가 포함되지만 EU의 iOS·iPadOS·watchOS에서는 쓸 수 없다.",
+        "서버 기능에는 일일 사용 한도가 있고 추후 확장 사용은 유료가 되며, 이용 약관은 아직 공개되지 않았다."
       ],
       "tier": "핵심",
-      "title": "골드만삭스, 트레이더·뱅커의 Claude Code·Copilot 접근 차단… 엔지니어만 허용",
-      "why": "비개발자 전사 확산을 추진하는 기업에 비용·위험 통제 쪽으로 돌아선 대형 사례여서, 코딩 에이전트 사내 권한 정책의 참고점이 된다."
+      "title": "애플, Siri AI를 모든 개발자에게 공개… App Intents 기반 개발자 프리뷰 시작",
+      "why": "운영체제 비서가 앱 기능을 직접 호출하는 에이전트 경로가 열려, 앱·게임 개발사가 대응 범위를 검토해야 할 시점이다."
     },
     {
       "category": "산업·투자",
-      "id": "2026-11-03-03",
+      "id": "2026-11-04-03",
       "links": [
         {
-          "name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/02/in-one-of-the-largest-deals-in-tech-history-marvell-buys-lumentum-for-115b/"
+          "name": "The Decoder",
+          "url": "https://the-decoder.com/nvidia-pushes-cloud-customers-to-cut-back-on-china-business/"
         },
         {
-          "name": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/02/marvell-to-buy-lumentum-in-115-billion-deal-in-ai-data-center-bet-.html"
+          "name": "AI타임스",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=216969"
         },
         {
-          "name": "Calcalist",
-          "url": "https://www.calcalistech.com/ctechnews/article/rjjkfflaze"
+          "name": "AI Weekly",
+          "url": "https://aiweekly.co/ai-news-today"
         }
       ],
-      "region": "미국",
+      "region": "글로벌",
       "score": 10,
       "scores": {
         "coverage": 2,
         "impact": 3,
         "novelty": 2,
-        "relevance": 1,
-        "trust": 2
+        "relevance": 2,
+        "trust": 1
       },
       "summary": [
-        "협상 보도가 나온 지 며칠 만에 계약이 확정됐고, 루멘텀 1주당 마벨 4.5주를 주는 전액 주식 방식으로 부채 포함 기업가치 1,150억 달러, 지분가치 약 800억 달러다.",
-        "엔비디아는 3월 두 회사에 각각 20억 달러를 투자해 양쪽의 주주이며, 루멘텀은 앞서 광부품이 2029년 초까지 매진 상태라고 밝힌 바 있다.",
-        "완료 목표는 2028년 상반기이고, 양사 주주와 규제 당국의 승인이 조건이다."
+        "FT와 디인포메이션에 따르면 영업·지역 조직이 데이터센터·클라우드 고객에게 신규 계약부터 중국 기업 대상 서비스를 49% 이하로 유지하라고 전달했다.",
+        "문서가 아닌 구두 전달로 전해졌고, 최종 사용자 공개도 요청했다. 기존 계약은 대상이 아니며 산정·점검 방식은 알려지지 않았다.",
+        "미국 수출 통제는 해외 원격 임차를 대체로 막지 못해 왔고, 중국 개발사가 이 경로를 써 온 만큼 우회 수요가 줄어들 수 있다."
       ],
       "tier": "핵심",
-      "title": "마벨, 광학 부품사 루멘텀을 1,150억 달러에 인수… 기술 업계 최대급 거래",
-      "why": "AI 데이터센터의 병목이 GPU에서 광 연결로 넓어졌음을 보여 주는 거래로, 인프라 공급망 재편과 추론 비용 전망에 영향을 준다."
+      "title": "엔비디아, 클라우드 고객에 '비중국 매출 51% 이상' 구두 요구 보도",
+      "why": "중국 LLM 개발사의 해외 컴퓨팅 확보가 어려워지면 오픈모델 공급과 아시아 클라우드 임차 시장이 함께 흔들릴 수 있다."
     },
     {
       "category": "LLM",
-      "id": "2026-11-03-04",
+      "id": "2026-11-04-04",
       "links": [
         {
-          "name": "SemiAnalysis",
-          "url": "https://newsletter.semianalysis.com/p/gdpx-measuring-frontier-model-capabilities"
+          "name": "Anthropic",
+          "url": "https://www.anthropic.com/research/provable-inference"
         },
         {
           "name": "AI Weekly",
@@ -718,48 +793,44 @@
         "trust": 2
       },
       "summary": [
-        "금융·법률·칩 설계·생명공학 등 11개 고부가 영역에서 문서 저장소와 시뮬레이터를 갖춘 환경을 주고, 과제당 8시간 동안 에이전트로 수행하게 한다.",
-        "전체 최고 점수는 12%이며 Opus 5.5가 종합 선두, GPT-6 Astra는 RSI·소재 과학 1위, Gemini 4 Carbon은 이 둘과 비슷한 수준으로 평가됐다.",
-        "Opus 5.5와 Astra는 안전 분류기 때문에 사이버·생명공학·정렬 영역 점수가 눌려, 이 영역을 빼면 순위가 달라진다. 법률은 부분 점수만 Opus 44%, Astra 25%이고 합격 기준으로는 전 모델 0%였다."
+        "제공자가 가중치 커밋을 공개하면 사용자는 가중치 없이 CPU만으로 해당 응답이 그 모델에서 나왔는지 확인할 수 있어, 저가 모델로 몰래 바꾸는 행위를 잡는 것이 목적이다.",
+        "Llama 4 Maverick(400B) 기준 H100 1대에서 초당 약 110토큰을 증명하고, 24요청 묶음 증명은 약 18.8MB, 검증은 약 17초다. GPU 시간은 일반 추론의 70~95배다.",
+        "Apache 2.0으로 공개된 연구용 프로토타입이며, 문맥 1,024토큰·탐욕적 디코딩 한정이고 사후 증명 방식이라 실서비스에 바로 쓰기는 어렵다."
       ],
       "tier": "핵심",
-      "title": "SemiAnalysis, 실무 환경형 벤치마크 GDPx 공개… 최고 모델도 12%",
-      "why": "단순 프롬프트 벤치마크와 달리 도메인별 편차와 분류기 거부 영향을 함께 보여 줘, 업무별 모델 선택 기준으로 쓸 만하다."
+      "title": "앤트로픽 FlashProve: 답변을 어떤 모델이 냈는지 영지식 증명으로 검증",
+      "why": "API 재판매나 라우팅 품질을 믿고 맡기는 대신 검증하는 길을 보여 줘, 모델 조달과 품질 관리 방식에 영향을 줄 수 있다."
     },
     {
       "category": "상용 LLM",
-      "id": "2026-11-03-05",
+      "id": "2026-11-04-05",
       "links": [
         {
-          "name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/02/openai-is-finally-merging-chatgpts-chat-and-work-tabs/"
+          "name": "AI타임스",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=216931"
         },
         {
-          "name": "ITmedia AI+",
-          "url": "https://www.itmedia.co.jp/aiplus/article/2611/02/2000002781/"
-        },
-        {
-          "name": "AI Weekly",
-          "url": "https://aiweekly.co/ai-news-today"
+          "name": "전자신문",
+          "url": "https://www.etnews.com/20261103000312"
         }
       ],
-      "region": "미국",
+      "region": "한국",
       "score": 10,
       "scores": {
-        "coverage": 2,
+        "coverage": 1,
         "impact": 2,
-        "novelty": 1,
+        "novelty": 2,
         "relevance": 3,
         "trust": 2
       },
       "summary": [
-        "어제 전한 12월 토큰 한도 통합에 이어, 사용자 안내 메일에서 두 탭을 합쳐 탐색부터 파일·플러그인 기반 작업 실행까지 한곳에서 처리한다고 밝혔다.",
-        "Codex는 화면이 분리된 채 남지만 사용량은 ChatGPT와 같은 풀에서 차감된다. OpenAI는 대부분의 사용자에게 영향이 적다면서도 초기화를 더 자주 기다릴 수 있다고 인정했다.",
-        "일부 사용자에게 먼저 제공해 의견을 받은 뒤 확대하며, 정확한 출시일은 공개되지 않았다."
+        "행안부·과기정통부가 운영하는 행정망 전용 인프라에 삼성SDS 패브릭스를 통해 탑재돼, 국정원 보안성 심사를 통과한 환경에서 내부 자료가 밖으로 나가지 않게 운영된다.",
+        "GPU는 공통기반이 통합 관리해 각 기관은 서버 구축 없이 채팅 화면이나 API로 쓴다.",
+        "법령·보도자료와 연계해 근거를 제시하며, 조례의 상위법 저촉 검토와 민원 답변·보고서 초안 작성 등에 쓰인다. 다만 실제 활용 규모는 공개되지 않았다."
       ],
       "tier": "핵심",
-      "title": "OpenAI, ChatGPT의 Chat·Work 탭 통합 예고… Codex는 데스크톱 앱에서 별도 유지",
-      "why": "챗봇과 에이전트 제품의 경계가 사라지는 흐름으로, 앤트로픽이 9월 채팅과 Cowork를 합친 데 이어 경쟁사 UI도 같은 방향으로 수렴하고 있다."
+      "title": "업스테이지 솔라 프로 4, 범정부 AI 공통기반 탑재… 행정망에서 정식 서비스",
+      "why": "외부 AI를 쓰기 어려운 공공 부문에 국산 LLM이 실제로 들어간 사례로, 보안 민감 조직의 도입 모델로 참고할 만하다."
     }
   ]
 }
