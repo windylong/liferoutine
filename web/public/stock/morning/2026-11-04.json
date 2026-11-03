@@ -1,0 +1,192 @@
+{
+  "type": "morning",
+  "date": "2026-11-04",
+  "generated_at": "2026-11-04T06:31:44+09:00",
+  "analysis": {
+    "kospi_prediction": "상승",
+    "kospi_change_range": "+1.2~3.5%",
+    "kospi_confidence": "보통",
+    "kospi_reason": "SOX 2.63%↑·AMD 호실적, 야간선물 강세로 급락분 되돌림. 中 장비 제동·선거는 변수",
+    "us_market_summary": "반도체 반등에 SOX 2.63%↑·나스닥 상승, 애플 부진에 다우↓",
+    "kospi_news_summary": "美 반도체 반등과 AMD 호실적에 반등 기대, 하이닉스 中 장비 제동과 중간선거 결과는 변수",
+    "kospi_news": [
+      {
+        "summary": "코스피 3.59% 급락한 5648 마감, 외국인 1.5조 매도",
+        "source": "세계일보",
+        "url": "https://www.segye.com/newsView/20261103514851"
+      },
+      {
+        "summary": "美 반도체지수 2.63% 반등, 마이크론 2.58% 상승",
+        "source": "서울신문",
+        "url": "https://seoul.co.kr/news/economy/2026/11/04/20261104500008"
+      },
+      {
+        "summary": "AMD 실적 예상 상회, 4분기 매출 전망 170억달러",
+        "source": "24/7 Wall St.",
+        "url": "https://247wallst.com/investing/2026/11/03/live-will-amd-crush-q3-earnings-tonight-after-a-4-intraday-pop/"
+      },
+      {
+        "summary": "코스피200 야간선물 3%대 강세, 밤 10시반 기준",
+        "source": "스탁플러스",
+        "url": "https://newsroom.stockplus.com/breaking-news/41970"
+      },
+      {
+        "summary": "美 중간선거 개표 대기, 민주 상원 승리 확률 76%",
+        "source": "파이낸셜뉴스",
+        "url": "https://www.fnnews.com/news/202611032243256604"
+      }
+    ],
+    "watchlist": [
+      {
+        "code": "005930",
+        "name": "삼성전자",
+        "prediction": "상승",
+        "reason": "美 메모리주 반등과 전일 4%대 급락 되돌림 기대",
+        "factors": [
+          {
+            "summary": "美 마이크론 2.58%↑ 등 반도체주 동반 반등",
+            "impact": "호재",
+            "url": "https://seoul.co.kr/news/economy/2026/11/04/20261104500008"
+          },
+          {
+            "summary": "전일 공매도 1120억원, 하루 새 84% 급증",
+            "impact": "악재",
+            "url": "https://www.topstarnews.net/news/articleView.html?idxno=16267179"
+          },
+          {
+            "summary": "전일 외국인 2060억원 순매도, 수급 회복 관건",
+            "impact": "악재",
+            "url": "https://www.segye.com/newsView/20261103514851"
+          }
+        ]
+      },
+      {
+        "code": "000660",
+        "name": "SK하이닉스",
+        "prediction": "상승",
+        "reason": "ADR·메모리 반등 우세, 다롄 장비 제동이 상단 제한",
+        "factors": [
+          {
+            "summary": "美 상장 ADR 2.09% 오른 150.79달러 마감",
+            "impact": "호재",
+            "url": "https://fnnews.com/news/202611040621220252"
+          },
+          {
+            "summary": "美, 다롄 공장 증설용 장비 수출 허가 보류 보도",
+            "impact": "악재",
+            "url": "https://www.kmib.co.kr/article/20261104500042"
+          },
+          {
+            "summary": "전일 공매도 2023억원으로 코스피 1위",
+            "impact": "악재",
+            "url": "https://www.topstarnews.net/news/articleView.html?idxno=16267179"
+          }
+        ]
+      }
+    ]
+  },
+  "raw_data": {
+    "news_window": {
+      "from": "2026-11-03T07:00:00+09:00",
+      "to": "2026-11-04T07:00:00+09:00"
+    },
+    "us_market": {
+      "sp500": {
+        "price": 7568.92,
+        "changePct": 0.36
+      },
+      "nasdaq": {
+        "price": 25372.01,
+        "changePct": 0.83
+      },
+      "dow": {
+        "price": 51786.72,
+        "changePct": -0.38
+      },
+      "sox": {
+        "price": 10600.4,
+        "changePct": 2.63
+      },
+      "usdkrw": {
+        "price": 1341.0,
+        "changePct": -0.21
+      }
+    },
+    "night_indicators": {
+      "as_of": "2026-11-03T22:31:00+09:00",
+      "kospi200_futures": {
+        "price": 911.7,
+        "vs_spot_close": 885.67
+      },
+      "ewy_changePct": 3.65
+    },
+    "kospi_prev": {
+      "price": 5648.79,
+      "changePct": -3.59
+    },
+    "watchlist": [
+      {
+        "code": "005930",
+        "name": "삼성전자",
+        "price": 219500,
+        "changePct": -4.15
+      },
+      {
+        "code": "000660",
+        "name": "SK하이닉스",
+        "price": 1398000,
+        "changePct": -5.03
+      }
+    ],
+    "sources": [
+      {
+        "name": "서울신문(美 3대 지수·SOX 종가, 반도체 종목 등락)",
+        "url": "https://seoul.co.kr/news/economy/2026/11/04/20261104500008"
+      },
+      {
+        "name": "파이낸셜뉴스(美 지수 교차 확인, 하이닉스 ADR 종가)",
+        "url": "https://fnnews.com/news/202611040621220252"
+      },
+      {
+        "name": "세계일보(코스피·관심 종목 종가, 11/3 수급)",
+        "url": "https://www.segye.com/newsView/20261103514851"
+      },
+      {
+        "name": "세계일보(원/달러 주간 종가 1341.0원, 전일비 -2.8원; 등락률은 전일 1343.8원 기준 계산)",
+        "url": "https://www.segye.com/newsView/20261103514833"
+      },
+      {
+        "name": "베타뉴스(달러·원 15:30 기준가, 장중 범위)",
+        "url": "https://www.betanews.net/article/view/beta202611030146"
+      },
+      {
+        "name": "스탁플러스(코스피200 야간선물·EWY, 11/3 22:31 장중 시점)",
+        "url": "https://newsroom.stockplus.com/breaking-news/41970"
+      },
+      {
+        "name": "24/7 Wall St.(AMD 3분기 실적·가이던스, 발표 직후 주가)",
+        "url": "https://247wallst.com/investing/2026/11/03/live-will-amd-crush-q3-earnings-tonight-after-a-4-intraday-pop/"
+      },
+      {
+        "name": "StockTitan(AMD 실적 보도자료)",
+        "url": "https://www.stocktitan.net/news/AMD/amd-reports-third-quarter-2026-financial-7j6jzo29buqw.html"
+      },
+      {
+        "name": "국민일보(로이터 인용, SK하이닉스 다롄 장비 허가 보류)",
+        "url": "https://www.kmib.co.kr/article/20261104500042"
+      },
+      {
+        "name": "톱스타뉴스(11/3 공매도 수치)",
+        "url": "https://www.topstarnews.net/news/articleView.html?idxno=16267179"
+      },
+      {
+        "name": "파이낸셜뉴스(중간선거 예측시장 확률)",
+        "url": "https://www.fnnews.com/news/202611032243256604"
+      },
+      {
+        "name": "Calendar Labs(KRX 2026 휴장일, 11/4 개장 확인)",
+        "url": "https://www.calendarlabs.com/krx-market-holidays-2026/"
+      }
+    ]
+  }
+}
