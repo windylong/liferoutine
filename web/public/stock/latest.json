@@ -173,82 +173,86 @@
   },
   "afternoon": {
     "type": "afternoon",
-    "date": "2026-11-02",
-    "generated_at": "2026-11-02T16:00:17+09:00",
+    "date": "2026-11-03",
+    "generated_at": "2026-11-03T15:58:27+09:00",
     "analysis": {
       "kospi_predicted": "하락",
-      "kospi_actual": "상승",
-      "kospi_change_text": "▲2.24%",
-      "kospi_match": "빗나감",
-      "kospi_miss_reason": "갭하락 출발은 맞았으나 기관 1.2조 순매수와 하이닉스 자사주 매입으로 장중 반전. 저가 매수 강도를 과소평가",
+      "kospi_actual": "하락",
+      "kospi_change_text": "▼3.59%",
+      "kospi_match": "적중",
+      "kospi_miss_reason": "SOX 급락발 AI 우려로 방향은 적중. 다만 예상 범위(-1.5~-0.4%)를 크게 넘어 외국인 1.5조 매도와 전일 반등 소멸을 과소평가",
       "watchlist_accuracy": [
         {
           "code": "005930",
           "name": "삼성전자",
           "predicted": "하락",
-          "actual": "상승",
-          "change_text": "▲1.78%",
-          "match": "빗나감",
-          "reason": "장중 -3.56%서 기관 매수로 반등, 저가매수 과소평가"
+          "actual": "하락",
+          "change_text": "▼4.15%",
+          "match": "적중",
+          "reason": "美 반도체 약세·외국인 매도 반영, 낙폭은 예상 초과"
         },
         {
           "code": "000660",
           "name": "SK하이닉스",
-          "predicted": "하락",
-          "actual": "상승",
-          "change_text": "▲3.81%",
+          "predicted": "보합",
+          "actual": "하락",
+          "change_text": "▼5.03%",
           "match": "빗나감",
-          "reason": "자사주 매입·기관 유입에 반등, ADR 급락 과대평가"
+          "reason": "자사주 수급 과대평가, 메모리 급락 충격이 더 컸음"
         }
       ],
-      "overall_accuracy": "0/3",
-      "accuracy": "빗나감",
-      "market_analysis": "5616까지 밀린 뒤 기관 1.2조 순매수로 3거래일 만에 반등. 외국인 3684억·개인 1.3조 순매도. 반도체 대형주·SK스퀘어 주도, 삼성바이오 약세",
-      "lessons": "美 급락발 갭하락은 장중 되돌림 가능. 연기금·자사주 수급 있으면 확신도 낮출 것"
+      "overall_accuracy": "2/3",
+      "accuracy": "적중",
+      "market_analysis": "AI 투자 수익성 우려에 전일 상승분 반납. 외국인 1.5조·기관 5천억 순매도, 개인 1.7조 순매수. 반도체·이차전지 약세, 바이오 일부 선방",
+      "lessons": "전일 기관 매수 지속을 가정 말 것. SOX 3%대 급락일은 예상 낙폭을 넓게 잡기"
     },
     "raw_data": {
       "kospi": {
-        "price": 5859.08,
-        "changePct": 2.24
+        "price": 5648.79,
+        "changePct": -3.59
       },
       "kosdaq": {
-        "price": 734.36,
-        "changePct": 1.38
+        "price": 704.39,
+        "changePct": -4.08
       },
       "watchlist": [
         {
           "code": "005930",
           "name": "삼성전자",
-          "price": 229000,
-          "changePct": 1.78
+          "price": 219500,
+          "changePct": -4.15
         },
         {
           "code": "000660",
           "name": "SK하이닉스",
-          "price": 1472000,
-          "changePct": 3.81
+          "price": 1398000,
+          "changePct": -5.03
         }
       ],
       "sources": [
         {
-          "name": "파이낸셜뉴스(코스피·코스닥 종가, 수급, 장중 고저, 종목 종가)",
-          "url": "https://www.fnnews.com/news/202611021536225140"
+          "name": "한국경제(코스피·코스닥 종가, 마감 수급, 종목 등락, 원인)",
+          "url": "https://www.hankyung.com/article/2026110332016"
         },
         {
-          "name": "국제뉴스(지수·종목 종가 교차 확인, 시총 상위 등락)",
-          "url": "https://www.gukjenews.com/news/articleView.html?idxno=3739754"
+          "name": "싱글리스트(삼성전자·SK하이닉스 종가 교차 확인)",
+          "url": "https://www.slist.kr/news/articleView.html?idxno=778629"
         },
         {
-          "name": "서울경제(연기금·기타법인 수급, 하이닉스 자사주 매입)",
-          "url": "https://m.sedaily.com/article/20109094"
+          "name": "아주경제(장중 업종·종목 흐름, 삼성바이오 강세, 美 반도체 등락)",
+          "url": "https://www.ajunews.com/view/20261103133823968"
         },
         {
-          "name": "뉴스핌(장중 반등 원인, 수출 호조, 오전 환율)",
-          "url": "https://www.newspim.com/news/view/20261102001038"
+          "name": "톱스타뉴스(13시대 수급, 등락 종목 수, 장중 저가)",
+          "url": "https://www.topstarnews.net/news/articleView.html?idxno=16266954"
         },
         {
-          "name": "전남일보/연합(시가, 장중 저점, 11시 수급·업종)",
-          "url": "https://www.jnilbo.com/news/articleView.html?idxno=90000078728"
+          "name": "뉴스핌(개장 시황)",
+          "url": "https://www.newspim.com/news/view/20261103000241"
+        },
+        {
+          "name": "뉴스1(달러·원 개장)",
+          "url": "https://www.news1.kr/finance/market-exr/6340863"
         }
       ]
     }
