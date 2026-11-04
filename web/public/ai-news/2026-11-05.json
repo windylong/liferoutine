@@ -1,0 +1,868 @@
+{
+  "date": "2026-11-05",
+  "generated_at": "2026-11-05T07:54:53+09:00",
+  "headline": "미국 중간선거의 민주당 압승과 지역 데이터센터 규제 통과가 AI 입법과 컴퓨팅 공급의 새 변수로 떠올랐다. Kimi K3.1 Pro가 오픈웨이트 성능을 끌어올리는 사이, OpenAI와 메타는 코딩 에이전트 인프라 인수에 나섰고 앤트로픽은 EU 기한을 앞두고 구형 모델에 워터마크를 넓혔다.",
+  "others": [
+    {
+      "category": "상용 LLM",
+      "id": "2026-11-05-06",
+      "links": [
+        {
+          "name": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/xen-hypervisor-flaws-let-one-malicious.html"
+        },
+        {
+          "name": "AI Weekly",
+          "url": "https://aiweekly.co/ai-news-today"
+        }
+      ],
+      "one_line": "XSA-523의 CVE-2026-102703·102704로 4.6 이후 버전이 영향권이며 알려진 악용은 없지만, 4.6~4.16은 패치가 없어 클라우드·가상화 운영자는 확인이 필요하다.",
+      "region": "미국",
+      "score": 10,
+      "tier": "핵심",
+      "title": "Claude가 찾은 Xen 하이퍼바이저 취약점 2건, 게스트 VM이 다른 VM 메모리 접근"
+    },
+    {
+      "category": "LLM",
+      "id": "2026-11-05-07",
+      "links": [
+        {
+          "name": "ChainCatcher",
+          "url": "https://chaincatcher.com/en/article/2301641"
+        },
+        {
+          "name": "AI Weekly",
+          "url": "https://aiweekly.co/ai-news-today"
+        }
+      ],
+      "one_line": "위챗 업무판과 OpenRouter 등으로 제공되며, AI Weekly는 7,700억 파라미터 오픈웨이트·100만 토큰 문맥이라고 전했지만 다른 확인 기사에는 이 수치가 없다.",
+      "region": "중국",
+      "score": 10,
+      "tier": "핵심",
+      "title": "텐센트 Hy4 정식 출시: 시각 이해·컴퓨터 조작 기능 처음 지원"
+    },
+    {
+      "category": "피지컬AI",
+      "id": "2026-11-05-08",
+      "links": [
+        {
+          "name": "Electrek",
+          "url": "https://electrek.co/2026/11/04/xiaomi-humanoid-robot-8-hour-shift-ev-factory/"
+        },
+        {
+          "name": "Humanoids Daily",
+          "url": "https://www.humanoidsdaily.com/news/xiaomi-humanoids-eight-hour-auto-factory-sorting"
+        }
+      ],
+      "one_line": "이상을 스스로 고쳤다는 회사 설명이지만 처리량·성공률·사람 개입·전원 방식이 공개되지 않아 생산성 입증으로 보긴 이르다.",
+      "region": "중국",
+      "score": 9,
+      "tier": "핵심",
+      "title": "샤오미 휴머노이드, 전기차 공장에서 8시간 부품 분류 작업 시연"
+    },
+    {
+      "category": "피지컬AI",
+      "id": "2026-11-05-09",
+      "links": [
+        {
+          "name": "AI타임스",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=216973"
+        }
+      ],
+      "one_line": "기계연·ETRI와 함께 만든 이족보행 전용 시설로, 내년 말부터 산학연에 단계적으로 개방한다.",
+      "region": "한국",
+      "score": 9,
+      "tier": "핵심",
+      "title": "정부 'AI 휴머노이드 데이터 팩토리' 개소, 로봇 12대로 학습 데이터 수집"
+    },
+    {
+      "category": "산업·투자",
+      "id": "2026-11-05-10",
+      "links": [
+        {
+          "name": "AI타임스",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=216979"
+        },
+        {
+          "name": "디지털데일리",
+          "url": "https://www.ddaily.co.kr/page/view/2026110416275612979"
+        }
+      ],
+      "one_line": "AMD 칩과 국산 NPU·DPU를 묶는 MOU이며, 과기정통부는 내년 시작할 K-AI 반도체 레퍼런스 사업도 밝혔고 성능 수치는 주최 측 발표다.",
+      "region": "한국",
+      "score": 9,
+      "tier": "핵심",
+      "title": "AMD·퓨리오사AI·망고부스트, 내년 봄 서울에 이기종 AI 실증 클러스터 구축"
+    },
+    {
+      "category": "산업·투자",
+      "id": "2026-11-05-11",
+      "links": [
+        {
+          "name": "Unite.AI",
+          "url": "https://unite.ai/terawulf-lines-up-google-backstop-for-anthropics-kentucky-ai-campus/"
+        },
+        {
+          "name": "AI Weekly",
+          "url": "https://aiweekly.co/ai-news-today"
+        }
+      ],
+      "one_line": "TeraWulf 공시로 401MW 캠퍼스에 구글 승인 TPU 사용 조건이 붙었고, 관련 채무 조달은 아직 예정 단계이며 가동은 2027년 말부터다.",
+      "region": "미국",
+      "score": 9,
+      "tier": "핵심",
+      "title": "구글, 앤트로픽 켄터키 데이터센터 임차 의무 보증… 약 190억 달러 규모"
+    },
+    {
+      "category": "정책·규제",
+      "id": "2026-11-05-12",
+      "links": [
+        {
+          "name": "PPC Land",
+          "url": "https://ppc.land/googles-gemini-can-infringe-press-rights-in-2-ways-eu-court-adviser-says/"
+        },
+        {
+          "name": "AI Weekly",
+          "url": "https://aiweekly.co/ai-news-today"
+        }
+      ],
+      "one_line": "C-250/25 사건의 구속력 없는 의견으로, 단순 요약만으로는 침해가 아니라고 봤으며 법원 판결은 아직 나오지 않았다.",
+      "region": "유럽",
+      "score": 9,
+      "tier": "핵심",
+      "title": "EU 법무관 \"Gemini, 페이월 우회·원문 수준 복제 시 언론사 권리 침해 가능\""
+    },
+    {
+      "category": "정책·규제",
+      "id": "2026-11-05-13",
+      "links": [
+        {
+          "name": "ChinaTechNews",
+          "url": "https://chinatechnews.com/2026/11/04/132062-chinese-tech-giants-and-state-academy-issue-national-self-discipline-pact-to-govern-ai-agents"
+        },
+        {
+          "name": "AI Weekly",
+          "url": "https://aiweekly.co/ai-news-today"
+        }
+      ],
+      "one_line": "우전 세계인터넷대회에서 신뢰·상호운용·보안 등 8개 영역을 다뤘지만, 벌칙이나 구체적 기술 표준은 기사에 없다.",
+      "region": "중국",
+      "score": 9,
+      "tier": "핵심",
+      "title": "중국 CAICT·화웨이·알리바바·텐센트 등 20곳, AI 에이전트 자율 협약 발표"
+    },
+    {
+      "category": "피지컬AI",
+      "id": "2026-11-05-14",
+      "links": [
+        {
+          "name": "Humanoids Daily",
+          "url": "https://www.humanoidsdaily.com/news/churchill-xi-shareholders-approve-agility-robotics-merger"
+        },
+        {
+          "name": "Manila Times(GlobeNewswire)",
+          "url": "https://manilatimes.net/2026/11/05/tmt-newswire/globenewswire/agility-robotics-and-churchill-capital-corp-xi-complete-business-combination/2462289"
+        }
+      ],
+      "one_line": "주주 84% 이상 찬성으로 승인됐고 폭스콘 주도 투자를 포함해 총 약 4억 6,500만 달러를 확보할 계획이며, 비용 차감 전 금액이다.",
+      "region": "미국",
+      "score": 9,
+      "tier": "핵심",
+      "title": "[후속] Agility Robotics 합병 완료 발표, 나스닥 AGLT 상장 예정"
+    },
+    {
+      "category": "상용 LLM",
+      "id": "2026-11-05-15",
+      "links": [
+        {
+          "name": "The Neuron",
+          "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-wednesday-november-4-2026/"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/business/openai-employees-warned-about-operational-security-lapses-years-sources-say-2026-11-03/"
+        }
+      ],
+      "one_line": "로이터가 수년간의 내부 보안 경고를 보도한 시점에 나온 조치로, 앤트로픽은 당시 시험 방식에 이의를 제기했으며 원문은 열지 못해 큐레이션 요약으로 확인했다.",
+      "region": "미국",
+      "score": 9,
+      "tier": "핵심",
+      "title": "OpenAI, 앤트로픽 내부 접근 전력의 보안 업체 Cathedral과 협력"
+    },
+    {
+      "category": "연구 논문",
+      "id": "2026-11-05-16",
+      "links": [
+        {
+          "name": "arXiv",
+          "url": "https://arxiv.org/abs/2610.37741"
+        },
+        {
+          "name": "Kill The AI",
+          "url": "https://killtheai.com/news/top-10-ai-news-today-november-4-2026/"
+        }
+      ],
+      "one_line": "Qwen3 4B 이하 모델 실험에서 트리거 작업의 92.7%가 악성 명령을 실행했고 후속 학습 뒤에도 남았다는 내용으로, 논문 본문은 열지 않고 요약으로 확인했다.",
+      "paper_year": 2026,
+      "region": "글로벌",
+      "score": 8,
+      "tier": "주목",
+      "title": "[논문] 사전학습 데이터 0.1% 오염으로 CLI 에이전트에 백도어 심기"
+    },
+    {
+      "category": "연구 논문",
+      "id": "2026-11-05-17",
+      "links": [
+        {
+          "name": "Hugging Face Papers",
+          "url": "https://huggingface.co/papers/2611.05306"
+        },
+        {
+          "name": "AI Weekly",
+          "url": "https://aiweekly.co/ai-news-today"
+        }
+      ],
+      "one_line": "전체 이력 대비 정확도 차이는 -3.7~+5.6점으로 보고됐으며, 논문 페이지 접속에 실패해 AI Weekly 요약으로 확인했다.",
+      "paper_year": 2026,
+      "region": "글로벌",
+      "score": 8,
+      "tier": "주목",
+      "title": "[논문] 긴 문맥 대부분 불필요: 대화·행동 단위 압축으로 비용 6.5~54.6배 절감"
+    },
+    {
+      "category": "연구 논문",
+      "id": "2026-11-05-18",
+      "links": [
+        {
+          "name": "Hugging Face Papers",
+          "url": "https://huggingface.co/papers/2611.01560"
+        }
+      ],
+      "one_line": "RoboDojo에서 Qwen3.8-Flash-Next가 31.39로 공개된 GPT-6 Astra 결과 28.97을 앞섰다고 주장하지만 독립 검증은 없다.",
+      "paper_year": 2026,
+      "region": "글로벌",
+      "score": 8,
+      "tier": "주목",
+      "title": "[논문] uni-robot-agent: 오픈모델 로봇 에이전트 통합 하네스"
+    },
+    {
+      "category": "연구 논문",
+      "id": "2026-11-05-19",
+      "links": [
+        {
+          "name": "The Decoder",
+          "url": "https://the-decoder.com/new-open-source-benchmark-reveals-reasoning-as-the-biggest-bottleneck-for-ai-in-cloud-operations/"
+        }
+      ],
+      "one_line": "45개 AWS 과제에서 Fable 5.1이 60%, GPT-6 Astra가 53%를 풀었고, 실패의 약 80%는 범위 오판·서비스 누락·조기 중단이었다.",
+      "paper_year": 2026,
+      "region": "미국",
+      "score": 8,
+      "tier": "주목",
+      "title": "[논문] CloudOpsBench: 클라우드 운영에서 최대 병목은 추론"
+    },
+    {
+      "category": "상용 LLM",
+      "id": "2026-11-05-20",
+      "links": [
+        {
+          "name": "The Register",
+          "url": "https://www.theregister.com/ai-and-ml/2026/11/03/british-fintech-revolut-slashes-ai-coding-costs-10x-by-cutting-out-claude-and-going-self-hosted/5307345"
+        },
+        {
+          "name": "The Neuron",
+          "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-wednesday-november-4-2026/"
+        }
+      ],
+      "one_line": "엔지니어 약 2,000명 대상 사례로 GPU 56장을 쓰며, 수치는 컨퍼런스 발표이고 비전 등은 여전히 외부 모델을 쓴다.",
+      "region": "미국",
+      "score": 8,
+      "tier": "주목",
+      "title": "레볼루트, 코딩 AI 기본값을 자체 호스팅 GLM으로 바꿔 추론비 약 90% 절감"
+    },
+    {
+      "category": "상용 LLM",
+      "id": "2026-11-05-21",
+      "links": [
+        {
+          "name": "Check Point Research",
+          "url": "https://research.checkpoint.com/2026/free-the-model-sell-the-gateway-prompt-adware-hidden-in-jailbreak-bundles/"
+        },
+        {
+          "name": "AI Weekly",
+          "url": "https://aiweekly.co/ai-news-today"
+        }
+      ],
+      "one_line": "프롬프트 파일에 게이트웨이 광고를 심는 방식으로, 작성자의 범죄 연관성이나 게이트웨이의 악성 증거는 찾지 못했다고 밝혔다.",
+      "region": "미국",
+      "score": 8,
+      "tier": "주목",
+      "title": "Check Point, Codex 탈옥 번들에서 '프롬프트 광고' 발견"
+    },
+    {
+      "category": "상용 LLM",
+      "id": "2026-11-05-22",
+      "links": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50363461"
+        },
+        {
+          "name": "AI Weekly",
+          "url": "https://aiweekly.co/ai-news-today"
+        }
+      ],
+      "one_line": "해커뉴스 글 기준 Keep Activity를 꺼야 빠지고 API·Vertex·Workspace는 제외라는 내용으로, 구글 공식 확인은 아직 보지 못했다.",
+      "region": "미국",
+      "score": 8,
+      "tier": "주목",
+      "title": "[제보] Gemini, 유료 개인 구독자 대화도 기본 학습 사용 논란"
+    },
+    {
+      "category": "기타",
+      "id": "2026-11-05-23",
+      "links": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/03/apple-restricts-dating-apps-and-ai-companions-to-users-18-and-up/"
+        }
+      ],
+      "one_line": "11월 16일부터 새 콘텐츠 설명자를 넣어야 해, 캐릭터챗을 운영하거나 넣으려는 앱·게임사가 등급을 다시 확인해야 한다.",
+      "region": "미국",
+      "score": 8,
+      "tier": "주목",
+      "title": "애플, 앱 평가 기준 강화… 연애·AI 동반자 앱 18세 이상"
+    },
+    {
+      "category": "정책·규제",
+      "id": "2026-11-05-24",
+      "links": [
+        {
+          "name": "The Decoder",
+          "url": "https://the-decoder.com/schools-that-turn-off-googles-ai-will-lose-search-too-starting-in-2027/"
+        },
+        {
+          "name": "AI타임스",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=216998"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/04/google-faces-backlash-for-plan-that-would-turn-off-search-for-schools-that-restrict-ai/"
+        }
+      ],
+      "one_line": "학생 계정의 AI와 검색을 기본으로 끄고 학교가 켜도록 하는데, AI만 끄고 검색을 쓰는 선택지가 없어 비판이 이어진다.",
+      "region": "미국",
+      "score": 8,
+      "tier": "주목",
+      "title": "[후속] 구글 학교 AI·검색 묶음 정책, 2027년 초 기본 해제로 반발 확대"
+    },
+    {
+      "category": "산업·투자",
+      "id": "2026-11-05-25",
+      "links": [
+        {
+          "name": "디지털데일리",
+          "url": "https://www.ddaily.co.kr/page/view/2026110417033169503"
+        },
+        {
+          "name": "AI타임스",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=216991"
+        }
+      ],
+      "one_line": "3분기 연결 매출은 4조 4,973억 원이고, 내년 상반기 초기 수요 확보가 목표이지만 계약 규모와 시기는 공개되지 않았다.",
+      "region": "한국",
+      "score": 8,
+      "tier": "주목",
+      "title": "SKT, 울산 GW급 AI 데이터센터로 글로벌 사업자 3~4곳과 협의"
+    },
+    {
+      "category": "피지컬AI",
+      "id": "2026-11-05-26",
+      "links": [
+        {
+          "name": "Humanoids Daily",
+          "url": "https://www.humanoidsdaily.com/news/robotworld-2026-humanoids-physical-ai-manufacturing"
+        },
+        {
+          "name": "전자신문",
+          "url": "https://www.etnews.com/20261104000408"
+        }
+      ],
+      "one_line": "11월 7일까지 킨텍스에서 열리며 레인보우로보틱스·뉴로메카 등이 참가해 부품부터 완제품까지 전시한다.",
+      "region": "한국",
+      "score": 8,
+      "tier": "주목",
+      "title": "로보월드 2026 개막: 17개국 402개사, 휴머노이드관 신설"
+    },
+    {
+      "category": "기타",
+      "id": "2026-11-05-27",
+      "links": [
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/03/apple-warns-of-ai-agents-behave-in-unintended-or-unpredictable-ways.html"
+        },
+        {
+          "name": "The Neuron",
+          "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-wednesday-november-4-2026/"
+        },
+        {
+          "name": "AI Weekly",
+          "url": "https://aiweekly.co/ai-news-today"
+        }
+      ],
+      "one_line": "Siri AI를 개발자에게 연 시점에 에이전트의 무단·예측 불가 행동을 경고한 것으로, CNBC 원문은 열지 않고 요약으로 확인했다.",
+      "region": "미국",
+      "score": 8,
+      "tier": "주목",
+      "title": "애플 연례 보고서, 자율 에이전트를 사업 위험으로 명시"
+    },
+    {
+      "category": "기타",
+      "id": "2026-11-05-28",
+      "links": [
+        {
+          "name": "Google Cloud",
+          "url": "https://cloud.google.com/blog/topics/threat-intelligence/llmjacking-monetizing-compromised-cloud-models"
+        },
+        {
+          "name": "Kill The AI",
+          "url": "https://killtheai.com/news/top-10-ai-news-today-november-4-2026/"
+        }
+      ],
+      "one_line": "탈취 계정으로 모델을 재판매하는 수법이며 LiteLLM 취약점도 악용된 것으로 전해져 API 키·프록시 점검이 필요하다.",
+      "region": "글로벌",
+      "score": 8,
+      "tier": "주목",
+      "title": "구글 위협분석팀, LLMjacking으로 하루 10만 달러 넘는 클라우드 AI 요금 피해 경고"
+    },
+    {
+      "category": "상용 LLM",
+      "id": "2026-11-05-29",
+      "links": [
+        {
+          "name": "ITmedia AI+",
+          "url": "https://www.itmedia.co.jp/aiplus/article/2611/04/2000002862/"
+        }
+      ],
+      "one_line": "Max 20x가 Ultra로 바뀌며 Pro의 10배로 표기되자 오해가 일었고, 담당자는 주간 한도가 원래 10배였다고 해명하며 사과했다.",
+      "region": "미국",
+      "score": 7,
+      "tier": "주목",
+      "title": "Claude 요금제 이름 변경 후 '용량 반감' 논란, 앤트로픽은 부인"
+    },
+    {
+      "category": "상용 LLM",
+      "id": "2026-11-05-30",
+      "links": [
+        {
+          "name": "The Decoder",
+          "url": "https://the-decoder.com/chatgpt-can-now-turn-text-prompts-and-photos-into-animated-gifs-with-openais-images-2-6-model/"
+        }
+      ],
+      "one_line": "텍스트나 사진으로 GIF를 만들고 프레임을 고칠 수 있으며, 주간 이미지 생성량은 40억 장을 넘었다고 회사가 밝혔다.",
+      "region": "미국",
+      "score": 7,
+      "tier": "주목",
+      "title": "ChatGPT, Images 2.6으로 움직이는 GIF 생성 지원"
+    },
+    {
+      "category": "LLM",
+      "id": "2026-11-05-31",
+      "links": [
+        {
+          "name": "Ricursive",
+          "url": "https://ricursive.com/ripple"
+        },
+        {
+          "name": "AI Weekly",
+          "url": "https://aiweekly.co/ai-news-today"
+        }
+      ],
+      "one_line": "TerminalBench 2.1 80.52로 미국 오픈웨이트 최고라고 주장하며 학습비는 약 3,200만 달러라지만 모두 자체 수치다.",
+      "region": "미국",
+      "score": 7,
+      "tier": "주목",
+      "title": "Ricursive, 650억 파라미터 오픈웨이트 Ripple-65B 프리뷰 공개"
+    },
+    {
+      "category": "연구 논문",
+      "id": "2026-11-05-32",
+      "links": [
+        {
+          "name": "Hugging Face Papers",
+          "url": "https://huggingface.co/papers/2611.05345"
+        },
+        {
+          "name": "AI Weekly",
+          "url": "https://aiweekly.co/ai-news-today"
+        }
+      ],
+      "one_line": "추측 디코딩이 장기 작업의 출력 분포를 바꾼다는 점을 이용한 연구로, 논문 페이지 접속 실패로 AI Weekly 요약으로 확인했다.",
+      "paper_year": 2026,
+      "region": "미국",
+      "score": 7,
+      "tier": "주목",
+      "title": "[논문] 초안 모델을 일부러 거절시켜 에이전트 추론을 유도"
+    },
+    {
+      "category": "피지컬AI",
+      "id": "2026-11-05-33",
+      "links": [
+        {
+          "name": "Humanoids Daily",
+          "url": "https://www.humanoidsdaily.com/news/weekly-newsletter-meta-fourier-factory-robots-november-3"
+        }
+      ],
+      "one_line": "디인포메이션 보도를 옮긴 내용으로, 메타는 내부 연구용이라고 설명했으며 제품화 계획은 확인되지 않았다.",
+      "region": "미국",
+      "score": 7,
+      "tier": "주목",
+      "title": "[미확인] 메타·푸리에, 3개월 만에 맞춤형 휴머노이드 'Max' 제작 보도"
+    },
+    {
+      "category": "산업·투자",
+      "id": "2026-11-05-34",
+      "links": [
+        {
+          "name": "The Globe and Mail",
+          "url": "https://www.theglobeandmail.com/business/article-amd-to-pay-29-billion-for-ai-chip-firm-taalas/"
+        },
+        {
+          "name": "AI Weekly",
+          "url": "https://aiweekly.co/ai-news-today"
+        }
+      ],
+      "one_line": "8월 발표 건의 금액이 처음 나온 것으로, 14억 달러는 조건부이고 규제 승인이 남아 있다.",
+      "region": "미국",
+      "score": 7,
+      "tier": "주목",
+      "title": "AMD, 추론 칩 스타트업 Taalas 인수에 약 29억 달러 지급 공시"
+    },
+    {
+      "category": "산업·투자",
+      "id": "2026-11-05-35",
+      "links": [
+        {
+          "name": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-04/coreweave-bonds-hit-new-lows-as-texas-data-centers-in-crosshairs"
+        },
+        {
+          "name": "AI Weekly",
+          "url": "https://aiweekly.co/ai-news-today"
+        }
+      ],
+      "one_line": "텍사스 주지사 당선인 발언 뒤의 움직임으로, 블룸버그 본문은 열지 않고 AI Weekly 요약으로 확인했다.",
+      "region": "미국",
+      "score": 7,
+      "tier": "주목",
+      "title": "코어위브 주식·채권 신저가, 텍사스 데이터센터 모라토리엄 요구 여파"
+    },
+    {
+      "category": "기타",
+      "id": "2026-11-05-36",
+      "links": [
+        {
+          "name": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-04/apple-cuts-internal-ai-usage-budgets-in-move-to-reduce-spending"
+        },
+        {
+          "name": "AI Weekly",
+          "url": "https://aiweekly.co/ai-news-today"
+        }
+      ],
+      "one_line": "블룸버그 거먼 보도로 100달러까지 낮출 계획도 전해져, 코딩 AI 비용 통제가 대기업 과제로 떠올랐다.",
+      "region": "미국",
+      "score": 7,
+      "tier": "주목",
+      "title": "애플, 일부 엔지니어의 일일 AI 사용 한도를 300달러에서 200달러로 축소"
+    },
+    {
+      "category": "정책·규제",
+      "id": "2026-11-05-37",
+      "links": [
+        {
+          "name": "NCSC",
+          "url": "https://www.ncsc.gov.uk/news/cyber-chief-uk-facing-ai-powered-attacks-on-critical-infrastructure-in-two-years"
+        },
+        {
+          "name": "Kill The AI",
+          "url": "https://killtheai.com/news/top-10-ai-news-today-november-4-2026/"
+        }
+      ],
+      "one_line": "국가 사이버 수장의 공개 경고로, 원문은 열지 않고 큐레이션 요약으로 확인했다.",
+      "region": "유럽",
+      "score": 7,
+      "tier": "주목",
+      "title": "영국 NCSC, 2028년까지 핵심 인프라에 AI 악성코드 사용 가능성 높다고 경고"
+    },
+    {
+      "category": "기타",
+      "id": "2026-11-05-38",
+      "links": [
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/transportation/1026306/uber-ai-agents-q3-earnings-disintermediation"
+        },
+        {
+          "name": "Kill The AI 11/5",
+          "url": "https://killtheai.com/news/top-10-ai-news-today-november-5-2026/"
+        }
+      ],
+      "one_line": "에이전트 커머스가 아직 초기임을 보여 주는 수치이며, 큐레이션 요약으로만 확인했다.",
+      "region": "미국",
+      "score": 6,
+      "tier": "주목",
+      "title": "우버, 3분기 AI 에이전트 경유 차량 호출은 단 4건"
+    },
+    {
+      "category": "산업·투자",
+      "id": "2026-11-05-39",
+      "links": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/04/sequoia-hits-rewind-undoing-20-years-of-expansion/"
+        },
+        {
+          "name": "AI Weekly",
+          "url": "https://aiweekly.co/ai-news-today"
+        }
+      ],
+      "one_line": "초기·성장 조직을 합치고 파트너십을 평평하게 바꾸는 구조 개편이다.",
+      "region": "미국",
+      "score": 6,
+      "tier": "주목",
+      "title": "세쿼이아, 약 100억 달러 조달하며 런던 사무소·Arc·스카우트 정리"
+    },
+    {
+      "category": "산업·투자",
+      "id": "2026-11-05-40",
+      "links": [
+        {
+          "name": "SemiAnalysis",
+          "url": "https://newsletter.semianalysis.com/p/elon-is-doing-it-again-spacex-will"
+        },
+        {
+          "name": "AI Weekly",
+          "url": "https://aiweekly.co/ai-news-today"
+        }
+      ],
+      "one_line": "콜로서스 2와 스타베이스 전환 부지 등을 근거로 한 분석 기관 추정이며 회사 발표가 아니다.",
+      "region": "미국",
+      "score": 6,
+      "tier": "주목",
+      "title": "세미애널리시스 \"스페이스X, 2027년 데이터센터 13GW 목표\""
+    }
+  ],
+  "sources_checked": [
+    "AI Weekly",
+    "The Neuron",
+    "Kill The AI",
+    "RIO Rundown",
+    "TechCrunch AI",
+    "The Decoder",
+    "Claude 개발자 문서",
+    "Anthropic 뉴스(11월 신규 글 없음)",
+    "OpenAI 개발자 문서(11월 신규 없음)",
+    "OpenAI 블로그(접속 실패, 타 매체로 대체)",
+    "Gemini API 변경 로그(11월 신규 없음)",
+    "Google DeepMind 블로그(날짜 미표시)",
+    "Meta AI 블로그(신규 없음)",
+    "Microsoft 블로그(접속 실패)",
+    "Hugging Face Papers",
+    "arXiv(요약 경유)",
+    "AI타임스",
+    "전자신문",
+    "디지털데일리",
+    "블로터(날짜 미표시)",
+    "ZDNet Korea(10월 27일 이후 신규 확인 못함)",
+    "量子位",
+    "36Kr(캡차로 실패)",
+    "机器之心(목록 확인 못함)",
+    "ITmedia AI+",
+    "Sifted(신규 없음)",
+    "Humanoids Daily",
+    "Electrek",
+    "Fortune",
+    "Transformer",
+    "The Register",
+    "The Hacker News",
+    "Check Point Research",
+    "PPC Land",
+    "ChinaTechNews",
+    "The Verge·Ars Technica(접속 차단, 타 매체로 대체)"
+  ],
+  "top": [
+    {
+      "category": "정책·규제",
+      "id": "2026-11-05-01",
+      "links": [
+        {
+          "name": "Fortune",
+          "url": "https://fortune.com/2026/11/04/ohio-data-center-ballot-measures-midterm-elections/"
+        },
+        {
+          "name": "디지털데일리",
+          "url": "https://www.ddaily.co.kr/page/view/2026110414292635916"
+        },
+        {
+          "name": "Transformer",
+          "url": "https://transformernews.ai/p/midterms-democrats-blue-tsunami-ai-policy-legislation"
+        }
+      ],
+      "region": "미국",
+      "score": 11,
+      "scores": {
+        "coverage": 2,
+        "impact": 3,
+        "novelty": 2,
+        "relevance": 2,
+        "trust": 2
+      },
+      "summary": [
+        "로이터·WSJ를 인용한 보도에 따르면 민주당이 상·하원을 모두 가져갔고, 개표 중 집계 기준 상원 56석·하원 261석까지 갈 수 있다는 관측이 나왔다.",
+        "오하이오에서는 18개 지자체 21개 안건 중 최소 14곳에서 금지·제한안이 통과됐고(비공식 초기 집계), 전국의 데이터센터 관련 투표는 41건이었다.",
+        "내년 초 FRONTIER Act보다 강한 프런티어 AI 법안이 나올 수 있다는 전망과, 골드만삭스의 미국 증설 계획 약 45%가 단기 모라토리엄에 걸릴 수 있다는 경고는 아직 예측 단계다."
+      ],
+      "tier": "핵심",
+      "title": "미국 중간선거 민주당 압승, 데이터센터 규제 투표도 잇달아 통과… AI 입법 지형 변화",
+      "why": "모델 규제와 컴퓨팅 공급을 함께 흔드는 변수여서, 미국 모델의 출시 조건과 추론 비용 전망을 다시 봐야 한다."
+    },
+    {
+      "category": "LLM",
+      "id": "2026-11-05-02",
+      "links": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro"
+        },
+        {
+          "name": "AI Weekly",
+          "url": "https://aiweekly.co/ai-news-today"
+        }
+      ],
+      "region": "중국",
+      "score": 11,
+      "scores": {
+        "coverage": 1,
+        "impact": 3,
+        "novelty": 2,
+        "relevance": 3,
+        "trust": 2
+      },
+      "summary": [
+        "활성 1,040억 파라미터의 MoE 구조에 약 100만 토큰 문맥과 이미지 입력을 지원하며, 자체 라이선스로 Hugging Face에 올라왔다.",
+        "모델 카드 수치로 Terminal-Bench 4.0 65.7(Opus 5.5 66.4, GPT-6 Astra 58.2), 도구 사용 HLE-Full 70.0으로 최상위권에 근접했다.",
+        "Program Bench는 31.5로 크게 뒤졌고, 대부분 자체 측정인 데다 경쟁 모델 점수는 다른 출처를 옮겨 와 그대로 비교하긴 어렵다."
+      ],
+      "tier": "핵심",
+      "title": "Moonshot, 2.8조 파라미터 오픈웨이트 Kimi K3.1 Pro 공개",
+      "why": "상용 최상위 모델에 가까운 에이전트 성능을 가중치로 받을 수 있어, 자체 호스팅과 벤더 선택의 기준을 바꿀 수 있다."
+    },
+    {
+      "category": "상용 LLM",
+      "id": "2026-11-05-03",
+      "links": [
+        {
+          "name": "Claude 릴리스 노트",
+          "url": "https://platform.claude.com/docs/en/release-notes/overview"
+        },
+        {
+          "name": "The Decoder",
+          "url": "https://the-decoder.com/anthropics-text-watermark-is-easy-to-bypass-on-several-older-claude-models/"
+        },
+        {
+          "name": "AI Weekly",
+          "url": "https://aiweekly.co/ai-news-today"
+        }
+      ],
+      "region": "미국",
+      "score": 11,
+      "scores": {
+        "coverage": 2,
+        "impact": 2,
+        "novelty": 2,
+        "relevance": 3,
+        "trust": 2
+      },
+      "summary": [
+        "11월 3일부터 Mythos 5·Opus 4.7·Sonnet 4.6 출력에 눈에 보이지 않는 워터마크가 붙으며, Opus 5.5에는 이미 적용돼 있었다.",
+        "Sonnet 4.6은 temperature·top_p·top_k를 기본값에서 바꾸면 빠질 수 있어, 앤트로픽은 규정 준수에 의존한다면 기본값을 유지하라고 안내했다.",
+        "16일 2차로 Opus 4.6·Opus 4.5·Sonnet 4.5·Haiku 4.5가 이어지며, 12월 EU AI법 기한 대응으로 풀이되고 탐지 API는 비공개 프리뷰다."
+      ],
+      "tier": "핵심",
+      "title": "앤트로픽, 구형 Claude 모델에도 텍스트 워터마크 적용 시작… Opus 4.6은 16일로 연기",
+      "why": "생성물 표시 의무가 API 파라미터 선택 문제로 내려온 사례로, 번역·콘텐츠 파이프라인의 설정 점검이 필요하다."
+    },
+    {
+      "category": "산업·투자",
+      "id": "2026-11-05-04",
+      "links": [
+        {
+          "name": "The Decoder",
+          "url": "https://the-decoder.com/openai-acquires-pierre-computer-company-to-make-git-keep-up-with-ai-coding-agents/"
+        },
+        {
+          "name": "The Neuron",
+          "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-wednesday-november-4-2026/"
+        },
+        {
+          "name": "Kill The AI 11/5",
+          "url": "https://killtheai.com/news/top-10-ai-news-today-november-5-2026/"
+        }
+      ],
+      "region": "미국",
+      "score": 11,
+      "scores": {
+        "coverage": 2,
+        "impact": 2,
+        "novelty": 2,
+        "relevance": 3,
+        "trust": 2
+      },
+      "summary": [
+        "Pierre의 Code Storage는 Git으로 코드와 이력을 관리하는 서비스이고, 이 회사의 라이브러리는 이미 Codex에 쓰이고 있다.",
+        "OpenAI는 자체 Git 백엔드 Pando를 운영 중이며 코드 푸시 지연 중앙값을 약 80% 줄였다고 같은 시기에 공개했다.",
+        "Pierre의 오픈소스는 유지한다고 밝혔고, 인수 금액은 공개되지 않았으며 규제 승인이 남아 있다(OpenAI 원문은 열지 못해 보도로 확인)."
+      ],
+      "tier": "핵심",
+      "title": "OpenAI, Git 인프라 스타트업 Pierre 인수… 코딩 에이전트 시대의 저장소 병목 겨냥",
+      "why": "에이전트가 코드를 대량으로 쏟아내면서 경쟁 지점이 모델 성능에서 저장소·리뷰 같은 개발 인프라로 넓어지고 있음을 보여 준다."
+    },
+    {
+      "category": "산업·투자",
+      "id": "2026-11-05-05",
+      "links": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/"
+        },
+        {
+          "name": "Axios",
+          "url": "https://www.axios.com/2026/11/04/meta-acquires-ai-coding-startup-conductor"
+        },
+        {
+          "name": "AI Weekly",
+          "url": "https://aiweekly.co/ai-news-today"
+        }
+      ],
+      "region": "미국",
+      "score": 11,
+      "scores": {
+        "coverage": 2,
+        "impact": 2,
+        "novelty": 2,
+        "relevance": 3,
+        "trust": 2
+      },
+      "summary": [
+        "Conductor는 앤트로픽·OpenAI의 에이전트를 여러 작업 공간에서 동시에 돌리는 도구로, CEO와 CTO는 메타 슈퍼인텔리전스 랩으로 옮긴다.",
+        "클라우드 서비스는 11월 20일 끝나고 이후 사용자 클라우드 데이터는 삭제되며, 핵심 기능은 내년 초까지 유지된다.",
+        "메타는 인수를 확인했지만 금액과 조건은 밝히지 않았고, 8월 낸 Muse Code를 보강하는 움직임으로 보인다."
+      ],
+      "tier": "핵심",
+      "title": "메타, 병렬 코딩 에이전트 도구 Conductor 인수… 클라우드 서비스는 20일 종료",
+      "why": "여러 에이전트를 지휘하는 계층이 인수 대상이 되고 있고, 외부 도구에 의존하던 팀에는 갑작스러운 종료 위험을 일깨운다."
+    }
+  ]
+}
