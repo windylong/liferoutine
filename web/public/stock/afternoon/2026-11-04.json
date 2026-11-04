@@ -1,0 +1,86 @@
+{
+  "type": "afternoon",
+  "date": "2026-11-04",
+  "generated_at": "2026-11-04T15:58:24+09:00",
+  "analysis": {
+    "kospi_predicted": "상승",
+    "kospi_actual": "상승",
+    "kospi_change_text": "▲0.62%",
+    "kospi_match": "적중",
+    "kospi_miss_reason": "방향은 적중했으나 상승폭이 예상 범위(+1.2~3.5%)에 못 미침. 중간선거 개표발 위험회피와 외국인 매도를 과소평가",
+    "watchlist_accuracy": [
+      {
+        "code": "005930",
+        "name": "삼성전자",
+        "predicted": "상승",
+        "actual": "하락",
+        "change_text": "▼0.68%",
+        "match": "빗나감",
+        "reason": "외국인 매도·민주당 AI 규제 우려로 반등 무산"
+      },
+      {
+        "code": "000660",
+        "name": "SK하이닉스",
+        "predicted": "상승",
+        "actual": "보합",
+        "change_text": "▼0.14%",
+        "match": "빗나감",
+        "reason": "장중 급등락 뒤 보합, 외국인 매도가 ADR 호재 상쇄"
+      }
+    ],
+    "overall_accuracy": "1/3",
+    "accuracy": "부분적중",
+    "market_analysis": "장중 5421까지 밀린 뒤 저가 매수로 반등. 외국인 2조원대 순매도, 개인·기관 순매수. 이차전지·반도체 장비 강세, 대형 반도체 약세",
+    "lessons": "야간선물 강세만으로 범위를 높이지 말 것. 개표 등 장중 이벤트와 외국인 수급 반영"
+  },
+  "raw_data": {
+    "kospi": {
+      "price": 5683.8,
+      "changePct": 0.62
+    },
+    "kosdaq": {
+      "price": 714.95,
+      "changePct": 1.5
+    },
+    "watchlist": [
+      {
+        "code": "005930",
+        "name": "삼성전자",
+        "price": 218000,
+        "changePct": -0.68
+      },
+      {
+        "code": "000660",
+        "name": "SK하이닉스",
+        "price": 1396000,
+        "changePct": -0.14
+      }
+    ],
+    "sources": [
+      {
+        "name": "위키트리(코스피·코스닥 종가, 관심 종목 종가·등락률, 수급)",
+        "url": "https://www.wikitree.co.kr/articles/1171834"
+      },
+      {
+        "name": "오피니언뉴스(종가, 수급, 오후 상승 전환, 업종·규제 우려)",
+        "url": "https://opinionnews.co.kr/news/articleView.html?idxno=146661"
+      },
+      {
+        "name": "이투데이(종가, 장중 고저, 잠정 수급 — 외국인 -2.73조로 타 매체와 차이)",
+        "url": "https://www.etoday.co.kr/news/view/2644128"
+      },
+      {
+        "name": "서울경제(코스피 종가 교차 확인)",
+        "url": "https://m.sedaily.com/article/20110198"
+      },
+      {
+        "name": "스페셜타임스(중간선거 개표 위험회피, 나스닥 선물 -1.8%)",
+        "url": "https://www.specialtimes.co.kr/news/articleView.html?idxno=481508"
+      },
+      {
+        "name": "전남일보(장 초반 외국인 매도 전환)",
+        "url": "https://www.jnilbo.com/news/articleView.html?idxno=90000079454"
+      }
+    ]
+  }
+}
