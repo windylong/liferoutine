@@ -1,40 +1,40 @@
 {
   "morning": {
     "type": "morning",
-    "date": "2026-11-05",
-    "generated_at": "2026-11-05T06:29:29+09:00",
+    "date": "2026-11-06",
+    "generated_at": "2026-11-06T06:29:04+09:00",
     "analysis": {
       "kospi_prediction": "하락",
-      "kospi_change_range": "-1.5~-0.3%",
-      "kospi_confidence": "낮음",
-      "kospi_reason": "SOX 3.13%↓·마이크론 7%↓로 대형 반도체 부담, 다우 급등·유가 하락이 낙폭 제한",
-      "us_market_summary": "민주 압승에 다우 3.03%↑, 규제 우려로 SOX 3.13%↓",
-      "kospi_news_summary": "민주당 압승에 美 증시는 급등했으나 데이터센터 규제 우려로 반도체주 급락, 코스피 대형 반도체 부담",
+      "kospi_change_range": "-7.0~-3.0%",
+      "kospi_confidence": "높음",
+      "kospi_reason": "SOX 12.25%↓·마이크론 17%↓ 충격 재반영, 5200선 이탈 시 매도 확대 우려",
+      "us_market_summary": "AI 규제 공포에 나스닥 5.52%↓, SOX 12.25%↓ 폭락",
+      "kospi_news_summary": "민주당 압승발 데이터센터 규제 우려로 미 증시 폭락, 전일 5% 급락한 코스피에 추가 부담",
       "kospi_news": [
         {
-          "summary": "코스피 0.62% 오른 5683.80, 외국인 2.5조 매도",
+          "summary": "코스피 5.28% 내린 5383.80, 외국인 3.4조 순매도",
+          "source": "전남일보",
+          "url": "https://www.jnilbo.com/news/articleView.html?idxno=90000080067"
+        },
+        {
+          "summary": "美 나스닥 5.52%·반도체지수 12.25% 폭락 마감",
           "source": "서울신문",
-          "url": "https://www.seoul.co.kr/news/economy/securities/2026/11/04/20261104500243"
+          "url": "https://www.seoul.co.kr/news/economy/securities/2026/11/06/20261106500007"
         },
         {
-          "summary": "민주 상·하원 승리에 다우 3.03%, S&P 1.58% 상승",
-          "source": "서울신문",
-          "url": "https://www.seoul.co.kr/news/economy/securities/2026/11/05/20261105500004"
+          "summary": "민주 압승에 데이터센터 인허가 제한 우려 확산",
+          "source": "머니투데이(서플 전재)",
+          "url": "https://supple.kr/news/cmw37haic3n1yal9p2cl67sx5"
         },
         {
-          "summary": "美 반도체지수 3.13% 하락, 마이크론 7% 급락",
-          "source": "서울신문",
-          "url": "https://www.seoul.co.kr/news/economy/securities/2026/11/05/20261105500004"
+          "summary": "대신증권 \"5200선 밑돌면 매도 압력 확대\"",
+          "source": "한국경제",
+          "url": "https://www.hankyung.com/article/2026110591631"
         },
         {
-          "summary": "데이터센터 규제 우려, AI 칩 주문 둔화 가능성 부각",
-          "source": "미디어펜",
-          "url": "https://www.mediapen.com/news/view/1135270"
-        },
-        {
-          "summary": "대신증권 \"규제 핵심은 금지보다 투자 속도 둔화\"",
-          "source": "이데일리",
-          "url": "https://edaily.co.kr/news/read?mediaCodeNo=257&newsid=05808886645642440"
+          "summary": "美 10년물 금리 4.8%대 하락, 브렌트유 97달러선",
+          "source": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-5-dow-sp-500-nasdaq-plunge-chip-stocks-melt-down-193726491.html"
         }
       ],
       "watchlist": [
@@ -42,22 +42,22 @@
           "code": "005930",
           "name": "삼성전자",
           "prediction": "하락",
-          "reason": "마이크론 급락과 AI 투자 지연 우려, 외국인 매도 지속 부담",
+          "reason": "마이크론 급락 충격에 외국인 1.2조 매도 흐름 이어질 부담",
           "factors": [
             {
-              "summary": "美 마이크론 7% 급락, 메모리 투자심리 위축",
+              "summary": "美 마이크론 17.3% 급락, 메모리 심리 급랭",
               "impact": "악재",
-              "url": "https://www.seoul.co.kr/news/economy/securities/2026/11/05/20261105500004"
+              "url": "https://www.seoul.co.kr/news/economy/securities/2026/11/06/20261106500007"
             },
             {
-              "summary": "데이터센터 건설 지연 시 HBM 주문 둔화 우려",
+              "summary": "전일 외국인 1.17조 순매도, 20만원선 위태",
               "impact": "악재",
-              "url": "https://www.mediapen.com/news/view/1135270"
+              "url": "https://supple.kr/news/cmw37u3oz5f5yal9pt5ilr3r5"
             },
             {
-              "summary": "현대차증권 \"반도체는 美 외 수요로 영향 제한\"",
-              "impact": "호재",
-              "url": "https://www.hankookilbo.com/news/article/A2026110413500000342"
+              "summary": "삼성증권 \"장기 지연보다 비용 증가에 무게\"",
+              "impact": "중립",
+              "url": "https://www.kmjournal.net/news/articleView.html?idxno=14111"
             }
           ]
         },
@@ -65,22 +65,22 @@
           "code": "000660",
           "name": "SK하이닉스",
           "prediction": "하락",
-          "reason": "ADR 5.12% 급락 마감, HBM 수요 둔화 우려가 먼저 반영될 듯",
+          "reason": "HBM 수요 우려에 외국인 1.5조 매도 부담, 자사주 매입은 완충",
           "factors": [
             {
-              "summary": "美 상장 ADR 5.12% 내려 마감",
+              "summary": "美 마이크론 17.3% 급락, HBM 수요 우려 확대",
               "impact": "악재",
-              "url": "https://www.seoul.co.kr/news/economy/securities/2026/11/05/20261105500004"
+              "url": "https://www.seoul.co.kr/news/economy/securities/2026/11/06/20261106500007"
             },
             {
-              "summary": "데이터센터 규제 우려에 HBM 주문 지연 가능성",
-              "impact": "악재",
-              "url": "https://www.mediapen.com/news/view/1135270"
-            },
-            {
-              "summary": "iM증권, HBM 매출 2028년 183조원 전망",
+              "summary": "유진증권 \"2027년 물량은 이미 착공, 영향 없어\"",
               "impact": "호재",
-              "url": "https://en.fnnews.com/news/202611040831426999"
+              "url": "https://www.hankyung.com/article/2026110591631"
+            },
+            {
+              "summary": "자사주 매입 진행 중, 하방 완충 요인",
+              "impact": "호재",
+              "url": "https://supple.kr/news/cmw37u3oz5f5yal9pt5ilr3r5"
             }
           ]
         }
@@ -88,85 +88,101 @@
     },
     "raw_data": {
       "news_window": {
-        "from": "2026-11-04T07:00:00+09:00",
-        "to": "2026-11-05T07:00:00+09:00"
+        "from": "2026-11-05T07:00:00+09:00",
+        "to": "2026-11-06T07:00:00+09:00"
       },
       "us_market": {
         "sp500": {
-          "price": 7688.62,
-          "changePct": 1.58
+          "price": 7353.73,
+          "changePct": -4.36
         },
         "nasdaq": {
-          "price": 25736.51,
-          "changePct": 1.44
+          "price": 24315.0,
+          "changePct": -5.52
         },
         "dow": {
-          "price": 53356.12,
-          "changePct": 3.03
+          "price": 51523.06,
+          "changePct": -3.44
         },
         "sox": {
-          "price": 10268.65,
-          "changePct": -3.13
+          "price": 9011.14,
+          "changePct": -12.25
         },
         "usdkrw": {
-          "price": 1341.5,
+          "price": 1342.1,
           "changePct": 0.04
         }
       },
       "kospi_prev": {
-        "price": 5683.8,
-        "changePct": 0.62
+        "price": 5383.8,
+        "changePct": -5.28
       },
       "watchlist": [
         {
           "code": "005930",
           "name": "삼성전자",
-          "price": 218000,
-          "changePct": -0.68
+          "price": 201500,
+          "changePct": -7.57
         },
         {
           "code": "000660",
           "name": "SK하이닉스",
-          "price": 1396000,
-          "changePct": -0.14
+          "price": 1264000,
+          "changePct": -9.46
         }
       ],
       "sources": [
         {
-          "name": "서울신문(미국 3대 지수·SOX 종가, 엔비디아·마이크론·ADR 등락)",
-          "url": "https://www.seoul.co.kr/news/economy/securities/2026/11/05/20261105500004"
+          "name": "서울신문(미국 3대 지수·SOX 종가, 마이크론·엔비디아 등락 — 생성형 AI 작성 기사, 최종 종가 단일 출처)",
+          "url": "https://www.seoul.co.kr/news/economy/securities/2026/11/06/20261106500007"
         },
         {
-          "name": "서울신문(코스피 종가, 수급, 관심 종목 종가)",
-          "url": "https://www.seoul.co.kr/news/economy/securities/2026/11/04/20261104500243"
+          "name": "Yahoo Finance(마감 직전 지수로 교차 확인, 금리·유가)",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-5-dow-sp-500-nasdaq-plunge-chip-stocks-melt-down-193726491.html"
         },
         {
-          "name": "위키트리(코스피·관심 종목 종가 교차 확인)",
-          "url": "https://www.wikitree.co.kr/articles/1171834"
+          "name": "Trading Economics(CFD 기준 나스닥100·마이크론 교차 확인, 원/달러 1356.74 시각 미상 — 공식 종가 아님)",
+          "url": "https://tradingeconomics.com/united-states/stock-market"
         },
         {
-          "name": "SBS Biz(원/달러 11/4 주간 종가 1341.5원, +0.5원)",
-          "url": "https://biz.sbs.co.kr/article/20000344265"
+          "name": "전남일보(코스피·관심 종목 종가, 수급)",
+          "url": "https://www.jnilbo.com/news/articleView.html?idxno=90000080067"
         },
         {
-          "name": "미디어펜(반도체 약세 배경, 데이터센터 규제 우려)",
-          "url": "https://www.mediapen.com/news/view/1135270"
+          "name": "인더스트리뉴스(코스피 종가·수급 교차 확인)",
+          "url": "https://www.industrynews.co.kr/news/articleView.html?idxno=88975"
         },
         {
-          "name": "이데일리(대신증권 시각, 수급, 업종)",
-          "url": "https://edaily.co.kr/news/read?mediaCodeNo=257&newsid=05808886645642440"
+          "name": "이투데이(원/달러 11/5 주간 종가 1342.1원, +0.6원)",
+          "url": "https://www.etoday.co.kr/news/view/2644727"
         },
         {
-          "name": "한국일보(코스피 장중 고저, 현대차증권 시각)",
-          "url": "https://www.hankookilbo.com/news/article/A2026110413500000342"
+          "name": "뉴시스(원/달러 종가 교차 확인)",
+          "url": "https://www.newsis.com/view/NISX20261105_0003856617"
         },
         {
-          "name": "파이낸셜뉴스 영문(iM증권 HBM 전망)",
-          "url": "https://en.fnnews.com/news/202611040831426999"
+          "name": "연합뉴스 서플 전재(관심 종목 시가·저가, 종목별 외국인 순매도, 자사주 매입)",
+          "url": "https://supple.kr/news/cmw37u3oz5f5yal9pt5ilr3r5"
         },
         {
-          "name": "TheStreet(장중 유가·선거 결과)",
-          "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-04-2026"
+          "name": "머니투데이 서플 전재(인허가 제한 우려, 6일 전망)",
+          "url": "https://supple.kr/news/cmw37haic3n1yal9p2cl67sx5"
+        },
+        {
+          "name": "한국경제(5200선, 유진·IBK·대신 시각)",
+          "url": "https://www.hankyung.com/article/2026110591631"
+        },
+        {
+          "name": "KMJ(삼성증권 시각)",
+          "url": "https://www.kmjournal.net/news/articleView.html?idxno=14111"
+        },
+        {
+          "name": "HLKR(코스피200 야간 환산 771.25pt, -7.89%, 11/6 06:22 — 해외 거래소 체결가 기반, KRX 공식 시세 아님)",
+          "url": "https://hlkr.co.kr/futures"
+        },
+        {
+          "name": "CalendarLabs(KRX 2026 휴장일, 11월 없음)",
+          "url": "https://www.calendarlabs.com/krx-market-holidays-2026/"
         }
       ]
     }
