@@ -1,0 +1,90 @@
+{
+  "type": "afternoon",
+  "date": "2026-11-06",
+  "generated_at": "2026-11-06T16:00:38+09:00",
+  "analysis": {
+    "kospi_predicted": "하락",
+    "kospi_actual": "하락",
+    "kospi_change_text": "▼6.02%",
+    "kospi_match": "적중",
+    "kospi_miss_reason": "SOX 급락 충격과 외국인 매도 지속 판단이 맞았고 낙폭도 예상 범위(-7~-3%) 안. 장중 -8.78%에서 기관 매수로 축소",
+    "watchlist_accuracy": [
+      {
+        "code": "005930",
+        "name": "삼성전자",
+        "predicted": "하락",
+        "actual": "하락",
+        "change_text": "▼6.35%",
+        "match": "적중",
+        "reason": "마이크론 충격 적중, 장중 -9.98%에서 낙폭 축소"
+      },
+      {
+        "code": "000660",
+        "name": "SK하이닉스",
+        "predicted": "하락",
+        "actual": "하락",
+        "change_text": "▼10.44%",
+        "match": "적중",
+        "reason": "HBM 우려 적중, 자사주 완충 효과는 제한적"
+      }
+    ],
+    "overall_accuracy": "3/3",
+    "accuracy": "적중",
+    "market_analysis": "서킷브레이커·사이드카 속 전기전자 급락. 외국인 2.8조 순매도를 기관 1.7조·개인 0.6조가 받아 장중 -8.78%에서 낙폭 축소. 환율 1356.6원",
+    "lessons": "연속 급락일엔 갭 하락 후 기관 저가매수로 낙폭이 줄 수 있어 범위 상단도 함께 볼 것"
+  },
+  "raw_data": {
+    "kospi": {
+      "price": 5059.69,
+      "changePct": -6.02
+    },
+    "kosdaq": {
+      "price": 644.27,
+      "changePct": -5.03
+    },
+    "watchlist": [
+      {
+        "code": "005930",
+        "name": "삼성전자",
+        "price": 188700,
+        "changePct": -6.35
+      },
+      {
+        "code": "000660",
+        "name": "SK하이닉스",
+        "price": 1132000,
+        "changePct": -10.44
+      }
+    ],
+    "sources": [
+      {
+        "name": "아시아경제(코스피·코스닥 종가, 관심 종목 종가, 양 시장 수급, 업종 — 네이버 증권은 이번 실행에서 접근 불가)",
+        "url": "https://view.asiae.co.kr/article/2026110615475413854"
+      },
+      {
+        "name": "블록미디어(지수 종가·포인트, 장중 고저, 수급, 원/달러 1356.6원 +14.5원)",
+        "url": "https://www.blockmedia.co.kr/archives/1162369"
+      },
+      {
+        "name": "이투데이 전재(종가 교차 확인, 장중 저점, 사이드카 시각 — 수급·업종 수치는 타 매체와 차이: 외국인 -2.84조)",
+        "url": "https://supple.kr/news/cmw4m7a5iibcual9pjbu13whl"
+      },
+      {
+        "name": "뉴스핌(13:59 기준 장중 지수·수급, 기관 순매수로 낙폭 축소)",
+        "url": "https://www.newspim.com/news/view/20261106000702"
+      },
+      {
+        "name": "뉴스핌(개장 직후 서킷브레이커, 종목 저점, 미 증시 원인)",
+        "url": "https://www.newspim.com/news/view/20261106000427"
+      },
+      {
+        "name": "헤럴드경제(서킷브레이커·사이드카 시각, 장중 저점)",
+        "url": "https://biz.heraldcorp.com/article/10928427"
+      },
+      {
+        "name": "오마이뉴스(장중 시각별 지수·종목, 긴급 F4 회의)",
+        "url": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003282331&PAGE_CD=ET001&BLCK_NO=1&CMPT_CD=T0016"
+      }
+    ]
+  }
+}
