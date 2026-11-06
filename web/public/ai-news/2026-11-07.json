@@ -1,0 +1,822 @@
+{
+  "date": "2026-11-07",
+  "generated_at": "2026-11-07T07:59:29+09:00",
+  "headline": "Thinking Machines와 Ricursive가 하루 새 Apache 2.0 계열 고성능 모델을 내놓으며 미국 오픈웨이트 경쟁에 불이 붙었다. 기술주 급락 여파로 앤트로픽 IPO 가치에 제동이 걸린 반면 OpenAI는 110억 달러를 확보했고, 한국은 첫 범정부 AI 입법 체계를 확정했다.",
+  "others": [
+    {
+      "category": "연구 논문",
+      "id": "2026-11-07-06",
+      "links": [
+        {
+          "name": "Hugging Face Papers",
+          "url": "https://huggingface.co/papers/2611.08449"
+        }
+      ],
+      "one_line": "LLM이 아닌 별도 초안 생성기로 점·상자·궤적을 한 번에 만들어 3D 동작 예측을 약 25배 빠르게 하고, 이를 쓴 월드 액션 모델의 성공률을 62.6%에서 70.2%로 올렸다(엔비디아).",
+      "paper_year": 2026,
+      "region": "미국",
+      "score": 9,
+      "tier": "핵심",
+      "title": "[논문] VFlash: 시각 계획을 한 번에 생성해 로봇 궤적 예측 약 25배 가속"
+    },
+    {
+      "category": "연구 논문",
+      "id": "2026-11-07-07",
+      "links": [
+        {
+          "name": "arXiv",
+          "url": "https://arxiv.org/abs/2611.06817"
+        }
+      ],
+      "one_line": "손 동작·언어 주석이 달린 5만 시간 영상으로 학습 시간과 로봇 성공률 사이 로그-선형 관계를 보였고, RoboTwin 2.0에서 92.7%를 기록했으며 데이터와 체크포인트를 공개했다.",
+      "paper_year": 2026,
+      "region": "중국",
+      "score": 9,
+      "tier": "핵심",
+      "title": "[논문] Open-HumanScale: 로봇 사전학습용 1인칭 사람 영상 5만 시간 공개"
+    },
+    {
+      "category": "상용 LLM",
+      "id": "2026-11-07-08",
+      "links": [
+        {
+          "name": "Cursor 변경 로그",
+          "url": "https://cursor.com/changelog/build-live-apps"
+        },
+        {
+          "name": "TLDR AI",
+          "url": "https://tldr.tech/ai/2026-11-06"
+        }
+      ],
+      "one_line": "호스팅·Postgres·SSO를 갖춘 앱을 자연어로 만들고, 공개 전 보안 점검을 거쳐 링크로 공유할 수 있게 했다.",
+      "region": "미국",
+      "score": 9,
+      "tier": "핵심",
+      "title": "Cursor 클라우드 에이전트, 설명만으로 실제 웹앱을 만들고 배포"
+    },
+    {
+      "category": "산업·투자",
+      "id": "2026-11-07-09",
+      "links": [
+        {
+          "name": "전자신문",
+          "url": "https://www.etnews.com/20261106000268"
+        },
+        {
+          "name": "NHK",
+          "url": "https://news.web.nhk/newsweb/na/nd-20261106de71341"
+        },
+        {
+          "name": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-6-dow-sp-500-nasdaq-jobs-report-earnings-135953863.html"
+        }
+      ],
+      "one_line": "미국 중간선거 뒤 데이터센터 규제 우려로 SK하이닉스가 10.4% 떨어지는 등 코스피가 5,059로 마감했고, 같은 날 미국 반도체 지수는 약 4% 반등했다.",
+      "region": "글로벌",
+      "score": 8,
+      "tier": "주목",
+      "title": "한일 증시 AI 규제 공포에 급락, 미국은 반등… 코스피 6%·닛케이 3,643엔 하락"
+    },
+    {
+      "category": "상용 LLM",
+      "id": "2026-11-07-10",
+      "links": [
+        {
+          "name": "Perplexity",
+          "url": "https://www.perplexity.ai/hub/blog/teammates-are-agents-for-complex-ongoing-work"
+        },
+        {
+          "name": "The Decoder",
+          "url": "https://the-decoder.com/perplexity-now-has-its-own-always-on-ai-agent/"
+        }
+      ],
+      "one_line": "에이전트마다 전용 VM과 브라우저를 두고 장기 프로젝트를 진행하며 슬랙으로 진행 상황을 볼 수 있고, 월 200달러 Max 요금제 전용이다(공식 글은 4일자, 보도는 6일).",
+      "region": "미국",
+      "score": 8,
+      "tier": "주목",
+      "title": "Perplexity, 전용 가상 PC에서 계속 일하는 에이전트 'Teammates' 출시"
+    },
+    {
+      "category": "연구 논문",
+      "id": "2026-11-07-11",
+      "links": [
+        {
+          "name": "arXiv",
+          "url": "https://arxiv.org/abs/2611.07203"
+        }
+      ],
+      "one_line": "번역을 넘어 고객 데이터·과제를 현지화했더니 8개 모델이 한국어·페르시아어 소매 분야에서 영어보다 pass^4 기준 최대 61포인트 떨어졌다.",
+      "paper_year": 2026,
+      "region": "미국",
+      "score": 8,
+      "tier": "주목",
+      "title": "[논문] τ-bench-LILT: 한국어 포함 4개 언어 에이전트 도구 사용 벤치마크"
+    },
+    {
+      "category": "연구 논문",
+      "id": "2026-11-07-12",
+      "links": [
+        {
+          "name": "Hugging Face Papers",
+          "url": "https://huggingface.co/papers/2611.02660"
+        }
+      ],
+      "one_line": "과제 관련 사건만 언어 메모리로 갱신해 실제 10개 과제에서 최강 기준선보다 12.8%p 높았고 장기 과제 메모리는 최대 4.5배 적게 썼다.",
+      "paper_year": 2026,
+      "region": "한국",
+      "score": 8,
+      "tier": "주목",
+      "title": "[논문] HeLM: 이전 단계를 언어 기억으로 저장하는 로봇 조작 모델(서울대)"
+    },
+    {
+      "category": "연구 논문",
+      "id": "2026-11-07-13",
+      "links": [
+        {
+          "name": "arXiv",
+          "url": "https://arxiv.org/abs/2611.07238"
+        }
+      ],
+      "one_line": "LLM 심판이 지운 구간을 실제로 빼고 다시 실행해 낭비를 확인했으며, 낭비 정도는 모델보다 과제와 하네스 구성에 따라 더 크게 달랐다.",
+      "paper_year": 2026,
+      "region": "미국",
+      "score": 8,
+      "tier": "주목",
+      "title": "[논문] 에이전트가 돈을 낭비하는 방식: 추론 토큰 41~46% 제거해도 성능 유지"
+    },
+    {
+      "category": "연구 논문",
+      "id": "2026-11-07-14",
+      "links": [
+        {
+          "name": "Hugging Face Papers",
+          "url": "https://huggingface.co/papers/2611.08376"
+        }
+      ],
+      "one_line": "Gated DeltaNet-2를 개선해 트랜스포머보다 혼잡도가 2.5~3.6% 낮고 32K 문맥 학습이 2.7배 빠르다고 보고했다.",
+      "paper_year": 2026,
+      "region": "미국",
+      "score": 8,
+      "tier": "주목",
+      "title": "[논문] 구글 Muir: 1,000만 토큰까지 25MB 고정 상태로 늘어나는 선형 어텐션"
+    },
+    {
+      "category": "LLM",
+      "id": "2026-11-07-15",
+      "links": [
+        {
+          "name": "AI타임스",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=217087"
+        }
+      ],
+      "one_line": "도구 선택·분류 결과를 확률과 점수로 표준화해 내놓는 30억급 멀티모달 모델로, 상업 사용 가능한 라이선스로 공개했고 H200 1장에서 0.04초 이내 응답한다고 밝혔다.",
+      "region": "한국",
+      "score": 8,
+      "tier": "주목",
+      "title": "카카오, AI 에이전트 판단 전용 모델 Kanana-2-v-Decide 공개"
+    },
+    {
+      "category": "산업·투자",
+      "id": "2026-11-07-16",
+      "links": [
+        {
+          "name": "TNW",
+          "url": "https://thenextweb.com/news/tsmc-3d-dram-memory-chips-nvidia"
+        },
+        {
+          "name": "Investing.com(로이터)",
+          "url": "https://www.investing.com/news/stock-market-news/tsmc-considers-making-advanced-memory-chips-the-information-reports-5008786"
+        }
+      ],
+      "one_line": "첨단 패키징 담당 부사장이 계획을 맡아 신규 팹이나 기존 공장 전환을 검토 중이라고 디인포메이션이 보도해, 삼성·SK하이닉스와의 경쟁 가능성이 생겼다.",
+      "region": "글로벌",
+      "score": 8,
+      "tier": "주목",
+      "title": "TSMC, 엔비디아 요청으로 3D D램 진출 검토 보도"
+    },
+    {
+      "category": "피지컬AI",
+      "id": "2026-11-07-17",
+      "links": [
+        {
+          "name": "로봇신문",
+          "url": "https://www.irobotnews.com/news/articleView.html?idxno=49437"
+        }
+      ],
+      "one_line": "레인보우로보틱스는 내년 상반기 RB-Y2 본격 공급, 로보티즈는 연 1만 대 목표를 밝혔고 에어로봇 ALICE 5가 최고상을 받았다.",
+      "region": "한국",
+      "score": 8,
+      "tier": "주목",
+      "title": "로보월드 2026: 레인보우로보틱스·로보티즈 등 국산 휴머노이드 양산 일정 제시"
+    },
+    {
+      "category": "피지컬AI",
+      "id": "2026-11-07-18",
+      "links": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/06/tesla-will-stop-making-the-cybertruck-in-2027/"
+        },
+        {
+          "name": "Electrek",
+          "url": "https://electrek.co/2026/11/06/tesla-ending-cybertruck-production-sales-10-percent-plan"
+        }
+      ],
+      "one_line": "머스크가 기가 텍사스의 사이버트럭 라인을 2027년 중반 정리해 Cybercab에 쓰겠다고 밝혔으며, 연 25만 대 설비에 누적 판매는 약 7만 1천 대에 그쳤다.",
+      "region": "미국",
+      "score": 8,
+      "tier": "주목",
+      "title": "테슬라, 2027년 사이버트럭 생산 중단하고 로보택시 Cybercab 생산 확대"
+    },
+    {
+      "category": "연구 논문",
+      "id": "2026-11-07-19",
+      "links": [
+        {
+          "name": "PSI",
+          "url": "https://psi.inc/research/aaronson-ambainis/"
+        }
+      ],
+      "one_line": "비공개 앤트로픽 모델을 쓴 시스템이 3일째에 증명을 찾았고 Lean으로 전 단계를 검증했다고 밝혔다(동료 심사 전).",
+      "paper_year": 2026,
+      "region": "미국",
+      "score": 8,
+      "tier": "주목",
+      "title": "PSI의 AI 연구 시스템, 2008년부터 미해결이던 Aaronson-Ambainis 추측 증명 주장"
+    },
+    {
+      "category": "상용 LLM",
+      "id": "2026-11-07-20",
+      "links": [
+        {
+          "name": "Dataconomy",
+          "url": "https://dataconomy.com/2026/11/06/anthropic-leaves-claude-flaw-enabling-cross-device-code/"
+        }
+      ],
+      "one_line": "악성 브라우저 확장이 같은 계정의 다른 기기에서 코드를 실행하게 할 수 있다며, 앤트로픽이 중복으로 처리해 CVE가 없다고 밝혔다(앤트로픽 입장 미확인).",
+      "region": "글로벌",
+      "score": 8,
+      "tier": "주목",
+      "title": "보안 연구자, Claude Dispatch 경유 기기 간 코드 실행 취약점이 방치됐다고 주장"
+    },
+    {
+      "category": "기타",
+      "id": "2026-11-07-21",
+      "links": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/"
+        }
+      ],
+      "one_line": "Censys 조사로 한국 금융사 공격에도 쓰인 Artex 설치본 다수가 무방비로 드러났고 개발자는 비공개 전환을 예고했다.",
+      "region": "글로벌",
+      "score": 7,
+      "tier": "주목",
+      "title": "[후속] 공개된 AI 해킹 도구 Artex 배포본 800곳 이상, 비밀번호 없이 노출"
+    },
+    {
+      "category": "산업·투자",
+      "id": "2026-11-07-22",
+      "links": [
+        {
+          "name": "TNW",
+          "url": "https://thenextweb.com/news/microsoft-winds-down-oracle-ai-cloud-capacity-deal"
+        },
+        {
+          "name": "AI타임스",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=217095"
+        }
+      ],
+      "one_line": "구형 엔비디아 칩 기반 계약을 끝내고 Nscale 텍사스 추가 용량과 영국 에식스 프로젝트에서도 빠지며 네오클라우드 약정 재조정을 이어갔다.",
+      "region": "미국",
+      "score": 7,
+      "tier": "주목",
+      "title": "마이크로소프트, 오라클 AI 클라우드 임대 계약 종료·Nscale 텍사스 증설 옵션 포기"
+    },
+    {
+      "category": "산업·투자",
+      "id": "2026-11-07-23",
+      "links": [
+        {
+          "name": "AI타임스",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=217103"
+        }
+      ],
+      "one_line": "Kimi K3 수요가 설비를 넘어서자 수출 규제 대상인 블랙웰을 해외 원격 임차로 확보하려 한다고 CNBC가 보도했다.",
+      "region": "중국",
+      "score": 7,
+      "tier": "주목",
+      "title": "문샷AI, 유럽에서 엔비디아 블랙웰 GPU 8천 개 이상 임차 추진"
+    },
+    {
+      "category": "상용 LLM",
+      "id": "2026-11-07-24",
+      "links": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/"
+        }
+      ],
+      "one_line": "7월 전월 대비 42% 늘던 지출이 8~9월 1.5% 증가에 그쳤고, 모델 가격 인하가 지출 둔화의 배경으로 꼽혔다.",
+      "region": "미국",
+      "score": 7,
+      "tier": "주목",
+      "title": "Ramp AI 지수: 기업 AI 토큰 지출 증가세 둔화"
+    },
+    {
+      "category": "산업·투자",
+      "id": "2026-11-07-25",
+      "links": [
+        {
+          "name": "Menlo Ventures",
+          "url": "https://menlovc.com/perspective/2026-the-state-of-enterprise-ai/"
+        },
+        {
+          "name": "SCMP",
+          "url": "https://www.scmp.com/tech/tech-trends/article/3373550/chinas-ai-models-led-kimi-dominate-open-source-enterprise-spending"
+        }
+      ],
+      "one_line": "Kimi가 61%를 차지했지만 오픈소스는 전체 배포 지출의 4%에 그친다는 보고서를 SCMP 등이 6일 다뤘다(보고서는 3일 공개).",
+      "region": "중국",
+      "score": 7,
+      "tier": "주목",
+      "title": "멘로벤처스: 미국 기업의 오픈소스 모델 지출 89%가 중국 모델"
+    },
+    {
+      "category": "상용 LLM",
+      "id": "2026-11-07-26",
+      "links": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/"
+        }
+      ],
+      "one_line": "트래커·플래너 같은 작업판을 대화로 만들고 외부 앱과 연결해 백그라운드에서 갱신하게 했다.",
+      "region": "미국",
+      "score": 7,
+      "tier": "주목",
+      "title": "Meta, Muse 에이전트에 대화로 만드는 작업 공간 'Spaces' 추가"
+    },
+    {
+      "category": "정책·규제",
+      "id": "2026-11-07-27",
+      "links": [
+        {
+          "name": "Nieman Lab",
+          "url": "https://www.niemanlab.org/2026/11/meta-pulls-down-controversial-terms-of-service/"
+        }
+      ],
+      "one_line": "노르웨이·브라질 법원 금지명령과 영국 CMA 조사, 미 상원의원 서한이 이어지자 11월 20일 시행 예정이던 약관을 거둬들였다.",
+      "region": "글로벌",
+      "score": 7,
+      "tier": "주목",
+      "title": "Meta, 사업자 웹사이트 수집 조항 담은 새 약관 무기한 보류"
+    },
+    {
+      "category": "기타",
+      "id": "2026-11-07-28",
+      "links": [
+        {
+          "name": "Unite.AI",
+          "url": "https://www.unite.ai/botpress-discloses-internal-breach-and-customer-credential-risk/"
+        }
+      ],
+      "one_line": "내부 인증 프록시 결함과 직원 자격 증명으로 16개 고객 봇 설정이 읽혀, 저장된 키를 모두 교체하라고 안내했다.",
+      "region": "글로벌",
+      "score": 7,
+      "tier": "주목",
+      "title": "Botpress 침해 공개: 고객 워크스페이스의 AI API 키 노출 가능성"
+    },
+    {
+      "category": "피지컬AI",
+      "id": "2026-11-07-29",
+      "links": [
+        {
+          "name": "The AI Insider",
+          "url": "https://theaiinsider.tech/2026/11/06/switzerlands-embodied-ai-unveils-humanoid-robot-designed-to-learn-factory-tasks-from-workers/"
+        }
+      ],
+      "one_line": "뮌헨 Humanoid Europe에서 공개했으며 2027년 CE 인증을 목표로 하고, 케이블 작업 신뢰도 98%를 기록했다고 밝혔다.",
+      "region": "유럽",
+      "score": 7,
+      "tier": "주목",
+      "title": "스위스 Embodied AI, 작업자 시연으로 배우는 바퀴형 휴머노이드 'Air' 공개"
+    },
+    {
+      "category": "기타",
+      "id": "2026-11-07-30",
+      "links": [
+        {
+          "name": "ITmedia AI+",
+          "url": "https://www.itmedia.co.jp/aiplus/article/2611/06/2000002937/"
+        }
+      ],
+      "one_line": "틱톡의 자동 AI 광고 기능이 켜진 채 제작위원회 승인 없이 변형 영상이 송출돼 모든 틱톡 광고를 중단했다.",
+      "region": "일본",
+      "score": 7,
+      "tier": "주목",
+      "title": "피자라, 틱톡 AI 광고 자동 생성 기능이 애니 협업 소재를 무단 변형해 사과"
+    },
+    {
+      "category": "연구 논문",
+      "id": "2026-11-07-31",
+      "links": [
+        {
+          "name": "Hugging Face Papers",
+          "url": "https://huggingface.co/papers/2611.04277"
+        }
+      ],
+      "one_line": "작업마다 다른 수리 방식의 하네스를 골라 다시 돌려 학습해 AppWorld·SWE-Gym 등에서 정책만 학습한 경우보다 낫다고 보고했다.",
+      "paper_year": 2026,
+      "region": "중국",
+      "score": 7,
+      "tier": "주목",
+      "title": "[논문] Harness-S: 실패한 에이전트 강화학습을 다른 하네스로 재시도해 살리기"
+    },
+    {
+      "category": "상용 LLM",
+      "id": "2026-11-07-32",
+      "links": [
+        {
+          "name": "Cognition",
+          "url": "https://devin.ai/blog/devin-review-2"
+        }
+      ],
+      "one_line": "코드 리뷰 에이전트를 개편해 리뷰 1건당 비용을 크게 낮췄다고 밝혔다.",
+      "region": "미국",
+      "score": 7,
+      "tier": "주목",
+      "title": "Cognition, Devin Review 2.0 공개… PR 리뷰 비용 8월 대비 82% 절감"
+    },
+    {
+      "category": "정책·규제",
+      "id": "2026-11-07-33",
+      "links": [
+        {
+          "name": "블로터",
+          "url": "https://www.bloter.net/news/articleView.html?idxno=678023"
+        }
+      ],
+      "one_line": "과기정통부 내년 예산안 중 AI 몫이 84.3% 늘어난 9조 4,211억 원이며 미국 투자 둔화가 추격 기회라고 말했다.",
+      "region": "한국",
+      "score": 6,
+      "tier": "주목",
+      "title": "배경훈 부총리 \"미국 주춤해도 AI 투자 계속\"… 내년 AI 예산 9.42조 원"
+    },
+    {
+      "category": "상용 LLM",
+      "id": "2026-11-07-34",
+      "links": [
+        {
+          "name": "量子位",
+          "url": "https://www.qbitai.com/2026/11/507967.html"
+        }
+      ],
+      "one_line": "WorkBuddy 탑재 첫날 한도 초과가 잇따르자 클러스터를 늘리고 무료 할당량을 올렸다(텐센트 제공 기사).",
+      "region": "중국",
+      "score": 6,
+      "tier": "주목",
+      "title": "텐센트, Hy4 사용량 폭증에 추론 클러스터 10배 확장"
+    },
+    {
+      "category": "상용 LLM",
+      "id": "2026-11-07-35",
+      "links": [
+        {
+          "name": "ITmedia AI+",
+          "url": "https://www.itmedia.co.jp/aiplus/article/2611/06/2000002955/"
+        }
+      ],
+      "one_line": "데이터를 일본 안에서만 처리·비저장하며 100만 토큰당 입력 48엔·출력 192엔이다.",
+      "region": "일본",
+      "score": 6,
+      "tier": "주목",
+      "title": "Fixstars, 일본 내 GPU로 DeepSeek-V4.1-Flash API 제공"
+    },
+    {
+      "category": "피지컬AI",
+      "id": "2026-11-07-36",
+      "links": [
+        {
+          "name": "The Gadgeteer",
+          "url": "https://the-gadgeteer.com/2026/11/06/chinese-humanoid-robots-south-korea/"
+        }
+      ],
+      "one_line": "유비테크가 국내 자동차 부품 라인에서 U1을 시험 중이며, 1~9월 한국은 중국산 지능형 로봇의 3위 수출국이었다.",
+      "region": "한국",
+      "score": 6,
+      "tier": "주목",
+      "title": "중국 휴머노이드 업체들, 한국 공장·카페 시범 운영으로 진출"
+    },
+    {
+      "category": "연구 논문",
+      "id": "2026-11-07-37",
+      "links": [
+        {
+          "name": "Hugging Face Papers",
+          "url": "https://huggingface.co/papers/2611.00883"
+        }
+      ],
+      "one_line": "무작위 부분집합의 긴 꼬리 오차를 잘라 70여 개 벤치마크에서 고오차 위험을 50.2% 낮췄다.",
+      "paper_year": 2026,
+      "region": "미국",
+      "score": 6,
+      "tier": "주목",
+      "title": "[논문] BestRand: 벤치마크 축소 평가의 큰 오차 위험을 절반으로"
+    },
+    {
+      "category": "정책·규제",
+      "id": "2026-11-07-38",
+      "links": [
+        {
+          "name": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-06/nvidia-s-ai-chip-exports-emerge-as-target-in-democratic-congress"
+        }
+      ],
+      "one_line": "새 의회에서 엔비디아 수출과 AI 기업 간 순환 자금 거래를 감독 대상으로 삼을 것이라고 블룸버그가 전했다.",
+      "region": "미국",
+      "score": 6,
+      "tier": "주목",
+      "title": "미 민주당 의회, 엔비디아 칩 수출과 AI 순환 투자 조사 추진 보도"
+    },
+    {
+      "category": "피지컬AI",
+      "id": "2026-11-07-39",
+      "links": [
+        {
+          "name": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/serve-robotics-inc-serv-q3-052023243.html"
+        }
+      ],
+      "one_line": "매출 280만 달러로 연간 전망을 1,200만 달러로 올렸지만 순손실은 5,920만 달러였다.",
+      "region": "미국",
+      "score": 6,
+      "tier": "주목",
+      "title": "Serve Robotics 3분기 매출 300% 증가, 기기당 과금 '피지컬AI 서비스' 사업 시작"
+    },
+    {
+      "category": "상용 LLM",
+      "id": "2026-11-07-40",
+      "links": [
+        {
+          "name": "量子位",
+          "url": "https://www.qbitai.com/2026/11/508107.html"
+        }
+      ],
+      "one_line": "1,507개 실제 취약점 과제에서 3회 평균 99.4%라고 밝혔으나 대부분 회사 자체 발표다.",
+      "region": "중국",
+      "score": 5,
+      "tier": "참고",
+      "title": "치후360 취약점 탐색 에이전트, UC버클리 CyberGym 99.4% 주장"
+    },
+    {
+      "category": "상용 LLM",
+      "id": "2026-11-07-41",
+      "links": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/06/after-blocking-muse-amazon-now-lets-users-text-alexa-to-help-them-shop/"
+        }
+      ],
+      "one_line": "검색·장바구니·구매·가격 추적을 SMS로 처리하게 했으며 일부 미국 고객부터 연다.",
+      "region": "미국",
+      "score": 5,
+      "tier": "참고",
+      "title": "아마존, 문자 메시지로 Alexa 에이전트 쇼핑 시범 도입"
+    },
+    {
+      "category": "기타",
+      "id": "2026-11-07-42",
+      "links": [
+        {
+          "name": "AI타임스",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=217113"
+        },
+        {
+          "name": "전자신문",
+          "url": "https://www.etnews.com/20261106000306"
+        }
+      ],
+      "one_line": "영상·신호·공개 정보를 엮는 분석 플랫폼과 다섯 손가락 손 제어 모델 RealDex 소식이 함께 나왔다.",
+      "region": "한국",
+      "score": 5,
+      "tier": "참고",
+      "title": "코난테크놀로지 국방 정보 융합 플랫폼 'ArgoX', 리얼월드 로봇 모델 CIIE 시연"
+    }
+  ],
+  "sources_checked": [
+    "AI Weekly",
+    "TLDR AI",
+    "The Neuron",
+    "The Decoder",
+    "TechCrunch AI(6일 개별 기사)",
+    "TNW",
+    "Unite.AI",
+    "Nieman Lab",
+    "OpenAI API 변경 로그·지원 종료 페이지(6일 신규 없음)",
+    "openai.com 뉴스(접속 실패)",
+    "Anthropic 뉴스·Claude API 릴리스 노트(6일 신규 없음)",
+    "Google 블로그·Gemini API 변경 로그(신규 없음)",
+    "Google DeepMind 블로그(일자 미표시)",
+    "Meta AI 블로그(신규 없음)",
+    "Microsoft AI 블로그(접속 실패)",
+    "xAI·Mistral·DeepSeek 뉴스",
+    "Hugging Face Papers(11월 6일)",
+    "arXiv cs.CL·cs.RO",
+    "AI타임스",
+    "전자신문",
+    "블로터",
+    "ZDNet Korea(최신 기사 확인 못함)",
+    "디지털데일리(최신 기사 확인 못함)",
+    "로봇신문",
+    "量子位",
+    "36Kr(캡차로 실패)",
+    "机器之心(목록 확인 못함)",
+    "SCMP(색인만 확인)",
+    "ITmedia AI+",
+    "NHK",
+    "財経新聞",
+    "Sifted(일자 확인 못함)",
+    "Electrek",
+    "Yahoo Finance",
+    "The Verge·Ars Technica·Bloomberg·CNBC(차단 또는 실패, 검색 결과·재인용으로 대체)",
+    "MIT Technology Review(목록 확인 못함)"
+  ],
+  "top": [
+    {
+      "category": "LLM",
+      "id": "2026-11-07-01",
+      "links": [
+        {
+          "name": "Thinking Machines",
+          "url": "https://thinkingmachines.ai/news/inkling-2-small/"
+        },
+        {
+          "name": "The Decoder",
+          "url": "https://the-decoder.com/thinking-machines-inkling-2-small-claims-top-spot-among-western-open-weight-models/"
+        },
+        {
+          "name": "TLDR AI",
+          "url": "https://tldr.tech/ai/2026-11-06"
+        }
+      ],
+      "region": "미국",
+      "score": 12,
+      "scores": {
+        "coverage": 2,
+        "impact": 3,
+        "novelty": 2,
+        "relevance": 3,
+        "trust": 2
+      },
+      "summary": [
+        "전체 5,940억·활성 170억 파라미터의 전문가 혼합(MoE) 모델로, 텍스트·이미지 입력과 추론 깊이 조절, 최대 100만 토큰 문맥을 지원한다.",
+        "Artificial Analysis 지능 지수 31점으로 전작보다 18점 올라 Gemini 3.8 Flash 수준이고, SWE-Bench Pro v2(Hard) 86.3%, 과제당 비용은 약 1.18달러로 Claude Sonnet 5.5(10.02달러)보다 훨씬 싸다고 밝혔다.",
+        "지금은 자사 Tinker 플랫폼에서만 쓸 수 있고, 외부 안전성 시험을 거쳐 다음 주 Apache 2.0으로 가중치를 공개할 예정이다(수치는 회사 발표 기준)."
+      ],
+      "tier": "핵심",
+      "title": "Thinking Machines, MoE 모델 Inkling 2 Small 공개… 서구권 오픈웨이트 최상위 주장",
+      "why": "상업적 사용이 자유로운 고성능 MoE 가중치가 곧 풀리면, 코딩·에이전트 업무를 자체 서버에서 저비용으로 돌리는 선택지가 크게 넓어진다."
+    },
+    {
+      "category": "LLM",
+      "id": "2026-11-07-02",
+      "links": [
+        {
+          "name": "Ricursive",
+          "url": "https://www.ricursive.com/ripple"
+        },
+        {
+          "name": "The Decoder",
+          "url": "https://the-decoder.com/ripple-65b-preview-delivers-strong-agentic-coding-results-as-a-fully-apache-2-0-open-us-model/"
+        },
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/ricursiveAI/Ripple-65B-Preview"
+        }
+      ],
+      "region": "미국",
+      "score": 10,
+      "scores": {
+        "coverage": 1,
+        "impact": 2,
+        "novelty": 2,
+        "relevance": 3,
+        "trust": 2
+      },
+      "summary": [
+        "AI 칩 설계 기업 Ricursive가 12조 토큰으로 학습한 650억 파라미터 밀집(dense) 모델을 허깅페이스에 공개했고, 문맥은 최대 100만 토큰이다.",
+        "TerminalBench 2.1에서 80.52점으로 미국산 오픈 모델 중 최고라고 주장하며, 연구개발 총비용은 3,200만 달러라고 밝혔다.",
+        "다만 SWE-Bench Pro Hard(79.1%)와 DeepSWE(44.3%)에서는 Inkling 2 Small에 뒤지며, Together·Fireworks·OpenRouter에서도 쓸 수 있다."
+      ],
+      "tier": "핵심",
+      "title": "Ricursive, Apache 2.0 오픈 모델 Ripple-65B Preview 공개",
+      "why": "중국 모델이 주도하던 오픈웨이트 코딩 모델 시장에 미국 쪽 완전 개방형 대안이 연달아 나와, 라이선스·출처 문제로 중국 모델을 꺼리던 기업에 선택지가 생겼다."
+    },
+    {
+      "category": "산업·투자",
+      "id": "2026-11-07-03",
+      "links": [
+        {
+          "name": "BNN Bloomberg(로이터)",
+          "url": "https://bnnbloomberg.ca/business/artificial-intelligence/2026/11/06/ai-backlash-could-threaten-anthropic-ipo-timing-potential-investors-say-reuters-exclusive"
+        },
+        {
+          "name": "The Decoder",
+          "url": "https://the-decoder.com/anthropics-1-5-trillion-ipo-hits-resistance-as-investors-balk-at-valuation/"
+        },
+        {
+          "name": "Unite.AI",
+          "url": "https://unite.ai/anthropic-ipo-valuation-expectations-fall-after-technology-selloff"
+        }
+      ],
+      "region": "미국",
+      "score": 9,
+      "scores": {
+        "coverage": 2,
+        "impact": 3,
+        "novelty": 1,
+        "relevance": 2,
+        "trust": 1
+      },
+      "summary": [
+        "로이터는 일부 잠재 투자자들이 11월 9일 주간 로드쇼 시작이 어렵다고 보고, 거론되는 1조 5천억 달러 가치도 상단으로 여긴다고 단독 보도했다.",
+        "블룸버그는 매수 측 논의가 1조 1천억~1조 3천억 달러로 내려왔다고 전했으며, 공모 규모는 최대 1,000억 달러로 거론된다.",
+        "수정 S-1에는 3분기 매출 170억 달러(전년 대비 1,127%) 등이 담겼지만 10월 매출이 비어 있어 투자자들이 이를 요구하고 있다(앤트로픽은 논평 거부)."
+      ],
+      "tier": "핵심",
+      "title": "앤트로픽 IPO, 기술주 급락 뒤 투자자들 기업가치·일정에 제동",
+      "why": "최대 규모 AI 상장의 가격이 조정되면 AI 기업 전반의 가치 평가와 자금 조달 여건, 나아가 API 가격 정책에도 영향을 줄 수 있다."
+    },
+    {
+      "category": "산업·투자",
+      "id": "2026-11-07-04",
+      "links": [
+        {
+          "name": "AOL(로이터)",
+          "url": "https://www.aol.com/articles/openai-secures-11-billion-funding-211219000.html"
+        },
+        {
+          "name": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-06/openai-completes-11-billion-portion-of-funding-at-1-25-trillion-value"
+        },
+        {
+          "name": "Tech Insider",
+          "url": "https://tech-insider.org/openai-600-billion-compute-goal-friar-40-of-41-voter-setbacks-2026/"
+        }
+      ],
+      "region": "미국",
+      "score": 9,
+      "scores": {
+        "coverage": 2,
+        "impact": 3,
+        "novelty": 1,
+        "relevance": 2,
+        "trust": 1
+      },
+      "summary": [
+        "블룸버그와 로이터는 OpenAI가 기업가치 1조 2,500억 달러 기준 투자 라운드의 첫 110억 달러를 마감했다고 6일 보도했다.",
+        "앞서 FT는 목표액이 약 300억 달러에서 최대 200억 달러로 줄었고 UAE 투자자가 주도한다고 전한 바 있어, 이번 보도는 1차분 마감이 새 내용이다.",
+        "같은 날 사라 프라이어 CFO는 CNBC에 중간선거 뒤 지역 데이터센터 반발(41건 중 40건 제한 찬성)에도 인프라 투자를 이어가겠다고 말했다."
+      ],
+      "tier": "핵심",
+      "title": "OpenAI, 1조 2,500억 달러 가치로 110억 달러 1차 자금 유치 마무리 보도",
+      "why": "AI 기술주 급락 국면에서도 최상위 기업의 자금 조달은 이어지고 있어, 컴퓨팅 확보 경쟁이 쉽게 꺾이지 않을 것임을 보여준다."
+    },
+    {
+      "category": "정책·규제",
+      "id": "2026-11-07-05",
+      "links": [
+        {
+          "name": "전자신문",
+          "url": "https://www.etnews.com/20261106000224"
+        },
+        {
+          "name": "전자신문(하정우 인터뷰)",
+          "url": "https://www.etnews.com/20261106000298"
+        },
+        {
+          "name": "블로터",
+          "url": "https://www.bloter.net/news/articleView.html?idxno=678002"
+        }
+      ],
+      "region": "한국",
+      "score": 9,
+      "scores": {
+        "coverage": 1,
+        "impact": 2,
+        "novelty": 2,
+        "relevance": 2,
+        "trust": 2
+      },
+      "summary": [
+        "국가AI전략위원회가 6일 3차 전체회의에서 AI 기본법을 중심으로 진흥·AX 융합·안전 신뢰·오남용 방지 네 영역으로 AI 법제를 정리한 체계를 의결했다.",
+        "22대 국회에서 약 29개월간 발의된 AI 관련 법안이 477건으로 21대보다 월평균 약 4.7배 많아, 규제 강화보다 기준 정리가 목표라고 밝혔다.",
+        "국가 초지능 대응(2027년 6월까지 핵심 과제 10개), 사이버 회복력(AI 데이터센터 장애 시나리오 3개 이상) 등 7개 전담반을 꾸리고 국방·안보는 별도 입법한다."
+      ],
+      "tier": "핵심",
+      "title": "국가AI전략위, 첫 범정부 'AI 입법 체계' 확정… 7개 전담반 신설",
+      "why": "흩어진 AI 법안이 한 틀로 정리되면 국내에서 AI 서비스를 운영하는 기업이 따라야 할 규정의 우선순위와 일정이 분명해진다."
+    }
+  ]
+}
