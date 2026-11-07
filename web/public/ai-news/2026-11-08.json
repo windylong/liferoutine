@@ -1,0 +1,750 @@
+{
+  "date": "2026-11-08",
+  "generated_at": "2026-11-08T07:51:30+09:00",
+  "headline": "앤트로픽이 몸값을 낮추고도 추수감사절 전 상장을 밀어붙이는 가운데, 딥마인드의 RSA 약점 발견과 OpenAI·앤트로픽의 지수 시간 가설 반증 주장 등 AI의 연구 능력을 보여 주는 결과가 잇달았다. 바이두는 한국·유럽을 뺀 지역 제한 라이선스로 ERNIE 5.5 베이스 모델을 풀었다.",
+  "others": [
+    {
+      "category": "연구 논문",
+      "id": "2026-11-08-06",
+      "links": [
+        {
+          "name": "Hugging Face Papers",
+          "url": "https://huggingface.co/papers/2611.08373"
+        }
+      ],
+      "one_line": "시각·언어 모델에 공간 정보와 로봇 행동 데이터를 이어 학습시켜 공간 추론과 조작 성능을 함께 높이는 방법을 제안했다(HF Papers 11월 6일 2위).",
+      "paper_year": 2026,
+      "region": "글로벌",
+      "score": 8,
+      "tier": "주목",
+      "title": "[논문] SLA: 지속 사전학습으로 공간-언어-행동 모델 확장"
+    },
+    {
+      "category": "LLM",
+      "id": "2026-11-08-07",
+      "links": [
+        {
+          "name": "The Decoder",
+          "url": "https://the-decoder.com/the-gap-between-open-and-closed-ai-models-in-cyber-capabilities-keeps-shrinking/"
+        }
+      ],
+      "one_line": "Vals AI 모의 기업망 벤치마크에서 GPT-6 Sol Daybreak가 공격 목표의 80.8%, 오픈웨이트 DeepSeek V4.1 Flash가 72.8%를 달성했다.",
+      "region": "글로벌",
+      "score": 7,
+      "tier": "주목",
+      "title": "오픈·폐쇄 모델 사이버 공격 능력 격차 축소: DeepSeek V4.1 Flash, 10분의 1 비용으로 72.8%"
+    },
+    {
+      "category": "산업·투자",
+      "id": "2026-11-08-08",
+      "links": [
+        {
+          "name": "hunch.net(존 랭퍼드)",
+          "url": "https://hunch.net/?p=13764006"
+        }
+      ],
+      "one_line": "약 50명 규모 연구 조직이 사실상 해체됐고 이끌던 존 랭퍼드도 마이크로소프트를 떠난다고 본인 블로그에 밝혔다.",
+      "region": "미국",
+      "score": 7,
+      "tier": "주목",
+      "title": "마이크로소프트 리서치 'AI Frontiers' 그룹 해체… 존 랭퍼드 퇴사"
+    },
+    {
+      "category": "상용 LLM",
+      "id": "2026-11-08-09",
+      "links": [
+        {
+          "name": "AI타임스",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=217134"
+        },
+        {
+          "name": "WinBuzzer",
+          "url": "https://winbuzzer.com/2026/11/05/openai-hires-anthropics-ai-coding-product-leader-cat-wu-xcxwbn/"
+        }
+      ],
+      "one_line": "캣 우가 OpenAI 핵심 제품 조직의 제품 관리를 맡아 티보 소티오에게 보고하며, 코딩 에이전트 인재 쟁탈전이 이어지고 있다.",
+      "region": "미국",
+      "score": 7,
+      "tier": "주목",
+      "title": "OpenAI, 앤트로픽 'Claude Code' 제품 책임자 캣 우 영입"
+    },
+    {
+      "category": "정책·규제",
+      "id": "2026-11-08-10",
+      "links": [
+        {
+          "name": "AI타임스",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=217130"
+        },
+        {
+          "name": "블로터",
+          "url": "https://www.bloter.net/news/articleView.html?idxno=678026"
+        }
+      ],
+      "one_line": "중간선거 뒤 민주당이 AI 모델 안전성, 데이터센터 전력 비용, 엔비디아 대중 칩 수출을 검토 대상으로 꼽았고 백악관은 인프라 확충 기조를 유지한다고 맞섰다.",
+      "region": "미국",
+      "score": 7,
+      "tier": "주목",
+      "title": "미 민주당, 의회 장악 후 빅테크 청문회·AI 규제 입법 추진"
+    },
+    {
+      "category": "상용 LLM",
+      "id": "2026-11-08-11",
+      "links": [
+        {
+          "name": "AI타임스",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=217133"
+        }
+      ],
+      "one_line": "젠틀몬스터·워비파커 브랜드로 12일 예약 판매 후 12월 출시하며, 삼성·구글·퀄컴이 함께 만들었다.",
+      "region": "한국",
+      "score": 7,
+      "tier": "주목",
+      "title": "삼성 첫 AI 안경, 12일 예약 시작… 안드로이드 XR·제미나이 탑재"
+    },
+    {
+      "category": "LLM",
+      "id": "2026-11-08-12",
+      "links": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/NousResearch/Arete-27B"
+        },
+        {
+          "name": "The Decoder",
+          "url": "https://the-decoder.com/state-propaganda-in-some-chinese-ai-models-is-only-a-thin-layer-that-fine-tuning-can-strip-away/"
+        }
+      ],
+      "one_line": "5,300만 토큰 지도학습만으로 중국 모델의 국가 선전 성향을 대부분 걷어냈다며 Apache 2.0으로 배포했다.",
+      "region": "미국",
+      "score": 7,
+      "tier": "주목",
+      "title": "Nous Research, Qwen3.8-27B 재학습해 선전 응답 22%→0.9%로 낮춘 Arete-27B 공개"
+    },
+    {
+      "category": "LLM",
+      "id": "2026-11-08-13",
+      "links": [
+        {
+          "name": "R&D World",
+          "url": "https://www.rdworldonline.com/openai-unveils-biobasicsbench-a-benchmark-to-gauge-how-well-ai-agents-read-raw-experimental-data-across-100-routine-wet-lab-tasks/"
+        }
+      ],
+      "one_line": "실험실 일상 업무 100개로 구성됐으며 GPT-6 Astra가 66.7%로 가장 높았다.",
+      "region": "미국",
+      "score": 7,
+      "tier": "주목",
+      "title": "OpenAI, 실험 원자료 해석 벤치마크 BioBasicsBench 공개"
+    },
+    {
+      "category": "피지컬AI",
+      "id": "2026-11-08-14",
+      "links": [
+        {
+          "name": "Hugging Face 블로그(Ai2)",
+          "url": "https://huggingface.co/blog/allenai/toyblocks"
+        },
+        {
+          "name": "Spokesman-Review",
+          "url": "https://www.spokesman.com/stories/2026/nov/06/why-a-seattle-ai-lab-is-making-robots-play-with-to/"
+        }
+      ],
+      "one_line": "자동 생성 시연 8만 5천여 건(약 1,600시간)과 코드·가중치를 풀었고, 시뮬레이션만으로 학습한 정책이 기본 동작 81.1%를 성공했다.",
+      "region": "미국",
+      "score": 7,
+      "tier": "주목",
+      "title": "Ai2, 블록 쌓기 로봇 시뮬레이션 데이터 ToyBlocks 공개"
+    },
+    {
+      "category": "연구 논문",
+      "id": "2026-11-08-15",
+      "links": [
+        {
+          "name": "The Decoder",
+          "url": "https://the-decoder.com/ai-auditors-catch-most-agent-misbehavior-but-flood-reviewers-with-false-alarms-new-study-finds/"
+        }
+      ],
+      "one_line": "AI로 다른 에이전트의 잘못된 행동을 감시하면 탐지율은 높지만 거짓 경보가 많아 사람 검토 부담이 커진다는 연구 결과다.",
+      "paper_year": 2026,
+      "region": "글로벌",
+      "score": 7,
+      "tier": "주목",
+      "title": "AI 감사 에이전트, 에이전트 일탈 대부분 잡지만 오탐이 검토자를 압도"
+    },
+    {
+      "category": "연구 논문",
+      "id": "2026-11-08-16",
+      "links": [
+        {
+          "name": "The Decoder",
+          "url": "https://the-decoder.com/nine-ai-agents-tried-autonomous-research-on-open-questions-from-us-national-labs-and-none-passed-the-experts-bar/"
+        }
+      ],
+      "one_line": "최신 에이전트에게 국립연구소의 열린 문제를 맡겼지만 어느 것도 전문가 심사 기준을 넘지 못했다.",
+      "paper_year": 2026,
+      "region": "미국",
+      "score": 7,
+      "tier": "주목",
+      "title": "AI 에이전트 9종, 미 국립연구소 미해결 과제 자율 연구에서 모두 전문가 기준 미달"
+    },
+    {
+      "category": "상용 LLM",
+      "id": "2026-11-08-17",
+      "links": [
+        {
+          "name": "Dexerto",
+          "url": "https://www.dexerto.com/entertainment/professor-returns-from-lunch-to-find-ai-deleted-years-worth-of-lecture-notes-3425652/"
+        }
+      ],
+      "one_line": "시카고대 법대 윌리엄 보드 교수가 Claude에게 쪽 번호 정리를 맡겼다가 강의계획서와 노트가 지워졌고 Dropbox에서 복구했다.",
+      "region": "미국",
+      "score": 7,
+      "tier": "주목",
+      "title": "Claude가 쪽 번호 정리 중 교수의 강의 노트 삭제… 에이전트 파일 권한 논란"
+    },
+    {
+      "category": "정책·규제",
+      "id": "2026-11-08-18",
+      "links": [
+        {
+          "name": "New York Times",
+          "url": "https://www.nytimes.com/2026/11/07/business/economy/nvidia-chips-chinese-firms.html"
+        }
+      ],
+      "one_line": "약 20여 건의 수출 허가 대상 가운데 실체가 불분명하거나 제재 기업과 얽힌 곳이 있다는 조사 보도다.",
+      "region": "중국",
+      "score": 6,
+      "tier": "주목",
+      "title": "NYT: 엔비디아 H200 수입 허가 받은 중국 기업 일부는 빈 사무실·블랙리스트 연루"
+    },
+    {
+      "category": "정책·규제",
+      "id": "2026-11-08-19",
+      "links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/6/protesters-break-into-microsoft-data-centre-site-in-amsterdam"
+        },
+        {
+          "name": "AI타임스",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=217126"
+        }
+      ],
+      "one_line": "시민단체 100여 곳이 참여했고 네덜란드 경찰은 MS AI 데이터센터 부지에 들어간 시위대 150~200명을 연행했다.",
+      "region": "유럽",
+      "score": 6,
+      "tier": "주목",
+      "title": "유럽 16개국 데이터센터 반대 공동 행동… 암스테르담 MS 현장 진입"
+    },
+    {
+      "category": "정책·규제",
+      "id": "2026-11-08-20",
+      "links": [
+        {
+          "name": "Daily Hampshire Gazette",
+          "url": "https://gazettenet.com/2026/11/06/northampton-city-council-unanimously-approves-yearlong-moratorium-on-ai-data-centers/"
+        },
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/06/ai-data-center-midterms-selloff.html"
+        }
+      ],
+      "one_line": "매사추세츠 노샘프턴 시의회가 AI 데이터센터 1년 모라토리엄을 통과시켰고, IDCA는 2024년 이후 46개 사업이 막히거나 지연됐다고 집계했다.",
+      "region": "미국",
+      "score": 6,
+      "tier": "주목",
+      "title": "미국 AI 데이터센터 반발 확산: 노샘프턴 1년 유예, 1,700억 달러 규모 46건 지연"
+    },
+    {
+      "category": "LLM",
+      "id": "2026-11-08-21",
+      "links": [
+        {
+          "name": "AI타임스",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=217114"
+        }
+      ],
+      "one_line": "토크나이저부터 직접 설계했고 공개 모델 6종과 가중치 유사도가 0.0014 이하라고 밝혔다.",
+      "region": "한국",
+      "score": 6,
+      "tier": "주목",
+      "title": "예진, 사전학습부터 독자 개발한 한국어 특화 8B 모델 공개"
+    },
+    {
+      "category": "연구 논문",
+      "id": "2026-11-08-22",
+      "links": [
+        {
+          "name": "Hugging Face Papers",
+          "url": "https://huggingface.co/papers/2611.07392"
+        }
+      ],
+      "one_line": "H20 GPU에서 1024×1024 이미지를 약 5초에 만드는 Turbo 버전을 포함한다.",
+      "paper_year": 2026,
+      "region": "중국",
+      "score": 6,
+      "tier": "주목",
+      "title": "[논문] WeLM-Image: 생성·편집을 하나로 묶은 통합 이미지 모델"
+    },
+    {
+      "category": "연구 논문",
+      "id": "2026-11-08-23",
+      "links": [
+        {
+          "name": "Hugging Face Papers",
+          "url": "https://huggingface.co/papers/2611.03743"
+        }
+      ],
+      "one_line": "사용자와의 장기 상호작용에서 기억을 진화하는 상태로 관리해 개인 비서형 에이전트의 일관성을 높이려는 연구다.",
+      "paper_year": 2026,
+      "region": "글로벌",
+      "score": 6,
+      "tier": "주목",
+      "title": "[논문] EvoMemState: 개인 에이전트의 기억 상태를 계속 갱신하는 방법"
+    },
+    {
+      "category": "연구 논문",
+      "id": "2026-11-08-24",
+      "links": [
+        {
+          "name": "Hugging Face Papers",
+          "url": "https://huggingface.co/papers/2611.04894"
+        }
+      ],
+      "one_line": "여러 단계에 걸쳐 화면·이미지를 찾아가는 능력을 측정하는 벤치마크다.",
+      "paper_year": 2026,
+      "region": "글로벌",
+      "score": 6,
+      "tier": "주목",
+      "title": "[논문] VisSearch-Bench: 멀티모달 에이전트의 장기 시각 탐색 평가"
+    },
+    {
+      "category": "피지컬AI",
+      "id": "2026-11-08-25",
+      "links": [
+        {
+          "name": "The Gadgeteer",
+          "url": "https://the-gadgeteer.com/2026/11/07/agility-digit-humanoid-goes-public/"
+        }
+      ],
+      "one_line": "GXO 유료 계약으로 6만 5천 시간 넘게 가동했지만 2025년 매출은 180만 달러에 그쳤다.",
+      "region": "미국",
+      "score": 6,
+      "tier": "주목",
+      "title": "Agility Robotics, 나스닥 상장 후 Digit 상용 실적 공개: 토트 10만 개 운반"
+    },
+    {
+      "category": "LLM",
+      "id": "2026-11-08-26",
+      "links": [
+        {
+          "name": "The Decoder",
+          "url": "https://the-decoder.com/thinking-machines-inkling-2-small-drops-316-f-bombs-across-benchmark-runs/"
+        }
+      ],
+      "one_line": "Vals AI 집계로 2,655회 실행 중 50회에서 욕설이 나왔고 두 번의 실행이 대부분을 차지했다.",
+      "region": "미국",
+      "score": 6,
+      "tier": "주목",
+      "title": "[후속] Inkling 2 Small, 벤치마크 실행 중 욕설 316회 출력"
+    },
+    {
+      "category": "산업·투자",
+      "id": "2026-11-08-27",
+      "links": [
+        {
+          "name": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/11/07/the-chip-shortage-is-back-and-microchip-says-ai-customers-are-crowding-everyone-out/"
+        }
+      ],
+      "one_line": "CEO가 AI 수요가 외부 조립·테스트 물량을 가져가 리드타임이 6~32주로 늘었다고 밝혔다.",
+      "region": "미국",
+      "score": 5,
+      "tier": "참고",
+      "title": "Microchip 주가 10% 하락… AI 고객이 후공정 생산능력 선점"
+    },
+    {
+      "category": "정책·규제",
+      "id": "2026-11-08-28",
+      "links": [
+        {
+          "name": "Variety",
+          "url": "https://variety.com/2026/music/news/elvis-eminem-sue-suno-ai-music-generator-1236941798/"
+        }
+      ],
+      "one_line": "유명 가수의 음성을 흉내 낸 생성 음악을 문제 삼아 소송을 냈다.",
+      "region": "미국",
+      "score": 5,
+      "tier": "참고",
+      "title": "엘비스 재단·에미넘 측, AI 음악 Suno에 목소리 복제 소송"
+    },
+    {
+      "category": "상용 LLM",
+      "id": "2026-11-08-29",
+      "links": [
+        {
+          "name": "AWS 블로그",
+          "url": "https://aws.amazon.com/blogs/machine-learning/sagemaker-inference-now-supports-multi-instance-gpu-to-maximize-gpu-utilization-for-model-endpoints/"
+        }
+      ],
+      "one_line": "실시간 엔드포인트에서 GPU 하나를 최대 7개로 나눠 여러 모델을 올릴 수 있다.",
+      "region": "미국",
+      "score": 5,
+      "tier": "참고",
+      "title": "AWS SageMaker 추론, GPU 분할(MIG) 지원… 토큰당 비용 18~34% 절감"
+    },
+    {
+      "category": "산업·투자",
+      "id": "2026-11-08-30",
+      "links": [
+        {
+          "name": "AI타임스",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=217119"
+        }
+      ],
+      "one_line": "사라 프라이어 CFO가 CNBC 인터뷰에서 인프라 투자 계획을 유지한다고 밝혔다.",
+      "region": "미국",
+      "score": 5,
+      "tier": "참고",
+      "title": "OpenAI CFO \"중간선거 결과와 무관하게 데이터센터 투자 지속\""
+    },
+    {
+      "category": "LLM",
+      "id": "2026-11-08-31",
+      "links": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/06/underdog-shows-off-a-32mb-speech-model-in-new-demo/"
+        }
+      ],
+      "one_line": "기기 안에서 돌아가는 아주 작은 음성 모델을 선보였다.",
+      "region": "미국",
+      "score": 5,
+      "tier": "참고",
+      "title": "Underdog, 32MB 초소형 음성 모델 시연"
+    },
+    {
+      "category": "피지컬AI",
+      "id": "2026-11-08-32",
+      "links": [
+        {
+          "name": "블로터(로보티즈)",
+          "url": "https://www.bloter.net/news/articleView.html?idxno=678025"
+        },
+        {
+          "name": "블로터(PwC)",
+          "url": "https://www.bloter.net/news/articleView.html?idxno=678029"
+        }
+      ],
+      "one_line": "블로터가 로보월드 현장에서 로보티즈의 휴머노이드 제어 기술과 PwC의 로봇 전시 참여 배경을 다뤘다.",
+      "region": "한국",
+      "score": 5,
+      "tier": "참고",
+      "title": "로보티즈 휴머노이드, 사람과 춤추고 림보 시연… 로보월드 피지컬AI 생태계 조명"
+    },
+    {
+      "category": "피지컬AI",
+      "id": "2026-11-08-33",
+      "links": [
+        {
+          "name": "Humanoids Daily",
+          "url": "https://www.humanoidsdaily.com/news/tokyo-3d-printed-musculoskeletal-robot-legs"
+        }
+      ],
+      "one_line": "사람의 근골격 구조를 본뜬 다리를 3D 프린팅으로 만들었다.",
+      "region": "일본",
+      "score": 5,
+      "tier": "참고",
+      "title": "도쿄 연구진, 3D 프린팅 근육·힘줄·인대를 넣은 로봇 다리 개발"
+    },
+    {
+      "category": "상용 LLM",
+      "id": "2026-11-08-34",
+      "links": [
+        {
+          "name": "量子位",
+          "url": "https://www.qbitai.com/2026/11/508170.html"
+        }
+      ],
+      "one_line": "중국 StepFun이 AI 에이전트를 앞세운 스마트폰 단말을 처음 선보였다.",
+      "region": "중국",
+      "score": 5,
+      "tier": "참고",
+      "title": "StepFun 에이전트 스마트폰 'STEPX Neo', 수입박람회 퀄컴 부스서 공개"
+    },
+    {
+      "category": "연구 논문",
+      "id": "2026-11-08-35",
+      "links": [
+        {
+          "name": "The Decoder",
+          "url": "https://the-decoder.com/googles-ai-detects-high-blood-pressure-from-a-regular-smartwatch-without-a-cuff/"
+        }
+      ],
+      "one_line": "196명 대상 시험에서 고혈압 환자 65.8%를 찾아내 진료실 측정(55.3%)보다 높았다.",
+      "paper_year": 2026,
+      "region": "미국",
+      "score": 4,
+      "tier": "참고",
+      "title": "구글 AI, 일반 스마트워치로 커프 없이 고혈압 감지(네이처)"
+    },
+    {
+      "category": "피지컬AI",
+      "id": "2026-11-08-36",
+      "links": [
+        {
+          "name": "DroneXL",
+          "url": "https://dronexl.co/2026/11/06/axon-skydio-1-2-billion-exclusive-police-distributor/"
+        }
+      ],
+      "one_line": "기업가치 52억 달러 기준이며 Axon이 미국·캐나다 공공안전 시장 독점 유통을 맡는다.",
+      "region": "미국",
+      "score": 4,
+      "tier": "참고",
+      "title": "Axon, 드론 업체 Skydio에 12억 달러 투자… 지분 37%로 확대"
+    },
+    {
+      "category": "산업·투자",
+      "id": "2026-11-08-37",
+      "links": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/"
+        }
+      ],
+      "one_line": "AI 인프라 개발사 Crusoe가 와이오밍 프로젝트를 구글에 넘긴다.",
+      "region": "미국",
+      "score": 4,
+      "tier": "참고",
+      "title": "Crusoe, 문제 생긴 와이오밍 데이터센터 사업을 구글에 매각"
+    },
+    {
+      "category": "피지컬AI",
+      "id": "2026-11-08-38",
+      "links": [
+        {
+          "name": "Manila Times(PR Newswire)",
+          "url": "https://manilatimes.net/2026/11/07/tmt-newswire/pr-newswire/home-companion-robot-mobo-to-debut-globally-and-open-pre-orders-as-aimoga-showcases-its-robot-family-at-the-2026-omoda-jaecoo-international-user-summit/2464446"
+        }
+      ],
+      "one_line": "체리 계열 AiMOGA가 60여 개국에 로봇 3,000대 이상을 출하했다며 가정용 모델 예약을 받았다(가격 미공개).",
+      "region": "중국",
+      "score": 4,
+      "tier": "참고",
+      "title": "AiMOGA, 가정용 휴머노이드 Mobo 글로벌 사전 주문 시작"
+    },
+    {
+      "category": "상용 LLM",
+      "id": "2026-11-08-39",
+      "links": [
+        {
+          "name": "전자신문",
+          "url": "https://www.etnews.com/20261107000017"
+        }
+      ],
+      "one_line": "이용자 53%가 청년층이라며 취업 준비 기능을 강화했다.",
+      "region": "한국",
+      "score": 4,
+      "tier": "참고",
+      "title": "라이너, AI 글쓰기 서비스에 자기소개서 분석·면접 대비 기능 추가"
+    },
+    {
+      "category": "기타",
+      "id": "2026-11-08-40",
+      "links": [
+        {
+          "name": "ITmedia キーマンズネット",
+          "url": "https://kn.itmedia.co.jp/kn/article/2611/07/2000002948/"
+        }
+      ],
+      "one_line": "생성형 AI가 웹 정보를 수집·인용하는 방식과 기업 콘텐츠 노출 전략을 다룬 해설 기사다.",
+      "region": "일본",
+      "score": 3,
+      "tier": "참고",
+      "title": "ITmedia: \"ChatGPT 답변에 링크가 없어도 정보는 읽히고 있다\""
+    }
+  ],
+  "sources_checked": [
+    "AI Weekly(11월 7일판)",
+    "DEV Community AI Daily Digest",
+    "Rio Rundown",
+    "Sam on AI(접속 실패)",
+    "TechCrunch AI(7일 신규 없음, 6일 기사 확인)",
+    "The Decoder",
+    "The Gadgeteer",
+    "Humanoids Daily",
+    "The Robot Report(일자 미표시)",
+    "Anthropic 뉴스·Claude API 릴리스 노트(5일 이후 신규 없음)",
+    "openai.com 뉴스(접속 실패)",
+    "OpenAI API 변경 로그(5일 이후 신규 없음)",
+    "Google 블로그(최신 목록 확인 못함)",
+    "Gemini API 변경 로그(신규 없음)",
+    "Google DeepMind 블로그",
+    "Hugging Face Papers(11월 6일)",
+    "AI타임스",
+    "전자신문",
+    "블로터",
+    "ZDNet Korea(최신 기사 확인 못함)",
+    "로봇신문",
+    "量子位",
+    "ITmedia AI+",
+    "New York Times·CNBC·Al Jazeera(검색 결과·재인용)"
+  ],
+  "top": [
+    {
+      "category": "산업·투자",
+      "id": "2026-11-08-01",
+      "links": [
+        {
+          "name": "The Decoder",
+          "url": "https://the-decoder.com/anthropic-pushes-ahead-with-pre-thanksgiving-ipo-despite-tech-selloff-accepts-lower-valuation/"
+        },
+        {
+          "name": "AI타임스",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=217122"
+        }
+      ],
+      "region": "미국",
+      "score": 10,
+      "scores": {
+        "coverage": 2,
+        "impact": 3,
+        "novelty": 1,
+        "relevance": 3,
+        "trust": 1
+      },
+      "summary": [
+        "FT 보도에 따르면 앤트로픽은 11월 말 추수감사절 이전 상장을 목표로 800억~1,000억 달러 조달을 추진한다.",
+        "희망 기업가치는 1.25조~1.75조 달러로 한때 거론된 2조 달러보다 낮췄고, 블룸버그는 투자자 평가가 1.1조 달러까지 내려갔다고 전했다.",
+        "연환산 매출은 약 810억 달러로 7월 말 650억 달러에서 늘었으며 다음 주 로드쇼가 예정돼 있다."
+      ],
+      "tier": "핵심",
+      "title": "앤트로픽, 기술주 급락에도 추수감사절 전 IPO 강행… 기업가치 눈높이 낮춰",
+      "why": "어제 보도된 IPO 제동 이후 일정 강행이 확인된 것으로, 상용 LLM 시장의 가격·투자 흐름을 가늠할 기준점이 된다."
+    },
+    {
+      "category": "LLM",
+      "id": "2026-11-08-02",
+      "links": [
+        {
+          "name": "Crypto Briefing",
+          "url": "https://cryptobriefing.com/google-deepmind-ai-rsa-1024-bit-weaknesses/"
+        },
+        {
+          "name": "Sectigo Root Causes",
+          "url": "https://www.sectigo.com/root-causes/root-causes-672-new-ai-driven-attack-on-rsa-1024-revealed"
+        }
+      ],
+      "region": "글로벌",
+      "score": 10,
+      "scores": {
+        "coverage": 2,
+        "impact": 2,
+        "novelty": 2,
+        "relevance": 2,
+        "trust": 2
+      },
+      "summary": [
+        "딥마인드가 암호학자 나디아 헤닝거·에마뉘엘 토메와 함께 AI 에이전트로 1024비트 RSA의 새 약점 두 가지를 찾았다고 밝혔다.",
+        "짧은 다이제스트를 쓰는 서명 위조 효율이 약 1,600배 높아졌고, 여러 키를 한꺼번에 인수분해하는 비용은 약 30배 줄었다.",
+        "RSA-2048은 영향을 받지 않지만, 아직 1024비트 키를 쓰는 레거시 시스템은 교체 압박이 커졌다."
+      ],
+      "tier": "핵심",
+      "title": "구글 딥마인드 AI 에이전트, 구형 1024비트 RSA 서명 위조를 1,600배 효율화",
+      "why": "AI 에이전트가 실제 암호 분석에서 전문가급 성과를 낸 사례로, 에이전트의 연구 능력과 보안 위험을 동시에 보여 준다."
+    },
+    {
+      "category": "LLM",
+      "id": "2026-11-08-03",
+      "links": [
+        {
+          "name": "AI타임스",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=217131"
+        }
+      ],
+      "region": "중국",
+      "score": 10,
+      "scores": {
+        "coverage": 2,
+        "impact": 2,
+        "novelty": 1,
+        "relevance": 3,
+        "trust": 2
+      },
+      "summary": [
+        "바이두가 총 2,800억 매개변수, 활성 140억 매개변수 MoE 베이스 모델 ERNIE 5.5 Flash Base를 허깅페이스에 공개했다.",
+        "바이두는 딥시크 계열 베이스 모델보다 앞선 성능을 주장했다.",
+        "라이선스에서 한국과 유럽을 허용 지역에서 빼, 국내 기업은 이 가중치를 쓰기 어렵다."
+      ],
+      "tier": "핵심",
+      "title": "바이두, 'ERNIE 5.5 Flash Base' 가중치 공개… 한국·유럽은 사용 허가 지역에서 제외",
+      "why": "중국 오픈웨이트 모델이 지역 제한 라이선스를 걸기 시작해, 국내에서 오픈 모델을 고를 때 라이선스 확인이 필수가 됐다."
+    },
+    {
+      "category": "LLM",
+      "id": "2026-11-08-04",
+      "links": [
+        {
+          "name": "New York Times",
+          "url": "https://www.nytimes.com/2026/11/06/science/ai-exponential-time-hypothesis.html"
+        },
+        {
+          "name": "Let's Data Science",
+          "url": "https://letsdatascience.com/news/openai-and-anthropic-claim-ai-models-disproved-exponential-t-f4369e39"
+        },
+        {
+          "name": "HackerNoon",
+          "url": "https://hackernoon.com/openai-and-anthropic-claim-ai-has-disproved-a-27-year-old-computer-science-hypothesis"
+        }
+      ],
+      "region": "미국",
+      "score": 9,
+      "scores": {
+        "coverage": 2,
+        "impact": 2,
+        "novelty": 2,
+        "relevance": 2,
+        "trust": 1
+      },
+      "summary": [
+        "뉴욕타임스에 따르면 OpenAI 모델이 1998년 제기된 지수 시간 가설(ETH)을 반증하는 증명을 내놓았다.",
+        "같은 날 앤트로픽 모델이 만든 별도 증명도 기계 검증을 통과했다.",
+        "두 결과 모두 MIT 라이언 윌리엄스 등 복잡도 이론 전문가들이 검토하고 있어 최종 확정은 아니다."
+      ],
+      "tier": "핵심",
+      "title": "OpenAI·앤트로픽 AI, 27년 된 '지수 시간 가설' 반증 주장… 전문가 검토 중",
+      "why": "사실이라면 AI가 이론 컴퓨터과학의 핵심 가설을 뒤집은 첫 사례로, 최상위 상용 모델의 연구 능력 경쟁이 새 단계에 들어선다."
+    },
+    {
+      "category": "상용 LLM",
+      "id": "2026-11-08-05",
+      "links": [
+        {
+          "name": "Google DeepMind 블로그",
+          "url": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/"
+        },
+        {
+          "name": "DEV Community 요약",
+          "url": "https://dev.to/hiroki-ii-ai/ai-daily-digest-november-7-2026-ai-cracks-legacy-rsa-gemini-omni-gets-longer-clips-first-3f6p"
+        }
+      ],
+      "region": "미국",
+      "score": 9,
+      "scores": {
+        "coverage": 1,
+        "impact": 2,
+        "novelty": 1,
+        "relevance": 3,
+        "trust": 2
+      },
+      "summary": [
+        "구글 딥마인드가 Gemini Omni 1.2 Flash를 정식 출시해 영상 길이를 3~15초 사이에서 고를 수 있게 했다.",
+        "대화로 영상을 고치는 편집 기능을 넣었고, 가격은 Omni 1.1보다 약 30% 낮췄다.",
+        "이미지→영상 Arena 순위에서 1위(1502점)에 올랐다는 집계가 나왔다."
+      ],
+      "tier": "핵심",
+      "title": "구글, 영상 생성 모델 Gemini Omni 1.2 Flash 정식 출시… 클립 15초·가격 약 30% 인하",
+      "why": "API로 쓰는 영상 생성 단가가 내려가면서 게임·마케팅 영상 제작에 상용 모델을 쓰기 쉬워졌다."
+    }
+  ]
+}
