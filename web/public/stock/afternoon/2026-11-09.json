@@ -1,0 +1,102 @@
+{
+  "type": "afternoon",
+  "date": "2026-11-09",
+  "generated_at": "2026-11-09T15:57:02+09:00",
+  "analysis": {
+    "kospi_predicted": "상승",
+    "kospi_actual": "하락",
+    "kospi_change_text": "▼0.81%",
+    "kospi_match": "빗나감",
+    "kospi_miss_reason": "반도체 반등은 맞았으나 장중 2%대 상승을 외국인 7거래일 연속 매도에 반납. 2차전지·바이오 급락과 CPI 경계 과소평가",
+    "watchlist_accuracy": [
+      {
+        "code": "005930",
+        "name": "삼성전자",
+        "predicted": "상승",
+        "actual": "상승",
+        "change_text": "▲0.64%",
+        "match": "적중",
+        "reason": "저가 매수로 상승 유지, 장중 3%대서 폭 축소"
+      },
+      {
+        "code": "000660",
+        "name": "SK하이닉스",
+        "predicted": "상승",
+        "actual": "상승",
+        "change_text": "▲0.35%",
+        "match": "적중",
+        "reason": "반발 매수 적중, 장중 5%대서 대부분 반납"
+      }
+    ],
+    "overall_accuracy": "2/3",
+    "accuracy": "부분적중",
+    "market_analysis": "저점 4990에서 2%대 반등 후 하락 전환. 기관 7204억 순매수에도 외국인 6930억·개인 4887억 매도. 반도체 소폭 상승, 2차전지·바이오 약세",
+    "lessons": "외국인 연속 매도 국면엔 미 반도체 반등을 지수 상승으로 곧장 잇지 말고 비반도체 약세도 볼 것"
+  },
+  "raw_data": {
+    "kospi": {
+      "price": 5018.85,
+      "changePct": -0.81
+    },
+    "kosdaq": {
+      "price": 638.97,
+      "changePct": -0.82
+    },
+    "watchlist": [
+      {
+        "code": "005930",
+        "name": "삼성전자",
+        "price": 189900,
+        "changePct": 0.64
+      },
+      {
+        "code": "000660",
+        "name": "SK하이닉스",
+        "price": 1136000,
+        "changePct": 0.35
+      }
+    ],
+    "sources": [
+      {
+        "name": "글로벌이코노믹(코스피·코스닥 종가, 수급, 두 종목 종가 — 네이버 증권은 이번 실행에서 접근 불가)",
+        "url": "https://www.g-enews.com/article/Securities/2026/11/202611091539404381923c501012_1"
+      },
+      {
+        "name": "서울경제TV(코스피·코스닥 종가 교차 확인)",
+        "url": "https://www.sentv.co.kr/article/view/sentv202611090178"
+      },
+      {
+        "name": "Investing.com 시세 박스(코스피·두 종목 값 교차 확인)",
+        "url": "https://kr.investing.com/news/stock-market-news/article-2165265"
+      },
+      {
+        "name": "재경일보(삼성전자 마감)",
+        "url": "https://news.jkn.co.kr/post/1080502"
+      },
+      {
+        "name": "재경일보(SK하이닉스 마감)",
+        "url": "https://news.jkn.co.kr/post/1080503"
+      },
+      {
+        "name": "머니투데이(장중 저점 4990.66, 10시 수급)",
+        "url": "https://www.mt.co.kr/stock/2026/11/09/2026110910110484191"
+      },
+      {
+        "name": "뉴스핌(장중 5146.21, 외국인 7거래일 순매도)",
+        "url": "https://www.newspim.com/news/view/20261109000581"
+      },
+      {
+        "name": "서울신문(두 종목 장중 고점)",
+        "url": "https://www.seoul.co.kr/news/economy/securities/2026/11/09/20261109500113"
+      },
+      {
+        "name": "민주신문(장중 2%대 반등 반납)",
+        "url": "http://www.iminju.net/news/articleView.html?idxno=172144"
+      },
+      {
+        "name": "한국경제(AI 데이터센터 규제 우려)",
+        "url": "https://hankyung.com/article/2026110952866"
+      }
+    ]
+  }
+}
