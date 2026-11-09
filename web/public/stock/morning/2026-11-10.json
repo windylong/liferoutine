@@ -1,0 +1,173 @@
+{
+  "type": "morning",
+  "date": "2026-11-10",
+  "generated_at": "2026-11-10T06:24:17+09:00",
+  "analysis": {
+    "kospi_prediction": "상승",
+    "kospi_change_range": "+1.0~2.5%",
+    "kospi_confidence": "보통",
+    "kospi_reason": "美 증시 2%대 급등·유가 급락에 반도체 강세. 외국인 7일째 매도와 CPI 경계로 폭은 제한",
+    "us_market_summary": "나스닥 2.74%·S&P 2.35%↑, 유가 급락에 반도체 강세",
+    "kospi_news_summary": "뉴욕 증시 급등과 유가 하락으로 반등 기대, 외국인 수급과 오늘 밤 美 CPI가 변수",
+    "kospi_news": [
+      {
+        "summary": "코스피 0.81% 내린 5018.85, 2월 이후 최저",
+        "source": "이투데이",
+        "url": "https://www.etoday.co.kr/news/view/2645903"
+      },
+      {
+        "summary": "외국인 7거래일 순매도, 누적 12.7조원",
+        "source": "이투데이",
+        "url": "https://www.etoday.co.kr/news/view/2645903"
+      },
+      {
+        "summary": "뉴욕 3대 지수 2%대 급등, 나스닥 2.74%↑",
+        "source": "아시아경제",
+        "url": "https://view.asiae.co.kr/article/2026111004100851175"
+      },
+      {
+        "summary": "브렌트유 5.8% 급락, 인플레 부담 완화",
+        "source": "AP",
+        "url": "https://www.wptf.com/2026/11/09/the-closing-bell-us-stocks-rally-and-claw-back-more-of-last-weeks-losses-as-oil-prices-swing-lower/"
+      },
+      {
+        "summary": "오늘 밤 美 10월 CPI, 12월 인상 경계 지속",
+        "source": "한국경제TV",
+        "url": "https://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202611090022"
+      }
+    ],
+    "watchlist": [
+      {
+        "code": "005930",
+        "name": "삼성전자",
+        "prediction": "상승",
+        "reason": "美 메모리·AI 반도체 급등 수혜, 외국인 매도는 부담",
+        "factors": [
+          {
+            "summary": "마이크론 장중 7%대 급등, 메모리 심리 회복",
+            "impact": "호재",
+            "url": "https://economybloc.com/news/122018/"
+          },
+          {
+            "summary": "9일 외국인 1204억 순매도, 수급 부담 지속",
+            "impact": "악재",
+            "url": "https://news.jkn.co.kr/post/1080560"
+          },
+          {
+            "summary": "5~6일 이틀 13% 급락 뒤 변동성 확대 국면",
+            "impact": "중립",
+            "url": "https://news.jkn.co.kr/post/1080560"
+          }
+        ]
+      },
+      {
+        "code": "000660",
+        "name": "SK하이닉스",
+        "prediction": "상승",
+        "reason": "AMD·브로드컴 급등과 낙폭 과대, 전일 고점 반납은 부담",
+        "factors": [
+          {
+            "summary": "AMD 12%·브로드컴 9%대 급등, AI 심리 개선",
+            "impact": "호재",
+            "url": "https://www.blockmedia.co.kr/archives/1163458"
+          },
+          {
+            "summary": "자사주 매입 진행, 수급 하단 지지 요인",
+            "impact": "호재",
+            "url": "https://news.jkn.co.kr/post/1080560"
+          },
+          {
+            "summary": "9일 장중 5%대 상승분 대부분 반납, 외국인 매도",
+            "impact": "악재",
+            "url": "https://www.sankyungtoday.com/news/articleView.html?idxno=64128"
+          }
+        ]
+      }
+    ]
+  },
+  "raw_data": {
+    "news_window": {
+      "from": "2026-11-09T07:00:00+09:00",
+      "to": "2026-11-10T07:00:00+09:00"
+    },
+    "us_market": {
+      "sp500": {
+        "price": 7549.94,
+        "changePct": 2.35
+      },
+      "nasdaq": {
+        "price": 25253.14,
+        "changePct": 2.74
+      },
+      "dow": {
+        "price": 52389.75,
+        "changePct": 2.15
+      },
+      "sox": {
+        "price": null,
+        "changePct": null,
+        "note": "종가 미확인. 장중 약 7% 상승 보도(economybloc)"
+      },
+      "usdkrw": {
+        "price": 1347.1,
+        "changePct": -0.7
+      }
+    },
+    "kospi_prev": {
+      "price": 5018.85,
+      "changePct": -0.81
+    },
+    "watchlist": [
+      {
+        "code": "005930",
+        "name": "삼성전자",
+        "price": 189900,
+        "changePct": 0.64
+      },
+      {
+        "code": "000660",
+        "name": "SK하이닉스",
+        "price": 1136000,
+        "changePct": 0.35
+      }
+    ],
+    "sources": [
+      {
+        "name": "Yahoo Finance(미 3대 지수 종가)",
+        "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-9-dow-sp-500-nasdaq-nvidia-090535419.html"
+      },
+      {
+        "name": "블록미디어(미 지수·AMD·브로드컴)",
+        "url": "https://www.blockmedia.co.kr/archives/1163458"
+      },
+      {
+        "name": "아시아경제(미 지수 등락률)",
+        "url": "https://view.asiae.co.kr/article/2026111004100851175"
+      },
+      {
+        "name": "AP via WPTF(유가·금리)",
+        "url": "https://www.wptf.com/2026/11/09/the-closing-bell-us-stocks-rally-and-claw-back-more-of-last-weeks-losses-as-oil-prices-swing-lower/"
+      },
+      {
+        "name": "이코노미블록(SOX·마이크론 장중, 종가 아님)",
+        "url": "https://economybloc.com/news/122018/"
+      },
+      {
+        "name": "이투데이(코스피 종가·외국인·원달러 — 네이버 증권은 미확인)",
+        "url": "https://www.etoday.co.kr/news/view/2645903"
+      },
+      {
+        "name": "재경일보(두 종목 종가·외국인 수급)",
+        "url": "https://news.jkn.co.kr/post/1080560"
+      },
+      {
+        "name": "산경투데이(두 종목 종가 교차 확인)",
+        "url": "https://www.sankyungtoday.com/news/articleView.html?idxno=64128"
+      },
+      {
+        "name": "한국경제TV(CPI·12월 금리 전망)",
+        "url": "https://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202611090022"
+      }
+    ]
+  }
+}
