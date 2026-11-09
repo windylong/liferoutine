@@ -1,661 +1,505 @@
 {
-  "date": "2026-11-09",
-  "generated_at": "2026-11-09T07:54:17+09:00",
-  "headline": "앤트로픽을 둘러싼 소식이 주말을 채웠다. Claude Code 설정 파일의 비밀값 유출과 Max 요금제 소송 진행, 34억 달러 발전기 확보가 한꺼번에 나왔고, 애플은 에이전트형 시리를 이르면 내년에 내놓을 전망이다.",
+  "date": "2026-11-10",
+  "generated_at": "2026-11-10T07:53:24+09:00",
+  "headline": "앤트로픽이 Fable 5.2로 성능 선두를 잇고 가격을 20% 내렸다. 서울에서는 엔비디아가 삼성·SK·LG와 피지컬AI 협력을 펼쳤지만, 젠슨 황 스캔들은 미 의회 조사로 번지고 있다.",
   "others": [
     {
-      "category": "상용 LLM",
-      "id": "2026-11-09-06",
+      "category": "연구 논문",
+      "id": "2026-11-10-06",
       "links": [
         {
-          "name": "量子位",
-          "url": "https://www.qbitai.com/2026/11/508449.html"
-        },
-        {
-          "name": "ShiftDelete",
-          "url": "https://shiftdelete.net/en/openai-acquires-pierre"
+          "name": "AI타임스",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=217183"
         }
       ],
-      "one_line": "에이전트가 만든 코드로 GitHub 장애가 잇따르자 OpenAI는 Pierre 인수(승인 대기)와 Pando로, 앤트로픽은 하루 3만 건 이상 병합을 처리하는 자체 시스템으로 대응하고 있다.",
+      "one_line": "앤트로픽 연구진이 공저한 논문으로 Qwen3 기반 모델이 클수록 공격 성공률이 올랐고(4B에서 92.7%) SFT·DPO·RL 뒤에도 백도어가 남았다.",
+      "paper_year": 2026,
+      "region": "글로벌",
+      "score": 10,
+      "tier": "핵심",
+      "title": "[논문] 사전학습 데이터 0.1% 오염으로 에이전트에 원격 코드 실행 백도어 심기 가능"
+    },
+    {
+      "category": "LLM",
+      "id": "2026-11-10-07",
+      "links": [
+        {
+          "name": "AI타임스",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=217177"
+        }
+      ],
+      "one_line": "초안에 사흘이 걸렸고 Lean 검사를 거쳤다지만 논문 전체가 형식 검증된 것은 아니어서 전문가 검토가 남아 있다.",
       "region": "미국",
       "score": 9,
       "tier": "핵심",
-      "title": "OpenAI 코드 저장 스타트업 Pierre 인수 추진·자체 Git 백엔드 Pando 공개… 앤트로픽은 Scion 이전"
+      "title": "PSI, 비공개 앤트로픽 모델로 18년 된 Aaronson-Ambainis 추측 증명 발표"
     },
     {
-      "category": "LLM",
-      "id": "2026-11-09-07",
-      "links": [
-        {
-          "name": "AI타임스",
-          "url": "https://www.aitimes.com/news/articleView.html?idxno=217147"
-        }
-      ],
-      "one_line": "과학 세션 20만 7천 건과 연구자 528명을 분석했는데, 연구자가 가장 중요하게 꼽은 가설 생성의 사용 비중은 Claude 4.2%, Claude Code 2.1%에 그쳤다.",
-      "region": "미국",
-      "score": 8,
-      "tier": "주목",
-      "title": "앤트로픽 'How researchers use Claude': 과학 세션 데이터 분석 1위, 가설 생성 4%"
-    },
-    {
-      "category": "LLM",
-      "id": "2026-11-09-08",
-      "links": [
-        {
-          "name": "AI타임스",
-          "url": "https://www.aitimes.com/news/articleView.html?idxno=217146"
-        }
-      ],
-      "one_line": "5,600억 매개변수 MoE 멀티모달 모델로 입력 0.30달러·출력 0.90달러(100만 토큰당)이며, 수치는 회사 발표이고 가중치 공개 계획은 없다.",
-      "region": "중국",
-      "score": 8,
-      "tier": "주목",
-      "title": "앤트그룹 Ling-3.2-flash 공개, 문서 평가서 Claude Opus 5 앞섰다고 주장"
-    },
-    {
-      "category": "피지컬AI",
-      "id": "2026-11-09-09",
-      "links": [
-        {
-          "name": "AI타임스",
-          "url": "https://www.aitimes.com/news/articleView.html?idxno=217137"
-        }
-      ],
-      "one_line": "중국이 5일 거래를 막자 ABB 로봇 사업의 약 30%인 중국 부문을 떼는 방안을 검토 중이며, 다른 곳에 팔면 20억~30억 달러에 그칠 수 있다고 블룸버그가 전했다.",
-      "region": "글로벌",
-      "score": 8,
-      "tier": "주목",
-      "title": "[후속] 소프트뱅크·ABB, 중국 차단된 54억 달러 로봇 인수 살리려 중국 사업 분리 검토"
-    },
-    {
-      "category": "피지컬AI",
-      "id": "2026-11-09-10",
-      "links": [
-        {
-          "name": "ZDNet Korea",
-          "url": "https://zdnet.co.kr/view/?no=20261108125202"
-        },
-        {
-          "name": "CEO스코어데일리",
-          "url": "https://ceoscoredaily.com/page/view/2026110613125322651"
-        }
-      ],
-      "one_line": "삼성·SK·LG 등이 피지컬AI·에이전트 사례를 공유하며, 매디슨 황의 방한은 취소됐다.",
-      "region": "한국",
-      "score": 8,
-      "tier": "주목",
-      "title": "NVIDIA AI Day Seoul 9~10일 코엑스 개최, 국내 파트너 20곳 참여"
-    },
-    {
-      "category": "연구 논문",
-      "id": "2026-11-09-11",
+      "category": "산업·투자",
+      "id": "2026-11-10-08",
       "links": [
         {
           "name": "The Decoder",
-          "url": "https://the-decoder.com/ai-coding-agents-still-need-human-cleanup-on-nearly-three-out-of-four-tasks-in-a-real-world-test/"
+          "url": "https://the-decoder.com/google-ships-four-tpu-variants-in-one-year-as-it-ramps-up-competition-with-nvidia/"
+        },
+        {
+          "name": "Google",
+          "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx/"
         }
       ],
-      "one_line": "실사용자 변경 요청으로 만든 평가에서 GPT-6 Astra가 1위였지만 네 건 중 세 건은 사람의 마무리가 필요했다.",
-      "paper_year": 2026,
-      "region": "중국",
+      "one_line": "기밀 연산용 8tx와 8i 칩 두 개를 한 패키지에 담은 8i Max를 더했고 외부 고객이 100곳에 가깝다고 밝혔다.",
+      "region": "미국",
+      "score": 9,
+      "tier": "핵심",
+      "title": "구글, TPU 8tx·8i Max 추가해 올해 TPU 네 종 출시"
+    },
+    {
+      "category": "피지컬AI",
+      "id": "2026-11-10-09",
+      "links": [
+        {
+          "name": "AI타임스",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=217187"
+        }
+      ],
+      "one_line": "AI 데이 서울에 맞춰 나온 협력 소식이다(목록 기사 제목 기준 확인).",
+      "region": "한국",
       "score": 8,
       "tier": "주목",
-      "title": "알리바바 Co-Design Bench: 최고 모델도 실제 수정 요청 26.4%만 완수"
+      "title": "카카오모빌리티·엔비디아, 기아 PBV 레벨4 자율주행 협력"
     },
     {
-      "category": "정책·규제",
-      "id": "2026-11-09-12",
+      "category": "피지컬AI",
+      "id": "2026-11-10-10",
       "links": [
         {
-          "name": "TechCrunch(11/8)",
-          "url": "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/"
-        },
-        {
-          "name": "TechCrunch(11/7)",
-          "url": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/"
-        },
-        {
           "name": "AI타임스",
-          "url": "https://www.aitimes.com/news/articleView.html?idxno=217135"
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=217176"
         }
       ],
-      "one_line": "미 정보 메모에 Megaspeed 임원이 황 CEO 감시를 위해 포섭됐다는 내용이 있다는 보도 뒤 회사가 내부 조사를 밝혔다(혐의는 미확정).",
+      "one_line": "기존보다 5배 빠르다는 회사 측 주장이다(목록 기사 기준 확인).",
       "region": "미국",
       "score": 8,
       "tier": "주목",
-      "title": "엔비디아, 젠슨 황과 중국 스파이 의심 인물의 관계 조사 착수"
-    },
-    {
-      "category": "산업·투자",
-      "id": "2026-11-09-13",
-      "links": [
-        {
-          "name": "AI Weekly(The Information 인용)",
-          "url": "https://aiweekly.co/alerts/the-information-ai-firms-have-priced-300b-of-stock-in-2026-with-100b-more-on"
-        }
-      ],
-      "one_line": "앤트로픽 IPO를 뺀 수치로, 중간선거 뒤 매도세 속에 시장이 물량을 소화할 수 있는지가 쟁점이라고 디인포메이션이 전했다.",
-      "region": "글로벌",
-      "score": 7,
-      "tier": "주목",
-      "title": "AI 기업들, 올해 주식·전환증권 3천억 달러 이상 발행… 1천억 달러 추가 대기"
+      "title": "엔비디아 로봇 동작 계획 추론 기술 'V-Flash' 공개"
     },
     {
       "category": "상용 LLM",
-      "id": "2026-11-09-14",
-      "links": [
-        {
-          "name": "Data Studios",
-          "url": "https://www.datastudios.org/post/grok-api-invisible-text-watermarking-default-november-7-eu-ai-act"
-        }
-      ],
-      "one_line": "11월 7일부터 응답 헤더로 표시하며 예외는 법적 사유를 밝힌 팀 관리자에게만 허용된다고 제3자 블로그가 문서를 정리했다(공식 문서 미확인).",
-      "region": "미국",
-      "score": 7,
-      "tier": "주목",
-      "title": "xAI(SpaceXSI), Grok API 7개 모델에 비가시 텍스트 워터마크 기본 적용"
-    },
-    {
-      "category": "상용 LLM",
-      "id": "2026-11-09-15",
-      "links": [
-        {
-          "name": "AI Weekly",
-          "url": "https://aiweekly.co/alerts/google-adk-2140-graduates-core-modules-adds-teams-runner"
-        }
-      ],
-      "one_line": "실행 환경과 A2A가 정식 기능이 됐고 열거형 도구 인자 전달 방식이 바뀌어 기존 에이전트 코드 점검이 필요하다.",
-      "region": "미국",
-      "score": 7,
-      "tier": "주목",
-      "title": "구글 ADK 2.14 공개: Teams 연동·다회 평가 추가, 일부 호환성 변경"
-    },
-    {
-      "category": "상용 LLM",
-      "id": "2026-11-09-16",
-      "links": [
-        {
-          "name": "AI타임스",
-          "url": "https://www.aitimes.com/news/articleView.html?idxno=217140"
-        }
-      ],
-      "one_line": "Flare·Sunburst 두 모델과 complexity·quality 설정을 설명하고, 편집 때 유지할 것과 바꿀 것을 나눠 쓰라고 권했다.",
-      "region": "미국",
-      "score": 7,
-      "tier": "주목",
-      "title": "OpenAI, GPT-Image-2.6 프롬프트 가이드 공개"
-    },
-    {
-      "category": "상용 LLM",
-      "id": "2026-11-09-17",
-      "links": [
-        {
-          "name": "AI타임스",
-          "url": "https://www.aitimes.com/news/articleView.html?idxno=217141"
-        }
-      ],
-      "one_line": "하위 에이전트를 병렬로 돌리고 노트북·서버·EC2에서 실행하지만 성능 수치는 공개되지 않았다.",
-      "region": "미국",
-      "score": 7,
-      "tier": "주목",
-      "title": "AWS, 전용 기억을 가진 작업형 에이전트 'Kiro Bots' 출시"
-    },
-    {
-      "category": "정책·규제",
-      "id": "2026-11-09-18",
-      "links": [
-        {
-          "name": "AI Weekly(Science 인용)",
-          "url": "https://aiweekly.co/alerts/science-consumer-eeg-headband-makers-have-quietly-harvested-tens-of-millions-of"
-        }
-      ],
-      "one_line": "수천만 시간 분량의 뇌파를 '대규모 뇌 모델' 학습에 쓰면서 개인정보 처리방침에 밝히지 않았다는 조사 결과다.",
-      "region": "미국",
-      "score": 7,
-      "tier": "주목",
-      "title": "Science: 소비자용 뇌파 헤드밴드 업체들, 고지 없이 뇌 데이터로 AI 학습"
-    },
-    {
-      "category": "산업·투자",
-      "id": "2026-11-09-19",
-      "links": [
-        {
-          "name": "AI타임스",
-          "url": "https://www.aitimes.com/news/articleView.html?idxno=217136"
-        },
-        {
-          "name": "AI Weekly(Tom's Hardware 인용)",
-          "url": "https://aiweekly.co/alerts/tsmc-officially-denies-it-is-exploring-3d-dram-for-nvidia-says-focus-remains"
-        }
-      ],
-      "one_line": "파운드리에 집중한다며 첨단 3D D램은 상용화까지 수년이 남았다고 선을 그었다.",
-      "region": "글로벌",
-      "score": 6,
-      "tier": "주목",
-      "title": "[후속] TSMC, 엔비디아 요청 3D D램 개발 보도 사실상 부인"
-    },
-    {
-      "category": "정책·규제",
-      "id": "2026-11-09-20",
-      "links": [
-        {
-          "name": "AI타임스",
-          "url": "https://www.aitimes.com/news/articleView.html?idxno=217139"
-        }
-      ],
-      "one_line": "대중국 칩 밀수를 막으려는 조치로 아시아 사전 승인 구매자도 절반으로 줄인다고 블룸버그가 전했다.",
-      "region": "글로벌",
-      "score": 6,
-      "tier": "주목",
-      "title": "엔비디아, 동남아 NCP 신청사에 GPU 위치 보고 시스템 등록 의무화"
-    },
-    {
-      "category": "산업·투자",
-      "id": "2026-11-09-21",
-      "links": [
-        {
-          "name": "AI Weekly(SemiAnalysis 인용)",
-          "url": "https://aiweekly.co/alerts/semianalysis-visits-chahar-22-ai-campuses-3mmw-capex"
-        }
-      ],
-      "one_line": "800MW 울란차브 캠퍼스의 첫 120MW를 약 1년 만에 완공했다는 내용으로 중국의 데이터센터 건설 속도와 단가를 보여 준다.",
-      "region": "중국",
-      "score": 6,
-      "tier": "주목",
-      "title": "SemiAnalysis, 네이멍구 차하르 AI 단지 현장 조사: 22개 사업·MW당 300만 달러 미만"
-    },
-    {
-      "category": "LLM",
-      "id": "2026-11-09-22",
-      "links": [
-        {
-          "name": "The Decoder",
-          "url": "https://the-decoder.com/the-inventor-of-the-bitter-lesson-has-a-bitter-lesson-for-llm-scaling-enthusiasts/"
-        }
-      ],
-      "one_line": "'쓰라린 교훈'의 저자가 새 학습 방법을 요구했고, The Decoder는 LLM 외 경로에 건 신생 연구소를 45곳으로 집계했다.",
-      "region": "글로벌",
-      "score": 6,
-      "tier": "주목",
-      "title": "리처드 서튼 \"연산력만으론 부족\"… LLM 스케일링 논쟁 재점화"
-    },
-    {
-      "category": "산업·투자",
-      "id": "2026-11-09-23",
-      "links": [
-        {
-          "name": "AI타임스",
-          "url": "https://www.aitimes.com/news/articleView.html?idxno=217144"
-        }
-      ],
-      "one_line": "약 300만 주를 받았고, 퀄컴은 2029년 데이터센터 칩 매출 150억 달러 이상을 노린다.",
-      "region": "미국",
-      "score": 6,
-      "tier": "주목",
-      "title": "구글 벤처스, 퀄컴의 Modular 인수로 퀄컴 주식 5.5억 달러어치 확보"
-    },
-    {
-      "category": "피지컬AI",
-      "id": "2026-11-09-24",
-      "links": [
-        {
-          "name": "Humanoids Daily",
-          "url": "https://www.humanoidsdaily.com/news/figure-hq-crawling-with-figure-03-robots-adcock-videos"
-        }
-      ],
-      "one_line": "직원 약 500명 규모에 7월 1,000번째 기체를 만들었지만 영상 속 로봇은 대부분 작업을 하지 않고 있었다.",
-      "region": "미국",
-      "score": 6,
-      "tier": "주목",
-      "title": "Figure 본사 영상 공개, Figure 03 수십 대가 복도·잔디밭에… 유상 가동 대수는 비공개"
-    },
-    {
-      "category": "피지컬AI",
-      "id": "2026-11-09-25",
-      "links": [
-        {
-          "name": "Humanoids Daily",
-          "url": "https://www.humanoidsdaily.com/news/samsung-sdi-atlas-battery-70-cells-1-3-kwh"
-        }
-      ],
-      "one_line": "약 1.3kWh 팩으로 삼성SDI가 초기 물량 대부분을 맡는다고 디일렉을 인용해 전했다.",
-      "region": "한국",
-      "score": 6,
-      "tier": "주목",
-      "title": "Atlas 배터리에 삼성SDI 2170 셀 70개 탑재 보도… LG에너지솔루션도 선정"
-    },
-    {
-      "category": "피지컬AI",
-      "id": "2026-11-09-26",
-      "links": [
-        {
-          "name": "Humanoids Daily",
-          "url": "https://www.humanoidsdaily.com/news/unitree-hangzhou-factory-manual-assembly-josef-chen"
-        }
-      ],
-      "one_line": "2025년 약 3만 2천 대를 만들었지만 2025년 1~3분기 휴머노이드 매출의 3/4은 연구·교육용이고 공장 수요는 5% 미만이었다.",
-      "region": "중국",
-      "score": 6,
-      "tier": "주목",
-      "title": "유니트리 항저우 공장 방문기: 구동기 조립 대부분 수작업"
-    },
-    {
-      "category": "피지컬AI",
-      "id": "2026-11-09-27",
-      "links": [
-        {
-          "name": "전자신문",
-          "url": "https://www.etnews.com/20261106000180"
-        }
-      ],
-      "one_line": "광학 모션 캡처 업체로 유니트리·애지봇 등과 협력해 온 경험을 앞세워 국내에 진출한다.",
-      "region": "한국",
-      "score": 6,
-      "tier": "주목",
-      "title": "中 칭무, 로봇 학습 데이터 수집으로 한국 피지컬AI 시장 공략"
-    },
-    {
-      "category": "피지컬AI",
-      "id": "2026-11-09-28",
-      "links": [
-        {
-          "name": "Interesting Engineering",
-          "url": "https://interestingengineering.com/ai-robotics/six-agibot-humanoid-robots-complete"
-        }
-      ],
-      "one_line": "작업 1,730건을 처리했으나 청소 로봇이 막힌 경로로 매장을 벗어나고 진열 로봇도 기준을 넘지 못했다.",
-      "region": "중국",
-      "score": 5,
-      "tier": "참고",
-      "title": "AGIBOT G2 휴머노이드 6대, 상하이 편의점 24시간 운영… 2대는 평가 탈락"
-    },
-    {
-      "category": "피지컬AI",
-      "id": "2026-11-09-29",
-      "links": [
-        {
-          "name": "量子位",
-          "url": "https://www.qbitai.com/2026/11/508466.html"
-        }
-      ],
-      "one_line": "여름 이후 일부 상위 펀드만 남았고 프리미엄도 줄었다는 분석 기사다.",
-      "region": "중국",
-      "score": 5,
-      "tier": "참고",
-      "title": "중국 '세계 모델' 투자 열기 식어… 10월 투자 5건"
-    },
-    {
-      "category": "피지컬AI",
-      "id": "2026-11-09-30",
-      "links": [
-        {
-          "name": "Humanoid Guide",
-          "url": "https://humanoid.guide/audi-humanoid-robot-trial-targets-parts-sequencing-in-ingolstadt"
-        }
-      ],
-      "one_line": "Agile Robots·다쏘·엔비디아와의 개념 검증으로, 양산 투입 시점은 밝히지 않았다.",
-      "region": "유럽",
-      "score": 5,
-      "tier": "참고",
-      "title": "아우디, 잉골슈타트에서 바퀴형 휴머노이드 부품 순서 정렬 시험"
-    },
-    {
-      "category": "기타",
-      "id": "2026-11-09-31",
-      "links": [
-        {
-          "name": "전자신문",
-          "url": "https://www.etnews.com/20261106000286"
-        }
-      ],
-      "one_line": "국방 분야 AX 수주로 소개됐다.",
-      "region": "한국",
-      "score": 5,
-      "tier": "참고",
-      "title": "KT, 214억 원 규모 국방 AI 플랫폼 고도화 사업 수주"
-    },
-    {
-      "category": "산업·투자",
-      "id": "2026-11-09-32",
-      "links": [
-        {
-          "name": "AI Weekly(CNBC 인용)",
-          "url": "https://aiweekly.co/alerts/meta-strategy-chief-dave-wehner-joins-fireworks-as-cfo"
-        }
-      ],
-      "one_line": "메타 핵심 임원의 AI 인프라 기업 합류 소식이다.",
-      "region": "미국",
-      "score": 5,
-      "tier": "참고",
-      "title": "메타 전략 총괄 데이브 웨너, 추론 스타트업 Fireworks CFO로 이동"
-    },
-    {
-      "category": "정책·규제",
-      "id": "2026-11-09-33",
+      "id": "2026-11-10-11",
       "links": [
         {
           "name": "Tech Insider",
-          "url": "https://tech-insider.org/ca/nova-scotia-seven-rallies-ai-data-centre-moratorium-2026/"
+          "url": "https://tech-insider.org/ca/gemini-api-pricing-argon-vs-gpt-6-1-sol-vs-opus-5-5-vs-deepseek-2026/"
         }
       ],
-      "one_line": "100억 달러 규모 시설을 겨냥한 집회가 토요일 열렸다.",
-      "region": "글로벌",
-      "score": 5,
-      "tier": "참고",
-      "title": "노바스코샤 7개 지역서 앤트로픽용 데이터센터 중단 요구 집회"
+      "one_line": "입력 2달러·출력 10달러가 4달러·20달러로 오르며 제3자 매체가 구글 출시 공지를 인용해 정리했다.",
+      "region": "미국",
+      "score": 8,
+      "tier": "주목",
+      "title": "구글 Gemini 4 Argon 도입가 11월 말 종료, 12월 1일부터 두 배"
     },
     {
-      "category": "연구 논문",
-      "id": "2026-11-09-34",
-      "links": [
-        {
-          "name": "Hugging Face Papers",
-          "url": "https://huggingface.co/papers/2611.05376"
-        }
-      ],
-      "one_line": "옥스퍼드 연구진이 감지·맥락 유지·선제 지원을 갖춘 평생형 AI와 내장 거버넌스를 제안한 관점 논문이다.",
-      "paper_year": 2026,
-      "region": "유럽",
-      "score": 4,
-      "tier": "참고",
-      "title": "[논문] 인지 공생체: 자율 에이전트를 넘어 인간을 보완하는 평생형 AI 제안"
-    },
-    {
-      "category": "기타",
-      "id": "2026-11-09-35",
+      "category": "상용 LLM",
+      "id": "2026-11-10-12",
       "links": [
         {
           "name": "The Decoder",
-          "url": "https://the-decoder.com/andrej-karpathy-built-a-curated-video-platform-in-a-weekend-using-claude-and-20-years-of-hacker-news/"
+          "url": "https://the-decoder.com/bytedances-seedream-5-5-promises-pixel-stable-image-editing-across-100-rounds-without-color-drift/"
         }
       ],
-      "one_line": "해커뉴스 댓글 20년치를 걸러 추천 영상 6,454개를 모았다.",
-      "region": "글로벌",
+      "one_line": "투명 배경 RGBA 생성과 작은 글자 표현을 내세우며 지멍·더우바오 등에 순차 배포한다.",
+      "region": "중국",
+      "score": 8,
+      "tier": "주목",
+      "title": "바이트댄스 Seedream 5.5, 100회 연속 편집에도 색 변화 없다고 주장"
+    },
+    {
+      "category": "상용 LLM",
+      "id": "2026-11-10-13",
+      "links": [
+        {
+          "name": "BERI",
+          "url": "https://www.beri.net/article/microsoft-copilot-chat-fair-use-limits-unlicensed-users-november-9-no-admin-controls-license-planning"
+        }
+      ],
+      "one_line": "Copilot 라이선스가 없는 상용 사용자 대상으로 관리자는 한도를 보거나 바꿀 수 없고 수치도 공개되지 않았다.",
+      "region": "미국",
+      "score": 7,
+      "tier": "주목",
+      "title": "마이크로소프트, Copilot Chat 공정 사용 한도를 2,000석 초과 조직까지 확대"
+    },
+    {
+      "category": "LLM",
+      "id": "2026-11-10-14",
+      "links": [
+        {
+          "name": "AI타임스",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=217181"
+        }
+      ],
+      "one_line": "선전성 답변이 22%에서 0.9%로 줄었다는 자체 평가이며 독립 검증은 없다.",
+      "region": "미국",
+      "score": 7,
+      "tier": "주목",
+      "title": "Nous Research, 정치 편향 줄인 Qwen 기반 Arete-27B 공개"
+    },
+    {
+      "category": "정책·규제",
+      "id": "2026-11-10-15",
+      "links": [
+        {
+          "name": "전자신문 AI·SW 섹션",
+          "url": "https://www.etnews.com/news/section.html?id1=04"
+        }
+      ],
+      "one_line": "전자신문 목록에서 확인한 단독성 보도로 다른 매체 교차 확인은 안 됐고, 위원회가 예비 검토 중이다.",
+      "region": "한국",
+      "score": 7,
+      "tier": "주목",
+      "title": "앤트로픽, 한국 기업 Claude 계정 약 100개 유출을 개인정보위에 신고 보도"
+    },
+    {
+      "category": "상용 LLM",
+      "id": "2026-11-10-16",
+      "links": [
+        {
+          "name": "AI타임스",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=217158"
+        },
+        {
+          "name": "The Neuron",
+          "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-monday-november-9-2026/"
+        }
+      ],
+      "one_line": "블룸버그 인용 보도다.",
+      "region": "중국",
+      "score": 7,
+      "tier": "주목",
+      "title": "DeepSeek 에이전트 플랫폼 일일 사용자 154만 명 도달"
+    },
+    {
+      "category": "정책·규제",
+      "id": "2026-11-10-17",
+      "links": [
+        {
+          "name": "CBS",
+          "url": "https://www.cbsnews.com/news/donald-trump-2026-post-midterm-elections-interview-60-minutes-transcript/"
+        },
+        {
+          "name": "AI타임스",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=217157"
+        }
+      ],
+      "one_line": "CBS 60 Minutes 인터뷰 발언으로 연방 차원 AI 규제 논의가 다시 열릴지 주목된다.",
+      "region": "미국",
+      "score": 7,
+      "tier": "주목",
+      "title": "트럼프 \"AI 규제 나쁘지 않다\"… 중간선거 뒤 민주당과 협력 의사"
+    },
+    {
+      "category": "연구 논문",
+      "id": "2026-11-10-18",
+      "links": [
+        {
+          "name": "Hugging Face Papers",
+          "url": "https://huggingface.co/papers/2611.09382"
+        }
+      ],
+      "one_line": "Qwen3.5에서 국소 수정만으로 MATH-500을 최대 29.45점 올렸지만 과제 간 전이는 고르지 않았다.",
+      "paper_year": 2026,
+      "region": "중국",
+      "score": 7,
+      "tier": "주목",
+      "title": "[논문] 가중치 직접 수정으로 모델 성능을 높이는 Weight-Space Programming"
+    },
+    {
+      "category": "기타",
+      "id": "2026-11-10-19",
+      "links": [
+        {
+          "name": "AI타임스",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=217169"
+        }
+      ],
+      "one_line": "에이전트의 암호 분석 활용 사례다(목록 기사 기준 확인).",
+      "region": "미국",
+      "score": 6,
+      "tier": "주목",
+      "title": "구글, AI 에이전트로 구형 1024비트 RSA 약점 2건 발견"
+    },
+    {
+      "category": "정책·규제",
+      "id": "2026-11-10-20",
+      "links": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/world/europe/covert-russian-network-exploited-french-riots-social-media-eu-report-says-2026-11-09/"
+        }
+      ],
+      "one_line": "로이터 보도를 AI Weekly 목록으로 확인했다.",
+      "region": "유럽",
+      "score": 6,
+      "tier": "주목",
+      "title": "EU 보고서, 러시아 AI 음성 복제 공작과 프랑스 폭동 영상 연계 지적"
+    },
+    {
+      "category": "정책·규제",
+      "id": "2026-11-10-21",
+      "links": [
+        {
+          "name": "FDA Law Blog",
+          "url": "https://www.thefdalawblog.com/2026/11/the-patient-ai-act-a-new-prescription-for-fda-software-review-or-more-of-the-same/"
+        }
+      ],
+      "one_line": "FDA 소프트웨어 심사 체계를 다루는 논의용 초안이다.",
+      "region": "미국",
+      "score": 5,
+      "tier": "참고",
+      "title": "Cassidy 상원의원, 의료 AI 법안 초안 공개"
+    },
+    {
+      "category": "피지컬AI",
+      "id": "2026-11-10-22",
+      "links": [
+        {
+          "name": "AI타임스",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=217178"
+        }
+      ],
+      "one_line": "AI타임스 목록 기사 기준으로 확인했다.",
+      "region": "미국",
+      "score": 5,
+      "tier": "참고",
+      "title": "아마존, 피지컬AI로 가정용 로봇 재도전"
+    },
+    {
+      "category": "산업·투자",
+      "id": "2026-11-10-23",
+      "links": [
+        {
+          "name": "The Decoder",
+          "url": "https://the-decoder.com/disney-bets-on-adobes-firefly-to-create-brand-safe-ai-models-for-its-entertainment-empire/"
+        }
+      ],
+      "one_line": "콘텐츠 기업이 자사 IP 전용 생성 모델을 만드는 흐름이다.",
+      "region": "미국",
+      "score": 5,
+      "tier": "참고",
+      "title": "디즈니·어도비, 브랜드 안전 Firefly 모델 공동 구축"
+    },
+    {
+      "category": "기타",
+      "id": "2026-11-10-24",
+      "links": [
+        {
+          "name": "It's FOSS",
+          "url": "https://itsfoss.com/news/asahi-linux-drops-mit-for-gpl/"
+        }
+      ],
+      "one_line": "AI 학습·재작성에 맞선 오픈소스 쪽 대응 사례다.",
+      "region": "유럽",
+      "score": 5,
+      "tier": "참고",
+      "title": "Asahi Linux, AI 코드 세탁 우려로 MIT에서 GPL로 라이선스 변경"
+    },
+    {
+      "category": "기타",
+      "id": "2026-11-10-25",
+      "links": [
+        {
+          "name": "Insurance Journal",
+          "url": "https://www.insurancejournal.com/news/southeast/2026/11/09/892144.htm"
+        }
+      ],
+      "one_line": "법정에서 검증되지 않은 주장이며 OpenAI는 해당 사용자를 차단하고 수사기관에 정보를 줬다고 밝혔다.",
+      "region": "미국",
       "score": 4,
       "tier": "참고",
-      "title": "Karpathy, Claude Code로 주말에 영상 큐레이션 사이트 HackerTube 제작"
+      "title": "OpenAI, ChatGPT가 독살 계획을 도왔다는 민사소송 피소"
     }
   ],
   "sources_checked": [
-    "AI Weekly(11월 8일판)",
-    "TechCrunch AI(7·8일)",
+    "AI Weekly(11월 9일판)",
+    "TechCrunch AI(11월 7·8일까지)",
     "The Decoder",
-    "The Hacker News",
-    "9to5Mac",
-    "TNW",
-    "Gizmodo",
-    "Anthropic 뉴스·Claude API 릴리스 노트(6일 이후 신규 없음)",
+    "The Neuron",
+    "VentureBeat",
+    "Anthropic 뉴스·Claude API 릴리스 노트",
     "openai.com 뉴스(접속 실패)",
-    "OpenAI API 변경 로그(6일 이후 신규 없음)",
+    "OpenAI API 변경 로그(11월 5일 이후 신규 없음)",
     "Google 블로그(최신 목록 확인 못함)",
-    "Gemini API 변경 로그(신규 없음)",
-    "Hugging Face Papers(11월 6일판까지, 주말판 없음)",
+    "Hugging Face Papers(11월 9일판)",
     "AI타임스",
-    "전자신문",
-    "ZDNet Korea",
-    "블로터(AI 신규 없음)",
-    "로봇신문",
-    "量子位",
-    "ITmedia AI+·TechTarget Japan",
-    "Humanoids Daily",
-    "Interesting Engineering",
-    "CNBC·mlq.ai·jmacweb(접속 실패, 재인용·검색으로 대체)"
+    "전자신문(목록)",
+    "ZDNet Korea(홈 캐시 오래됨, 검색으로 대체)",
+    "파이낸셜뉴스",
+    "量子位(목록)",
+    "ITmedia AI+(목록)",
+    "Reuters·The Verge(차단, AI Weekly로 대체)"
   ],
   "top": [
     {
       "category": "상용 LLM",
-      "id": "2026-11-09-01",
+      "id": "2026-11-10-01",
       "links": [
         {
-          "name": "The Hacker News",
-          "url": "https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html"
+          "name": "Anthropic",
+          "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2"
         },
         {
-          "name": "AI Weekly",
-          "url": "https://aiweekly.co/alerts/apiiro-claude-code-dont-ask-again-leaks-keys-in-1122-repos"
+          "name": "Claude API 릴리스 노트",
+          "url": "https://platform.claude.com/docs/en/release-notes/overview"
+        },
+        {
+          "name": "The Decoder",
+          "url": "https://the-decoder.com/claude-fable-5-2-and-mythos-5-2-cement-anthropics-ai-lead-just-before-its-ipo/"
         }
       ],
-      "region": "글로벌",
-      "score": 10,
+      "region": "미국",
+      "score": 12,
       "scores": {
-        "coverage": 1,
+        "coverage": 2,
+        "impact": 3,
+        "novelty": 2,
+        "relevance": 3,
+        "trust": 2
+      },
+      "summary": [
+        "두 제품은 기반 모델이 같고, 안전장치를 건 Fable은 전체 공개, Mythos는 사이버·생명과학 검증을 통과한 조직에만 열린다.",
+        "가격은 100만 토큰당 입력 8달러·출력 40달러로 5.1보다 20% 낮고, 1M 컨텍스트에 응답 속도는 최대 30% 빨라졌다.",
+        "Artificial Analysis 지수 65점으로 선두지만 과제당 최고 비용은 약 26.5달러로 Opus 5.5의 2.6배이며, 앤트로픽은 일상 작업에는 계속 Opus 5.5를 권한다."
+      ],
+      "tier": "핵심",
+      "title": "앤트로픽 Claude Fable 5.2·Mythos 5.2 출시, API 가격 20% 인하",
+      "why": "최상위 모델의 가격과 데이터 보존 조건이 바뀌어(30일 보존 필수, ZDR은 별도 승인) 기업 도입 시 모델 선택과 계약 조건을 다시 봐야 한다."
+    },
+    {
+      "category": "피지컬AI",
+      "id": "2026-11-10-02",
+      "links": [
+        {
+          "name": "파이낸셜뉴스",
+          "url": "https://www.fnnews.com/news/202611091734582534"
+        },
+        {
+          "name": "AI타임스(투자)",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=217188"
+        },
+        {
+          "name": "AI타임스(NVLink)",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=217170"
+        }
+      ],
+      "region": "한국",
+      "score": 11,
+      "scores": {
+        "coverage": 2,
         "impact": 2,
         "novelty": 2,
         "relevance": 3,
         "trust": 2
       },
       "summary": [
-        "보안업체 Apiiro는 허용 옵션을 고르면 비밀값이 포함된 명령 전체가 .claude/settings.local.json에 평문으로 남을 수 있다고 밝혔다.",
-        "공개 사본 10만여 개 중 1,122개 저장소에서 비밀값 1,379건이 나왔고, 다른 경로까지 합치면 1,994개 저장소 2,539건이다(유효 여부는 미검증).",
-        "Apiiro는 관련 버그 신고 4건이 답변 없이 봇으로 닫혔다고 주장했으며, gitleaks와 TruffleHog 모두 놓친 파일도 215개였다."
+        "LG전자는 GR00T와 시뮬레이션 데이터로 휴머노이드에 약 4kg 세탁기 상판 거치 작업을 학습시켰고, 삼성은 칩 열·기계 시뮬레이션을 약 18시간에서 41초로 줄인 사례를 소개했다.",
+        "엔비디아는 리얼월드(로봇 파운데이션 모델), 업스테이지, 모티프테크놀로지스에 투자하기로 했고 모티프는 내년 1분기 오픈 웨이트 모델 '모티프 4'를 낸다.",
+        "엔비디아·SK텔레콤·리벨리온은 NVLink Fusion 협약을 맺어 SKT AI 데이터센터에서 리벨리온 NPU와 엔비디아 GPU를 함께 묶는다."
       ],
       "tier": "핵심",
-      "title": "Claude Code '다시 묻지 않기'가 비밀값을 공개 저장소로… 2,539건 유출",
-      "why": "코딩 에이전트 설정 파일이 새 유출 경로가 된 사례로, 에이전트를 쓰는 조직은 .gitignore 점검과 키 교체가 필요하다."
-    },
-    {
-      "category": "산업·투자",
-      "id": "2026-11-09-02",
-      "links": [
-        {
-          "name": "AI Weekly(FT·CNBC 인용)",
-          "url": "https://aiweekly.co/alerts/anthropic-pays-34b-for-onepwrs-17gw-generator-order"
-        },
-        {
-          "name": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/08/anthropic-generator-deal-ai-data-centers.html"
-        }
-      ],
-      "region": "미국",
-      "score": 10,
-      "scores": {
-        "coverage": 2,
-        "impact": 3,
-        "novelty": 2,
-        "relevance": 2,
-        "trust": 1
-      },
-      "summary": [
-        "FT와 CNBC 보도에 따르면 앤트로픽은 9월 말 OnePWR Solutions가 캐터필러에 넣어 둔 1.7GW 가스 발전기 주문을 약 34억 달러에 넘겨받았다.",
-        "회사를 산 것이 아니라 약 2년 전 확보한 납품 순번과 설치 서비스를 사들인 거래다.",
-        "FT는 AI 연구소의 단일 전력 장비 구매로는 알려진 것 중 최대라고 전했다."
-      ],
-      "tier": "핵심",
-      "title": "앤트로픽, 가스 발전기 1.7GW 주문 34억 달러에 인수 보도",
-      "why": "AI 경쟁의 병목이 칩에서 전력 장비 납품 순번으로 옮겨 가고 있음을 보여 준다."
-    },
-    {
-      "category": "상용 LLM",
-      "id": "2026-11-09-03",
-      "links": [
-        {
-          "name": "9to5Mac",
-          "url": "https://9to5mac.com/2026/11/08/apple-working-on-agentic-siri-ai-next-year-report"
-        },
-        {
-          "name": "Gizmodo",
-          "url": "https://gizmodo.com/apples-new-ceo-is-reportedly-pushing-to-stuff-more-ai-into-iphones-2000836769"
-        },
-        {
-          "name": "AI Weekly",
-          "url": "https://aiweekly.co/alerts/apple-may-ship-agentic-siri-as-early-as-next-year-gurman"
-        }
-      ],
-      "region": "미국",
-      "score": 10,
-      "scores": {
-        "coverage": 2,
-        "impact": 3,
-        "novelty": 1,
-        "relevance": 3,
-        "trust": 1
-      },
-      "summary": [
-        "블룸버그 마크 거먼에 따르면 애플이 대화 사이에도 일을 이어 가는 능동형 에이전트 시리를 이르면 내년에 낼 수 있다.",
-        "존 터너스 CEO가 소프트웨어 조직에 AI 기능을 더 빨리 내라고 압박하고 있다고 전해졌다.",
-        "iOS 28 개발도 첫 주기를 코딩 6주·통합 2주로 바꿔 일정을 조정했다."
-      ],
-      "tier": "핵심",
-      "title": "애플, 이르면 내년 에이전트형 시리 출시 추진 보도",
-      "why": "기기 수억 대에 에이전트가 기본 탑재되면 모바일 앱과 AI 서비스의 접점이 바뀐다."
-    },
-    {
-      "category": "상용 LLM",
-      "id": "2026-11-09-04",
-      "links": [
-        {
-          "name": "TNW",
-          "url": "https://thenextweb.com/news/anthropic-claude-max-lawsuit-ruling-usage-claims"
-        },
-        {
-          "name": "AI Weekly",
-          "url": "https://aiweekly.co/alerts/judge-lets-anthropic-face-class-action-alleging-claude-max-5x-and-20x-plans"
-        }
-      ],
-      "region": "미국",
-      "score": 10,
-      "scores": {
-        "coverage": 2,
-        "impact": 1,
-        "novelty": 2,
-        "relevance": 3,
-        "trust": 2
-      },
-      "summary": [
-        "캘리포니아 북부 연방법원 알렉스 체 치안판사가 Kahn v. Anthropic 사건에서 과실 부실표시와 계약 위반 청구를 살리고 일부 청구는 기각했다.",
-        "원고들은 200달러 요금제가 Pro의 약 6배, 100달러 요금제가 약 3.5배 주간 사용량에 그친다고 계산했다.",
-        "2025년 4월 9일 이후 해당 요금제 가입자가 집단 대상이며, 앤트로픽은 직전 주 Max 요금제 이름을 바꿨다."
-      ],
-      "tier": "핵심",
-      "title": "미 법원, 'Claude Max 5배·20배 사용량' 광고 집단소송 진행 허용",
-      "why": "구독형 LLM의 '몇 배 사용량' 표현에 법적 기준이 생길 수 있어 요금제 비교와 계약 검토에 영향을 준다."
+      "title": "엔비디아 AI 데이 서울: 삼성·SK·LG 피지컬AI 사례와 국내 스타트업 투자 공개",
+      "why": "국내 제조·반도체 기업의 피지컬AI 실증과 독자 모델 진영의 자금줄이 엔비디아 생태계로 한층 묶이고 있다."
     },
     {
       "category": "LLM",
-      "id": "2026-11-09-05",
+      "id": "2026-11-10-03",
       "links": [
         {
           "name": "AI타임스",
-          "url": "https://www.aitimes.com/news/articleView.html?idxno=217145"
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=217175"
+        },
+        {
+          "name": "서울신문",
+          "url": "https://seoul.co.kr/news/economy/industry/2026/11/10/20261110030002"
+        }
+      ],
+      "region": "한국",
+      "score": 11,
+      "scores": {
+        "coverage": 2,
+        "impact": 2,
+        "novelty": 2,
+        "relevance": 3,
+        "trust": 2
+      },
+      "summary": [
+        "9일부터 누구나 API를 무료로 쓸 수 있고 종료 시점은 정해지지 않았다.",
+        "LG는 24개 지표 종합 성능이 2세대 모델 대비 8주 만에 70% 넘게 올랐다고 밝혔다.",
+        "에이전트 성능은 DeepSeek-V4.1-Flash·GLM-5.3과 비슷하다고 했으나 모두 자체 측정치다."
+      ],
+      "tier": "핵심",
+      "title": "LG AI연구원, K-엑사원 2.5 API 무료 개방",
+      "why": "한국어 업무·번역 평가에 비용 없이 시험해 볼 수 있는 국산 모델 선택지가 생겼다."
+    },
+    {
+      "category": "정책·규제",
+      "id": "2026-11-10-04",
+      "links": [
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/08/jensen-huang-nvidia-china-spy-congress.html"
+        },
+        {
+          "name": "AI타임스(의회)",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=217195"
+        },
+        {
+          "name": "The Decoder",
+          "url": "https://the-decoder.com/nvidia-espionage-scandal-weakens-huangs-lobby-against-tighter-ai-chip-export-controls/"
         }
       ],
       "region": "미국",
-      "score": 9,
+      "score": 10,
+      "scores": {
+        "coverage": 2,
+        "impact": 3,
+        "novelty": 2,
+        "relevance": 1,
+        "trust": 2
+      },
+      "summary": [
+        "황 CEO는 8일 사내 메모에서 불륜을 인정하고 사과했으며, 상대는 미 정보당국이 중국 정보원으로 의심하는 전 Megaspeed 임원으로 보도됐다.",
+        "이사회 독립위원회는 지금까지 안보·영업비밀 피해 증거는 없다고 밝혔고, 황은 CEO직을 유지하며 중국 정부는 의혹을 부인했다.",
+        "공화당 지도부는 18일 비공개 브리핑 출석을 요청했고, 민주당은 황과 러트닉 상무장관의 선서 증언과 수출 허가 결정까지 조사하자고 요구한다."
+      ],
+      "tier": "핵심",
+      "title": "[후속] 젠슨 황, 사적 관계 인정·사과… 이사회 독립 조사, 미 의회도 출석 요구",
+      "why": "수출 통제 완화를 설득해 온 황의 입지가 약해져 내년 민주당 주도 의회에서 AI 칩 통제가 강화될 가능성이 커졌다."
+    },
+    {
+      "category": "상용 LLM",
+      "id": "2026-11-10-05",
+      "links": [
+        {
+          "name": "The Decoder",
+          "url": "https://the-decoder.com/meta-launches-muse-ember-a-small-ai-model-built-for-the-repetitive-work-agents-actually-do/"
+        }
+      ],
+      "region": "미국",
+      "score": 10,
       "scores": {
         "coverage": 1,
         "impact": 2,
         "novelty": 2,
-        "relevance": 2,
+        "relevance": 3,
         "trust": 2
       },
       "summary": [
-        "앤트로픽 생물학팀이 1986년 발견 뒤 기능이 밝혀지지 않은 세포 내 단백질 껍질 '볼트 입자'의 새 형태를 찾아 대장균에서 만들었다.",
-        "Claude의 도움으로 34시간 만에 첫 3D 구조 모델을, 약 1주 뒤 최종 지도를 얻었고 전체 과제는 4개월이 안 걸렸다.",
-        "Claude가 제안한 첨가제로 실험이 2주 늦어지고 표준 단계를 빠뜨려 잘못된 지도가 나오는 등 오류도 함께 공개했다."
+        "도구 호출·라우팅·데이터 추출에 맞춘 메타의 최소형 모델로 100만 토큰당 입력 0.10달러·출력 0.50달러다.",
+        "Artificial Analysis 지수 36점으로 Muse Spark 1.3(37점)에 근접하면서 과제당 비용은 약 0.14달러 대 2.39달러로 크게 낮다.",
+        "텍스트·이미지·음성·영상을 받고 1M 컨텍스트를 지원하지만, FrontierCode 2.0에서는 Claude Haiku 5.5(34.9%)에 못 미치는 27.2%다."
       ],
       "tier": "핵심",
-      "title": "앤트로픽, Claude와 40년 미스터리 '볼트 입자' 새 형태 3D 구조 규명",
-      "why": "AI가 실험 과학에서 어디까지 돕고 어디서 틀리는지를 성과와 실패를 함께 보여 준 사례다."
+      "title": "메타, 에이전트 반복 작업용 초저가 모델 Muse Ember 출시",
+      "why": "에이전트 파이프라인에서 단순 단계를 저가 모델로 넘기는 구성의 비용 기준을 낮춘다."
     }
   ]
 }
