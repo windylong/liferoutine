@@ -1,0 +1,619 @@
+{
+  "date": "2026-11-11",
+  "generated_at": "2026-11-11T07:58:00+09:00",
+  "headline": "구글이 Gemini 4 Carbon 정식 출시와 Gemini Robotics 2.5로 맞불을 놓았고, 엔비디아 GR00T 2까지 더해 피지컬AI 발표가 몰렸다. 앤트로픽은 1조 달러 IPO 로드쇼와 함께 Claude를 업무 공간 도구로 넓혔다.",
+  "others": [
+    {
+      "category": "상용 LLM",
+      "id": "2026-11-11-06",
+      "links": [
+        {
+          "name": "The Decoder",
+          "url": "https://the-decoder.com/openai-turns-chatgpt-into-a-business-directory-with-ai-agents-that-handle-customer-questions/"
+        },
+        {
+          "name": "The Next Web",
+          "url": "https://thenextweb.com/news/openai-businesses-in-chatgpt-business-agents"
+        }
+      ],
+      "one_line": "미국 상거래·온라인 서비스 기업이 ChatGPT 안에 인증 프로필과 고객 응대 에이전트를 둘 수 있게 했고, 주간 사용자 12억 명을 밝혔다.",
+      "region": "미국",
+      "score": 10,
+      "tier": "핵심",
+      "title": "오픈AI, ChatGPT에 기업 프로필·'비즈니스 에이전트' 도입하는 Businesses in ChatGPT 베타"
+    },
+    {
+      "category": "LLM",
+      "id": "2026-11-11-07",
+      "links": [
+        {
+          "name": "VentureBeat",
+          "url": "https://venturebeat.com/technology/meituan-releases-the-open-weights-of-its-longcat-2-5-llm-with-vision-under-a-permissive-mit-license"
+        }
+      ],
+      "one_line": "활성 480억 파라미터 MoE에 100만 토큰 문맥, Terminal Bench v2.1 88.4점이며 API는 100만 토큰당 0.3/1.2달러다.",
+      "region": "중국",
+      "score": 10,
+      "tier": "핵심",
+      "title": "메이투안, 1.6조 파라미터 LongCat-2.5 오픈웨이트 MIT 라이선스로 공개"
+    },
+    {
+      "category": "정책·규제",
+      "id": "2026-11-11-08",
+      "links": [
+        {
+          "name": "The Decoder",
+          "url": "https://the-decoder.com/eight-countries-and-top-ai-labs-agree-to-shutdown-mechanisms-in-new-paris-declaration/"
+        }
+      ],
+      "one_line": "오픈AI·앤트로픽·MS·미스트랄이 참여해 정지 장치·감사·위험 공개를 약속했지만 구속력 있는 제재나 기한은 없다.",
+      "region": "유럽",
+      "score": 9,
+      "tier": "핵심",
+      "title": "8개국·주요 AI 연구소, '파리 AI 안전·보안 선언'에서 긴급 정지 장치 약속"
+    },
+    {
+      "category": "산업·투자",
+      "id": "2026-11-11-09",
+      "links": [
+        {
+          "name": "Forbes",
+          "url": "https://www.forbes.com/sites/annatong/2026/11/09/fireworks-cyberattack-exposes-customer-data-and-ai-models-as-fallout-widens/"
+        },
+        {
+          "name": "Notion",
+          "url": "https://www.notion.com/help/security-incident-involving-a-third-party-ai-vendor"
+        },
+        {
+          "name": "RuntimeWire",
+          "url": "https://runtimewire.com/article/fireworks-ai-second-security-breach-customer-data"
+        }
+      ],
+      "one_line": "10월 24일 침입이 과금 기록과 일부 고객의 데이터셋·비밀키·모델 가중치까지 닿았고, 노션은 1% 미만 워크스페이스의 AI 대화 기록 노출을 공지했다.",
+      "region": "미국",
+      "score": 9,
+      "tier": "핵심",
+      "title": "Fireworks AI 연쇄 해킹으로 고객 데이터·일부 모델 가중치 유출… 노션도 영향"
+    },
+    {
+      "category": "상용 LLM",
+      "id": "2026-11-11-10",
+      "links": [
+        {
+          "name": "The Decoder",
+          "url": "https://the-decoder.com/anthropics-fable-5-2-completes-41-percent-of-real-freelance-jobs-up-from-2-5-percent-a-year-ago/"
+        },
+        {
+          "name": "AI Weekly",
+          "url": "https://aiweekly.co/ai-news-today"
+        }
+      ],
+      "one_line": "Remote Labor Index의 업워크 검증 과제 240건 중 41.3%를 끝내 Opus 5.5(21.25%)의 약 두 배를 기록했다.",
+      "region": "미국",
+      "score": 9,
+      "tier": "핵심",
+      "title": "[후속] Fable 5.2, 실제 프리랜서 업무 41% 완수… 1년 전 2.5%에서 급등"
+    },
+    {
+      "category": "정책·규제",
+      "id": "2026-11-11-11",
+      "links": [
+        {
+          "name": "전자신문",
+          "url": "https://www.etnews.com/20261110000476"
+        }
+      ],
+      "one_line": "어제 보도된 국내 기업 계정 유출 신고 건에 대해 개인정보보호위원회가 정식 조사에 들어갔다.",
+      "region": "한국",
+      "score": 8,
+      "tier": "주목",
+      "title": "[후속] 개인정보위, 앤트로픽 Claude 국내 기업 계정 유출 사고 정식 조사 착수"
+    },
+    {
+      "category": "LLM",
+      "id": "2026-11-11-12",
+      "links": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/control-room/"
+        }
+      ],
+      "one_line": "감시 장치가 꺼지면 자동으로 차단되는 방식으로, 내부 연구 모델 통제 절차를 처음 구체적으로 밝혔다.",
+      "region": "미국",
+      "score": 8,
+      "tier": "주목",
+      "title": "오픈AI, 연구용 모델 출력을 35초 안에 멈추는 내부 시스템 Control Room 공개"
+    },
+    {
+      "category": "연구 논문",
+      "id": "2026-11-11-13",
+      "links": [
+        {
+          "name": "Google DeepMind",
+          "url": "https://deepmind.google/blog/introducing-alphaproof-code/"
+        }
+      ],
+      "one_line": "에이전트가 600만 줄 넘는 Lean 증명을 생성해 시그널 프로토콜 구현의 보안 성질을 검증했다.",
+      "region": "글로벌",
+      "score": 8,
+      "tier": "주목",
+      "title": "딥마인드 AlphaProof Code, 시그널 암호 프로토콜 코드를 4주 만에 형식 검증"
+    },
+    {
+      "category": "상용 LLM",
+      "id": "2026-11-11-14",
+      "links": [
+        {
+          "name": "@IT(ITmedia)",
+          "url": "https://atmarkit.itmedia.co.jp/ait/articles/2611/11/news011.html"
+        }
+      ],
+      "one_line": "웹페이지·유튜브 영상 수집을 자동화할 수 있고 MCP를 통해 에이전트 도구로 연결된다.",
+      "region": "글로벌",
+      "score": 8,
+      "tier": "주목",
+      "title": "구글 NotebookLM 공식 API 공개… MCP로 AI 에이전트에서도 호출"
+    },
+    {
+      "category": "상용 LLM",
+      "id": "2026-11-11-15",
+      "links": [
+        {
+          "name": "ITmedia AI+",
+          "url": "https://www.itmedia.co.jp/aiplus/article/2611/10/2000003058/"
+        },
+        {
+          "name": "gihyo.jp",
+          "url": "https://gihyo.jp/article/2026/11/openai-dots-multiple-local-computers"
+        }
+      ],
+      "one_line": "작업마다 다른 PC를 골라 실행하도록 해 여러 기기에 일을 나눌 수 있게 됐다.",
+      "region": "미국",
+      "score": 8,
+      "tier": "주목",
+      "title": "ChatGPT 상시 에이전트 dots, 여러 대의 로컬 컴퓨터 연결 지원"
+    },
+    {
+      "category": "산업·투자",
+      "id": "2026-11-11-16",
+      "links": [
+        {
+          "name": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/tech-industry/policy/nvidia-cracks-down-on-overseas-cloud-ai-gpu-rentals-for-china-partners-face-51-percent-non-chinese-quota-as-black-market-b300-rack-prices-surge-to-usd2-8-million"
+        }
+      ],
+      "one_line": "중국 우회 수요 차단 조치로, 중국 내 B300 랙 암시장 가격은 최대 280만 달러까지 올랐다고 한다.",
+      "region": "중국",
+      "score": 7,
+      "tier": "주목",
+      "title": "엔비디아, 해외 클라우드 파트너에 GPU 임대 51% 이상 비중국 고객 배정 요구 보도"
+    },
+    {
+      "category": "LLM",
+      "id": "2026-11-11-17",
+      "links": [
+        {
+          "name": "量子位",
+          "url": "https://www.qbitai.com/2026/11/508746.html"
+        }
+      ],
+      "one_line": "최신 모델 개발에 자동 자기개선 파이프라인을 쓰고 있다고 밝혔고 경량 모델 출시를 예고했다.",
+      "region": "중국",
+      "score": 7,
+      "tier": "주목",
+      "title": "바이두, 자기개선(RSI) 시스템 ERNIE Evolve 첫 공개… 문심 5.5 Flash 임박"
+    },
+    {
+      "category": "상용 LLM",
+      "id": "2026-11-11-18",
+      "links": [
+        {
+          "name": "量子位",
+          "url": "https://www.qbitai.com/2026/11/508694.html"
+        }
+      ],
+      "one_line": "오피스 도구 안에서 다수 사용자와 여러 에이전트가 한 작업을 나눠 처리하는 기능을 내놨다.",
+      "region": "중국",
+      "score": 7,
+      "tier": "주목",
+      "title": "알리바바 千问办公 2.0, 여러 사람과 에이전트가 함께 일하는 Team Agent 탑재"
+    },
+    {
+      "category": "피지컬AI",
+      "id": "2026-11-11-19",
+      "links": [
+        {
+          "name": "量子位",
+          "url": "https://www.qbitai.com/2026/11/508629.html"
+        }
+      ],
+      "one_line": "두 회사가 조건부 자율주행(L3) 확대를 사실상 중단한다고 밝혀 업계 로드맵 재조정이 이어지고 있다.",
+      "region": "유럽",
+      "score": 7,
+      "tier": "주목",
+      "title": "벤츠·BMW, 레벨3 자율주행 계획 접어… 'L2가 더 쓸모 있다'"
+    },
+    {
+      "category": "연구 논문",
+      "id": "2026-11-11-20",
+      "links": [
+        {
+          "name": "Hugging Face Papers",
+          "url": "https://huggingface.co/papers/2611.12806"
+        }
+      ],
+      "one_line": "서로 다른 촉각 센서를 하나의 표현으로 묶어 로봇 손 조작에 쓰는 방법으로, 이날 HF 논문 추천 1위였다.",
+      "paper_year": 2026,
+      "region": "글로벌",
+      "score": 7,
+      "tier": "주목",
+      "title": "[논문] 이질적 촉각 표현 학습으로 범용 정밀 조작 성능 향상"
+    },
+    {
+      "category": "연구 논문",
+      "id": "2026-11-11-21",
+      "links": [
+        {
+          "name": "Hugging Face Papers",
+          "url": "https://huggingface.co/papers/2611.10304"
+        }
+      ],
+      "one_line": "주요 언어 편중을 줄이려고 데이터가 적은 언어의 실제 소프트웨어 과제를 모은 평가셋이다.",
+      "paper_year": 2026,
+      "region": "글로벌",
+      "score": 7,
+      "tier": "주목",
+      "title": "[논문] Longtail-SWE: 비주류 프로그래밍 언어용 고품질 SWE 과제셋"
+    },
+    {
+      "category": "상용 LLM",
+      "id": "2026-11-11-22",
+      "links": [
+        {
+          "name": "9to5Mac",
+          "url": "https://9to5mac.com/2026/11/09/apple-launches-50-intelligence-usage-packs-for-select-ai-features/"
+        }
+      ],
+      "one_line": "Logic Pro부터 적용되며 쓰지 않은 팩은 12개월 뒤 만료된다.",
+      "region": "미국",
+      "score": 7,
+      "tier": "주목",
+      "title": "애플, 한도 초과 AI 사용분을 49.99달러 일회성 'Intelligence Usage Pack'으로 판매"
+    },
+    {
+      "category": "상용 LLM",
+      "id": "2026-11-11-23",
+      "links": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace/"
+        }
+      ],
+      "one_line": "기업은 기존 AWS 지출 약정 안에서 ChatGPT Enterprise를 비공개 견적으로 구매할 수 있다.",
+      "region": "미국",
+      "score": 7,
+      "tier": "주목",
+      "title": "ChatGPT Enterprise, AWS 마켓플레이스 입점… AWS 약정 금액으로 결제 가능"
+    },
+    {
+      "category": "기타",
+      "id": "2026-11-11-24",
+      "links": [
+        {
+          "name": "The Next Web",
+          "url": "https://thenextweb.com/news/stanford-ai100-report-2026-ai-goes-mainstream"
+        }
+      ],
+      "one_line": "울드리지 의장 등 12인 패널이 데이터·연산 비용 한계와 과잉 투자 위험을 12개 요점으로 정리했다.",
+      "region": "미국",
+      "score": 7,
+      "tier": "주목",
+      "title": "스탠퍼드 AI100 3차 보고서 '스케일링은 한계, AI는 아직 수익을 못 낸다'"
+    },
+    {
+      "category": "LLM",
+      "id": "2026-11-11-25",
+      "links": [
+        {
+          "name": "量子位",
+          "url": "https://www.qbitai.com/2026/11/507843.html"
+        }
+      ],
+      "one_line": "量子位가 직접 써 본 결과 오픈 모델 중 최상위권 성능과 에이전트 작업 능력을 확인했다고 전했다.",
+      "region": "중국",
+      "score": 7,
+      "tier": "주목",
+      "title": "텐센트 훈위안 Hy4, 최상위 오픈 모델 반열… WorkBuddy와 멀티모달 에이전트 실측"
+    },
+    {
+      "category": "산업·투자",
+      "id": "2026-11-11-26",
+      "links": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/legal/transactional/ai-training-startup-mercor-valued-20-billion-latest-funding-round-2026-11-10/"
+        }
+      ],
+      "one_line": "AI 학습 데이터 인력 플랫폼 머코어의 가치가 1년 만에 두 배가 됐다.",
+      "region": "미국",
+      "score": 6,
+      "tier": "주목",
+      "title": "머코어, 7억 5천만 달러 시리즈 D로 기업가치 200억 달러"
+    },
+    {
+      "category": "상용 LLM",
+      "id": "2026-11-11-27",
+      "links": [
+        {
+          "name": "Tesla North",
+          "url": "https://teslanorth.com/2026/11/10/grok-4-8-coming-this-week-rebuild/"
+        }
+      ],
+      "one_line": "강화학습 단계에 들어갔다고 밝혔지만 벤치마크나 정확한 날짜는 공개하지 않았다.",
+      "region": "미국",
+      "score": 6,
+      "tier": "주목",
+      "title": "xAI, Grok 4.8 사전학습 완료… 이번 주 일부 사용자 대상 배포 예고"
+    },
+    {
+      "category": "상용 LLM",
+      "id": "2026-11-11-28",
+      "links": [
+        {
+          "name": "Search Engine Roundtable",
+          "url": "https://www.seroundtable.com/openai-chatgpt-ads-visual-ads-42493.html"
+        }
+      ],
+      "one_line": "무료 사용자 대상 광고가 이미지 생성 과정으로까지 확대됐다.",
+      "region": "미국",
+      "score": 6,
+      "tier": "주목",
+      "title": "ChatGPT, 이미지 생성 대기 화면에 스폰서 광고 노출 시작"
+    },
+    {
+      "category": "상용 LLM",
+      "id": "2026-11-11-29",
+      "links": [
+        {
+          "name": "Google Cloud 블로그",
+          "url": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-for-healthcare"
+        }
+      ],
+      "one_line": "노스웰·하이마크·HCA·옵텀이 초기 고객으로 참여했다.",
+      "region": "미국",
+      "score": 6,
+      "tier": "주목",
+      "title": "구글 클라우드, 의료 특화 Gemini for Healthcare 미국 프리뷰"
+    },
+    {
+      "category": "피지컬AI",
+      "id": "2026-11-11-30",
+      "links": [
+        {
+          "name": "전자신문",
+          "url": "https://www.etnews.com/20261110000249"
+        }
+      ],
+      "one_line": "베이징 휴머노이드 로봇혁신센터 탕지엔 CTO가 산업 현장 상주 투입 시점을 2027년으로 제시했다.",
+      "region": "중국",
+      "score": 6,
+      "tier": "주목",
+      "title": "中 로봇혁신센터 CTO '2027년 피지컬AI 로봇 현장 상시 근무 시작'"
+    },
+    {
+      "category": "산업·투자",
+      "id": "2026-11-11-31",
+      "links": [
+        {
+          "name": "Unite.AI",
+          "url": "https://www.unite.ai/openai-acquires-ai-travel-startup-odessia-as-founder-joins/"
+        }
+      ],
+      "one_line": "창업자 프랜시스 데이비드슨이 오픈AI에 합류하고 단독 서비스는 종료됐다. 인수가는 공개되지 않았다.",
+      "region": "미국",
+      "score": 5,
+      "tier": "참고",
+      "title": "오픈AI, AI 여행 계획 스타트업 Odessia 인수"
+    },
+    {
+      "category": "기타",
+      "id": "2026-11-11-32",
+      "links": [
+        {
+          "name": "BBC",
+          "url": "https://www.bbc.com/news/articles/cry838v4qzvyo/"
+        }
+      ],
+      "one_line": "IT 현대화와 AI 도입을 이유로 들었고 업무 대부분은 인도로 이전된다.",
+      "region": "글로벌",
+      "score": 4,
+      "tier": "참고",
+      "title": "콴타스, IT 업무를 액센츄어에 넘기며 호주 본사 인력 850명 감축"
+    }
+  ],
+  "sources_checked": [
+    "AI Weekly(11월 10일판)",
+    "The Neuron(11월 10일 다이제스트)",
+    "AI Frontier Daily",
+    "TechCrunch AI(11월 9일까지)",
+    "The Decoder",
+    "Anthropic 뉴스",
+    "openai.com 뉴스(접속 실패, 개별 글·2차 보도로 대체)",
+    "Google 블로그(목록 오래됨, 개별 글로 대체)",
+    "Google DeepMind 블로그",
+    "NVIDIA 블로그",
+    "Hugging Face Papers(11월 10일판)",
+    "AI타임스",
+    "전자신문",
+    "ZDNet Korea(목록 캐시 오래됨)",
+    "量子位",
+    "ITmedia AI+",
+    "The Next Web",
+    "Unite.AI"
+  ],
+  "top": [
+    {
+      "category": "상용 LLM",
+      "id": "2026-11-11-01",
+      "links": [
+        {
+          "name": "Google 블로그",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/"
+        },
+        {
+          "name": "The Decoder",
+          "url": "https://the-decoder.com/gemini-4-carbon-arrives-just-in-time-to-feel-like-yesterdays-news-in-the-fastest-model-cycle-yet/"
+        },
+        {
+          "name": "AI Weekly",
+          "url": "https://aiweekly.co/ai-news-today"
+        }
+      ],
+      "region": "미국",
+      "score": 12,
+      "scores": {
+        "coverage": 2,
+        "impact": 3,
+        "novelty": 2,
+        "relevance": 3,
+        "trust": 2
+      },
+      "summary": [
+        "2주 시험 운영을 마친 Gemini 4 Carbon이 유료 API와 AI Ultra 사용자에게 정식 제공됐다.",
+        "100만 토큰당 입력 2달러·출력 10달러의 도입가는 11월 30일 이후 4달러·20달러로 오른다.",
+        "CursorBench 4.0 1위를 내세웠고, 여러 에이전트를 팀으로 돌리는 '/swarm' 기능도 미리 공개했다."
+      ],
+      "tier": "핵심",
+      "title": "구글 Gemini 4 Carbon 정식 출시… 도입가 $2/$10, 11월 30일 이후 두 배",
+      "why": "Fable 5.2 출시 하루 만에 나온 맞불 모델로, 코딩·에이전트용 상용 LLM 선택과 12월 이후 예산에 바로 영향을 준다."
+    },
+    {
+      "category": "피지컬AI",
+      "id": "2026-11-11-02",
+      "links": [
+        {
+          "name": "Google DeepMind",
+          "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence"
+        },
+        {
+          "name": "The Decoder",
+          "url": "https://the-decoder.com/google-deepminds-gemini-robotics-2-5-scores-96-percent-sorting-metal-parts-in-a-mercedes-benz-assembly-pilot/"
+        }
+      ],
+      "region": "글로벌",
+      "score": 12,
+      "scores": {
+        "coverage": 2,
+        "impact": 3,
+        "novelty": 2,
+        "relevance": 3,
+        "trust": 2
+      },
+      "summary": [
+        "시각·언어·행동(VLA) 모델 Gemini Robotics 2.5가 로봇 파트너사에 배포되기 시작했다.",
+        "200여 개 작업에서 이전 기준 대비 성공률이 30~100% 올랐고 작업 속도는 20~30% 빨라졌다.",
+        "앱트로닉 Apollo 2가 메르세데스-벤츠 라인에서 96% 성공률을 냈고, 로봇 탈옥 평가셋 ASIMOV-Jailbreak도 공개했다."
+      ],
+      "tier": "핵심",
+      "title": "딥마인드 Gemini Robotics 2.5 공개… 벤츠 공장 시범에서 부품 분류 96% 성공",
+      "why": "휴머노이드가 실제 자동차 생산 라인 작업에서 높은 성공률을 보인 사례로, 피지컬AI 상용화 속도를 가늠할 지표다."
+    },
+    {
+      "category": "산업·투자",
+      "id": "2026-11-11-03",
+      "links": [
+        {
+          "name": "Anthropic",
+          "url": "https://www.anthropic.com/news/roadshow-launch"
+        },
+        {
+          "name": "The Decoder",
+          "url": "https://the-decoder.com/anthropic-kicks-off-ipo-roadshow-offering-shares-at-70-to-78-and-targeting-a-trillion-dollar-valuation/"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/world/china/tsmc-invest-up-1-billion-anthropic-openai-2026-11-10/"
+        }
+      ],
+      "region": "미국",
+      "score": 11,
+      "scores": {
+        "coverage": 2,
+        "impact": 3,
+        "novelty": 2,
+        "relevance": 2,
+        "trust": 2
+      },
+      "summary": [
+        "앤트로픽이 클래스 A 보통주 상장을 위한 로드쇼를 공식 시작했다.",
+        "공모가 범위는 주당 70~78달러로 기업가치 최대 약 1조 200억 달러, 공모 규모는 최대 644억 달러 수준으로 알려졌다.",
+        "구글·엔비디아·마이크로소프트가 앵커로 참여하는 사모 배정이 붙고, TSMC도 공모가로 최대 5억 달러 투자 계획이 보도됐다."
+      ],
+      "tier": "핵심",
+      "title": "앤트로픽 IPO 로드쇼 시작… 주당 70~78달러, 기업가치 최대 1조 달러",
+      "why": "AI 연구소 최초의 조 단위 상장으로, 프런티어 모델 기업의 자금 조달과 가격 정책 방향에 큰 영향을 준다."
+    },
+    {
+      "category": "상용 LLM",
+      "id": "2026-11-11-04",
+      "links": [
+        {
+          "name": "The Decoder",
+          "url": "https://the-decoder.com/anthropic-turns-claude-into-a-full-workspace-with-plugins-spreadsheets-whiteboards-and-soon-meeting-notes/"
+        },
+        {
+          "name": "Engadget",
+          "url": "https://www.engadget.com/2312177/anthropic-takes-on-google-and-microsoft-with-claude-sheets/"
+        }
+      ],
+      "region": "미국",
+      "score": 11,
+      "scores": {
+        "coverage": 2,
+        "impact": 2,
+        "novelty": 2,
+        "relevance": 3,
+        "trust": 2
+      },
+      "summary": [
+        "샌프란시스코 행사에서 스프레드시트 Claude Sheets(유료 요금제 베타)와 Claude Whiteboards를 공개했다.",
+        "Dashboards는 Claude Data로 이름을 바꿨고, 어도비·아틀라시안·세일즈포스와 대화형 커넥터를 붙였다.",
+        "구글 Meet 회의에 참여해 기록하는 Claude Meetings는 Team·Enterprise 대상으로 곧 나온다."
+      ],
+      "tier": "핵심",
+      "title": "앤트로픽, Claude를 업무 공간으로 확장… Sheets·Whiteboards·Meetings 공개",
+      "why": "모델 경쟁이 오피스 도구 경쟁으로 번지면서, 업무용 AI를 고를 때 비교 대상이 MS·구글 업무 도구까지 넓어졌다."
+    },
+    {
+      "category": "피지컬AI",
+      "id": "2026-11-11-05",
+      "links": [
+        {
+          "name": "NVIDIA 블로그",
+          "url": "https://blogs.nvidia.com/blog/robotics-simulation-advancements-corl/"
+        },
+        {
+          "name": "The Decoder",
+          "url": "https://the-decoder.com/nvidias-model-gr00t-2-watches-humans-on-video-then-imagines-itself-as-the-robot/"
+        }
+      ],
+      "region": "미국",
+      "score": 11,
+      "scores": {
+        "coverage": 2,
+        "impact": 2,
+        "novelty": 2,
+        "relevance": 3,
+        "trust": 2
+      },
+      "summary": [
+        "CoRL 2026에서 20억 파라미터 VLA 모델 GR00T 2를 발표했다. 사람 영상을 보고 로봇 동작으로 바꿔 상상하는 방식이다.",
+        "작업당 시연 1회로 50개 작업 평균 71%, 시연 5회로 95% 성공률을 냈고, 가중치와 데이터셋은 12월 공개 예정이다.",
+        "시뮬레이션 학습 도구 Isaac Lab 3.0은 이전 버전보다 학습 처리량이 최대 2.5배 늘었다."
+      ],
+      "tier": "핵심",
+      "title": "엔비디아, 사람 영상을 보고 배우는 로봇 모델 GR00T 2와 Isaac Lab 3.0 공개",
+      "why": "적은 시연으로 새 작업을 익히는 공개 로봇 모델이 나오면 피지컬AI 개발의 진입 장벽이 크게 낮아진다."
+    }
+  ]
+}
