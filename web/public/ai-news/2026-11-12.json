@@ -1,0 +1,574 @@
+{
+  "date": "2026-11-12",
+  "generated_at": "2026-11-12T07:53:37+09:00",
+  "headline": "알리바바가 Qwen4-Max 프리뷰로 차세대 모델 경쟁에 불을 붙였고, 구글은 출력 무과금 판정 API로 가격 구도를 흔들었다. 딥엘의 감정까지 옮기는 음성 번역과 오픈AI·앤트로픽의 실적 격차가 뒤를 이었다.",
+  "others": [
+    {
+      "category": "상용 LLM",
+      "id": "2026-11-12-06",
+      "links": [
+        {
+          "name": "The Neuron",
+          "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-wednesday-november-11-2026/"
+        }
+      ],
+      "one_line": "오픈AI가 ChatGPT의 기존 음성 모드 두 가지를 12월 11일 내리고 이용자를 Live Voice로 옮긴다고 공지했다.",
+      "region": "미국",
+      "score": 8,
+      "tier": "주목",
+      "title": "ChatGPT 기존 Advanced·Standard Voice, 12월 11일 종료… Live Voice로 일원화"
+    },
+    {
+      "category": "정책·규제",
+      "id": "2026-11-12-07",
+      "links": [
+        {
+          "name": "The Decoder",
+          "url": "https://the-decoder.com/us-data-brokers-are-selling-half-a-billion-dollars-in-rl-training-environments-to-chinese-ai-labs/"
+        },
+        {
+          "name": "ChinaTalk",
+          "url": "https://www.chinatalk.media/p/the-us-is-selling-rl-environments"
+        }
+      ],
+      "one_line": "차이나토크 조사에 따르면 머코어·서지AI 등 미국 업체 최소 9곳이 오픈AI·앤트로픽에 파는 것과 같은 강화학습 환경을 중국 연구소에도 팔았고, 수출 통제 공백이 지적됐다.",
+      "region": "미국",
+      "score": 8,
+      "tier": "주목",
+      "title": "美 데이터 업체들, 중국 AI 연구소에 RL 학습 환경 약 5억 달러어치 판매"
+    },
+    {
+      "category": "산업·투자",
+      "id": "2026-11-12-08",
+      "links": [
+        {
+          "name": "ZDNet Korea",
+          "url": "https://zdnet.co.kr/view/?no=20261111170343"
+        }
+      ],
+      "one_line": "엔씨소프트 실적 발표 컨퍼런스콜에서 경영진이 AI 확산 속에서도 MMO 개발 경쟁력을 지키고 퍼블리싱을 키우겠다는 방향을 밝혔다.",
+      "region": "한국",
+      "score": 8,
+      "tier": "주목",
+      "title": "박병무 엔씨 공동대표 'AI 시대에도 MMO 경쟁력 유지… 퍼블리싱 역량 강화'"
+    },
+    {
+      "category": "LLM",
+      "id": "2026-11-12-09",
+      "links": [
+        {
+          "name": "MiniMax 블로그",
+          "url": "https://www.minimax.io/blog/minimax-h3-image"
+        },
+        {
+          "name": "The Neuron",
+          "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-wednesday-november-11-2026/"
+        }
+      ],
+      "one_line": "미니맥스가 참조 이미지 최대 16장을 받아 4K 이미지를 10초 안에 만드는 이미지 생성 모델의 가중치를 내려받을 수 있게 공개했다.",
+      "region": "중국",
+      "score": 8,
+      "tier": "주목",
+      "title": "미니맥스, 오픈 가중치 이미지 모델 H3-Image 공개… 4K 10초 이내 생성"
+    },
+    {
+      "category": "상용 LLM",
+      "id": "2026-11-12-10",
+      "links": [
+        {
+          "name": "Digital Applied",
+          "url": "https://www.digitalapplied.com/blog/openai-ends-cursor-model-access-november-cutoff"
+        },
+        {
+          "name": "TokenPost",
+          "url": "https://www.tokenpost.com/news/business/54432"
+        }
+      ],
+      "one_line": "SpaceX의 Cursor 모회사 인수로 오픈AI가 8월 예고한 모델 공급 중단의 제안 시점이 11월 12일로, BYOK·Codex 확장 등 우회 방법이 거론된다(최종 날짜는 양사 협의 중).",
+      "region": "미국",
+      "score": 7,
+      "tier": "주목",
+      "title": "오픈AI의 Cursor 모델 공급 종료 제안일 도래… GPT-5.6 3종 영향"
+    },
+    {
+      "category": "산업·투자",
+      "id": "2026-11-12-11",
+      "links": [
+        {
+          "name": "RCR Wireless",
+          "url": "https://rcrwireless.com/20261111/ai/nvlink-fusion-sovereign-ai-korea"
+        }
+      ],
+      "one_line": "엔비디아 GPU가 프리필, 리벨리온 R200 NPU가 디코드를 맡는 구조로 SKT의 A.X K2 모델을 돌리는 협력에 서명했으며 2028년 배치가 목표다.",
+      "region": "한국",
+      "score": 7,
+      "tier": "주목",
+      "title": "엔비디아·리벨리온·SKT, NVLink Fusion 소버린 추론 MOU"
+    },
+    {
+      "category": "상용 LLM",
+      "id": "2026-11-12-12",
+      "links": [
+        {
+          "name": "ElevenLabs 블로그",
+          "url": "https://elevenlabs.io/blog/scribe-v3"
+        }
+      ],
+      "one_line": "이전 버전보다 단어 오류를 27% 줄였고 실시간 버전은 의미를 바꾸는 오류를 43% 줄였다고 밝혔다.",
+      "region": "미국",
+      "score": 7,
+      "tier": "주목",
+      "title": "일레븐랩스, 음성 인식 Scribe v3·v3 Live 출시"
+    },
+    {
+      "category": "연구 논문",
+      "id": "2026-11-12-13",
+      "links": [
+        {
+          "name": "HF Papers",
+          "url": "https://huggingface.co/papers/2611.13482"
+        }
+      ],
+      "one_line": "강화학습으로 실행 길이를 조정해 긴 행동 청크를 쓰는 VLA 모델이 상황 변화에 즉시 적응하도록 했다.",
+      "paper_year": 2026,
+      "region": "글로벌",
+      "score": 7,
+      "tier": "주목",
+      "title": "[논문] ExRL: VLA 로봇 정책의 행동 청크 길이를 실행 중 조절"
+    },
+    {
+      "category": "연구 논문",
+      "id": "2026-11-12-14",
+      "links": [
+        {
+          "name": "HF Papers",
+          "url": "https://huggingface.co/papers/2611.12885"
+        }
+      ],
+      "one_line": "로봇이 작업 중 환경 정보를 맥락으로 학습해 조작 계획에 활용하는 방법을 제안했다(HF 일간 논문 상위).",
+      "paper_year": 2026,
+      "region": "글로벌",
+      "score": 7,
+      "tier": "주목",
+      "title": "[논문] 로봇 조작 에이전트를 위한 월드 인컨텍스트 학습"
+    },
+    {
+      "category": "연구 논문",
+      "id": "2026-11-12-15",
+      "links": [
+        {
+          "name": "HF Papers",
+          "url": "https://huggingface.co/papers/2611.14320"
+        }
+      ],
+      "one_line": "에이전트가 저장된 기억을 원본 근거와 연결해 다시 확인하게 해 잘못된 기억 때문에 성능이 떨어지는 문제를 줄였다.",
+      "paper_year": 2026,
+      "region": "글로벌",
+      "score": 7,
+      "tier": "주목",
+      "title": "[논문] 근거 연결 메모리로 LLM 에이전트의 기억 오류 누적 감소"
+    },
+    {
+      "category": "정책·규제",
+      "id": "2026-11-12-16",
+      "links": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/world/china/us-china-should-stay-clear-eyed-ai-cooperation-competition-bessent-says-2026-11-11/"
+        }
+      ],
+      "one_line": "베선트 장관이 AI 분야 협력과 경쟁을 냉정하게 보자며 양국 간 AI 사고 알림 채널 계획을 밝혔다.",
+      "region": "글로벌",
+      "score": 7,
+      "tier": "주목",
+      "title": "美·中, AI 사고 경보 채널 마련 추진… 베선트 재무장관 언급"
+    },
+    {
+      "category": "정책·규제",
+      "id": "2026-11-12-17",
+      "links": [
+        {
+          "name": "ZDNet Korea",
+          "url": "https://zdnet.co.kr/view/?no=20261111114930"
+        }
+      ],
+      "one_line": "AI를 활용한 사이버 공격이 급증해 앞으로 1~2년은 더 어려울 것이라고 경고했다.",
+      "region": "미국",
+      "score": 6,
+      "tier": "주목",
+      "title": "美 CISA 국장 대행 '지난 20년간 이런 AI 공격은 처음'"
+    },
+    {
+      "category": "정책·규제",
+      "id": "2026-11-12-18",
+      "links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/11/chinese-university-buys-nvidia-ai-h200-chips-despite-us-ban-records-show"
+        }
+      ],
+      "one_line": "조달 기록상 중국 대학이 중개상을 거쳐 H200을 사들인 정황이 드러났다.",
+      "region": "중국",
+      "score": 6,
+      "tier": "주목",
+      "title": "中 대학, 미국 수출 금지에도 리셀러 통해 엔비디아 H200 구매 기록"
+    },
+    {
+      "category": "기타",
+      "id": "2026-11-12-19",
+      "links": [
+        {
+          "name": "The Decoder",
+          "url": "https://the-decoder.com/helsing-built-an-ai-system-that-prepares-targets-for-weapons-systems-and-says-every-decision-will-carry-a-human-name/"
+        }
+      ],
+      "one_line": "독일 방산 AI 기업이 표적 선정을 돕는 시스템을 내놓으며 결정마다 책임자를 명시하겠다고 했다.",
+      "region": "유럽",
+      "score": 6,
+      "tier": "주목",
+      "title": "헬싱, 무기체계용 표적 준비 AI 공개… '모든 결정에 사람 이름'"
+    },
+    {
+      "category": "정책·규제",
+      "id": "2026-11-12-20",
+      "links": [
+        {
+          "name": "ZDNet Korea",
+          "url": "https://zdnet.co.kr/view/?no=20261111120847"
+        },
+        {
+          "name": "파이낸셜뉴스",
+          "url": "https://fnnews.com/news/202611111833227738"
+        }
+      ],
+      "one_line": "정보통신기획평가원이 AI 가능성을 실제 생산성으로 증명해야 한다는 점을 내년 핵심 과제로 꼽았다.",
+      "region": "한국",
+      "score": 6,
+      "tier": "주목",
+      "title": "IITP, 내년 AI·ICT 10대 이슈 발표… 피지컬AI 등 R&D 2조 시대, '생산성 입증'이 과제"
+    },
+    {
+      "category": "상용 LLM",
+      "id": "2026-11-12-21",
+      "links": [
+        {
+          "name": "AI타임스",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=217239"
+        }
+      ],
+      "one_line": "AI타임스가 인용한 집계에서 ChatGPT가 챗봇 이용의 대부분을 차지했고 Claude는 빠르게 늘었다.",
+      "region": "글로벌",
+      "score": 6,
+      "tier": "주목",
+      "title": "ChatGPT, 주요 AI 챗봇 이용량 81% 차지… 클로드 급성장에도 독주"
+    },
+    {
+      "category": "산업·투자",
+      "id": "2026-11-12-22",
+      "links": [
+        {
+          "name": "AI Weekly",
+          "url": "https://aiweekly.co/alerts/anthropic-opens-australian-retail-ipo-ahead-of-nasdaq-listing"
+        }
+      ],
+      "one_line": "나스닥 상장을 앞두고 CommSec 등 호주 증권사 8곳을 통해 개인 청약을 받는다.",
+      "region": "글로벌",
+      "score": 6,
+      "tier": "주목",
+      "title": "앤트로픽, 호주 개인 투자자 대상 IPO 공모 개시"
+    },
+    {
+      "category": "피지컬AI",
+      "id": "2026-11-12-23",
+      "links": [
+        {
+          "name": "The Peninsula",
+          "url": "https://thepeninsulaqatar.com/article/11/11/2026/china-unveils-worlds-first-bionic-humanoid-robot-news-anchors"
+        },
+        {
+          "name": "Manila Times",
+          "url": "https://www.manilatimes.net/2026/11/11/tmt-newswire/globenewswire/worlds-first-bionic-humanoid-robot-news-anchors-unveiled/2467213"
+        }
+      ],
+      "one_line": "사람과 비슷한 외형의 휴머노이드 로봇을 뉴스 진행에 투입한다고 발표했다.",
+      "region": "중국",
+      "score": 6,
+      "tier": "주목",
+      "title": "中, 생체 모방 휴머노이드 뉴스 앵커 공개"
+    },
+    {
+      "category": "연구 논문",
+      "id": "2026-11-12-24",
+      "links": [
+        {
+          "name": "HF Papers",
+          "url": "https://huggingface.co/papers/2611.14210"
+        }
+      ],
+      "one_line": "LLM 가중치 수정을 희소 이산 최적화 문제로 바꿔 이징·QUBO 솔버로 푸는 방법을 제시했다.",
+      "paper_year": 2026,
+      "region": "글로벌",
+      "score": 6,
+      "tier": "주목",
+      "title": "[논문] Tree-Ising: 비트 단위 이징 편집으로 언어모델 수리"
+    },
+    {
+      "category": "기타",
+      "id": "2026-11-12-25",
+      "links": [
+        {
+          "name": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/apple/railway-breach-leads-to-740-000-in-fraudulent-ai-charges/"
+        }
+      ],
+      "one_line": "배포 플랫폼 Railway 침해로 탈취된 계정에서 AI 사용 요금이 부정 청구됐고 영향 범위는 최대 10만 워크스페이스로 추정된다.",
+      "region": "미국",
+      "score": 5,
+      "tier": "참고",
+      "title": "Railway 침해 사고로 AI 사용료 74만 달러 부정 결제"
+    },
+    {
+      "category": "정책·규제",
+      "id": "2026-11-12-26",
+      "links": [
+        {
+          "name": "The Decoder",
+          "url": "https://the-decoder.com/uk-regulator-threatens-universities-with-sanctions-unless-they-adopt-ai-proof-exam-formats/"
+        }
+      ],
+      "one_line": "잉글랜드 고등교육 규제기관이 AI에 강한 평가 방식을 도입하지 않으면 제재할 수 있다고 경고했다.",
+      "region": "유럽",
+      "score": 5,
+      "tier": "참고",
+      "title": "英 규제기관 'AI 때문에 대학 성적 평가 거의 불가능'… AI 대응 시험 요구"
+    },
+    {
+      "category": "기타",
+      "id": "2026-11-12-27",
+      "links": [
+        {
+          "name": "ZDNet Korea",
+          "url": "https://zdnet.co.kr/view/?no=20261111100241"
+        }
+      ],
+      "one_line": "생성형 AI 사용 여부를 가리기 어려워져 대회 운영을 접었다.",
+      "region": "글로벌",
+      "score": 5,
+      "tier": "참고",
+      "title": "호주 학생 게임 개발 대회, 생성형 AI 확산에 12년 만에 폐지"
+    },
+    {
+      "category": "산업·투자",
+      "id": "2026-11-12-28",
+      "links": [
+        {
+          "name": "AI타임스",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=217258"
+        }
+      ],
+      "one_line": "젠슨 황 관련 이사회 조사와 AI 투자 우려가 겹치며 주가가 크게 밀렸다.",
+      "region": "미국",
+      "score": 5,
+      "tier": "참고",
+      "title": "엔비디아, CEO 스캔들·AI 투자 불안 겹쳐 이틀간 시총 627조 원 증발"
+    },
+    {
+      "category": "기타",
+      "id": "2026-11-12-29",
+      "links": [
+        {
+          "name": "Nieman Lab",
+          "url": "https://www.niemanlab.org/2026/11/ai-is-becoming-an-information-gateway-audiences-still-dont-want-it-making-their-news/"
+        }
+      ],
+      "one_line": "AI가 정보 관문이 되고 있지만 뉴스 작성에 쓰는 데는 거부감이 크다는 설문 결과다.",
+      "region": "미국",
+      "score": 4,
+      "tier": "참고",
+      "title": "니먼랩 조사 '사람들은 AI로 정보를 찾지만 뉴스 제작은 맡기기 싫어해'"
+    }
+  ],
+  "sources_checked": [
+    "AI Weekly(11월 11일판)",
+    "The Neuron(11월 11일 다이제스트)",
+    "AI Frontier Daily(11월 11일)",
+    "The Decoder",
+    "Anthropic 뉴스(11월 11일 신규 없음)",
+    "TechCrunch AI(접속 실패, 2차 보도로 대체)",
+    "openai.com 뉴스(접속 실패, 2차 보도로 대체)",
+    "Google 블로그(목록 오래됨, 개별 글로 대체)",
+    "Hugging Face Papers(11월 11일판)",
+    "AI타임스",
+    "ZDNet Korea",
+    "파이낸셜뉴스",
+    "21세기경제보도·新浪(중국)",
+    "ITmedia AI+",
+    "RCR Wireless",
+    "Reuters"
+  ],
+  "top": [
+    {
+      "category": "LLM",
+      "id": "2026-11-12-01",
+      "links": [
+        {
+          "name": "AI Compass",
+          "url": "https://ashutoshai.com/ai-compass/2026/11/10/qwen-qwen4-max-preview/"
+        },
+        {
+          "name": "21세기경제보도",
+          "url": "https://m.21jingji.com/article/20261111/herald/dd518ec107983b77da1379529bcb921b.html"
+        },
+        {
+          "name": "Gadget Pilipinas",
+          "url": "https://www.gadgetpilipinas.net/2026/11/qwen4-max-preview-1m-context/"
+        }
+      ],
+      "region": "중국",
+      "score": 11,
+      "scores": {
+        "coverage": 2,
+        "impact": 2,
+        "novelty": 2,
+        "relevance": 3,
+        "trust": 2
+      },
+      "summary": [
+        "알리바바가 차세대 Qwen4 시리즈의 첫 플래그십인 Qwen4-Max 프리뷰를 Token Plan 구독과 千问办公·Qwen 앱 등에서 먼저 열었다.",
+        "API 키 하나로 OpenAI·Anthropic 호환 프로토콜을 지원해 Claude Code·Cursor·Cline 같은 코딩 도구에 바로 붙일 수 있다.",
+        "가중치·벤치마크는 아직 공개하지 않았고, 프리뷰는 약 15일 한정 운영 뒤 Qwen4 정식 출시로 이어질 예정이다."
+      ],
+      "tier": "핵심",
+      "title": "알리바바 Qwen4-Max 프리뷰 공개… Qwen4 시리즈 첫 플래그십",
+      "why": "중국 최대 오픈 모델 계열의 세대 교체 신호로, 에이전트·코딩 중심 상용 LLM 경쟁 구도와 가격에 영향을 준다."
+    },
+    {
+      "category": "상용 LLM",
+      "id": "2026-11-12-02",
+      "links": [
+        {
+          "name": "The Decoder",
+          "url": "https://the-decoder.com/google-joins-the-decision-model-wave-with-gemini-decision-1-scoring-1000-questions-in-a-single-pass/"
+        },
+        {
+          "name": "Google 블로그",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/"
+        }
+      ],
+      "region": "미국",
+      "score": 10,
+      "scores": {
+        "coverage": 1,
+        "impact": 2,
+        "novelty": 2,
+        "relevance": 3,
+        "trust": 2
+      },
+      "summary": [
+        "구글 딥마인드가 예/아니오·객관식·척도 평가 같은 닫힌 질문만 처리하는 Gemini Decisions API를 AI Studio에서 바로 열었다.",
+        "한 번 호출로 텍스트·이미지·오디오·영상·PDF에 걸친 질문 최대 1,000개를 150~250ms 안에 확률·신뢰도와 함께 돌려준다.",
+        "가격은 입력 100만 토큰당 0.1달러에 출력은 받지 않아 Gemini 3.5 Flash-Lite보다 약 5배 싸며, 구글은 내부 모델 라우팅·안전 검사에 이미 쓰고 있다."
+      ],
+      "tier": "핵심",
+      "title": "구글, 판정 전용 모델 Gemini Decision 1 공개… 입력 100만 토큰당 0.1달러, 출력 무과금",
+      "why": "분류·라우팅·품질 판정 같은 대량 평가 작업의 비용 구조를 크게 바꿀 수 있는 새 상용 API 유형이다."
+    },
+    {
+      "category": "상용 LLM",
+      "id": "2026-11-12-03",
+      "links": [
+        {
+          "name": "ZDNet Korea",
+          "url": "https://zdnet.co.kr/view/?no=20261111181003"
+        },
+        {
+          "name": "The Decoder",
+          "url": "https://the-decoder.com/with-its-new-voice-model-deepl-voice-now-translates-intonation-and-speaking-speed-into-other-languages-as-well/"
+        }
+      ],
+      "region": "유럽",
+      "score": 10,
+      "scores": {
+        "coverage": 2,
+        "impact": 1,
+        "novelty": 2,
+        "relevance": 3,
+        "trust": 2
+      },
+      "summary": [
+        "딥엘이 말하는 사람의 어조·감정·강세·말 속도를 계속 추적해 번역된 음성에 그대로 실어 주는 음성 모델 Aure를 내놨다.",
+        "온라인 회의·대면 대화용 DeepL Voice와 음성 API에 별도 설정 없이 자동 적용되며, 한국어·영어·일본어 등 8개 언어로 시작한다.",
+        "회의 녹취와 번역 결과는 저장하지 않고 세션이 끝나면 메모리에서 지운다고 밝혔다."
+      ],
+      "tier": "핵심",
+      "title": "딥엘, 억양·감정까지 옮기는 실시간 음성 번역 모델 '오러(Aure)' 공개",
+      "why": "번역·현지화 분야에서 텍스트를 넘어 화자의 뉘앙스까지 옮기는 음성 번역이 상용 단계에 들어섰다는 신호다."
+    },
+    {
+      "category": "산업·투자",
+      "id": "2026-11-12-04",
+      "links": [
+        {
+          "name": "The Decoder",
+          "url": "https://the-decoder.com/enterprise-sales-push-openais-quarterly-revenue-to-10-billion-though-it-still-trails-anthropic/"
+        },
+        {
+          "name": "WSJ",
+          "url": "https://www.wsj.com/business/earnings/openai-continues-to-suffer-heavy-losses-as-revenue-rises-to-10-billion-d2a96bbb"
+        },
+        {
+          "name": "The Information",
+          "url": "https://www.theinformation.com/articles/openai-revenue-jumps-10-billion-third-quarter"
+        }
+      ],
+      "region": "미국",
+      "score": 9,
+      "scores": {
+        "coverage": 2,
+        "impact": 3,
+        "novelty": 1,
+        "relevance": 2,
+        "trust": 1
+      },
+      "summary": [
+        "WSJ·디인포메이션 보도에 따르면 오픈AI의 3분기 매출은 약 100억 달러로 전 분기보다 50% 가까이 늘었다.",
+        "조정 영업손실은 109억 달러로 오히려 커졌고, 기업 매출이 두 배로 늘어 전체의 절반을 넘었다.",
+        "같은 기간 앤트로픽 매출은 170억 달러로 2분기에 이어 오픈AI를 앞섰다."
+      ],
+      "tier": "핵심",
+      "title": "오픈AI 3분기 매출 약 100억 달러… 영업손실 109억 달러, 앤트로픽(170억 달러)에 여전히 뒤져",
+      "why": "IPO를 앞둔 앤트로픽과 오픈AI의 수익성 격차가 숫자로 드러나며 상용 LLM 가격 경쟁의 배경을 보여준다."
+    },
+    {
+      "category": "산업·투자",
+      "id": "2026-11-12-05",
+      "links": [
+        {
+          "name": "The Decoder",
+          "url": "https://the-decoder.com/anthropic-says-ai-is-eroding-nvidias-cuda-lead-cutting-an-amd-chip-switch-from-months-to-three-days/"
+        },
+        {
+          "name": "Anthropic IPO 자료",
+          "url": "https://ipo.anthropic.com/"
+        }
+      ],
+      "region": "미국",
+      "score": 9,
+      "scores": {
+        "coverage": 1,
+        "impact": 2,
+        "novelty": 2,
+        "relevance": 2,
+        "trust": 2
+      },
+      "summary": [
+        "앤트로픽이 IPO 투자자 설명 자료에서 자사 모델 Mythos가 AMD MI355X용 커널을 거의 전부 작성·이식해 Claude를 3일 만에 돌렸다고 밝혔다.",
+        "통상 6~12개월 걸리던 칩 전환을 사람 개입 없이 줄였다며, Claude를 4대 칩 계열에서 하나의 자원처럼 운용한다고 설명했다.",
+        "수치는 회사 자료 기준으로 외부 검증은 아직 없다."
+      ],
+      "tier": "핵심",
+      "title": "앤트로픽 'Mythos가 AMD 커널 이식 맡아 전환 기간 수개월→3일'… CUDA 장벽 약화 주장",
+      "why": "AI가 소프트웨어 생태계 락인을 허물면 엔비디아 중심의 연산 공급 구조와 모델 단가가 달라질 수 있다."
+    }
+  ]
+}
