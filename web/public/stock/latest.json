@@ -173,78 +173,78 @@
   },
   "afternoon": {
     "type": "afternoon",
-    "date": "2026-11-12",
-    "generated_at": "2026-11-12T15:57:44+09:00",
+    "date": "2026-11-13",
+    "generated_at": "2026-11-13T15:53:34+09:00",
     "analysis": {
-      "kospi_predicted": "상승",
+      "kospi_predicted": "하락",
       "kospi_actual": "하락",
-      "kospi_change_text": "▼0.61%",
-      "kospi_match": "빗나감",
-      "kospi_miss_reason": "美 반도체 훈풍에 장중 5458까지 올랐으나 기관 6796억·개인 매도로 상승분 반납. 옵션만기·이틀 급등 차익 부담을 과소평가",
+      "kospi_change_text": "▼0.98%",
+      "kospi_match": "적중",
+      "kospi_miss_reason": "방향은 맞음. 장 초반 2%대 반등에 5500선까지 올랐으나 외국인 순매도 전환과 엔비디아 공급망 우려로 반도체가 밀리며 예상 범위 안에서 마감",
       "watchlist_accuracy": [
         {
           "code": "005930",
           "name": "삼성전자",
-          "predicted": "상승",
-          "actual": "상승",
-          "change_text": "▲0.97%",
-          "match": "적중",
-          "reason": "공급망 다변화 부각, 약세장 속 상대 강세"
+          "predicted": "보합",
+          "actual": "하락",
+          "change_text": "▼0.96%",
+          "match": "빗나감",
+          "reason": "상대 강세 기대했으나 외국인 매도에 반도체 동반 약세"
         },
         {
           "code": "000660",
           "name": "SK하이닉스",
-          "predicted": "상승",
+          "predicted": "하락",
           "actual": "하락",
-          "change_text": "▼1.80%",
-          "match": "빗나감",
-          "reason": "ADR 급등 반영 못 하고 이틀 급등 차익 매물"
+          "change_text": "▼3.03%",
+          "match": "적중",
+          "reason": "장초반 반등 뒤 엔비디아 CEO 리스크 부각돼 3%대 하락"
         }
       ],
-      "overall_accuracy": "1/3",
-      "accuracy": "부분적중",
-      "market_analysis": "상승 출발해 장중 5458까지 갔으나 오후 하락 전환. 외국인 3475억 순매수에도 기관·개인 매도. 삼성전자만 강세, 자동차·금융 부진, 코스닥은 바이오·이차전지 차익 매물",
-      "lessons": "이틀 급등 뒤 옵션만기일엔 기관 차익 매도 비중을 키우고 범위 하단을 보수적으로"
+      "overall_accuracy": "2/3",
+      "accuracy": "적중",
+      "market_analysis": "코스피는 장 초반 5500선을 찍은 뒤 외국인 5475억 순매도로 하락 전환. 반도체·바이오 약세, 금융·자동차 강세. 코스닥은 기관 매수에 상승",
+      "lessons": "장초반 저가매수 반등 뒤 외국인 변심 가능성, 반도체 약세가 삼성전자에도 번지는 점 반영"
     },
     "raw_data": {
       "kospi": {
-        "price": 5342.73,
-        "changePct": -0.61
+        "price": 5290.53,
+        "changePct": -0.98
       },
       "kosdaq": {
-        "price": 696.53,
-        "changePct": -1.22
+        "price": 699.66,
+        "changePct": 0.45
       },
       "watchlist": [
         {
           "code": "005930",
           "name": "삼성전자",
-          "price": 208000,
-          "changePct": 0.97
+          "price": 206000,
+          "changePct": -0.96
         },
         {
           "code": "000660",
           "name": "SK하이닉스",
-          "price": 1254000,
-          "changePct": -1.8
+          "price": 1216000,
+          "changePct": -3.03
         }
       ],
       "sources": [
         {
-          "name": "파이낸셜뉴스(마감시황·수급·종목 종가)",
-          "url": "https://www.fnnews.com/news/202611121539360346"
+          "name": "아주경제(마감시황·수급·종목 등락률)",
+          "url": "https://www.ajunews.com/view/20261113152425151"
         },
         {
-          "name": "아시아경제(코스피 종가)",
-          "url": "https://view.asiae.co.kr/article/2026111215344297464"
+          "name": "재경일보(SK하이닉스 종가)",
+          "url": "https://news.jkn.co.kr/post/1091354"
         },
         {
-          "name": "아시아경제(코스닥 종가)",
-          "url": "https://view.asiae.co.kr/article/2026111215350106027"
+          "name": "파이낸셜뉴스(장중 고점·수급 전환)",
+          "url": "https://www.fnnews.com/news/202611131436486159"
         },
         {
-          "name": "서울경제TV(코스피 마감)",
-          "url": "https://www.sentv.co.kr/article/view/sentv202611120156"
+          "name": "블루밍비트(장중 흐름·엔비디아)",
+          "url": "https://bloomingbit.io/feed/news/124342"
         }
       ]
     }
