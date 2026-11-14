@@ -1,480 +1,409 @@
 {
-  "date": "2026-11-14",
-  "generated_at": "2026-11-14T07:52:36+09:00",
-  "headline": "구글이 제미나이 4 하이드로젠으로 기본 모델과 API 단가를 바꿨고, 오픈AI는 로봇팀을 범용 모델 조직에 흡수하고 에이전트 결제(챗GPT 월렛)를 열었다. 앤트로픽은 제조업용 클로드와 6배 청약이 몰린 IPO로 주목받았다.",
+  "date": "2026-11-15",
+  "generated_at": "2026-11-15T07:51:32+09:00",
+  "headline": "런웨이가 로봇 제어용 월드 액션 모델을 공개 모델로 풀고 제미나이 4 카본이 수학 벤치마크 정상에 올랐지만 비용 격차가 부각됐다. 엔비디아 리더십 공백 여파는 수출 통제·투자 심리로 번지는 중이다.",
   "others": [
     {
-      "category": "LLM",
-      "id": "2026-11-14-06",
+      "category": "산업·투자",
+      "id": "2026-11-15-06",
       "links": [
         {
-          "name": "Hugging Face 블로그",
-          "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1"
+          "name": "SecurityWeek",
+          "url": "https://www.securityweek.com/crowdstrike-reportedly-paying-495-million-for-ai-security-firms-fiddler-dreadnode/amp/"
         },
         {
-          "name": "AI Weekly",
-          "url": "https://aiweekly.co/alerts/llamacpp-ships-v100-with-semver-for-libllama-and-ggml"
+          "name": "GovInfoSecurity",
+          "url": "https://www.govinfosecurity.com/crowdstrike-to-buy-ai-security-startups-for-495m-a-33285"
         }
       ],
-      "one_line": "ggml 팀이 llama.cpp와 ggml을 v1.0.0으로 올리고 앞으로 C API를 깨는 변경은 메이저 버전에서만 하겠다고 약속해 로컬 추론 스택을 제품에 넣기 쉬워졌다.",
-      "region": "글로벌",
-      "score": 9,
-      "tier": "핵심",
-      "title": "llama.cpp·ggml 1.0 정식 버전… 시맨틱 버전 관리 도입"
-    },
-    {
-      "category": "정책·규제",
-      "id": "2026-11-14-07",
-      "links": [
-        {
-          "name": "ZDNet Korea",
-          "url": "https://zdnet.co.kr/view/?no=20261113172804"
-        },
-        {
-          "name": "ZDNet Korea(전략위 긴급회의)",
-          "url": "https://zdnet.co.kr/view/?no=20261113152653"
-        }
-      ],
-      "one_line": "정부는 직접 확보 목표 3만5천 장(B200 환산) 중 약 2만1천 장을 확보했고 나머지는 2027년 초까지 들어온다며 공급 차질 우려를 진화했다. 국가AI전략위도 긴급회의로 수급을 점검했다.",
-      "region": "한국",
+      "one_line": "AI 에이전트 감시·레드티밍 역량을 사들여 에이전트 보안 시장을 겨냥한다.",
+      "region": "미국",
       "score": 8,
       "tier": "주목",
-      "title": "배경훈 부총리 '젠슨 황 사임에도 엔비디아 GPU 26만 장 예정대로'"
-    },
-    {
-      "category": "정책·규제",
-      "id": "2026-11-14-08",
-      "links": [
-        {
-          "name": "The Decoder",
-          "url": "https://the-decoder.com/former-openai-researcher-says-he-found-nvidia-blackwell-fingerprints-hidden-inside-six-chinese-ai-models/"
-        }
-      ],
-      "one_line": "윌 드퓨가 공개 가중치를 분석해 딥시크·문샷·미니맥스·앤트그룹이 블랙웰 GPU를 썼다는 정황을 주장했으나, 밀수나 법 위반을 입증하는 방법은 아니라는 점에서 검증되지 않은 주장이다.",
-      "region": "중국",
-      "score": 8,
-      "tier": "주목",
-      "title": "전 오픈AI 연구원 '중국 AI 모델 6종에서 엔비디아 블랙웰 흔적'"
-    },
-    {
-      "category": "피지컬AI",
-      "id": "2026-11-14-09",
-      "links": [
-        {
-          "name": "Interesting Engineering",
-          "url": "https://interestingengineering.com/ai-robotics/asus-gallop-humanoid-robot-unveiled"
-        },
-        {
-          "name": "ASUS 블로그",
-          "url": "https://press.asus.com/blog/factory-proven-physical-ai-asus-gallop-humanoid-robot"
-        }
-      ],
-      "one_line": "에이수스가 메인보드 부속품 포장 작업을 20초 안에 99.5% 성공률로 해내는 것을 목표로 자사 공장에서 휴머노이드를 시험 중이며, 2027년 고객 시범 도입 후 2028년 하반기 출시할 계획이다.",
-      "region": "글로벌",
-      "score": 8,
-      "tier": "주목",
-      "title": "에이수스, 공장용 휴머노이드 '갤럽' 공개… 2028년 하반기 판매"
+      "title": "크라우드스트라이크, AI 보안 스타트업 피들러AI·드레드노드 4억9,500만 달러에 인수"
     },
     {
       "category": "상용 LLM",
-      "id": "2026-11-14-10",
+      "id": "2026-11-15-07",
       "links": [
         {
-          "name": "Business Today",
-          "url": "https://www.businesstoday.in/technology/news/story/claude-ai-outage-anthropic-investigates-login-failures-as-ai-chatbot-and-coding-tools-face-outage-567403-2026-11-13"
-        },
-        {
-          "name": "TokenPost",
-          "url": "https://www.tokenpost.com/news/technology/56549"
-        }
-      ],
-      "one_line": "11월 13일 오후(UTC 9:58부터) 인증 오류가 늘면서 claude.ai는 주요 장애, 클로드 코드·콘솔은 부분 장애를 겪었고 API는 정상 동작했다.",
-      "region": "글로벌",
-      "score": 7,
-      "tier": "주목",
-      "title": "클로드, 로그인 장애로 claude.ai·클로드 코드 접속 차질"
-    },
-    {
-      "category": "기타",
-      "id": "2026-11-14-11",
-      "links": [
-        {
-          "name": "AI타임스",
-          "url": "https://www.aitimes.com/news/articleView.html?idxno=217394"
-        }
-      ],
-      "one_line": "아웃룩·팀즈·코파일럿 등이 멈추며 미국 하원과 일본·호주 정부 기관 업무에 차질이 생겼고, 챗GPT와 클로드의 마이크로소프트 커넥터도 영향을 받았다.",
-      "region": "글로벌",
-      "score": 7,
-      "tier": "주목",
-      "title": "MS 365 전 세계 장애… 챗GPT·클로드의 MS 연동도 영향"
-    },
-    {
-      "category": "산업·투자",
-      "id": "2026-11-14-12",
-      "links": [
-        {
-          "name": "RTÉ(로이터)",
-          "url": "https://www.rte.ie/news/business/2026/1113/1599163-nvidia-approached-arm-ceo-haas-to-succeed-huang-ft/"
-        }
-      ],
-      "one_line": "FT 보도에 따르면 엔비디아가 젠슨 황 후임 후보 중 하나로 Arm CEO에게 의사를 타진했으며, 보도 직후 Arm 주가는 5% 넘게 떨어졌다.",
-      "region": "미국",
-      "score": 7,
-      "tier": "주목",
-      "title": "엔비디아 이사회, 차기 CEO 후보로 Arm의 르네 하스 접촉"
-    },
-    {
-      "category": "연구 논문",
-      "id": "2026-11-14-13",
-      "links": [
-        {
-          "name": "Hugging Face Papers",
-          "url": "https://huggingface.co/papers/2611.14815"
-        },
-        {
-          "name": "AI Weekly",
-          "url": "https://aiweekly.co/alerts/nvidia-birddreams-jointly-generates-driving-video-and-bev"
-        }
-      ],
-      "one_line": "엔비디아가 카메라 이미지 한 장에서 1인칭 주행 영상과 조감도(BEV) 영상을 짝지어 만드는 반응형 주행 월드모델을 제안했다.",
-      "paper_year": 2026,
-      "region": "미국",
-      "score": 7,
-      "tier": "주목",
-      "title": "[논문] BirdDreams: 주행 영상과 조감도를 함께 생성하는 자율주행 월드모델"
-    },
-    {
-      "category": "연구 논문",
-      "id": "2026-11-14-14",
-      "links": [
-        {
-          "name": "Hugging Face Papers",
-          "url": "https://huggingface.co/papers/2611.15777"
-        },
-        {
-          "name": "AI Weekly",
-          "url": "https://aiweekly.co/alerts/so-arena-scores-21-system-one-models-on-2919-tasks"
-        }
-      ],
-      "one_line": "싱가포르국립대 연구진이 11개 분야 과제로 즉답형(System One) 모델의 능력과 신뢰성을 따로 측정하는 벤치마크를 공개했다.",
-      "paper_year": 2026,
-      "region": "글로벌",
-      "score": 7,
-      "tier": "주목",
-      "title": "[논문] SO-Arena: '즉답형' 모델 21종을 2,919개 과제로 평가"
-    },
-    {
-      "category": "연구 논문",
-      "id": "2026-11-14-15",
-      "links": [
-        {
-          "name": "Hugging Face Papers",
-          "url": "https://huggingface.co/papers/2611.15131"
-        },
-        {
-          "name": "AI Weekly",
-          "url": "https://aiweekly.co/alerts/inclusionai-releases-duo-v1-a-full-duplex-audiovisual-world-model-with-933-pass"
-        }
-      ],
-      "one_line": "인클루전AI가 650ms 미만 지연으로 시청각 입력과 발화를 동시에 처리하는 전이중 대화 모델 Duo v1을 공개했다.",
-      "paper_year": 2026,
-      "region": "중국",
-      "score": 7,
-      "tier": "주목",
-      "title": "[논문] Duo: 보고 듣고 말하기를 동시에 하는 전이중 월드모델"
-    },
-    {
-      "category": "연구 논문",
-      "id": "2026-11-14-16",
-      "links": [
-        {
-          "name": "Hugging Face Papers",
-          "url": "https://huggingface.co/papers/2611.17060"
-        }
-      ],
-      "one_line": "로봇 학습을 위한 물리 환경과 행동 데이터를 대규모로 늘리는 기준 데이터셋을 제안했다.",
-      "paper_year": 2026,
-      "region": "글로벌",
-      "score": 7,
-      "tier": "주목",
-      "title": "[논문] Ropedia Xperience 2: 피지컬AI 환경·행동 데이터 확장용 데이터셋"
-    },
-    {
-      "category": "LLM",
-      "id": "2026-11-14-17",
-      "links": [
-        {
-          "name": "新浪 AI 핫이슈",
-          "url": "https://k.sina.com.cn/article_7857201856_1d45362c001908up6c.html"
-        }
-      ],
-      "one_line": "도구 호출과 노래까지 지원하는 실시간 음성 모델로 위안바오와 고객센터에 적용됐고 텐센트 클라우드 API로도 제공될 예정이다.",
-      "region": "중국",
-      "score": 6,
-      "tier": "주목",
-      "title": "텐센트 훈위안, 실시간 음성 모델 'Hy Realtime' 공개"
-    },
-    {
-      "category": "산업·투자",
-      "id": "2026-11-14-18",
-      "links": [
-        {
-          "name": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-13/anthropic-ceo-calls-computing-power-deepest-business-dilemma"
-        },
-        {
-          "name": "AI Weekly",
-          "url": "https://aiweekly.co/alerts/amodei-calls-compute-anthropics-deepest-business-dilemma"
-        }
-      ],
-      "one_line": "다리오 아모데이가 JP모건 행사에서 연산 자원을 얼마나 미리 사들일지가 앤트로픽의 최대 고민이라고 말했다.",
-      "region": "미국",
-      "score": 6,
-      "tier": "주목",
-      "title": "아모데이 '컴퓨팅 확보가 가장 어려운 사업 딜레마'"
-    },
-    {
-      "category": "기타",
-      "id": "2026-11-14-19",
-      "links": [
-        {
-          "name": "The Guardian",
-          "url": "https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths"
-        },
-        {
-          "name": "AI Weekly",
-          "url": "https://aiweekly.co/alerts/von-plato-uses-claude-to-extract-663-theorems-from-gdel-notes"
-        }
-      ],
-      "one_line": "논리학자 얀 폰 플라토가 클로드로 괴델의 속기 노트를 분석해 정리 663개를 정리했고 일부는 Coq로 검증했다.",
-      "region": "유럽",
-      "score": 6,
-      "tier": "주목",
-      "title": "클로드로 괴델 속기 노트에서 정리 663개 찾아내"
-    },
-    {
-      "category": "기타",
-      "id": "2026-11-14-20",
-      "links": [
-        {
-          "name": "No AI Slop 선언문",
-          "url": "https://www.slopmanifesto.com/"
+          "name": "Sierra 블로그",
+          "url": "https://sierra.ai/blog"
         },
         {
           "name": "AI Weekly",
           "url": "https://aiweekly.co/ai-news-today"
         }
       ],
-      "one_line": "오픈소스 메인테이너 등이 검토 없이 제출된 AI 생성 코드를 '슬롭'으로 규정하고 책임 있는 사용 원칙을 내걸었다.",
+      "one_line": "개인 AI 에이전트가 기업을 찾아 허용된 작업을 조율하는 규약으로, 쇼피파이 상점에서는 자동으로 켜진다.",
       "region": "미국",
-      "score": 6,
+      "score": 8,
       "tier": "주목",
-      "title": "AIE 코드 서밋서 '노 AI 슬롭' 선언문 발표"
-    },
-    {
-      "category": "기타",
-      "id": "2026-11-14-21",
-      "links": [
-        {
-          "name": "ZDNet Korea",
-          "url": "https://zdnet.co.kr/view/?no=20261113171149"
-        }
-      ],
-      "one_line": "게임 안에 사람처럼 플레이하는 AI 상대를 넣는 작업을 추진한다.",
-      "region": "한국",
-      "score": 5,
-      "tier": "참고",
-      "title": "루미웨이브, '라그나로크 몬스터 마블'에 AI 플레이어 도입 추진"
+      "title": "시에라, 개인 에이전트가 기업과 협상하는 프로토콜 'Poppy 1.0' 공개"
     },
     {
       "category": "산업·투자",
-      "id": "2026-11-14-22",
+      "id": "2026-11-15-08",
       "links": [
         {
-          "name": "The Information",
-          "url": "https://www.theinformation.com/articles/elon-musks-ai-group-guts-grok-video-generation-team"
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/"
         },
         {
-          "name": "AI Weekly",
-          "url": "https://aiweekly.co/alerts/spacex-super-intelligence-cuts-60-from-grok-imagine-video-team"
+          "name": "Unite.AI",
+          "url": "https://www.unite.ai/langchain-secures-300m-series-c-at-3b-valuation-for-agent-governance"
         }
       ],
-      "one_line": "디인포메이션에 따르면 xAI가 영상 생성팀을 최소 인원만 남기고 대폭 줄였다.",
+      "one_line": "에이전트 개발·거버넌스 도구 수요를 바탕으로 대형 투자를 유치했다.",
       "region": "미국",
-      "score": 5,
-      "tier": "참고",
-      "title": "xAI, 그록 이매진 영상팀 약 60명 감원"
-    },
-    {
-      "category": "정책·규제",
-      "id": "2026-11-14-23",
-      "links": [
-        {
-          "name": "Semafor",
-          "url": "https://www.semafor.com/article/11/13/2026/how-nvidias-jensen-huang-and-trump-jumped-the-guardrails"
-        }
-      ],
-      "one_line": "엔비디아 법무책임자가 수출 허가 조건을 빨리 처리하라며 '대통령 뜻'을 언급했다는 보도로 젠슨 황 사임 파장이 이어졌다.",
-      "region": "미국",
-      "score": 5,
-      "tier": "참고",
-      "title": "세마포 '엔비디아 법무책임자, 대통령 이름 들어 中 칩 허가 압박'"
-    },
-    {
-      "category": "연구 논문",
-      "id": "2026-11-14-24",
-      "links": [
-        {
-          "name": "Hugging Face Papers",
-          "url": "https://huggingface.co/papers/2611.16748"
-        }
-      ],
-      "one_line": "LLM이 생성 영상의 물리적 오류를 짚어 주고 이를 학습에 되먹여 영상 모델을 개선하는 방법을 제안했다.",
-      "paper_year": 2026,
-      "region": "중국",
-      "score": 5,
-      "tier": "참고",
-      "title": "[논문] PhysLoop: LLM의 물리 상식으로 영상 생성 모델 자가 개선"
-    },
-    {
-      "category": "산업·투자",
-      "id": "2026-11-14-25",
-      "links": [
-        {
-          "name": "新浪 AI 핫이슈",
-          "url": "https://k.sina.com.cn/article_7857201856_1d45362c001908up6c.html"
-        }
-      ],
-      "one_line": "중국 보도에 따르면 문샷AI가 상장 전 기업가치 약 500억 달러로 홍콩 IPO를 저울질하고 있다.",
-      "region": "중국",
-      "score": 4,
-      "tier": "참고",
-      "title": "문샷AI, 2027년 초 홍콩 상장 검토 보도"
-    },
-    {
-      "category": "기타",
-      "id": "2026-11-14-26",
-      "links": [
-        {
-          "name": "ZDNet Korea",
-          "url": "https://zdnet.co.kr/view/?no=20261113102516"
-        },
-        {
-          "name": "ZDNet Korea(시연)",
-          "url": "https://zdnet.co.kr/view/?no=20261113144328"
-        }
-      ],
-      "one_line": "군 정보 분석을 돕는 AI 참모 시스템을 공개하며 국방 AI의 최대 과제로 데이터 확보를 꼽았다.",
-      "region": "한국",
-      "score": 4,
-      "tier": "참고",
-      "title": "코난테크놀로지, 국방 정보분석 AI 첫 공개"
-    }
-  ],
-  "sources_checked": [
-    "AI Weekly(11월 13일판)",
-    "TechCrunch AI(11월 13일 기사 미노출, 12일분 확인)",
-    "The Decoder",
-    "Google 블로그(제미나이 4 하이드로젠)",
-    "Hugging Face 블로그·Papers(11월 13일)",
-    "Fortune",
-    "CNBC(접속 실패, 2차 보도로 대체)",
-    "Bloomberg·Reuters 헤드라인",
-    "AI타임스",
-    "ZDNet Korea",
-    "전자신문(검색 결과 없음)",
-    "新浪 AI 핫이슈(중국)",
-    "ITmedia AI+(당일 기사 확인 못 함)",
-    "The Neuron(접속 실패)",
-    "dev.to AI Daily Digest"
-  ],
-  "top": [
-    {
-      "category": "상용 LLM",
-      "id": "2026-11-14-01",
-      "links": [
-        {
-          "name": "Google 블로그",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/"
-        },
-        {
-          "name": "Google 개발자 블로그",
-          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-hydrogen/"
-        },
-        {
-          "name": "gHacks",
-          "url": "https://www.ghacks.net/2026/11/13/google-releases-gemini-4-hydrogen-in-search-and-the-gemini-app-replacing-gemini-3-8-flash/"
-        }
-      ],
-      "region": "미국",
-      "score": 12,
-      "scores": {
-        "coverage": 2,
-        "impact": 3,
-        "novelty": 2,
-        "relevance": 3,
-        "trust": 2
-      },
-      "summary": [
-        "구글이 일상 업무·에이전트용 경량 모델 제미나이 4 하이드로젠을 공개하고 AI 스튜디오, 제미나이 API, 제미나이 앱(무료 포함), 검색, 시트에 동시 배포했다.",
-        "가격은 100만 컨텍스트 전 구간 동일하게 입력 100만 토큰당 1.5달러, 출력 7.5달러로 책정됐다.",
-        "구글은 3.8 플래시 대비 작업 완료 속도 2.5배, Terminal-Bench 4.1 57%(기존 18.2%)를 내세웠고 상위 모델 아르곤과 비슷한 지능 지수를 주장했다."
-      ],
-      "tier": "핵심",
-      "title": "구글 '제미나이 4 하이드로젠' 출시… 3.8 플래시 대체하는 새 기본 모델",
-      "why": "대량 호출용 기본 모델과 단가가 바뀌는 것이라 API 비용·모델 교체 계획에 바로 영향을 준다."
+      "score": 8,
+      "tier": "주목",
+      "title": "랭체인, 3억 달러 시리즈C로 기업가치 30억 달러"
     },
     {
       "category": "피지컬AI",
-      "id": "2026-11-14-02",
+      "id": "2026-11-15-09",
       "links": [
         {
-          "name": "Fortune",
-          "url": "https://fortune.com/2026/11/13/openai-disbands-robotics-team-as-its-general-models-start-running-robots/"
-        },
-        {
-          "name": "TokenPost",
-          "url": "https://www.tokenpost.com/news/business/56940"
-        },
-        {
-          "name": "AI Weekly",
-          "url": "https://aiweekly.co/alerts/openai-folds-robotics-team-into-main-research-and-applied-orgs"
+          "name": "Robotics & Automation News",
+          "url": "https://roboticsandautomationnews.com/2026/11/14/neura-robotics-partners-with-e-on-to-bring-humanoid-robots-to-energy-infrastructure/107100/"
         }
       ],
-      "region": "미국",
-      "score": 11,
-      "scores": {
-        "coverage": 2,
-        "impact": 2,
-        "novelty": 2,
-        "relevance": 3,
-        "trust": 2
-      },
-      "summary": [
-        "오픈AI가 독립 로봇팀을 없애고 연구 인력은 마크 첸 최고연구책임자 산하로, 응용 로봇·하드웨어 인력은 그렉 브록먼이 이끄는 응용 조직으로 옮겼다.",
-        "회사는 GPT-6 아스트라 같은 범용 모델이 이미 로봇 제어가 가능하다며 이번 개편이 로봇 개발을 오히려 앞당기기 위한 것이라고 설명했다.",
-        "샘 올트먼은 2027년 첫 휴머노이드 공개 시연을 목표로 하는 것으로 전해졌다."
+      "one_line": "독일 전력망 운영사와 손잡고 4NE1 휴머노이드 투입을 검토하며 2027년 현장 시험을 계획한다.",
+      "region": "유럽",
+      "score": 8,
+      "tier": "주목",
+      "title": "뉴라 로보틱스·E.ON, 변전소 점검용 휴머노이드 공동 개발"
+    },
+    {
+      "category": "정책·규제",
+      "id": "2026-11-15-10",
+      "links": [
+        {
+          "name": "GBHackers",
+          "url": "https://gbhackers.com/fbi-warns-artex-ai-framework/"
+        }
       ],
-      "tier": "핵심",
-      "title": "오픈AI, 로봇 전담팀 해체… '범용 모델이 이미 로봇을 움직인다'",
-      "why": "피지컬AI를 별도 모델이 아니라 범용 파운데이션 모델의 확장으로 보는 흐름이 선두 연구소의 조직 구조로 확인됐다."
+      "one_line": "공격자가 AI 기반 펜테스트 도구로 침해를 자동화하고 있다며 긴급 권고를 냈다.",
+      "region": "미국",
+      "score": 7,
+      "tier": "주목",
+      "title": "FBI, AI 침투 테스트 프레임워크 'ARTEX' 악용 경고… 한국 약 6만7천 명 피해 언급"
     },
     {
       "category": "상용 LLM",
-      "id": "2026-11-14-03",
+      "id": "2026-11-15-11",
+      "links": [
+        {
+          "name": "Databricks 블로그",
+          "url": "https://www.databricks.com/blog/openai-and-databricks-enterprise-ai-your-governed-data"
+        }
+      ],
+      "one_line": "기업이 권한 관리된 데이터에 오픈AI 모델을 바로 붙일 수 있게 두 회사가 협력을 넓혔다.",
+      "region": "미국",
+      "score": 7,
+      "tier": "주목",
+      "title": "오픈AI 모델, 데이터브릭스 거버넌스 데이터 위에서 직접 사용"
+    },
+    {
+      "category": "LLM",
+      "id": "2026-11-15-12",
+      "links": [
+        {
+          "name": "Google Research",
+          "url": "https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature"
+        }
+      ],
+      "one_line": "제미나이 4 기반 여러 에이전트가 협업해 연구 문제를 푸는 사례를 공개했다.",
+      "region": "미국",
+      "score": 7,
+      "tier": "주목",
+      "title": "구글 리서치, 안티그래비티 '팀워크' 에이전트로 수학·정보이론 문제 공략"
+    },
+    {
+      "category": "상용 LLM",
+      "id": "2026-11-15-13",
+      "links": [
+        {
+          "name": "新浪财经(新智元 인용)",
+          "url": "http://finance.sina.com.cn/stock/t/2026-11-14/doc-iniyszsz2786927.shtml"
+        }
+      ],
+      "one_line": "딥노트 평가에서 페이블 5.2는 과제당 비용이 1.87달러로 GPT-6.1 Sol(0.11달러)보다 크게 높았다.",
+      "region": "중국",
+      "score": 7,
+      "tier": "주목",
+      "title": "에이전트 자율성 벤치마크서 GPT-6 Astra 1위… 비용 효율은 GPT-6.1 Sol"
+    },
+    {
+      "category": "상용 LLM",
+      "id": "2026-11-15-14",
+      "links": [
+        {
+          "name": "Apple Newsroom",
+          "url": "https://www.apple.com/newsroom/2026/11/apple-homeview-available-today/"
+        }
+      ],
+      "one_line": "새 시리를 앞세운 가정용 기기로, EU에서는 판매하지 않는다.",
+      "region": "미국",
+      "score": 7,
+      "tier": "주목",
+      "title": "애플, 시리 AI 탑재 스마트 디스플레이 '홈뷰' 299달러 출시"
+    },
+    {
+      "category": "산업·투자",
+      "id": "2026-11-15-15",
+      "links": [
+        {
+          "name": "Staffing Industry Analysts",
+          "url": "https://www.staffingindustry.com/news/global-daily-news/mercor-lands-750m-funding-round-valuing-staffing-platform-at-20b"
+        }
+      ],
+      "one_line": "AI 학습용 전문가 인력 플랫폼으로 대규모 자금을 확보했다.",
+      "region": "미국",
+      "score": 6,
+      "tier": "주목",
+      "title": "머코어, 7억5천만 달러 유치… 기업가치 200억 달러"
+    },
+    {
+      "category": "정책·규제",
+      "id": "2026-11-15-16",
       "links": [
         {
           "name": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/13/openai-chatgpt-wallet-dot-purchases.html"
+          "url": "https://www.cnbc.com/2026/11/13/ai-risks-financial-system-federal-reserve.html"
+        }
+      ],
+      "one_line": "AI 투자 과열과 집중이 금융 안정의 주요 리스크로 꼽혔다.",
+      "region": "미국",
+      "score": 6,
+      "tier": "주목",
+      "title": "美 연준 금융안정보고서, AI를 금융 시스템 최대 위험으로 지목"
+    },
+    {
+      "category": "기타",
+      "id": "2026-11-15-17",
+      "links": [
+        {
+          "name": "Futurism",
+          "url": "https://futurism.com/artificial-intelligence/us-airspace-shuts-down-faa-rolled-out-ai"
+        },
+        {
+          "name": "전자신문",
+          "url": "https://www.etnews.com/20261114000013"
+        }
+      ],
+      "one_line": "FAA 전면 지상대기 직후 확대 적용한 AI 도구가 거론됐으나 정부·개발사는 원인이 아니라고 밝혔다.",
+      "region": "미국",
+      "score": 6,
+      "tier": "주목",
+      "title": "美 전역 항공기 이륙 중단… AI 관제 보조 도구 'SMART' 논란"
+    },
+    {
+      "category": "정책·규제",
+      "id": "2026-11-15-18",
+      "links": [
+        {
+          "name": "전자신문",
+          "url": "https://www.etnews.com/20261114000035"
+        }
+      ],
+      "one_line": "전날 전 세계 장애로 공공 업무가 영향을 받자 재발 방지와 보상 논의에 나섰다.",
+      "region": "한국",
+      "score": 6,
+      "tier": "주목",
+      "title": "정부, MS365 장애 대응반 꾸려 한국MS와 공동 대응"
+    },
+    {
+      "category": "상용 LLM",
+      "id": "2026-11-15-19",
+      "links": [
+        {
+          "name": "9to5Mac",
+          "url": "https://9to5mac.com/2026/11/13/perplexity-brings-ai-agents-feature-called-teammates-to-the-mac/"
+        }
+      ],
+      "one_line": "월 200달러 맥스 이용자에게 컴퓨터 작업을 대신하는 에이전트를 제공한다.",
+      "region": "미국",
+      "score": 6,
+      "tier": "주목",
+      "title": "퍼플렉시티, 에이전트 기능 'Teammates' 맥 앱에 도입"
+    },
+    {
+      "category": "피지컬AI",
+      "id": "2026-11-15-20",
+      "links": [
+        {
+          "name": "SF Standard",
+          "url": "https://sfstandard.com/2026/11/14/humanoid-war-robots-soma-startup"
+        }
+      ],
+      "one_line": "전투용 휴머노이드를 내세우지만 국방 계약 규모와 임금 체불 문제가 제기됐다.",
+      "region": "미국",
+      "score": 6,
+      "tier": "주목",
+      "title": "휴머노이드 스타트업 파운데이션, 군사용으로 전환… 계약·급여 논란"
+    },
+    {
+      "category": "피지컬AI",
+      "id": "2026-11-15-21",
+      "links": [
+        {
+          "name": "TechNode",
+          "url": "https://technode.com/2026/11/13/metax-and-ubtech-backed-robotics-chip-startup-xilect-raises-rmb-500-million/"
+        }
+      ],
+      "one_line": "휴머노이드용 연산 칩 개발에 자금을 확보했다.",
+      "region": "중국",
+      "score": 6,
+      "tier": "주목",
+      "title": "메타X·유비테크 투자 로봇 칩 스타트업 시렉트, 5억 위안 유치"
+    },
+    {
+      "category": "LLM",
+      "id": "2026-11-15-22",
+      "links": [
+        {
+          "name": "The Decoder",
+          "url": "https://the-decoder.com/anthropic-can-already-retrain-mythos-with-a-fraction-of-the-compute-originally-needed-says-former-researcher-coxon/"
+        }
+      ],
+      "one_line": "IPO 로드쇼 자료를 근거로 학습 효율이 빠르게 개선됐다고 주장했다.",
+      "region": "미국",
+      "score": 6,
+      "tier": "주목",
+      "title": "전 앤트로픽 연구원 '미토스, 초기 대비 일부 연산만으로 재학습 가능'"
+    },
+    {
+      "category": "연구 논문",
+      "id": "2026-11-15-23",
+      "links": [
+        {
+          "name": "Hugging Face Papers",
+          "url": "https://huggingface.co/papers/2611.17167"
+        }
+      ],
+      "one_line": "장기 에이전트에서 결정 모델을 어떤 역할로 둘 때 효과적인지 분석한 연구다.",
+      "paper_year": 2026,
+      "region": "글로벌",
+      "score": 6,
+      "tier": "주목",
+      "title": "[논문] 장기 과제 에이전트에서 판단 모델의 역할: 행위자·심판·교사 비교"
+    },
+    {
+      "category": "산업·투자",
+      "id": "2026-11-15-24",
+      "links": [
+        {
+          "name": "AI타임스",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=217412"
+        }
+      ],
+      "one_line": "에이전트 쇼핑 경쟁에 대비해 국가별로 흩어진 상품 정보를 한데 모은다.",
+      "region": "미국",
+      "score": 5,
+      "tier": "참고",
+      "title": "아마존, 전 세계 상품 데이터 통합… AI 쇼핑 주도권 노려"
+    },
+    {
+      "category": "산업·투자",
+      "id": "2026-11-15-25",
+      "links": [
+        {
+          "name": "新浪(量子位 인용)",
+          "url": "http://news.sina.cn/ai/2026-11-14/detail-iniysztc4034009.d.html"
+        }
+      ],
+      "one_line": "녹색 전력 기반 추론 인프라를 내세웠고, 중국 토큰 사용량이 반년 새 몇 배로 늘었다는 통계가 인용됐다.",
+      "region": "중국",
+      "score": 5,
+      "tier": "참고",
+      "title": "레노버 '토큰 공장'… 중국 일일 토큰 호출량 500조 회 돌파"
+    },
+    {
+      "category": "연구 논문",
+      "id": "2026-11-15-26",
+      "links": [
+        {
+          "name": "Hugging Face Papers",
+          "url": "https://huggingface.co/papers/2611.15844"
+        }
+      ],
+      "one_line": "생성 모델 기반 시각 인식 학습 과정을 데이터·코드까지 공개한 연구다.",
+      "paper_year": 2026,
+      "region": "글로벌",
+      "score": 5,
+      "tier": "참고",
+      "title": "[논문] Open Vision Banana: 생성형 시각 인식의 완전 공개 레시피"
+    },
+    {
+      "category": "연구 논문",
+      "id": "2026-11-15-27",
+      "links": [
+        {
+          "name": "Hugging Face Papers",
+          "url": "https://huggingface.co/papers/2611.13004"
+        }
+      ],
+      "one_line": "강하게 압축한 토큰으로도 자기회귀 생성 품질을 지키려는 방법을 제안했다.",
+      "paper_year": 2026,
+      "region": "글로벌",
+      "score": 5,
+      "tier": "참고",
+      "title": "[논문] G-STAR: 고압축 자기회귀 생성을 위한 그룹 단위 토큰 용량 조절"
+    },
+    {
+      "category": "기타",
+      "id": "2026-11-15-28",
+      "links": [
+        {
+          "name": "ZDNet Korea",
+          "url": "https://zdnet.co.kr/view/?no=20261114191001"
+        }
+      ],
+      "one_line": "양국 산학연이 AI와 반도체 분야 협력 방안을 공유했다.",
+      "region": "한국",
+      "score": 4,
+      "tier": "참고",
+      "title": "VKAISS 2026, 베트남·한국 AI·반도체 협력 논의"
+    }
+  ],
+  "sources_checked": [
+    "AI Weekly(11월 13~14일판)",
+    "TechCrunch AI(11월 13일분, 14일 기사 없음)",
+    "The Decoder",
+    "Anthropic 뉴스룸(11월 13~15일 새 글 없음)",
+    "OpenAI 뉴스(접속 실패)",
+    "Google 블로그(최신본 확인 불가)",
+    "Google Research 블로그",
+    "Runway 공식 뉴스",
+    "Hugging Face Papers(11월 13~14일)",
+    "Reuters·CNBC 헤드라인",
+    "AI타임스",
+    "전자신문",
+    "ZDNet Korea",
+    "新浪 AI·머신러닝 핫이슈(중국)",
+    "ITmedia AI+(11월 14일 기사 없음)",
+    "Robotics & Automation News",
+    "SF Standard",
+    "AI Agents Directory 뉴스 브리프"
+  ],
+  "top": [
+    {
+      "category": "피지컬AI",
+      "id": "2026-11-15-01",
+      "links": [
+        {
+          "name": "Runway 공식 발표",
+          "url": "https://runway.com/news/praxis-1-is-now-available"
         },
         {
           "name": "The Decoder",
-          "url": "https://the-decoder.com/openai-rebuilt-ai-shopping-from-scratch-with-chatgpt-wallet/"
+          "url": "https://the-decoder.com/runways-open-source-praxis-1-turns-video-ai-into-a-robot-controller/"
         },
         {
-          "name": "AI Weekly",
-          "url": "https://aiweekly.co/alerts/openais-chatgpt-wallet-lets-dots-agents-buy-for-us-pro-users"
+          "name": "The Robot Report",
+          "url": "https://www.therobotreport.com/runway-introduces-praxis-1-world-action-model-robotics/"
         }
       ],
       "region": "미국",
@@ -487,24 +416,24 @@
         "trust": 2
       },
       "summary": [
-        "오픈AI가 챗GPT 안에 결제 수단을 한 번 등록해 두면 에이전트가 사용자 대신 물건을 살 수 있는 '챗GPT 월렛'을 내놨다.",
-        "구매는 건별로 사용자 승인을 거치며 우선 미국 프로 구독자에게 제공된다.",
-        "더디코더는 오픈AI가 기존 쇼핑 기능을 사실상 처음부터 다시 설계했다고 평가했다."
+        "영상 생성 기업 런웨이가 영상과 로봇 행동을 함께 예측하는 27B 규모 MoE 확산 트랜스포머 Praxis-1을 Apache 2.0으로 풀었다.",
+        "엔비디아 RoboLab-120 평가에서 성공률 46.2%로 π0.5(28.0%)·Cosmos3 Nano 등을 앞섰다고 밝혔다.",
+        "허깅페이스(LeRobot 지원)·GitHub·vLLM-Omni로 배포되며 H100부터 젯슨 토르까지 돌릴 수 있고 LoRA 미세조정을 지원한다."
       ],
       "tier": "핵심",
-      "title": "오픈AI '챗GPT 월렛' 출시… 에이전트가 사용자 대신 결제",
-      "why": "에이전트가 실제 돈을 쓰는 단계로 넘어가면서 결제·승인·책임 설계가 상용 에이전트의 핵심 과제가 됐다."
+      "title": "런웨이, 로봇 제어용 월드 액션 모델 'Praxis-1' 오픈 웨이트 공개",
+      "why": "영상 생성 모델이 곧바로 로봇 정책으로 쓰이는 흐름이 상업 이용 가능한 공개 모델로 구체화됐다."
     },
     {
       "category": "상용 LLM",
-      "id": "2026-11-14-04",
+      "id": "2026-11-15-02",
       "links": [
         {
           "name": "The Decoder",
-          "url": "https://the-decoder.com/anthropics-claude-for-manufacturing-plugs-ai-directly-into-factory-software-to-automate-industrial-workflows/"
+          "url": "https://the-decoder.com/gemini-4-carbon-takes-the-matharena-crown-but-costs-15-times-more-than-gpt-6-1-sol/"
         }
       ],
-      "region": "미국",
+      "region": "글로벌",
       "score": 10,
       "scores": {
         "coverage": 1,
@@ -514,48 +443,106 @@
         "trust": 2
       },
       "summary": [
-        "앤트로픽이 클로드를 오토데스크 퓨전, 오라클 넷스위트, 마이크로소프트 365, 인포 등 제조 소프트웨어에 연결하는 플러그인을 내놨다.",
-        "견적 작성, 공급사 비교, 품질 보고서, 센서 데이터 분석 등 17개 전용 스킬을 담았고, 대체 공급사 재주문 같은 실행은 사람 승인을 거친다.",
-        "팀·엔터프라이즈 고객 대상이며 실제 기계 제어는 아직 지원하지 않는다."
+        "구글 제미나이 4 카본(high)이 MathArena에서 85.4%로 1위에 올라 클로드 페이블 5.2(82.8%)와 GPT-6.1 Sol(80.6%)을 제쳤다.",
+        "같은 평가 비용은 카본 15.7달러, 페이블 40.2달러, GPT-6.1 Sol 1.07달러로 정확도 대비 비용 차가 컸다.",
+        "카본은 시간 제한 초과가 주된 실패 원인이었고, 공개 모델 최고점은 키미 K3.1 Pro의 54.3%였다."
       ],
       "tier": "핵심",
-      "title": "앤트로픽 '클로드 포 매뉴팩처링' 공개… 공장 업무 소프트웨어에 직접 연결",
-      "why": "범용 LLM이 업종별 패키지로 묶여 현장 시스템에 들어가는 '버티컬 에이전트' 경쟁이 제조업으로 넓어졌다."
+      "title": "제미나이 4 카본, 수학 벤치마크 MathArena 1위… 비용은 GPT-6.1 Sol의 15배",
+      "why": "최상위 모델 간 성능 차는 몇 %p인데 비용은 수십 배 벌어져, 용도별 모델 선택 기준을 다시 따져야 한다."
     },
     {
-      "category": "산업·투자",
-      "id": "2026-11-14-05",
+      "category": "상용 LLM",
+      "id": "2026-11-15-03",
       "links": [
         {
-          "name": "The Decoder(청약)",
-          "url": "https://the-decoder.com/anthropics-ipo-is-six-times-oversubscribed-and-on-track-to-become-the-largest-public-offering-in-history/"
-        },
-        {
-          "name": "The Decoder(중국 배제)",
-          "url": "https://the-decoder.com/banks-bar-chinese-and-hong-kong-investors-from-anthropic-ipo-over-us-export-controls/"
-        },
-        {
-          "name": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-13/anthropic-ipo-share-orders-from-china-are-said-to-be-rebuffed"
+          "name": "The Decoder",
+          "url": "https://the-decoder.com/anthropic-says-outdated-prompting-habits-are-slowing-down-claude-opus-5-5/"
         }
       ],
       "region": "미국",
       "score": 9,
       "scores": {
+        "coverage": 1,
+        "impact": 2,
+        "novelty": 1,
+        "relevance": 3,
+        "trust": 2
+      },
+      "summary": [
+        "오퍼스 5.5가 프로·맥스·팀 등 유료 요금제의 기본 모델이 되면서 앤트로픽이 지식 업무용 활용 가이드를 냈다.",
+        "'깊게 생각하라' 같은 문구는 빼고 기본값인 Medium 노력 수준에서 시작하라고 권했으며, Medium 5.5가 오퍼스 5의 High와 비슷하다고 밝혔다.",
+        "목표·출력 형식·중간 확인 지점을 한 메시지에 담고, 자료는 파일·이미지로 첨부하며 결과물을 바로 요청하라고 조언했다."
+      ],
+      "tier": "핵심",
+      "title": "앤트로픽 '옛 프롬프트 습관이 오퍼스 5.5를 느리게 한다'… 업무용 사용 가이드 공개",
+      "why": "같은 모델이라도 지시 방식에 따라 속도와 비용이 달라져, 팀 프롬프트 템플릿을 점검할 근거가 된다."
+    },
+    {
+      "category": "산업·투자",
+      "id": "2026-11-15-04",
+      "links": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/world/china/ex-nvidia-ceo-misled-top-lawyer-affair-with-chinese-businesswoman-sources-say-2026-11-14/"
+        },
+        {
+          "name": "AI타임스(직원 복귀 요구)",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=217410"
+        },
+        {
+          "name": "AI타임스(말레이시아 조사)",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=217405"
+        }
+      ],
+      "region": "미국",
+      "score": 8,
+      "scores": {
         "coverage": 2,
         "impact": 3,
         "novelty": 1,
+        "relevance": 1,
+        "trust": 1
+      },
+      "summary": [
+        "로이터는 젠슨 황 전 CEO가 메가스피드 관련 거래를 두고 사내 법무책임자와 CMO를 오도했다고 소식통을 인용해 보도했다.",
+        "이사회는 Arm 르네 하스 접촉설에 공식 접촉은 아직 없다고 했고, 사내 게시판에는 황의 복귀를 바라는 댓글이 1,600건 넘게 달렸다.",
+        "말레이시아는 메가스피드 AI 칩 재수출 의혹 조사에 나섰고, 미국 재무장관은 제재를 늦춘 상무부를 공개 비판했다."
+      ],
+      "tier": "주목",
+      "title": "엔비디아 리더십 공백 확산… 로이터 '황, 법무책임자도 속였다'·직원들은 복귀 요구",
+      "why": "AI 인프라 최대 공급사의 지배구조 혼란이 칩 수출 통제와 스타트업 투자 심리로 번지고 있다."
+    },
+    {
+      "category": "피지컬AI",
+      "id": "2026-11-15-05",
+      "links": [
+        {
+          "name": "InsideEVs",
+          "url": "https://insideevs.com/news/815473/tesla-cybercab-pricing-sales-announced/"
+        },
+        {
+          "name": "AI Weekly",
+          "url": "https://aiweekly.co/ai-news-today"
+        }
+      ],
+      "region": "미국",
+      "score": 8,
+      "scores": {
+        "coverage": 1,
+        "impact": 2,
+        "novelty": 2,
         "relevance": 2,
         "trust": 1
       },
       "summary": [
-        "블룸버그에 따르면 앤트로픽 상장 공모 주문이 공모 물량의 약 6배에 달했고, 공모가는 11월 18일 확정될 예정이다.",
-        "공모 최대 644억 달러와 260억 달러 사모 배정을 합쳐 목표 기업가치는 약 1.4조 달러로, 성사되면 역대 최대 규모 IPO가 된다.",
-        "주관 은행들은 미국 수출통제(ITAR) 우려로 중국·홍콩 투자자 주문을 거절하거나 제한한 것으로 전해졌다."
+        "테슬라가 일부 고객을 대상으로 운전대 없는 로보택시 차량 사이버캡 주문을 받기 시작했다.",
+        "차량 가격은 2만9,990달러이며 자율주행 기능은 월 299달러 구독으로 따로 붙는다.",
+        "완전 자율주행 전용 차량을 개인에게 파는 가격 구조가 처음 공개됐다."
       ],
-      "tier": "핵심",
-      "title": "앤트로픽 IPO 청약 6배 몰려… 중국·홍콩 투자자는 배정에서 배제",
-      "why": "프런티어 AI 기업의 첫 대형 상장이 AI 투자 심리와 경쟁사 자금 조달 여건의 기준점이 된다."
+      "tier": "주목",
+      "title": "테슬라, 사이버캡 주문 개시… 2만9,990달러에 자율주행 구독 월 299달러",
+      "why": "자율주행이 하드웨어 판매와 소프트웨어 구독으로 나뉘는 상용 모델이 소비자 시장에서 시험대에 오른다."
     }
   ]
 }
