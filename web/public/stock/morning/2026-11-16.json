@@ -1,0 +1,164 @@
+{
+  "type": "morning",
+  "date": "2026-11-16",
+  "generated_at": "2026-11-16T06:22:17+09:00",
+  "analysis": {
+    "kospi_prediction": "하락",
+    "kospi_change_range": "-0.5~-1.5%",
+    "kospi_confidence": "보통",
+    "kospi_reason": "SOX 3.4%·하이닉스 ADR 4.3% 급락, 美10년물 5.15%·원화 약세에 외국인 매도 부담",
+    "us_market_summary": "엔비디아 여파 SOX 3.4%↓, 나스닥 0.9%↓·다우 강보합",
+    "kospi_news_summary": "엔비디아 CEO 사임 여파에 필라델피아 반도체지수 3.43% 급락",
+    "kospi_news": [
+      {
+        "summary": "반도체 매도 확산, SOX 3.43% 급락·나스닥 0.91%↓",
+        "source": "더페어",
+        "url": "https://www.thefairnews.co.kr/news/articleView.html?idxno=94167"
+      },
+      {
+        "summary": "美 10년물 5.15%로 상승, 10월 PPI 전년비 6.5%",
+        "source": "산경투데이",
+        "url": "https://www.sankyungtoday.com/news/articleView.html?idxno=64246"
+      },
+      {
+        "summary": "코스피 금요일 0.98% 내린 5290, 주간으론 4.6%↑",
+        "source": "톱스타뉴스",
+        "url": "https://www.topstarnews.net/news/articleView.html?idxno=16276906"
+      },
+      {
+        "summary": "엔비디아 3분기 실적 18일 새벽 발표, 이번 주 최대 변수",
+        "source": "톱스타뉴스",
+        "url": "https://www.topstarnews.net/news/articleView.html?idxno=16276906"
+      },
+      {
+        "summary": "19일 수능으로 국내 증시 10시 개장·16시30분 마감",
+        "source": "톱스타뉴스",
+        "url": "https://www.topstarnews.net/news/articleView.html?idxno=16276906"
+      }
+    ],
+    "watchlist": [
+      {
+        "code": "005930",
+        "name": "삼성전자",
+        "prediction": "하락",
+        "reason": "美 반도체 전 종목 하락·외국인 매도 지속, 실적 전 관망",
+        "factors": [
+          {
+            "summary": "SOX 30개 종목 전부 하락, 반도체 투심 위축",
+            "impact": "악재",
+            "url": "https://www.thefairnews.co.kr/news/articleView.html?idxno=94167"
+          },
+          {
+            "summary": "마이크론 2.5%·샌디스크 5.6% 하락",
+            "impact": "악재",
+            "url": "https://www.thefairnews.co.kr/news/articleView.html?idxno=94167"
+          },
+          {
+            "summary": "HBM·서버 D램 확대, 2nm 고객 확보 계획",
+            "impact": "호재",
+            "url": "https://www.topstarnews.net/news/articleView.html?idxno=16276906"
+          }
+        ]
+      },
+      {
+        "code": "000660",
+        "name": "SK하이닉스",
+        "prediction": "하락",
+        "reason": "ADR 4.3% 급락, 엔비디아 리더십 공백에 외국인 매도 우려",
+        "factors": [
+          {
+            "summary": "하이닉스 ADR 美서 4.30% 하락 마감",
+            "impact": "악재",
+            "url": "https://www.thefairnews.co.kr/news/articleView.html?idxno=94167"
+          },
+          {
+            "summary": "엔비디아 CEO 사임, 핵심 고객 불확실성",
+            "impact": "악재",
+            "url": "https://www.topstarnews.net/news/articleView.html?idxno=16276906"
+          },
+          {
+            "summary": "27~28년 물량 절반 이상 장기계약 확보",
+            "impact": "호재",
+            "url": "https://www.topstarnews.net/news/articleView.html?idxno=16276906"
+          }
+        ]
+      }
+    ]
+  },
+  "raw_data": {
+    "news_window": {
+      "from": "2026-11-13T15:30:00+09:00",
+      "to": "2026-11-16T07:00:00+09:00"
+    },
+    "us_market": {
+      "sp500": {
+        "price": 7562.39,
+        "changePct": -0.4
+      },
+      "nasdaq": {
+        "price": 25136.27,
+        "changePct": -0.91
+      },
+      "dow": {
+        "price": 52348.03,
+        "changePct": 0.1
+      },
+      "sox": {
+        "price": 10146.3,
+        "changePct": -3.43
+      },
+      "usdkrw": {
+        "price": 1336.7,
+        "changePct": 0.45
+      },
+      "hynix_adr": {
+        "price": null,
+        "changePct": -4.3
+      },
+      "nvidia": {
+        "price": 162.85,
+        "changePct": -2.01
+      },
+      "us10y": {
+        "price": 5.151,
+        "changePct": null
+      }
+    },
+    "kospi_prev": {
+      "price": 5290.53,
+      "changePct": -0.98
+    },
+    "watchlist": [
+      {
+        "code": "005930",
+        "name": "삼성전자",
+        "price": 206000,
+        "changePct": -0.96
+      },
+      {
+        "code": "000660",
+        "name": "SK하이닉스",
+        "price": 1216000,
+        "changePct": -3.03
+      }
+    ],
+    "sources": [
+      {
+        "name": "더페어(Investing.com 인용)",
+        "url": "https://www.thefairnews.co.kr/news/articleView.html?idxno=94167"
+      },
+      {
+        "name": "산경투데이",
+        "url": "https://www.sankyungtoday.com/news/articleView.html?idxno=64246"
+      },
+      {
+        "name": "톱스타뉴스",
+        "url": "https://www.topstarnews.net/news/articleView.html?idxno=16276906"
+      },
+      {
+        "name": "서플(머니투데이)",
+        "url": "https://supple.kr/news/cmwhdya17aoxzal9ps3ubkvft"
+      }
+    ]
+  }
+}
