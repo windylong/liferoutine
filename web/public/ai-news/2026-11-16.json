@@ -1,0 +1,462 @@
+{
+  "date": "2026-11-16",
+  "generated_at": "2026-11-16T08:20:00+09:00",
+  "headline": "주말 사이 엔비디아 사태가 '황 복귀 운동'과 미 정부 내 수출 통제 갈등으로 번졌고, 국내에서는 생성 AI 시험 부정행위가 드러나 국가시험 전수조사로 이어졌다. AI 생성 홈쇼핑 방송 정규 편성과 구글의 에이전트형 HPC 출시 등 실사용 확산 소식도 이어졌다.",
+  "others": [
+    {
+      "category": "정책·규제",
+      "id": "2026-11-16-06",
+      "links": [
+        {
+          "name": "新浪",
+          "url": "http://k.sina.com.cn/article_5953466437_162dab0450670bhy14.html"
+        }
+      ],
+      "one_line": "미국과 동맹국들이 보호할 핵심 AI 기술과 공급망 목록을 함께 만들기로 했고, 한국·인도·카타르·UAE가 선언에 서명했으며 독일·EU 등은 다음 주 서명 예정이다.",
+      "region": "글로벌",
+      "score": 7,
+      "tier": "주목",
+      "title": "미국·일본·영국 등, 핵심 AI 기술·공급망 공동 목록 합의… 한국도 '샌프란시스코 선언' 서명"
+    },
+    {
+      "category": "산업·투자",
+      "id": "2026-11-16-07",
+      "links": [
+        {
+          "name": "SiliconANGLE",
+          "url": "https://siliconangle.com/2026/11/14/att-uses-agentic-ai-to-reinvent-business-processes-from-the-ground-up/"
+        }
+      ],
+      "one_line": "AT&T가 실제 업무에 에이전트 워크플로 약 500개를 돌리며 하루 450억 토큰, 월 100만 건 이상 거래를 처리하고 내년에 세 배로 늘리겠다고 밝혔다.",
+      "region": "미국",
+      "score": 7,
+      "tier": "주목",
+      "title": "AT&T, 에이전트 워크플로 약 500개 운영… 하루 450억 토큰 처리"
+    },
+    {
+      "category": "상용 LLM",
+      "id": "2026-11-16-08",
+      "links": [
+        {
+          "name": "AI타임스",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=217408"
+        }
+      ],
+      "one_line": "LG유플러스가 익시오·AI 컨택센터·모델 서빙 경험을 바탕으로 기업용 토큰 사업에 나서 업무당 AI 총비용을 낮추겠다고 밝혔다.",
+      "region": "한국",
+      "score": 7,
+      "tier": "주목",
+      "title": "LG유플러스, 내년 B2B AI 토큰 사업 진출"
+    },
+    {
+      "category": "피지컬AI",
+      "id": "2026-11-16-09",
+      "links": [
+        {
+          "name": "Robotics & Automation News",
+          "url": "https://roboticsandautomationnews.com/2026/11/15/embodied-ai-unveils-air-humanoid-robot-designed-to-learn-factory-tasks-on-the-job/107133/"
+        }
+      ],
+      "one_line": "힘줄 구동·바퀴형 휴머노이드로 작업자 시연을 보고 한 달 안팎에 공정을 익히며, 케이블 처리 시험에서 98% 신뢰도를 기록했다고 회사가 밝혔다.",
+      "region": "유럽",
+      "score": 7,
+      "tier": "주목",
+      "title": "스위스 Embodied AI, 현장에서 작업을 배우는 휴머노이드 'AIR' 공개"
+    },
+    {
+      "category": "산업·투자",
+      "id": "2026-11-16-10",
+      "links": [
+        {
+          "name": "AI타임스",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=217419"
+        }
+      ],
+      "one_line": "로이터가 중국 조달 공고 150여 건을 분석한 결과 수출 제한 칩에 기대는 사업이 약 230억 위안 규모이며, 황 사임과 규제 강화로 GPU 확보가 불투명해졌다.",
+      "region": "중국",
+      "score": 7,
+      "tier": "주목",
+      "title": "중국, 엔비디아 칩 기반 230억 위안 AI 데이터센터 사업 차질 우려"
+    },
+    {
+      "category": "연구 논문",
+      "id": "2026-11-16-11",
+      "links": [
+        {
+          "name": "Emergent",
+          "url": "https://emergent.sh/news/stanford-open-sources-memorilla-memory-module"
+        },
+        {
+          "name": "AI Weekly",
+          "url": "https://aiweekly.co/ai-news-today"
+        }
+      ],
+      "one_line": "1억9천4백만 파라미터 모듈이 동결된 Qwen3-8B에 문서를 압축해 넣어 전체 문맥 방식보다 토큰 108배·지연 27배를 줄이고 FactKG 84.33%를 기록했다.",
+      "paper_year": 2026,
+      "region": "미국",
+      "score": 7,
+      "tier": "주목",
+      "title": "[논문] 스탠퍼드 'Memorilla': 문서를 16개 잠재 토큰으로 압축하는 기억 모듈 공개"
+    },
+    {
+      "category": "상용 LLM",
+      "id": "2026-11-16-12",
+      "links": [
+        {
+          "name": "AI타임스",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=217415"
+        },
+        {
+          "name": "Google 블로그",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-app/google-wallet-gemini-app/"
+        }
+      ],
+      "one_line": "미국 제미나이 사용자가 월렛과 은행·카드 계좌(Plaid 경유)를 읽기 전용으로 연결해 소비 패턴 분석과 예산 제안을 받을 수 있게 됐다.",
+      "region": "미국",
+      "score": 7,
+      "tier": "주목",
+      "title": "구글, 제미나이에 구글 월렛 연결… 소비 분석·저축 계획 제안"
+    },
+    {
+      "category": "기타",
+      "id": "2026-11-16-13",
+      "links": [
+        {
+          "name": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension"
+        },
+        {
+          "name": "AI Weekly",
+          "url": "https://aiweekly.co/ai-news-today"
+        }
+      ],
+      "one_line": "지난달 커서 마켓에 올라온 변조 확장은 파이어웍스 AI에서 탈취된 키로 배포됐으며, 커서는 키를 교체하고 추론을 파이어웍스에서 옮겼다고 밝혔다.",
+      "region": "미국",
+      "score": 7,
+      "tier": "주목",
+      "title": "커서, 악성 'Claude Code' 확장 사건 원인은 파이어웍스 AI 키 유출이라고 확인"
+    },
+    {
+      "category": "피지컬AI",
+      "id": "2026-11-16-14",
+      "links": [
+        {
+          "name": "Robotics & Automation News",
+          "url": "https://roboticsandautomationnews.com/2026/11/15/coreweave-partners-with-wayve-to-accelerate-ai-training-for-autonomous-vehicles/107148/"
+        }
+      ],
+      "one_line": "영국 자율주행 기업 웨이브가 코어위브 클라우드에서 AI 운전 모델을 학습하는 다년 계약을 맺었다.",
+      "region": "유럽",
+      "score": 7,
+      "tier": "주목",
+      "title": "코어위브·웨이브, 자율주행 AI 학습 다년 계약"
+    },
+    {
+      "category": "기타",
+      "id": "2026-11-16-15",
+      "links": [
+        {
+          "name": "Crissy Field",
+          "url": "https://www.crissyfield.de/research/lovable-en/"
+        },
+        {
+          "name": "AI Weekly",
+          "url": "https://aiweekly.co/ai-news-today"
+        }
+      ],
+      "one_line": "독일 보안업체가 러버블 프로젝트 15만9천여 개를 조사해 2만4천여 곳의 Supabase DB가 인증 없이 읽히고 여권 1천여 건이 노출됐다고 밝혔다.",
+      "region": "유럽",
+      "score": 7,
+      "tier": "주목",
+      "title": "바이브 코딩 '러버블' 앱 2만여 곳서 DB 무인증 노출… 여권·대화 유출"
+    },
+    {
+      "category": "정책·규제",
+      "id": "2026-11-16-16",
+      "links": [
+        {
+          "name": "The Decoder",
+          "url": "https://the-decoder.com/australias-central-bank-finds-ai-hitting-young-workers-first-especially-in-software-and-customer-service/"
+        }
+      ],
+      "one_line": "RBA 분석에서 소프트웨어·고객 응대 등 AI 노출이 큰 직군의 15~24세 고용이 특히 약해졌지만, 인과관계는 단정할 수 없다고 덧붙였다.",
+      "region": "글로벌",
+      "score": 6,
+      "tier": "주목",
+      "title": "호주중앙은행 'AI 노출 직군, 청년 고용부터 타격'"
+    },
+    {
+      "category": "산업·투자",
+      "id": "2026-11-16-17",
+      "links": [
+        {
+          "name": "전자신문",
+          "url": "https://www.etnews.com/20261113000212"
+        }
+      ],
+      "one_line": "AI 수요 불확실성 우려에도 HBM 패키징·테스트 설비를 늘려 내년 상반기 가동을 목표로 장비 발주를 논의 중이다.",
+      "region": "한국",
+      "score": 6,
+      "tier": "주목",
+      "title": "SK하이닉스, HBM4 생산능력 추가 확대"
+    },
+    {
+      "category": "피지컬AI",
+      "id": "2026-11-16-18",
+      "links": [
+        {
+          "name": "Robotics & Automation News",
+          "url": "https://roboticsandautomationnews.com/2026/11/15/avride-reaches-one-million-robot-deliveries-as-network-expands-across-us/107179/"
+        }
+      ],
+      "one_line": "자율 배달 로봇 기업 아브라이드가 미국 내 누적 배송 100만 건을 넘기며 운영 지역을 넓히고 있다.",
+      "region": "미국",
+      "score": 6,
+      "tier": "주목",
+      "title": "아브라이드, 배달 로봇 누적 100만 건 돌파"
+    },
+    {
+      "category": "피지컬AI",
+      "id": "2026-11-16-19",
+      "links": [
+        {
+          "name": "新浪(신화통신 장쑤)",
+          "url": "http://k.sina.com.cn/article_5952915705_162d248f906703tefk.html"
+        }
+      ],
+      "one_line": "루이언 인텔리전트의 휴머노이드 150대가 10개 현장에서 1천여 종 작업을 수행했고, 한 협력사의 공작기계 투입 주기는 15분에서 1.5분으로 줄었다.",
+      "region": "중국",
+      "score": 6,
+      "tier": "주목",
+      "title": "中 우진 고신구, 바퀴형 휴머노이드 150대 현장 실증"
+    },
+    {
+      "category": "산업·투자",
+      "id": "2026-11-16-20",
+      "links": [
+        {
+          "name": "AI타임스",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=217347"
+        }
+      ],
+      "one_line": "월 17만 시간의 음성을 처리하는 티로가 회의록을 넘어 지식 관리 서비스로 확장하겠다고 밝혔다.",
+      "region": "한국",
+      "score": 5,
+      "tier": "참고",
+      "title": "더플레이토 AI 회의록 '티로', 출시 2년 만에 ARR 300만 달러"
+    },
+    {
+      "category": "기타",
+      "id": "2026-11-16-21",
+      "links": [
+        {
+          "name": "9to5Mac",
+          "url": "https://9to5mac.com/2026/11/15/apples-siri-ai-smart-glasses-are-reportedly-launching-next-year-heres-what-to-expect/"
+        }
+      ],
+      "one_line": "블룸버그 거먼 기자는 아이폰 연동형 첫 스마트 글라스(N50)를 내년 6월 공개해 연내 출시할 계획이라고 전했다.",
+      "region": "미국",
+      "score": 5,
+      "tier": "참고",
+      "title": "애플, 시리 중심 스마트 글라스 2027년 WWDC 공개 추진(보도)"
+    },
+    {
+      "category": "산업·투자",
+      "id": "2026-11-16-22",
+      "links": [
+        {
+          "name": "新浪财经",
+          "url": "http://finance.sina.com.cn/jjxw/2026-11-16/doc-iniyvzvt2825799.shtml"
+        }
+      ],
+      "one_line": "바이두 월드 연설에서 조직을 다시 설계하지 않고 도구만 바꿔서는 AI 효과가 나지 않는다고 지적했다.",
+      "region": "중국",
+      "score": 5,
+      "tier": "참고",
+      "title": "리옌훙 바이두 CEO '토큰 지출 늘리던 기업들, AI 예산 줄이는 중'"
+    }
+  ],
+  "sources_checked": [
+    "AI Weekly(11월 15일판)",
+    "TechCrunch AI(11월 14일분, 15~16일 기사 없음)",
+    "The Decoder",
+    "Anthropic 뉴스룸(11월 13~16일 새 글 없음)",
+    "OpenAI 뉴스(접속 실패)",
+    "Google DeepMind 블로그",
+    "Google Cloud 블로그",
+    "Meta AI 블로그(새 글 없음)",
+    "Hugging Face Papers(최신 11월 13일분, 전일 브리핑과 중복)",
+    "Robotics & Automation News",
+    "AI타임스",
+    "전자신문",
+    "ZDNet Korea(목록 갱신 안 됨)",
+    "Korea Herald",
+    "新浪 AI 핫이슈(중국)",
+    "量子位(중국)",
+    "机器之心(중국)",
+    "ITmedia AI+(11월 14~16일 기사 없음)",
+    "Semafor·NYT·Bloomberg(헤드라인)",
+    "AI 뉴스레터(AI Frontier Daily, 456X, Mind and Machine Weekly)"
+  ],
+  "top": [
+    {
+      "category": "산업·투자",
+      "id": "2026-11-16-01",
+      "links": [
+        {
+          "name": "AI타임스",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=217428"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/"
+        },
+        {
+          "name": "The Decoder",
+          "url": "https://the-decoder.com/firm-linked-to-jensen-huangs-ex-lover-reportedly-brokered-nearly-12-billion-in-nvidia-chip-orders-for-china/"
+        }
+      ],
+      "region": "미국",
+      "score": 9,
+      "scores": {
+        "coverage": 2,
+        "impact": 3,
+        "novelty": 1,
+        "relevance": 2,
+        "trust": 1
+      },
+      "summary": [
+        "황 전 CEO 측근들이 이사회 설득과 백악관 지지 확보를 위한 '워룸'을 꾸려 복귀를 논의 중이라고 FT가 보도했다.",
+        "복귀 청원은 11만5천 명을 넘겼고 머스크·팀 스위니·개리 탄 등이 서명했으며, 지분 21억 달러를 가진 투자사들도 복귀 가능성을 열어두라고 요구했다.",
+        "WSJ는 황의 전 연인이 소유한 메가스피드가 2024~2025년 중국 기업용 엔비디아 칩 약 120억 달러어치를 중개했다고 보도해 지배구조·수출 통제 논란이 겹쳤다."
+      ],
+      "tier": "핵심",
+      "title": "엔비디아 '젠슨 황 복귀' 운동 본격화… 메가스피드 통한 120억 달러 대중국 칩 중개 의혹도",
+      "why": "17일 3분기 실적 발표를 앞두고 GPU 공급·대중 수출·AI 투자 심리 전반에 직접 영향을 주는 사안이다."
+    },
+    {
+      "category": "정책·규제",
+      "id": "2026-11-16-02",
+      "links": [
+        {
+          "name": "AI타임스",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=217426"
+        },
+        {
+          "name": "WP-KR 뉴스 모음(경향신문 속보 포함)",
+          "url": "https://www.wp-kr.com/issue/?mod=document&uid=2406"
+        }
+      ],
+      "region": "한국",
+      "score": 9,
+      "scores": {
+        "coverage": 2,
+        "impact": 2,
+        "novelty": 2,
+        "relevance": 1,
+        "trust": 2
+      },
+      "summary": [
+        "제63회 세무사 시험 수석 합격자가 초소형 카메라로 문제를 찍어 생성 AI로 답을 받았다고 털어놓고 경찰에 자수했다.",
+        "같은 사람이 공인회계사 1차 시험에서도 같은 수법을 썼다고 밝혀 파장이 커졌다.",
+        "청와대는 국가자격시험 전반에서 AI 부정행위 의심 사례를 모두 조사하겠다고 밝혔다."
+      ],
+      "tier": "핵심",
+      "title": "세무사 시험 수석 합격자 '생성 AI로 부정행위' 자백… 청와대, 국가자격시험 전수조사 지시",
+      "why": "AI를 이용한 실시간 부정행위가 국가시험 관리 체계를 흔든 첫 대형 사례로, 시험 보안·AI 규제 논의가 빨라질 전망이다."
+    },
+    {
+      "category": "정책·규제",
+      "id": "2026-11-16-03",
+      "links": [
+        {
+          "name": "Semafor",
+          "url": "https://www.semafor.com/article/11/15/2026/under-pressure-lutnick-joins-trump-in-china"
+        },
+        {
+          "name": "New York Times",
+          "url": "https://www.nytimes.com/2026/11/15/us/politics/lutnick-pushed-to-weaken-chip-rules-that-overlap-with-his-family-business.html"
+        },
+        {
+          "name": "AI타임스",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=217411"
+        }
+      ],
+      "region": "미국",
+      "score": 8,
+      "scores": {
+        "coverage": 2,
+        "impact": 2,
+        "novelty": 1,
+        "relevance": 1,
+        "trust": 2
+      },
+      "summary": [
+        "베선트 재무장관이 엔비디아에 외부 CEO 영입을 촉구하고, 싱가포르 경유 대중 판매에 대한 답변을 10일 안에 내라고 압박했다.",
+        "NYT는 러트닉 상무장관이 동남아 칩 수출 규정을 7개국으로 좁혀 아들들이 운영하는 캔터 피츠제럴드의 고객사를 피해 가게 했다고 보도했다.",
+        "말레이시아 정부도 메가스피드 현지 계열사의 엔비디아 칩 재수출 여부 조사에 들어갔다."
+      ],
+      "tier": "주목",
+      "title": "美 칩 수출 통제 내분: 베선트 '엔비디아에 10일 시한'·러트닉 규정 완화 의혹",
+      "why": "미국 AI 칩 수출 정책이 인물·이해충돌 논란으로 흔들리며 이번 주 트럼프 방중과 동남아 데이터센터 사업에 변수가 됐다."
+    },
+    {
+      "category": "기타",
+      "id": "2026-11-16-04",
+      "links": [
+        {
+          "name": "Korea Herald",
+          "url": "https://www.koreaherald.com/article/10937399"
+        }
+      ],
+      "region": "한국",
+      "score": 8,
+      "scores": {
+        "coverage": 1,
+        "impact": 1,
+        "novelty": 2,
+        "relevance": 2,
+        "trust": 2
+      },
+      "summary": [
+        "현대홈쇼핑이 진행자와 촬영 없이 AI가 전 과정을 만드는 판매 방송을 16일 오후 PLUS# 채널에서 처음 정규 편성한다.",
+        "시범 운영에서 협력사의 샘플·영상 제작비가 80% 이상 줄었고 매출은 목표의 120%를 기록했다.",
+        "회사는 앞으로 월 1회 이상 AI 방송을 내보낼 계획이다."
+      ],
+      "tier": "주목",
+      "title": "현대홈쇼핑, 쇼호스트·촬영 없는 AI 생성 판매 방송 'AI-REAL' 정규 편성",
+      "why": "생성 AI 영상이 실험을 넘어 국내 커머스 방송의 정규 편성 단계에 들어선 사례로, 콘텐츠 제작비 구조 변화를 보여준다."
+    },
+    {
+      "category": "상용 LLM",
+      "id": "2026-11-16-05",
+      "links": [
+        {
+          "name": "Google Cloud 블로그",
+          "url": "https://cloud.google.com/blog/topics/hpc/whats-new-in-hpc-and-ai-at-sc26"
+        },
+        {
+          "name": "AI Weekly",
+          "url": "https://aiweekly.co/ai-news-today"
+        }
+      ],
+      "region": "미국",
+      "score": 8,
+      "scores": {
+        "coverage": 1,
+        "impact": 2,
+        "novelty": 1,
+        "relevance": 2,
+        "trust": 2
+      },
+      "summary": [
+        "구글 클라우드가 슈퍼컴퓨팅 학회 SC26(11월 15~20일)을 앞두고 OpenFOAM·GROMACS·AlphaFold 3 등을 에이전트가 다루는 HPC 스킬을 공개했다.",
+        "딥마인드의 알고리즘 탐색 에이전트 AlphaEvolve를 Cloud Batch에서 정식 제공한다.",
+        "엔비디아 베라 루빈 NVL72 기반 A5X 인스턴스와 TPU 8t·8i, 초당 10TB 읽기의 매니지드 Lustre도 함께 소개했다."
+      ],
+      "tier": "주목",
+      "title": "구글 클라우드, SC26 앞두고 에이전트형 HPC '스킬'·AlphaEvolve 정식 제공",
+      "why": "과학·공학 계산 작업을 코딩 에이전트가 직접 돌리는 흐름이 클라우드 상품으로 굳어지고 있다."
+    }
+  ]
+}
