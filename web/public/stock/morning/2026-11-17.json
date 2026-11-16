@@ -1,0 +1,179 @@
+{
+  "type": "morning",
+  "date": "2026-11-17",
+  "generated_at": "2026-11-17T06:27:49+09:00",
+  "analysis": {
+    "kospi_prediction": "하락",
+    "kospi_change_range": "-1.0~-2.5%",
+    "kospi_confidence": "보통",
+    "kospi_reason": "SOX 5.28%·하이닉스 ADR 7.29% 추가 급락, 전일 3.6% 급락 뒤 저가매수 가능성은 변수",
+    "us_market_summary": "반도체 투매에 SOX 5.3%↓, 나스닥 2.5%·S&P 1.9%↓",
+    "kospi_news_summary": "젠슨 황 사임 후폭풍에 美 반도체지수 5.28% 급락, 나스닥 2.49%↓",
+    "kospi_news": [
+      {
+        "summary": "美 반도체지수 5.28% 급락, 나스닥 2.49% 하락",
+        "source": "서울신문",
+        "url": "https://www.seoul.co.kr/news/economy/securities/2026/11/17/20261117500006"
+      },
+      {
+        "summary": "VIX 23.9로 24% 급등, 위험회피 심리 확산",
+        "source": "서울신문",
+        "url": "https://www.seoul.co.kr/news/economy/securities/2026/11/17/20261117500006"
+      },
+      {
+        "summary": "엔비디아 실적 美 17일 장마감 후 발표, 최대 변수",
+        "source": "아시아경제",
+        "url": "https://view.asiae.co.kr/article/2026111700460392627"
+      },
+      {
+        "summary": "앤스로픽 이번 주 상장, 기술주 자금 이탈 우려",
+        "source": "톱스타뉴스",
+        "url": "https://www.topstarnews.net/news/articleView.html?idxno=16278189"
+      },
+      {
+        "summary": "美 10년물 금리 5.1%대 고공행진 지속",
+        "source": "톱스타뉴스",
+        "url": "https://www.topstarnews.net/news/articleView.html?idxno=16278189"
+      }
+    ],
+    "watchlist": [
+      {
+        "code": "005930",
+        "name": "삼성전자",
+        "prediction": "하락",
+        "reason": "美 반도체주 동반 급락·담합 소송 부담, 낙폭은 하이닉스보다 작을 듯",
+        "factors": [
+          {
+            "summary": "마이크론 7.6%·TSMC ADR 6.3% 급락",
+            "impact": "악재",
+            "url": "https://www.seoul.co.kr/news/economy/securities/2026/11/17/20261117500006"
+          },
+          {
+            "summary": "美 법원, D램 담합 소송 기각 신청 받아들이지 않아",
+            "impact": "악재",
+            "url": "https://www.fnnews.com/news/202611161746030442"
+          },
+          {
+            "summary": "3분기 영업익 107조, 실적 체력은 견조",
+            "impact": "호재",
+            "url": "https://www.newspim.com/news/view/20261116000287"
+          }
+        ]
+      },
+      {
+        "code": "000660",
+        "name": "SK하이닉스",
+        "prediction": "하락",
+        "reason": "ADR 7.29% 급락 반영, 엔비디아 실적 전 관망 심리",
+        "factors": [
+          {
+            "summary": "하이닉스 ADR 美서 7.29% 급락 마감",
+            "impact": "악재",
+            "url": "https://www.seoul.co.kr/news/economy/securities/2026/11/17/20261117500006"
+          },
+          {
+            "summary": "엔비디아 CEO 공백·대중 규제로 고객 불확실성",
+            "impact": "악재",
+            "url": "https://view.asiae.co.kr/article/2026111700460392627"
+          },
+          {
+            "summary": "D램 담합 소송 본격화, 내부 자료 공개 가능성",
+            "impact": "악재",
+            "url": "https://www.newspim.com/news/view/20261116000287"
+          }
+        ]
+      }
+    ]
+  },
+  "raw_data": {
+    "news_window": {
+      "from": "2026-11-16T15:30:00+09:00",
+      "to": "2026-11-17T07:00:00+09:00"
+    },
+    "us_market": {
+      "sp500": {
+        "price": 7416.59,
+        "changePct": -1.92
+      },
+      "nasdaq": {
+        "price": 24509.76,
+        "changePct": -2.49
+      },
+      "dow": {
+        "price": 51608.17,
+        "changePct": -1.41
+      },
+      "sox": {
+        "price": 9610.65,
+        "changePct": -5.28
+      },
+      "usdkrw": {
+        "price": 1336.5,
+        "changePct": null
+      },
+      "vix": {
+        "price": 23.89,
+        "changePct": 23.78
+      },
+      "skhynix_adr": {
+        "changePct": -7.29
+      },
+      "us10y": {
+        "yield": 5.13,
+        "note": "장중 기준(톱스타뉴스)"
+      }
+    },
+    "kospi_prev": {
+      "price": 5100.5,
+      "changePct": -3.59
+    },
+    "watchlist": [
+      {
+        "code": "005930",
+        "name": "삼성전자",
+        "price": 196800,
+        "changePct": -4.47
+      },
+      {
+        "code": "000660",
+        "name": "SK하이닉스",
+        "price": 1120000,
+        "changePct": -7.89
+      }
+    ],
+    "sources": [
+      {
+        "name": "서울신문",
+        "url": "https://www.seoul.co.kr/news/economy/securities/2026/11/17/20261117500006"
+      },
+      {
+        "name": "SBS Biz(서플)",
+        "url": "https://supple.kr/news/cmwjrc1fctxubjkunk0a3sqf0"
+      },
+      {
+        "name": "톱스타뉴스",
+        "url": "https://www.topstarnews.net/news/articleView.html?idxno=16278189"
+      },
+      {
+        "name": "아시아경제",
+        "url": "https://view.asiae.co.kr/article/2026111700460392627"
+      },
+      {
+        "name": "파이낸셜뉴스",
+        "url": "https://www.fnnews.com/news/202611161746030442"
+      },
+      {
+        "name": "뉴스핌",
+        "url": "https://www.newspim.com/news/view/20261116000287"
+      },
+      {
+        "name": "아시아경제",
+        "url": "https://view.asiae.co.kr/article/2026111615454467528"
+      },
+      {
+        "name": "매일일보",
+        "url": "https://www.m-i.kr/news/articleView.html?idxno=2019172"
+      }
+    ]
+  }
+}
