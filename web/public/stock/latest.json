@@ -180,97 +180,84 @@
   },
   "afternoon": {
     "type": "afternoon",
-    "date": "2026-11-16",
-    "generated_at": "2026-11-16T16:02:11+09:00",
+    "date": "2026-11-17",
+    "generated_at": "2026-11-17T15:57:32+09:00",
     "analysis": {
       "kospi_predicted": "하락",
       "kospi_actual": "하락",
-      "kospi_change_text": "▼3.59%",
+      "kospi_change_text": "▼2.59%",
       "kospi_match": "적중",
-      "kospi_miss_reason": "반도체 급락·외국인 매도 방향은 맞혔으나 낙폭은 예상(-0.5~-1.5%)의 두 배 이상. D램 담합 소송 기각 거부 악재를 놓침",
+      "kospi_miss_reason": "美 반도체 급락·외국인 매도 지속 예상이 맞음. 오전 반등으로 5000선 회복했으나 오후 외국인 매도 확대로 낙폭이 예상 범위 하단을 약간 넘음",
       "watchlist_accuracy": [
         {
           "code": "005930",
           "name": "삼성전자",
           "predicted": "하락",
           "actual": "하락",
-          "change_text": "▼4.47%",
+          "change_text": "▼3.30%",
           "match": "적중",
-          "reason": "SOX 급락 여파에 담합 소송 악재 겹쳐 20만원 붕괴"
+          "reason": "반도체 동반 약세에 19만원선까지 밀림"
         },
         {
           "code": "000660",
           "name": "SK하이닉스",
           "predicted": "하락",
           "actual": "하락",
-          "change_text": "▼7.89%",
+          "change_text": "▼1.96%",
           "match": "적중",
-          "reason": "ADR 급락 반영, 엔비디아 리더십 공백·소송에 낙폭 확대"
+          "reason": "오전 상승 전환 후 재하락, 낙폭은 ADR보다 작음"
         }
       ],
       "overall_accuracy": "3/3",
       "accuracy": "적중",
-      "market_analysis": "강보합 출발 후 반도체·AI 밸류체인 중심 매물에 3%대 급락. 외국인 1조3천억대·기관 4천억대 순매도, 음식료·보험·운송 등 방어주만 강세",
-      "lessons": "방향은 맞음. 美 반도체 3%대 급락 시 국내 낙폭이 더 크게 증폭되는 점과 법적 리스크 반영 필요"
+      "market_analysis": "오전 5000선 회복 시도 뒤 오후 外人 매도 확대로 9개월 만에 5000선 붕괴. 외국인 1조4천억대 순매도, 기관·개인 순매수. 반도체·배터리 등 대형주 약세",
+      "lessons": "전일 급락 후 저가매수는 오전에 그쳤음. ADR 낙폭은 국내에 그대로 반영되지 않는 점 고려"
     },
     "raw_data": {
       "kospi": {
-        "price": 5100.5,
-        "changePct": -3.59
+        "price": 4968.48,
+        "changePct": -2.59
       },
       "kosdaq": {
-        "price": 665.65,
-        "changePct": -4.86
+        "price": 650.06,
+        "changePct": -2.34
       },
       "watchlist": [
         {
           "code": "005930",
           "name": "삼성전자",
-          "price": 196800,
-          "changePct": -4.47
+          "price": 190300,
+          "changePct": -3.3
         },
         {
           "code": "000660",
           "name": "SK하이닉스",
-          "price": 1120000,
-          "changePct": -7.89
+          "price": 1098000,
+          "changePct": -1.96
         }
       ],
       "investor_flow_kospi": {
-        "foreign": null,
-        "institution": -4513,
-        "individual": 13398,
-        "unit": "억원",
-        "note": "외국인 순매도는 매체별 1조3769억~1조3838억으로 상이"
-      },
-      "usdkrw": {
-        "price": 1335.7,
-        "changePct": null
+        "foreign": -14460,
+        "institution": 5436,
+        "individual": 4221,
+        "unit": "억원"
       },
       "sources": [
         {
+          "name": "위키트리",
+          "url": "https://www.wikitree.co.kr/articles/1175344"
+        },
+        {
+          "name": "한국경제",
+          "url": "https://www.hankyung.com/article/202611171950i"
+        },
+        {
           "name": "아시아경제",
-          "url": "https://view.asiae.co.kr/article/2026111615454467528"
-        },
-        {
-          "name": "매일일보",
-          "url": "https://www.m-i.kr/news/articleView.html?idxno=2019172"
-        },
-        {
-          "name": "블록미디어",
-          "url": "https://www.blockmedia.co.kr/archives/1166321"
-        },
-        {
-          "name": "싱글리스트",
-          "url": "https://www.slist.kr/news/articleView.html?idxno=782221"
+          "url": "https://view.asiae.co.kr/article/2026111715375988449"
         },
         {
           "name": "서울경제TV",
-          "url": "https://www.sentv.co.kr/article/view/sentv202611160180"
-        },
-        {
-          "name": "서울신문",
-          "url": "https://www.seoul.co.kr/news/economy/securities/2026/11/16/20261116500087"
+          "url": "https://www.sentv.co.kr/article/view/sentv202611170198"
         }
       ]
     }
