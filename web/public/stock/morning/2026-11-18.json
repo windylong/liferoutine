@@ -1,0 +1,176 @@
+{
+  "type": "morning",
+  "date": "2026-11-18",
+  "generated_at": "2026-11-18T06:23:11+09:00",
+  "analysis": {
+    "kospi_prediction": "보합",
+    "kospi_change_range": "-0.8~+0.8%",
+    "kospi_confidence": "낮음",
+    "kospi_reason": "이틀새 6%↓ 뒤 SOX 소폭 반등은 지지, 엔비디아 실적이 개장 전 변수라 방향 불확실",
+    "us_market_summary": "다우 1.64%·나스닥 0.74%↓, SOX는 0.34% 반등",
+    "kospi_news_summary": "엔비디아 실적 경계에 美 3대 지수 하락, 다우 1.64%↓",
+    "kospi_news": [
+      {
+        "summary": "다우 1.64%↓, 나스닥 장중 4월 이후 최저",
+        "source": "SBS Biz",
+        "url": "https://supple.kr/news/cmwl6rvy4vdydjkunn0fggn6i"
+      },
+      {
+        "summary": "엔비디아 실적, 한국시간 18일 06시20분 발표",
+        "source": "이슈온",
+        "url": "https://www.issueon.co.kr/news/articleView.html?idxno=14429"
+      },
+      {
+        "summary": "美 NSA 기밀망 장애에 기술주 불안 가중",
+        "source": "블록미디어",
+        "url": "https://www.blockmedia.co.kr/archives/1167221"
+      },
+      {
+        "summary": "VIX 13% 급등, 위험회피 심리 여전",
+        "source": "서울신문",
+        "url": "https://www.seoul.co.kr/news/economy/2026/11/18/20261118500008"
+      },
+      {
+        "summary": "코스피 5000선 붕괴, 외국인 1.4조 순매도",
+        "source": "한국경제",
+        "url": "https://www.hankyung.com/article/202611171950i"
+      }
+    ],
+    "watchlist": [
+      {
+        "code": "005930",
+        "name": "삼성전자",
+        "prediction": "보합",
+        "reason": "이틀 급락 뒤 저가매수와 마이크론 약세가 맞서는 구도",
+        "factors": [
+          {
+            "summary": "마이크론 6%·TSMC ADR 3.7% 하락",
+            "impact": "악재",
+            "url": "https://www.blockmedia.co.kr/archives/1167221"
+          },
+          {
+            "summary": "美 반도체지수 0.34% 소폭 반등 마감",
+            "impact": "호재",
+            "url": "https://www.seoul.co.kr/news/economy/2026/11/18/20261118500008"
+          },
+          {
+            "summary": "엔비디아 매출 컨센서스 약 1,090억달러",
+            "impact": "중립",
+            "url": "https://www.issueon.co.kr/news/articleView.html?idxno=14406"
+          }
+        ]
+      },
+      {
+        "code": "000660",
+        "name": "SK하이닉스",
+        "prediction": "보합",
+        "reason": "ADR 소폭 상승, 엔비디아 실적 반응에 따라 방향 갈릴 듯",
+        "factors": [
+          {
+            "summary": "하이닉스 ADR 0.35% 상승 마감",
+            "impact": "호재",
+            "url": "https://www.seoul.co.kr/news/economy/2026/11/18/20261118500008"
+          },
+          {
+            "summary": "엔비디아 실적이 HBM 수요 가늠자",
+            "impact": "중립",
+            "url": "https://www.issueon.co.kr/news/articleView.html?idxno=14406"
+          },
+          {
+            "summary": "마이크론 6% 급락, 메모리주 부담",
+            "impact": "악재",
+            "url": "https://www.blockmedia.co.kr/archives/1167221"
+          }
+        ]
+      }
+    ]
+  },
+  "raw_data": {
+    "news_window": {
+      "from": "2026-11-17T15:30:00+09:00",
+      "to": "2026-11-18T07:00:00+09:00"
+    },
+    "us_market": {
+      "sp500": {
+        "price": 7340.53,
+        "changePct": -1.03
+      },
+      "nasdaq": {
+        "price": 24328.38,
+        "changePct": -0.74
+      },
+      "dow": {
+        "price": 50759.42,
+        "changePct": -1.64
+      },
+      "sox": {
+        "price": 9642.88,
+        "changePct": 0.34
+      },
+      "usdkrw": {
+        "price": 1338.2,
+        "changePct": 0.19
+      }
+    },
+    "kospi_prev": {
+      "price": 4968.48,
+      "changePct": -2.59
+    },
+    "watchlist": [
+      {
+        "code": "005930",
+        "name": "삼성전자",
+        "price": 190300,
+        "changePct": -3.3
+      },
+      {
+        "code": "000660",
+        "name": "SK하이닉스",
+        "price": 1098000,
+        "changePct": -1.96
+      }
+    ],
+    "sources": [
+      {
+        "name": "서울신문",
+        "url": "https://www.seoul.co.kr/news/economy/2026/11/18/20261118500008"
+      },
+      {
+        "name": "SBS Biz",
+        "url": "https://supple.kr/news/cmwl6rvy4vdydjkunn0fggn6i"
+      },
+      {
+        "name": "블록미디어",
+        "url": "https://www.blockmedia.co.kr/archives/1167221"
+      },
+      {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/technology/live/nvidia-earnings-live-nvidia-to-report-q3-results-after-the-bell-with-colette-kress-to-host-first-call-as-interim-ceo-202616349.html"
+      },
+      {
+        "name": "서울파이낸스",
+        "url": "https://www.seoulfn.com/news/articleView.html?idxno=643099"
+      },
+      {
+        "name": "이슈온",
+        "url": "https://www.issueon.co.kr/news/articleView.html?idxno=14429"
+      },
+      {
+        "name": "이슈온",
+        "url": "https://www.issueon.co.kr/news/articleView.html?idxno=14406"
+      },
+      {
+        "name": "위키트리",
+        "url": "https://www.wikitree.co.kr/articles/1175344"
+      },
+      {
+        "name": "아시아경제",
+        "url": "https://view.asiae.co.kr/article/2026111715375988449"
+      },
+      {
+        "name": "한국경제",
+        "url": "https://www.hankyung.com/article/202611171950i"
+      }
+    ]
+  }
+}
