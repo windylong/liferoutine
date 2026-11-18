@@ -177,84 +177,80 @@
   },
   "afternoon": {
     "type": "afternoon",
-    "date": "2026-11-17",
-    "generated_at": "2026-11-17T15:57:32+09:00",
+    "date": "2026-11-18",
+    "generated_at": "2026-11-18T15:52:28+09:00",
     "analysis": {
-      "kospi_predicted": "하락",
-      "kospi_actual": "하락",
-      "kospi_change_text": "▼2.59%",
-      "kospi_match": "적중",
-      "kospi_miss_reason": "美 반도체 급락·외국인 매도 지속 예상이 맞음. 오전 반등으로 5000선 회복했으나 오후 외국인 매도 확대로 낙폭이 예상 범위 하단을 약간 넘음",
+      "kospi_predicted": "보합",
+      "kospi_actual": "상승",
+      "kospi_change_text": "▲1.99%",
+      "kospi_match": "빗나감",
+      "kospi_miss_reason": "엔비디아가 매출·가이던스 모두 예상을 넘기며 반도체 대형주가 급반등. 실적 변수의 상방 가능성을 과소평가해 보합으로 판단한 것이 빗나감",
       "watchlist_accuracy": [
         {
           "code": "005930",
           "name": "삼성전자",
-          "predicted": "하락",
-          "actual": "하락",
-          "change_text": "▼3.30%",
-          "match": "적중",
-          "reason": "반도체 동반 약세에 19만원선까지 밀림"
+          "predicted": "보합",
+          "actual": "상승",
+          "change_text": "▲2.31%",
+          "match": "빗나감",
+          "reason": "엔비디아 호실적에 장초반 4%대 급등 후 상승폭 일부 반납"
         },
         {
           "code": "000660",
           "name": "SK하이닉스",
-          "predicted": "하락",
-          "actual": "하락",
-          "change_text": "▼1.96%",
-          "match": "적중",
-          "reason": "오전 상승 전환 후 재하락, 낙폭은 ADR보다 작음"
+          "predicted": "보합",
+          "actual": "상승",
+          "change_text": "▲4.19%",
+          "match": "빗나감",
+          "reason": "HBM 수요 기대 부각, 마이크론 약세 우려보다 강했음"
         }
       ],
-      "overall_accuracy": "3/3",
-      "accuracy": "적중",
-      "market_analysis": "오전 5000선 회복 시도 뒤 오후 外人 매도 확대로 9개월 만에 5000선 붕괴. 외국인 1조4천억대 순매도, 기관·개인 순매수. 반도체·배터리 등 대형주 약세",
-      "lessons": "전일 급락 후 저가매수는 오전에 그쳤음. ADR 낙폭은 국내에 그대로 반영되지 않는 점 고려"
+      "overall_accuracy": "0/3",
+      "accuracy": "빗나감",
+      "market_analysis": "엔비디아 호실적에 반도체 대형주 주도로 반등, 5000선 하루 만에 회복. 외국인 3천억대 매도 지속에도 기관이 5천억대 순매수로 받아냄. 대형주 강세, 소형주는 약세",
+      "lessons": "개장 직전 대형 실적 이벤트는 결과 시나리오별로 방향을 잡고, 급락 뒤 반등 탄력을 더 반영"
     },
     "raw_data": {
       "kospi": {
-        "price": 4968.48,
-        "changePct": -2.59
+        "price": 5067.44,
+        "changePct": 1.99
       },
       "kosdaq": {
-        "price": 650.06,
-        "changePct": -2.34
+        "price": 662.81,
+        "changePct": 1.96
       },
       "watchlist": [
         {
           "code": "005930",
           "name": "삼성전자",
-          "price": 190300,
-          "changePct": -3.3
+          "price": 194700,
+          "changePct": 2.31
         },
         {
           "code": "000660",
           "name": "SK하이닉스",
-          "price": 1098000,
-          "changePct": -1.96
+          "price": 1144000,
+          "changePct": 4.19
         }
       ],
       "investor_flow_kospi": {
-        "foreign": -14460,
-        "institution": 5436,
-        "individual": 4221,
+        "foreign": -3338,
+        "institution": 5118,
+        "individual": -6380,
         "unit": "억원"
       },
       "sources": [
         {
           "name": "위키트리",
-          "url": "https://www.wikitree.co.kr/articles/1175344"
+          "url": "https://www.wikitree.co.kr/articles/1175675"
         },
         {
-          "name": "한국경제",
-          "url": "https://www.hankyung.com/article/202611171950i"
+          "name": "파이낸셜뉴스",
+          "url": "https://www.fnnews.com/news/202611181333353082"
         },
         {
-          "name": "아시아경제",
-          "url": "https://view.asiae.co.kr/article/2026111715375988449"
-        },
-        {
-          "name": "서울경제TV",
-          "url": "https://www.sentv.co.kr/article/view/sentv202611170198"
+          "name": "이투데이",
+          "url": "https://www.etoday.co.kr/news/view/2649593"
         }
       ]
     }
