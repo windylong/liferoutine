@@ -1,0 +1,89 @@
+{
+  "type": "afternoon",
+  "date": "2026-11-19",
+  "generated_at": "2026-11-19T16:49:02+09:00",
+  "analysis": {
+    "kospi_predicted": "하락",
+    "kospi_actual": "상승",
+    "kospi_change_text": "▲1.39%",
+    "kospi_match": "빗나감",
+    "kospi_miss_reason": "개장 직후 하락 전환해 장중 4960선까지 밀렸으나 수출 1조달러 달성 소식과 장 후반 기관 저가매수로 반전. 엔비디아 반락 악재를 과대평가함",
+    "watchlist_accuracy": [
+      {
+        "code": "005930",
+        "name": "삼성전자",
+        "predicted": "하락",
+        "actual": "상승",
+        "change_text": "▲1.13%",
+        "match": "빗나감",
+        "reason": "장 초반 약세 뒤 전기전자 업종 반등에 동반 상승"
+      },
+      {
+        "code": "000660",
+        "name": "SK하이닉스",
+        "predicted": "하락",
+        "actual": "상승",
+        "change_text": "▲3.41%",
+        "match": "빗나감",
+        "reason": "차익실현 우려보다 HBM 기대와 오후 매수세가 강했음"
+      }
+    ],
+    "overall_accuracy": "0/3",
+    "accuracy": "빗나감",
+    "market_analysis": "수능일 10시 개장 후 1%대 하락했다가 장 후반 반등해 5130선 마감. 의료정밀·전기전자 강세, 한한령 완화 기대에 소비재도 상승. 외국인 4천억대 매도, 기관 소폭 매수",
+    "lessons": "전일 급등 뒤 되돌림을 과신하지 말고, 수출지표·정책 기대 등 장중 국내 호재 가능성도 반영"
+  },
+  "raw_data": {
+    "kospi": {
+      "price": 5137.89,
+      "changePct": 1.39
+    },
+    "kosdaq": {
+      "price": 684.81,
+      "changePct": 3.32
+    },
+    "watchlist": [
+      {
+        "code": "005930",
+        "name": "삼성전자",
+        "price": 196900,
+        "changePct": 1.13
+      },
+      {
+        "code": "000660",
+        "name": "SK하이닉스",
+        "price": 1183000,
+        "changePct": 3.41
+      }
+    ],
+    "investor_flow_kospi": {
+      "foreign": -4054,
+      "institution": 192,
+      "individual": -653,
+      "unit": "억원"
+    },
+    "notes": "수능일로 정규장 10:00~16:30. 네이버 증권 접근 불가로 마감 기사 값 사용. 수급은 위키트리 값(이투데이는 외국인 -4374·기관 +464·개인 -645로 차이)",
+    "sources": [
+      {
+        "name": "아시아경제",
+        "url": "https://view.asiae.co.kr/article/2026111916332355935"
+      },
+      {
+        "name": "위키트리",
+        "url": "https://www.wikitree.co.kr/articles/1176062"
+      },
+      {
+        "name": "이투데이",
+        "url": "https://www.etoday.co.kr/news/view/2650544"
+      },
+      {
+        "name": "서울파이낸스",
+        "url": "https://www.seoulfn.com/news/articleView.html?idxno=643375"
+      },
+      {
+        "name": "한국경제TV",
+        "url": "https://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202611190041"
+      }
+    ]
+  }
+}
