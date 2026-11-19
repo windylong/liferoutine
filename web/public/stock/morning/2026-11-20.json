@@ -1,0 +1,163 @@
+{
+  "type": "morning",
+  "date": "2026-11-20",
+  "generated_at": "2026-11-20T06:23:11+09:00",
+  "analysis": {
+    "kospi_prediction": "하락",
+    "kospi_change_range": "-0.8~-2.0%",
+    "kospi_confidence": "보통",
+    "kospi_reason": "뉴욕 3대 지수 2%대 급락과 AI·반도체주 약세로 대형 반도체 중심 하락 출발 예상. 전일 급반등분 되돌림 가능",
+    "us_market_summary": "앤트로픽 상장 후 AI주 매도로 다우·나스닥 2%대 급락",
+    "kospi_news_summary": "앤트로픽 상장 뒤 AI주 차익매물에 뉴욕증시 2%대 급락",
+    "kospi_news": [
+      {
+        "summary": "뉴욕 3대 지수 2% 안팎 급락, 다우 1100p 하락",
+        "source": "블록미디어",
+        "url": "https://www.blockmedia.co.kr/archives/1168341"
+      },
+      {
+        "summary": "앤트로픽 상장 후 AI 투자 수익성 우려 재부각",
+        "source": "지디넷코리아",
+        "url": "https://zdnet.co.kr/view/?no=20261120052957"
+      },
+      {
+        "summary": "AMD, 공매도 보고서 여파에 7%대 급락",
+        "source": "블록미디어",
+        "url": "https://www.blockmedia.co.kr/archives/1168341"
+      },
+      {
+        "summary": "한국 연간 수출 사상 첫 1조달러 돌파, 반도체 주도",
+        "source": "아시아경제",
+        "url": "https://view.asiae.co.kr/article/2026111915351419692"
+      },
+      {
+        "summary": "원·달러 환율 3원 내린 1330원 마감",
+        "source": "서울파이낸스",
+        "url": "https://www.seoulfn.com/news/articleView.html?idxno=643357"
+      }
+    ],
+    "watchlist": [
+      {
+        "code": "005930",
+        "name": "삼성전자",
+        "prediction": "하락",
+        "reason": "미 AI·반도체주 동반 약세로 전일 반등분 일부 반납 예상",
+        "factors": [
+          {
+            "summary": "엔비디아 등 미 반도체·AI주 장중 상승분 반납",
+            "impact": "악재",
+            "url": "https://www.blockmedia.co.kr/archives/1168341"
+          },
+          {
+            "summary": "반도체가 수출 1조달러 달성 견인, 업황 견조",
+            "impact": "호재",
+            "url": "https://view.asiae.co.kr/article/2026111915351419692"
+          }
+        ]
+      },
+      {
+        "code": "000660",
+        "name": "SK하이닉스",
+        "prediction": "하락",
+        "reason": "전일 3%대 급등 뒤 미 AI주 급락으로 차익매물 우려",
+        "factors": [
+          {
+            "summary": "AI 인프라 투자 비용·수익성 우려 재부각",
+            "impact": "악재",
+            "url": "https://zdnet.co.kr/view/?no=20261120052957"
+          },
+          {
+            "summary": "HBM이 수출 주역, 소부장 공동 테스트팹 추진",
+            "impact": "호재",
+            "url": "https://view.asiae.co.kr/article/2026111915351419692"
+          }
+        ]
+      }
+    ]
+  },
+  "raw_data": {
+    "news_window": {
+      "from": "2026-11-19T07:00:00+09:00",
+      "to": "2026-11-20T07:00:00+09:00"
+    },
+    "us_market": {
+      "sp500": {
+        "price": 7175.83,
+        "changePct": -2.02
+      },
+      "nasdaq": {
+        "price": 23897.2,
+        "changePct": -2.25
+      },
+      "dow": {
+        "price": 49097.1,
+        "changePct": -2.25
+      },
+      "sox": {
+        "price": null,
+        "changePct": null
+      },
+      "usdkrw": {
+        "price": 1330.0,
+        "changePct": -0.22
+      }
+    },
+    "kospi_prev": {
+      "price": 5137.89,
+      "changePct": 1.39
+    },
+    "watchlist": [
+      {
+        "code": "005930",
+        "name": "삼성전자",
+        "price": 196900,
+        "changePct": 1.13
+      },
+      {
+        "code": "000660",
+        "name": "SK하이닉스",
+        "price": 1183000,
+        "changePct": 3.41
+      }
+    ],
+    "notes": "미 지수는 CNBC 인용 블록미디어 종가(블루밍비트/인베스팅은 나스닥 23879.20 -2.25%, S&P500 7179.38 -1.97%로 소폭 차이). SOX 종가는 확인 출처를 찾지 못해 비움(장중 1%대 하락 보도만 있음). 환율 등락률은 전일 1333.0원 대비 계산",
+    "sources": [
+      {
+        "name": "블록미디어",
+        "url": "https://www.blockmedia.co.kr/archives/1168341"
+      },
+      {
+        "name": "블록미디어",
+        "url": "https://www.blockmedia.co.kr/archives/1168288"
+      },
+      {
+        "name": "블루밍비트",
+        "url": "https://bloomingbit.io/feed/news/124827"
+      },
+      {
+        "name": "지디넷코리아",
+        "url": "https://zdnet.co.kr/view/?no=20261120052957"
+      },
+      {
+        "name": "뉴스1",
+        "url": "https://www.news1.kr/world/usa-canada/6360293"
+      },
+      {
+        "name": "서울파이낸스",
+        "url": "https://www.seoulfn.com/news/articleView.html?idxno=643357"
+      },
+      {
+        "name": "아시아경제",
+        "url": "https://view.asiae.co.kr/article/2026111915351419692"
+      },
+      {
+        "name": "아시아경제",
+        "url": "https://view.asiae.co.kr/article/2026111916332355935"
+      },
+      {
+        "name": "톱스타뉴스",
+        "url": "https://www.topstarnews.net/news/articleView.html?idxno=16280765"
+      }
+    ]
+  }
+}
