@@ -1,0 +1,79 @@
+{
+  "type": "afternoon",
+  "date": "2026-11-20",
+  "generated_at": "2026-11-20T15:54:25+09:00",
+  "analysis": {
+    "kospi_predicted": "하락",
+    "kospi_actual": "하락",
+    "kospi_change_text": "▼5.21%",
+    "kospi_match": "적중",
+    "kospi_miss_reason": "미 AI주 급락 여파의 반도체 대형주 하락을 맞혔으나 낙폭은 예상(-0.8~-2.0%)의 두 배 이상. 외국인·기관 동반 매도와 사이드카를 과소평가",
+    "watchlist_accuracy": [
+      {
+        "code": "005930",
+        "name": "삼성전자",
+        "predicted": "하락",
+        "actual": "하락",
+        "change_text": "▼7.01%",
+        "match": "적중",
+        "reason": "미 AI·반도체 약세 전이를 맞혔으나 낙폭은 과소평가"
+      },
+      {
+        "code": "000660",
+        "name": "SK하이닉스",
+        "predicted": "하락",
+        "actual": "하락",
+        "change_text": "▼5.92%",
+        "match": "적중",
+        "reason": "전일 급등분 차익매물과 AI 수익성 우려가 겹쳐 하락"
+      }
+    ],
+    "overall_accuracy": "3/3",
+    "accuracy": "적중",
+    "market_analysis": "4%대 급락 출발 뒤 낙폭을 키워 4869선 마감, 코스닥도 5.71%↓. 반도체·AI 대형주 주도로 양 시장 매도 사이드카. 외국인 1.1조·기관 0.95조 순매도, 개인만 매수",
+    "lessons": "미국 2%대 급락일엔 외국인 매도 강도와 사이드카 가능성까지 반영해 낙폭 범위를 넓게 잡을 것"
+  },
+  "raw_data": {
+    "kospi": {
+      "price": 4869.96,
+      "changePct": -5.21
+    },
+    "kosdaq": {
+      "price": 645.68,
+      "changePct": -5.71
+    },
+    "watchlist": [
+      {
+        "code": "005930",
+        "name": "삼성전자",
+        "price": 183100,
+        "changePct": -7.01
+      },
+      {
+        "code": "000660",
+        "name": "SK하이닉스",
+        "price": 1113000,
+        "changePct": -5.92
+      }
+    ],
+    "notes": "종목 종가는 블록미디어 마감시황 기준. 원·달러 15:30 1336.2원(+6.2원). 한국경제 기사는 장중(13시대) 수급 참고용",
+    "sources": [
+      {
+        "name": "블록미디어",
+        "url": "https://www.blockmedia.co.kr/archives/1168550"
+      },
+      {
+        "name": "서울경제TV",
+        "url": "https://www.sentv.co.kr/article/view/sentv202611200179"
+      },
+      {
+        "name": "한국경제",
+        "url": "https://www.hankyung.com/article/2026112099276"
+      },
+      {
+        "name": "아시아경제",
+        "url": "https://view.asiae.co.kr/article/2026112015360226256"
+      }
+    ]
+  }
+}

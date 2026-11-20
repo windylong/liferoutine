@@ -164,89 +164,79 @@
   },
   "afternoon": {
     "type": "afternoon",
-    "date": "2026-11-19",
-    "generated_at": "2026-11-19T16:49:02+09:00",
+    "date": "2026-11-20",
+    "generated_at": "2026-11-20T15:54:25+09:00",
     "analysis": {
       "kospi_predicted": "하락",
-      "kospi_actual": "상승",
-      "kospi_change_text": "▲1.39%",
-      "kospi_match": "빗나감",
-      "kospi_miss_reason": "개장 직후 하락 전환해 장중 4960선까지 밀렸으나 수출 1조달러 달성 소식과 장 후반 기관 저가매수로 반전. 엔비디아 반락 악재를 과대평가함",
+      "kospi_actual": "하락",
+      "kospi_change_text": "▼5.21%",
+      "kospi_match": "적중",
+      "kospi_miss_reason": "미 AI주 급락 여파의 반도체 대형주 하락을 맞혔으나 낙폭은 예상(-0.8~-2.0%)의 두 배 이상. 외국인·기관 동반 매도와 사이드카를 과소평가",
       "watchlist_accuracy": [
         {
           "code": "005930",
           "name": "삼성전자",
           "predicted": "하락",
-          "actual": "상승",
-          "change_text": "▲1.13%",
-          "match": "빗나감",
-          "reason": "장 초반 약세 뒤 전기전자 업종 반등에 동반 상승"
+          "actual": "하락",
+          "change_text": "▼7.01%",
+          "match": "적중",
+          "reason": "미 AI·반도체 약세 전이를 맞혔으나 낙폭은 과소평가"
         },
         {
           "code": "000660",
           "name": "SK하이닉스",
           "predicted": "하락",
-          "actual": "상승",
-          "change_text": "▲3.41%",
-          "match": "빗나감",
-          "reason": "차익실현 우려보다 HBM 기대와 오후 매수세가 강했음"
+          "actual": "하락",
+          "change_text": "▼5.92%",
+          "match": "적중",
+          "reason": "전일 급등분 차익매물과 AI 수익성 우려가 겹쳐 하락"
         }
       ],
-      "overall_accuracy": "0/3",
-      "accuracy": "빗나감",
-      "market_analysis": "수능일 10시 개장 후 1%대 하락했다가 장 후반 반등해 5130선 마감. 의료정밀·전기전자 강세, 한한령 완화 기대에 소비재도 상승. 외국인 4천억대 매도, 기관 소폭 매수",
-      "lessons": "전일 급등 뒤 되돌림을 과신하지 말고, 수출지표·정책 기대 등 장중 국내 호재 가능성도 반영"
+      "overall_accuracy": "3/3",
+      "accuracy": "적중",
+      "market_analysis": "4%대 급락 출발 뒤 낙폭을 키워 4869선 마감, 코스닥도 5.71%↓. 반도체·AI 대형주 주도로 양 시장 매도 사이드카. 외국인 1.1조·기관 0.95조 순매도, 개인만 매수",
+      "lessons": "미국 2%대 급락일엔 외국인 매도 강도와 사이드카 가능성까지 반영해 낙폭 범위를 넓게 잡을 것"
     },
     "raw_data": {
       "kospi": {
-        "price": 5137.89,
-        "changePct": 1.39
+        "price": 4869.96,
+        "changePct": -5.21
       },
       "kosdaq": {
-        "price": 684.81,
-        "changePct": 3.32
+        "price": 645.68,
+        "changePct": -5.71
       },
       "watchlist": [
         {
           "code": "005930",
           "name": "삼성전자",
-          "price": 196900,
-          "changePct": 1.13
+          "price": 183100,
+          "changePct": -7.01
         },
         {
           "code": "000660",
           "name": "SK하이닉스",
-          "price": 1183000,
-          "changePct": 3.41
+          "price": 1113000,
+          "changePct": -5.92
         }
       ],
-      "investor_flow_kospi": {
-        "foreign": -4054,
-        "institution": 192,
-        "individual": -653,
-        "unit": "억원"
-      },
-      "notes": "수능일로 정규장 10:00~16:30. 네이버 증권 접근 불가로 마감 기사 값 사용. 수급은 위키트리 값(이투데이는 외국인 -4374·기관 +464·개인 -645로 차이)",
+      "notes": "종목 종가는 블록미디어 마감시황 기준. 원·달러 15:30 1336.2원(+6.2원). 한국경제 기사는 장중(13시대) 수급 참고용",
       "sources": [
         {
+          "name": "블록미디어",
+          "url": "https://www.blockmedia.co.kr/archives/1168550"
+        },
+        {
+          "name": "서울경제TV",
+          "url": "https://www.sentv.co.kr/article/view/sentv202611200179"
+        },
+        {
+          "name": "한국경제",
+          "url": "https://www.hankyung.com/article/2026112099276"
+        },
+        {
           "name": "아시아경제",
-          "url": "https://view.asiae.co.kr/article/2026111916332355935"
-        },
-        {
-          "name": "위키트리",
-          "url": "https://www.wikitree.co.kr/articles/1176062"
-        },
-        {
-          "name": "이투데이",
-          "url": "https://www.etoday.co.kr/news/view/2650544"
-        },
-        {
-          "name": "서울파이낸스",
-          "url": "https://www.seoulfn.com/news/articleView.html?idxno=643375"
-        },
-        {
-          "name": "한국경제TV",
-          "url": "https://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202611190041"
+          "url": "https://view.asiae.co.kr/article/2026112015360226256"
         }
       ]
     }
