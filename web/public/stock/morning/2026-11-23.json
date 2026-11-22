@@ -1,0 +1,180 @@
+{
+  "type": "morning",
+  "date": "2026-11-23",
+  "generated_at": "2026-11-23T06:22:48+09:00",
+  "analysis": {
+    "kospi_prediction": "하락",
+    "kospi_change_range": "-3.0~-6.5%",
+    "kospi_confidence": "높음",
+    "kospi_reason": "나스닥 5%·SOX 10% 폭락, 야간선물 -7%로 반도체 주도 급락 출발 예상. 증안펀드 기대에 낙폭 일부 축소 가능",
+    "us_market_summary": "엔비디아 14%↓, 나스닥 5.3% 폭락·S&P500 조정 진입",
+    "kospi_news_summary": "AI 수익성 우려·엔비디아 급락에 뉴욕 기술주 폭락, 코스피 블랙먼데이 우려",
+    "kospi_news": [
+      {
+        "summary": "나스닥 5.28% 폭락, 다우·S&P500 조정장 진입",
+        "source": "이투데이",
+        "url": "https://www.etoday.co.kr/news/view/2651148"
+      },
+      {
+        "summary": "美 반도체지수 10.7% 급락, 코스피 야간선물 -7%",
+        "source": "펜앤마이크",
+        "url": "https://www.pennmike.com/news/articleView.html?idxno=132463"
+      },
+      {
+        "summary": "정부 긴급회의, 증안펀드 가동 준비·자사주 매입 한도 완화",
+        "source": "주간경향",
+        "url": "https://weekly.khan.co.kr/article/202611221922001"
+      },
+      {
+        "summary": "원·달러 야간거래 1346원 마감, 1340원 돌파",
+        "source": "서울파이낸스",
+        "url": "https://www.seoulfn.com/news/articleView.html?idxno=643556"
+      },
+      {
+        "summary": "연준 12월 인상 확률 88%대, 26일 한은 금리 결정",
+        "source": "서울파이낸스",
+        "url": "https://www.seoulfn.com/news/articleView.html?idxno=643556"
+      }
+    ],
+    "watchlist": [
+      {
+        "code": "005930",
+        "name": "삼성전자",
+        "prediction": "하락",
+        "reason": "美 반도체 폭락·해외 추정가 -5.8%, 외국인 매도 지속",
+        "factors": [
+          {
+            "summary": "해외 추정가 약 17.2만원, 금요일 대비 -5.8%",
+            "impact": "악재",
+            "url": "https://weekly.khan.co.kr/article/202611221922001"
+          },
+          {
+            "summary": "트럼프 '중국엔 구형 칩만'…대중 수출 규제 부담",
+            "impact": "악재",
+            "url": "https://www.topstarnews.net/news/articleView.html?idxno=16282127"
+          },
+          {
+            "summary": "증권가 목표가 줄하향, 개인은 1.5조 순매수",
+            "impact": "중립",
+            "url": "https://www.segye.com/newsView/20261121501082"
+          }
+        ]
+      },
+      {
+        "code": "000660",
+        "name": "SK하이닉스",
+        "prediction": "하락",
+        "reason": "마이크론 14%·ADR 13% 급락, 해외 추정가 -7%대",
+        "factors": [
+          {
+            "summary": "SK하이닉스 ADR 13% 급락, 美 메모리주 동반 폭락",
+            "impact": "악재",
+            "url": "https://www.pennmike.com/news/articleView.html?idxno=132463"
+          },
+          {
+            "summary": "해외 추정가 약 103만원, 금요일 대비 -7.2%",
+            "impact": "악재",
+            "url": "https://weekly.khan.co.kr/article/202611221922001"
+          },
+          {
+            "summary": "27~28년 생산능력 절반 이상 장기공급 계약 확보",
+            "impact": "호재",
+            "url": "https://www.segye.com/newsView/20261121501082"
+          }
+        ]
+      }
+    ]
+  },
+  "raw_data": {
+    "news_window": {
+      "from": "2026-11-20T15:30:00+09:00",
+      "to": "2026-11-23T07:00:00+09:00"
+    },
+    "us_market": {
+      "sp500": {
+        "price": 6910.39,
+        "changePct": -3.7
+      },
+      "nasdaq": {
+        "price": 22617.73,
+        "changePct": -5.28
+      },
+      "dow": {
+        "price": 48147.33,
+        "changePct": -1.93
+      },
+      "sox": {
+        "price": null,
+        "changePct": -10.73
+      },
+      "usdkrw": {
+        "price": 1346.0,
+        "changePct": 0.73
+      }
+    },
+    "kospi200_night_futures": {
+      "changePct": -6.99
+    },
+    "kospi_prev": {
+      "price": 4869.96,
+      "changePct": -5.21
+    },
+    "watchlist": [
+      {
+        "code": "005930",
+        "name": "삼성전자",
+        "price": 183100,
+        "changePct": -7.01
+      },
+      {
+        "code": "000660",
+        "name": "SK하이닉스",
+        "price": 1113000,
+        "changePct": -5.92
+      }
+    ],
+    "notes": "미 지수는 11/20(현지) 종가. SOX 종가 수준은 확인 못 해 비움(등락률만). 환율은 20일 야간거래 06시 마감 1346.0원, 등락률은 같은 날 주간 종가 1336.2원 대비 계산. 해외 추정가는 무기한 선물 환산 참고치. 직전 오후 교훈(급락일 낙폭 범위 넓게) 반영",
+    "sources": [
+      {
+        "name": "이투데이",
+        "url": "https://www.etoday.co.kr/news/view/2651148"
+      },
+      {
+        "name": "펜앤마이크",
+        "url": "https://www.pennmike.com/news/articleView.html?idxno=132463"
+      },
+      {
+        "name": "팸타임스",
+        "url": "https://www.famtimes.co.kr/news/articleView.html?idxno=705303"
+      },
+      {
+        "name": "서울파이낸스",
+        "url": "https://www.seoulfn.com/news/articleView.html?idxno=643556"
+      },
+      {
+        "name": "주간경향",
+        "url": "https://weekly.khan.co.kr/article/202611221922001"
+      },
+      {
+        "name": "SBS",
+        "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008856131"
+      },
+      {
+        "name": "톱스타뉴스",
+        "url": "https://www.topstarnews.net/news/articleView.html?idxno=16282127"
+      },
+      {
+        "name": "세계일보",
+        "url": "https://www.segye.com/newsView/20261121501082"
+      },
+      {
+        "name": "매일일보",
+        "url": "https://www.m-i.kr/news/articleView.html?idxno=2021665"
+      },
+      {
+        "name": "머니투데이",
+        "url": "https://www.mt.co.kr/index.php/economy/2026/11/20/2026112015302963878"
+      }
+    ]
+  }
+}
