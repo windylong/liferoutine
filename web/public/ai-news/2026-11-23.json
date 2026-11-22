@@ -1,0 +1,729 @@
+{
+  "date": "2026-11-23",
+  "generated_at": "2026-11-23T07:51:54+09:00",
+  "headline": "린 커뮤니티가 클로드 활용 리만 가설 증명을 공식 검증하며 'AI 수학' 논쟁이 새 국면을 맞았고, 저가 추론 업체의 프롬프트 유출·키 탈취가 드러나 오픈라우터가 공급자를 퇴출했다. METR는 AI 발전 속도가 안전성 평가를 앞지르고 있다고 경고했고, 엔비디아는 GTC 베를린에서 아이작 로봇 스택을 확장했다.",
+  "others": [
+    {
+      "category": "LLM",
+      "id": "2026-11-23-06",
+      "links": [
+        {
+          "name": "The Decoder",
+          "url": "https://the-decoder.com/ai-coding-agents-ace-isolated-tests-but-complete-fewer-than-one-in-ten-tasks-in-a-simulated-workplace/"
+        }
+      ],
+      "one_line": "동료·이슈 보드·불완전한 인수인계가 있는 모의 개발 환경에서 오퍼스 5.5·아스트라 등 최신 모델의 완수율이 10% 미만으로 나타났다.",
+      "region": "미국",
+      "score": 9,
+      "tier": "핵심",
+      "title": "코딩 에이전트, 단독 과제는 잘하지만 '가상 직장'에서는 업무 10건 중 1건도 완수 못 해"
+    },
+    {
+      "category": "산업·투자",
+      "id": "2026-11-23-07",
+      "links": [
+        {
+          "name": "Focus Taiwan",
+          "url": "https://focustaiwan.tw/business/202611210013"
+        },
+        {
+          "name": "뉴스핌",
+          "url": "https://www.newspim.com/news/view/20261122000116"
+        }
+      ],
+      "one_line": "타이엑스가 6.2% 급락하자 대만은 24일부터 공매도를 제한하고, 한국 정부도 긴급 점검회의에서 증안펀드 가동 준비와 불법 공매도 특별감시를 발표했다.",
+      "region": "글로벌",
+      "score": 9,
+      "tier": "핵심",
+      "title": "美 AI 매도세에 대만 공매도 금지·한국 증안펀드 준비… 아시아 시장 긴급 대응"
+    },
+    {
+      "category": "LLM",
+      "id": "2026-11-23-08",
+      "links": [
+        {
+          "name": "AI타임스",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=217657"
+        }
+      ],
+      "one_line": "사람 기준 2~4시간짜리 AI 연구 과제를 에이전트가 단독 완수하는 비율이 23%에서 46%로 올랐지만, 아이디어 구상과 핵심 판단은 여전히 사람 몫이었다.",
+      "region": "미국",
+      "score": 9,
+      "tier": "핵심",
+      "title": "오픈AI 연구 가속 보고서 'AI가 연구 과제 절반을 스스로 완료'… 7개월 새 성공률 2배"
+    },
+    {
+      "category": "상용 LLM",
+      "id": "2026-11-23-09",
+      "links": [
+        {
+          "name": "AI타임스",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=217655"
+        }
+      ],
+      "one_line": "음성 에이전트의 대기 구간 요금을 분당 0.02달러로 낮춰 장시간 통화형 서비스의 비용 부담을 줄였다.",
+      "region": "미국",
+      "score": 9,
+      "tier": "핵심",
+      "title": "오픈AI 실시간 음성 모델 'GPT-라이브-1.1' API 출시… 유휴 시간 요금 60% 인하"
+    },
+    {
+      "category": "정책·규제",
+      "id": "2026-11-23-10",
+      "links": [
+        {
+          "name": "The Next Web",
+          "url": "https://thenextweb.com/news/chinas-data-regulator-plans-standards-for-measuring-and-billing-ai-tokens"
+        }
+      ],
+      "one_line": "토큰 측정·청구·시험 방법을 국가 표준으로 정하겠다고 밝혔으며 공개 일정은 아직 나오지 않았다.",
+      "region": "중국",
+      "score": 9,
+      "tier": "핵심",
+      "title": "중국 국가데이터국, AI 토큰 계량·과금 표준 만든다… 하루 사용량 500조 토큰 돌파"
+    },
+    {
+      "category": "연구 논문",
+      "id": "2026-11-23-11",
+      "links": [
+        {
+          "name": "量子位",
+          "url": "https://www.qbitai.com/2026/11/511740.html"
+        }
+      ],
+      "one_line": "게임사 미호요가 시각·언어·행동(VLA) 모델 연구를 내놓으며 체화 AI 분야로 보폭을 넓혔다.",
+      "paper_year": 2026,
+      "region": "중국",
+      "score": 9,
+      "tier": "핵심",
+      "title": "미호요, 8B VLA 모델 논문 공개… 50시간 연속 자율 구동 주장"
+    },
+    {
+      "category": "상용 LLM",
+      "id": "2026-11-23-12",
+      "links": [
+        {
+          "name": "AI타임스",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=217659"
+        }
+      ],
+      "one_line": "상위 요금제 중심이던 백그라운드 에이전트를 일반 유료 구독자에게 시험 제공하기 시작했다.",
+      "region": "미국",
+      "score": 8,
+      "tier": "주목",
+      "title": "오픈AI 상시 작동 에이전트 '닷츠', 챗GPT 플러스 일부와 비즈니스 스탠더드로 확대"
+    },
+    {
+      "category": "상용 LLM",
+      "id": "2026-11-23-13",
+      "links": [
+        {
+          "name": "OpenAI 지원 중단 문서",
+          "url": "https://developers.openai.com/api/docs/deprecations"
+        }
+      ],
+      "one_line": "6월 예고된 일정이 일주일 앞으로 다가왔으며, 12월 11일에는 gpt-5·o3 계열도 종료되므로 마이그레이션 점검이 필요하다.",
+      "region": "미국",
+      "score": 8,
+      "tier": "주목",
+      "title": "오픈AI API, 11월 30일 에이전트 빌더·프롬프트 객체·Evals 종료… 12월 1일 구형 이미지 모델도 중단"
+    },
+    {
+      "category": "상용 LLM",
+      "id": "2026-11-23-14",
+      "links": [
+        {
+          "name": "The Decoder",
+          "url": "https://the-decoder.com/perplexitys-new-monitor-api-turns-web-search-from-a-one-off-query-into-a-nonstop-watchdog/"
+        }
+      ],
+      "one_line": "예약 검색을 돌리다 의미 있는 변화가 생겼을 때만 에이전트에 알림을 보내는 방식으로, 판단용 모델이 사소한 결과를 걸러낸다.",
+      "region": "미국",
+      "score": 8,
+      "tier": "주목",
+      "title": "퍼플렉시티 '모니터 API' 출시… 웹 검색을 상시 감시·웹훅 알림으로"
+    },
+    {
+      "category": "연구 논문",
+      "id": "2026-11-23-15",
+      "links": [
+        {
+          "name": "量子位",
+          "url": "https://www.qbitai.com/2026/11/511841.html"
+        }
+      ],
+      "one_line": "단체 채팅 메시지 약 8만 건을 시험 문제로 바꿔 에이전트가 긴 대화 맥락을 얼마나 기억하는지 평가한다.",
+      "paper_year": 2026,
+      "region": "중국",
+      "score": 8,
+      "tier": "주목",
+      "title": "텐센트 위안바오·킹스칼리지, 단체 대화방 기반 첫 에이전트 기억력 벤치마크 공개"
+    },
+    {
+      "category": "기타",
+      "id": "2026-11-23-16",
+      "links": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/"
+        }
+      ],
+      "one_line": "운영체제 수준 AI가 대화 내용을 읽어가는 것을 '존립 위협'으로 보고 기본 차단을 도입했으며 사용자가 끌 수 있다.",
+      "region": "미국",
+      "score": 8,
+      "tier": "주목",
+      "title": "시그널, AI 에이전트의 화면 읽기 막으려 모바일 스크린샷 제한"
+    },
+    {
+      "category": "산업·투자",
+      "id": "2026-11-23-17",
+      "links": [
+        {
+          "name": "Financial Times",
+          "url": "https://www.ft.com/content/dd2a6594-6146-4ff1-ac8e-54749c1fc99f"
+        }
+      ],
+      "one_line": "델·HPE·레노버·슈퍼마이크로가 이미 맺은 계약가를 올리고 있으며 네오클라우드가 가장 큰 타격을 받는다는 보도다.",
+      "region": "미국",
+      "score": 7,
+      "tier": "주목",
+      "title": "AI 서버 업체들, 계약 체결 후에도 최대 45% 가격 인상… 메모리·기판 부족 탓"
+    },
+    {
+      "category": "LLM",
+      "id": "2026-11-23-18",
+      "links": [
+        {
+          "name": "The Decoder",
+          "url": "https://the-decoder.com/gpt-6-2-astra-and-sol-get-to-the-point-faster-but-score-lower-on-transparency-than-claude/"
+        }
+      ],
+      "one_line": "새 모델이 불확실성을 인정하는 비율이 낮아 투명성 평가에서 클로드 계열에 크게 밀렸다는 분석이다.",
+      "region": "미국",
+      "score": 7,
+      "tier": "주목",
+      "title": "GPT-6.2 아스트라·솔, 답은 간결해졌지만 투명성은 클로드에 뒤져"
+    },
+    {
+      "category": "상용 LLM",
+      "id": "2026-11-23-19",
+      "links": [
+        {
+          "name": "AI타임스",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=217654"
+        },
+        {
+          "name": "Claude 릴리스 노트",
+          "url": "https://support.claude.com/en/articles/12138966-release-notes"
+        }
+      ],
+      "one_line": "오픈AI와 앤트로픽이 하루 차이로 앱을 바꿔 프로젝트·에이전트 기능을 전면에 내세웠다.",
+      "region": "미국",
+      "score": 7,
+      "tier": "주목",
+      "title": "챗GPT·클로드 모바일 앱 동시 개편… 에이전트·코딩 기능을 첫 화면으로"
+    },
+    {
+      "category": "상용 LLM",
+      "id": "2026-11-23-20",
+      "links": [
+        {
+          "name": "전자신문",
+          "url": "https://www.etnews.com/20261120000272"
+        }
+      ],
+      "one_line": "통신사 AI 에이전트를 국민 대상 범용 서비스로 재편하는 계획이다.",
+      "region": "한국",
+      "score": 7,
+      "tier": "주목",
+      "title": "SKT, 에이닷을 '에이닷올'로 개편해 다음 달 출시… 정부 '모두의 AI'와 연계"
+    },
+    {
+      "category": "피지컬AI",
+      "id": "2026-11-23-21",
+      "links": [
+        {
+          "name": "전자신문",
+          "url": "https://www.etnews.com/20261122000039"
+        }
+      ],
+      "one_line": "베를린 연구조직에서 온디바이스·로봇 모델 경량화 기술을 개발한다.",
+      "region": "한국",
+      "score": 7,
+      "tier": "주목",
+      "title": "노타, 독일 법인서 피지컬AI 연구 인력 채용… 로봇용 모델 최적화 공략"
+    },
+    {
+      "category": "정책·규제",
+      "id": "2026-11-23-22",
+      "links": [
+        {
+          "name": "New York Times",
+          "url": "https://www.nytimes.com/2026/11/21/world/asia/china-nvidia-spy-chips-state-security.html"
+        },
+        {
+          "name": "AI타임스",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=217658"
+        }
+      ],
+      "one_line": "미국 수출통제를 피해 첨단 칩을 들여오려는 국가 차원의 작전과 셸 회사 거래망이 잇따라 보도됐다.",
+      "region": "글로벌",
+      "score": 7,
+      "tier": "주목",
+      "title": "NYT·FT '중국 국가안전부, 엔비디아 칩 확보 주도'… 24만 개 밀반입망 추적"
+    },
+    {
+      "category": "정책·규제",
+      "id": "2026-11-23-23",
+      "links": [
+        {
+          "name": "Yahoo News",
+          "url": "https://www.yahoo.com/news/world/articles/un-talks-autonomous-killer-robots-060332325.html"
+        }
+      ],
+      "one_line": "제네바 회의에서 각국은 법적 금지 대신 향후 합의를 향해 노력한다는 수준에 그쳤다.",
+      "region": "글로벌",
+      "score": 7,
+      "tier": "주목",
+      "title": "유엔 자율살상무기 협상, 구속력 있는 금지 없이 종료… 2028년까지 협정 논의만"
+    },
+    {
+      "category": "피지컬AI",
+      "id": "2026-11-23-24",
+      "links": [
+        {
+          "name": "Gizmodo",
+          "url": "https://gizmodo.com/its-like-gta-musk-touts-video-game-like-update-to-tesla-fsd-2000843584"
+        }
+      ],
+      "one_line": "안전이 중요한 상황 처리 개선을 내세웠고 새 화면은 HW4 차량에 한정될 전망이다.",
+      "region": "미국",
+      "score": 7,
+      "tier": "주목",
+      "title": "테슬라 FSD v15 배포 시작… 게임 같은 3인칭 '리얼리티 뷰' 도입"
+    },
+    {
+      "category": "정책·규제",
+      "id": "2026-11-23-25",
+      "links": [
+        {
+          "name": "Fortune",
+          "url": "https://fortune.com/2026/11/21/data-centers-us-chips-serve-chinese-models"
+        }
+      ],
+      "one_line": "미국 칩으로 중국 모델 추론을 제공하는 업체가 늘며 정책 취지가 약해진다는 분석이다.",
+      "region": "미국",
+      "score": 7,
+      "tier": "주목",
+      "title": "포춘 '미국 클라우드 16곳이 딥시크 등 중국 모델 호스팅'… 수출통제 실효성 논란"
+    },
+    {
+      "category": "산업·투자",
+      "id": "2026-11-23-26",
+      "links": [
+        {
+          "name": "FourWeekMBA",
+          "url": "https://fourweekmba.com/ai-walmart-sparky-use-up-129-in-a-year-baskets-40-larger/"
+        }
+      ],
+      "one_line": "메타 뮤즈 등 외부 AI 에이전트가 고객이 정한 한도 안에서 월마트에 접속해 구매할 수 있게 된다.",
+      "region": "미국",
+      "score": 7,
+      "tier": "주목",
+      "title": "월마트 쇼핑 에이전트 '스파키' 이용 129% 증가… 외부 에이전트용 '에이전트 게이트웨이' 개방"
+    },
+    {
+      "category": "연구 논문",
+      "id": "2026-11-23-27",
+      "links": [
+        {
+          "name": "MarkTechPost",
+          "url": "https://www.marktechpost.com/2026/11/21/columbia-certik-tensorlean-formal-verification-gpu-kernels/"
+        }
+      ],
+      "one_line": "컬럼비아대·서틱 연구진이 커널 149개 중 83개의 정확성을 증명하고 나머지에서 오류를 찾았다.",
+      "paper_year": 2026,
+      "region": "미국",
+      "score": 7,
+      "tier": "주목",
+      "title": "[논문] TensorLean: 컴파일된 GPU 커널을 린으로 형식 검증해 버그 38개 발견"
+    },
+    {
+      "category": "연구 논문",
+      "id": "2026-11-23-28",
+      "links": [
+        {
+          "name": "Hugging Face Papers",
+          "url": "https://huggingface.co/papers/2611.26444"
+        }
+      ],
+      "one_line": "체화 지능의 인지와 물리 행동, 그 둘의 조합을 나눠 평가하는 진단용 벤치마크다.",
+      "paper_year": 2026,
+      "region": "글로벌",
+      "score": 7,
+      "tier": "주목",
+      "title": "[논문] Mind2Act World: 로봇 조작의 '이해-행동' 결합 능력을 진단하는 벤치마크"
+    },
+    {
+      "category": "산업·투자",
+      "id": "2026-11-23-29",
+      "links": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/"
+        },
+        {
+          "name": "AI타임스",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=217663"
+        }
+      ],
+      "one_line": "테크크런치 이퀴티는 강한 실적과 젠슨 황 복귀 압박이 엇갈리는 상황을 짚으며 H200 중국 판매 중단을 전했다.",
+      "region": "미국",
+      "score": 6,
+      "tier": "주목",
+      "title": "엔비디아, 중국에 H200 판매 중단… 실적 호조 속 경영 공백 우려도"
+    },
+    {
+      "category": "정책·규제",
+      "id": "2026-11-23-30",
+      "links": [
+        {
+          "name": "전자신문",
+          "url": "https://www.etnews.com/20261120000143"
+        }
+      ],
+      "one_line": "공무원이 만든 AI 서비스를 개발환경·보안절차·공유체계와 함께 행정 현장에 퍼뜨리는 방안이다.",
+      "region": "한국",
+      "score": 6,
+      "tier": "주목",
+      "title": "행안부·NIA, 'AI 정부 실험실' 범정부 확산 체계 마련"
+    },
+    {
+      "category": "정책·규제",
+      "id": "2026-11-23-31",
+      "links": [
+        {
+          "name": "Korea Times",
+          "url": "https://www.koreatimes.co.kr/southkorea/society/20261122/education-minister-offers-to-resign-over-college-exam-controversy-amid-ai-cheating-fears"
+        }
+      ],
+      "one_line": "세무사 시험 수석 합격자가 몰래카메라와 AI로 부정행위를 했다고 털어놓자 장관이 사의를 밝혔고 대통령이 수리했다.",
+      "region": "한국",
+      "score": 6,
+      "tier": "주목",
+      "title": "교육부 장관, AI 활용 시험 부정 사건 책임지고 사퇴"
+    },
+    {
+      "category": "연구 논문",
+      "id": "2026-11-23-32",
+      "links": [
+        {
+          "name": "Hugging Face Papers",
+          "url": "https://huggingface.co/papers/2611.26603"
+        }
+      ],
+      "one_line": "영상에서도 깜빡임 없이 실제 거리 단위 깊이를 추정하는 모델로, 로봇·AR 인식에 쓰일 수 있다.",
+      "paper_year": 2026,
+      "region": "글로벌",
+      "score": 6,
+      "tier": "주목",
+      "title": "[논문] Depth Pro 2: 시간적으로 일관된 단안 메트릭 깊이 추정"
+    },
+    {
+      "category": "기타",
+      "id": "2026-11-23-33",
+      "links": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/"
+        }
+      ],
+      "one_line": "배우 아키 아브니와 직접 계약해 디지털 아바타를 쓴 작품으로, 보수는 일반 배역 수준이었다고 밝혔다.",
+      "region": "미국",
+      "score": 6,
+      "tier": "주목",
+      "title": "마이크로드라마 스타트업 쇼티컬, 배우 얼굴 라이선스로 전편 AI 시리즈 공개"
+    },
+    {
+      "category": "정책·규제",
+      "id": "2026-11-23-34",
+      "links": [
+        {
+          "name": "MLQ.ai",
+          "url": "https://mlq.ai/news/disney-universal-and-warner-bros-ask-the-court-to-make-midjourney-comply-on-its-v8-source-code/"
+        }
+      ],
+      "one_line": "저작권 소송에서 스튜디오들이 법원에 모델 소스코드 공개 명령을 신청했다.",
+      "region": "미국",
+      "score": 6,
+      "tier": "주목",
+      "title": "디즈니·유니버설·워너, 미드저니 v8 소스코드 제출 요구"
+    },
+    {
+      "category": "LLM",
+      "id": "2026-11-23-35",
+      "links": [
+        {
+          "name": "量子位",
+          "url": "https://www.qbitai.com/2026/11/511570.html"
+        }
+      ],
+      "one_line": "딥시크 초기 모델 저자가 세운 스타트업이 첫 결과물로 오픈소스 에이전트를 내놨다.",
+      "region": "중국",
+      "score": 6,
+      "tier": "주목",
+      "title": "전 딥시크 V1 저자 창업 프로젝트 공개… 로컬 배포형 오픈소스 에이전트"
+    },
+    {
+      "category": "산업·투자",
+      "id": "2026-11-23-36",
+      "links": [
+        {
+          "name": "AI타임스",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=217651"
+        }
+      ],
+      "one_line": "흩어진 AI 연구개발 조직을 통합해 사업 성과를 앞당기겠다는 계획이다.",
+      "region": "한국",
+      "score": 5,
+      "tier": "참고",
+      "title": "LG유플러스 2027 조직개편… AI 인프라·플랫폼 중심으로 재편"
+    },
+    {
+      "category": "정책·규제",
+      "id": "2026-11-23-37",
+      "links": [
+        {
+          "name": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-22/australia-spy-chief-warns-of-data-center-ai-risks-age-reports"
+        }
+      ],
+      "one_line": "호주 정부는 데이터센터 관련 규정을 마련 중이다.",
+      "region": "글로벌",
+      "score": 5,
+      "tier": "참고",
+      "title": "호주 정보기관 ASIO 'AI 데이터센터 외국 소유는 간첩·사보타주 위험'"
+    },
+    {
+      "category": "정책·규제",
+      "id": "2026-11-23-38",
+      "links": [
+        {
+          "name": "The Next Web",
+          "url": "https://thenextweb.com/news/dealbook-agi-panel-hendrycks-pause-frontier-ai-hodak-surveillance"
+        }
+      ],
+      "one_line": "패널에서는 이런 중단을 강제하려면 대규모 감시가 필요하다는 반론도 나왔다.",
+      "region": "미국",
+      "score": 5,
+      "tier": "참고",
+      "title": "헨드릭스, 딜북 서밋서 프런티어 AI 무기한 중단 촉구"
+    },
+    {
+      "category": "기타",
+      "id": "2026-11-23-39",
+      "links": [
+        {
+          "name": "AI타임스",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=217664"
+        }
+      ],
+      "one_line": "AI 생성 표시만 있으면 실존 인물 합성도 허용된다는 메타의 해석이 논란이 됐다.",
+      "region": "미국",
+      "score": 5,
+      "tier": "참고",
+      "title": "메타 AI 책임자, 알트먼 딥페이크 영상 게시… 메타 '표시했으니 정책 위반 아냐'"
+    },
+    {
+      "category": "기타",
+      "id": "2026-11-23-40",
+      "links": [
+        {
+          "name": "Google 블로그",
+          "url": "https://blog.google/intl/en-in/company-news/supporting-ai-research-and-talent-development-with-iit-kharagpur/"
+        }
+      ],
+      "one_line": "인도 언어·소재·농업·교육 분야 연구와 인재 양성에 쓰인다.",
+      "region": "글로벌",
+      "score": 5,
+      "tier": "참고",
+      "title": "구글, 인도 IIT 카라그푸르에 AI 연구 지원금 500만 달러"
+    }
+  ],
+  "sources_checked": [
+    "AI Weekly",
+    "TechCrunch AI",
+    "The Decoder",
+    "OpenAI 뉴스·개발자 문서(지원 중단)",
+    "Anthropic 뉴스·Claude 릴리스 노트",
+    "Google 블로그·DeepMind 블로그",
+    "Hugging Face Papers",
+    "AI타임스",
+    "전자신문",
+    "ZDNet Korea",
+    "뉴스핌",
+    "量子位",
+    "ITmedia AI+",
+    "Robotics & Automation News",
+    "OpenRouter 블로그",
+    "The Next Web"
+  ],
+  "top": [
+    {
+      "category": "연구 논문",
+      "id": "2026-11-23-01",
+      "links": [
+        {
+          "name": "Lean community blog",
+          "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/"
+        },
+        {
+          "name": "The Decoder",
+          "url": "https://the-decoder.com/lean-and-mathlib-community-officially-confirms-levent-alpoges-proof-of-the-riemann-hypothesis-is-correct/"
+        },
+        {
+          "name": "전자신문",
+          "url": "https://www.etnews.com/20261122000077"
+        }
+      ],
+      "paper_year": 2026,
+      "region": "미국",
+      "score": 11,
+      "scores": {
+        "coverage": 2,
+        "impact": 3,
+        "novelty": 2,
+        "relevance": 2,
+        "trust": 2
+      },
+      "summary": [
+        "앤트로픽 소속 수학자 레번트 알푀게가 20일 공개한 린(Lean) 형식 증명을 린·매스립 커뮤니티가 공동 성명으로 지지했다.",
+        "독립적으로 코드를 돌린 결과가 일치했고, 증명된 명제가 실제 리만 가설과 같은지도 점검했다고 밝혔다.",
+        "같은 날 스탠퍼드의 인간 단독 경쟁 초안도 나와 있어, 수학계의 동료 검토는 계속 진행 중이다."
+      ],
+      "tier": "핵심",
+      "title": "린·매스립 커뮤니티 '클로드 활용 리만 가설 증명' 공식 검증… 컴파일·명제 일치 확인",
+      "why": "LLM이 형식 검증까지 통과한 최고 난도 수학 성과를 낸 첫 사례로, 연구 에이전트의 신뢰성 논쟁을 한 단계 끌어올렸다."
+    },
+    {
+      "category": "상용 LLM",
+      "id": "2026-11-23-02",
+      "links": [
+        {
+          "name": "OpenRouter 공지",
+          "url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/"
+        },
+        {
+          "name": "The Decoder",
+          "url": "https://the-decoder.com/security-researchers-show-how-cheap-ai-inference-providers-steal-keys-and-snoop-on-users/"
+        },
+        {
+          "name": "Crypto Briefing",
+          "url": "https://cryptobriefing.com/hd-moore-ai-supply-chain-data-leaks/"
+        }
+      ],
+      "region": "글로벌",
+      "score": 11,
+      "scores": {
+        "coverage": 2,
+        "impact": 2,
+        "novelty": 2,
+        "relevance": 3,
+        "trust": 2
+      },
+      "summary": [
+        "보안업체 드라고스가 가짜 요청 약 200만 건(카나리 토큰)으로 추론 호스팅 업체를 시험해 최소 3곳의 침해와 다수 AWS 키 유출을 확인했다.",
+        "일부 업체는 '데이터 보존 안 함(ZDR)' 설정을 무시하고 프롬프트를 처리한 정황도 드러났다.",
+        "오픈라우터는 노비타·팔라·투게더를 공급자에서 제외하고 125개 엔드포인트의 ZDR 자격을 박탈했다."
+      ],
+      "tier": "핵심",
+      "title": "저가 AI 추론 업체들, 프롬프트 엿보고 키 탈취… 오픈라우터는 3개 업체·125개 엔드포인트 퇴출",
+      "why": "여러 모델을 라우터·서드파티 추론으로 쓰는 서비스라면 공급자 선택과 데이터 보존 계약을 즉시 재점검해야 한다."
+    },
+    {
+      "category": "LLM",
+      "id": "2026-11-23-03",
+      "links": [
+        {
+          "name": "The Decoder",
+          "url": "https://the-decoder.com/ai-is-getting-better-faster-than-experts-can-reliably-test-whether-new-systems-are-safe-metr-warns/"
+        }
+      ],
+      "region": "미국",
+      "score": 10,
+      "scores": {
+        "coverage": 1,
+        "impact": 2,
+        "novelty": 2,
+        "relevance": 3,
+        "trust": 2
+      },
+      "summary": [
+        "METR는 모델이 처리할 수 있는 과업 길이가 약 3.6개월마다 두 배로 늘고 있다고 추정했다.",
+        "공개 데이터만으로는 AI 연구 자체가 급가속하는 시나리오를 배제하기 어렵다고 경고했다.",
+        "쉬운 벤치마크가 실제 업무 성능을 과대평가할 수 있다는 점도 함께 지적했다."
+      ],
+      "tier": "핵심",
+      "title": "METR 4분기 업데이트 'AI 발전 속도가 안전성 검증 능력을 앞질러'… 과업 길이 3.6개월마다 2배",
+      "why": "에이전트 도입 계획과 모델 평가 방식을 짤 때 벤치마크 수치를 그대로 믿기 어렵다는 근거가 된다."
+    },
+    {
+      "category": "LLM",
+      "id": "2026-11-23-04",
+      "links": [
+        {
+          "name": "The Decoder",
+          "url": "https://the-decoder.com/new-open-model-inkling-2-mini-thinks-in-loops-to-solve-problems-with-fewer-words-and-still-runs-on-a-laptop/"
+        },
+        {
+          "name": "AI타임스",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=217656"
+        }
+      ],
+      "region": "미국",
+      "score": 10,
+      "scores": {
+        "coverage": 1,
+        "impact": 2,
+        "novelty": 2,
+        "relevance": 3,
+        "trust": 2
+      },
+      "summary": [
+        "전체 264억·활성 54억 매개변수의 MoE 구조로, 같은 층을 반복해 거치는 '루프형' 추론으로 적은 토큰에 답을 낸다.",
+        "100만 토큰 컨텍스트와 아파치 2.0 라이선스로 허깅페이스와 자체 플랫폼 팅커에 가중치를 풀었다.",
+        "메모리 32GB 이상 맥에서 로컬 실행이 가능하다고 밝혔다."
+      ],
+      "tier": "핵심",
+      "title": "싱킹머신즈, 노트북에서 도는 오픈 모델 '잉클링 2 미니' 공개… 루프형 트랜스포머·100만 토큰",
+      "why": "상업 이용이 자유로운 고성능 소형 모델이라 온프레미스·로컬 번역/에이전트 실험 후보로 바로 검토할 만하다."
+    },
+    {
+      "category": "피지컬AI",
+      "id": "2026-11-23-05",
+      "links": [
+        {
+          "name": "Robotics & Automation News",
+          "url": "https://roboticsandautomationnews.com/2026/11/22/nvidia-expands-isaac-robotics-platform-with-new-humanoid-and-ai-development-tools/107472"
+        }
+      ],
+      "region": "유럽",
+      "score": 10,
+      "scores": {
+        "coverage": 1,
+        "impact": 2,
+        "novelty": 2,
+        "relevance": 3,
+        "trust": 2
+      },
+      "summary": [
+        "강화학습·물리 시뮬레이션 도구 아이작 랩 3.0을 정식 출시하고, 센서·모델·제어를 잇는 오픈소스 런타임 아이작 OS를 내놨다.",
+        "애자일 로봇의 연구용 휴머노이드 'Agile ONE SN'(31자유도, 2027년 초 출시)과 2,000종 이상 시뮬레이션 자산, 손 추적 인간 동작 데이터셋도 공개했다.",
+        "ABB·쿠카·뉴라로보틱스 등 유럽 업체들이 옴니버스·아이작 도입을 발표했다."
+      ],
+      "tier": "핵심",
+      "title": "엔비디아 GTC 베를린, 아이작 랩 3.0 정식 출시·오픈소스 '아이작 OS' 공개… 유럽 로봇 생태계 공략",
+      "why": "휴머노이드 개발의 표준 스택을 엔비디아가 시뮬레이션부터 런타임까지 묶어 가져가는 흐름이 뚜렷해졌다."
+    }
+  ]
+}
