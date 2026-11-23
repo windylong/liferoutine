@@ -1,0 +1,180 @@
+{
+  "type": "morning",
+  "date": "2026-11-24",
+  "generated_at": "2026-11-24T06:28:41+09:00",
+  "analysis": {
+    "kospi_prediction": "상승",
+    "kospi_change_range": "+3.0~+6.0%",
+    "kospi_confidence": "높음",
+    "kospi_reason": "젠슨 황 복귀로 엔비디아 31%·나스닥 6.5% 급등, 야간선물 7%↑. 전날 낙폭 되돌림 예상되나 차익매물로 상단 제한 가능",
+    "us_market_summary": "젠슨 황 복귀에 나스닥 6.51%·S&P 4.73% 급반등",
+    "kospi_news_summary": "젠슨 황 엔비디아 복귀로 뉴욕 기술주 폭등, 코스피 야간선물 7%대 상승",
+    "kospi_news": [
+      {
+        "summary": "젠슨 황 엔비디아 CEO 복귀, 주가 31.5% 급등 마감",
+        "source": "헤럴드경제",
+        "url": "https://biz.heraldcorp.com/article/10946751"
+      },
+      {
+        "summary": "나스닥 6.51%·S&P500 4.73%·다우 3.01% 동반 급등",
+        "source": "이투데이",
+        "url": "https://www.etoday.co.kr/news/view/2651913"
+      },
+      {
+        "summary": "코스피200 야간선물 7% 넘게 올라 반등 기대",
+        "source": "한국경제",
+        "url": "https://www.hankyung.com/article/2026112454041"
+      },
+      {
+        "summary": "황 복귀에 美 의회 청문회 예고, 지배구조 논란 확산",
+        "source": "경향신문",
+        "url": "https://khan.co.kr/article/202611240610001"
+      },
+      {
+        "summary": "연준 12월 인상 확률 96%, 이번 주 PCE 발표 주목",
+        "source": "Fox Business",
+        "url": "https://www.foxbusiness.com/markets/stocks-november-23-2026"
+      }
+    ],
+    "watchlist": [
+      {
+        "code": "005930",
+        "name": "삼성전자",
+        "prediction": "상승",
+        "reason": "美 반도체 급반등·야간선물 강세로 전날 낙폭 회복 시도 예상",
+        "factors": [
+          {
+            "summary": "엔비디아 불확실성 완화로 HBM 수요 우려 진정",
+            "impact": "호재",
+            "url": "https://www.hankyung.com/article/2026112454021"
+          },
+          {
+            "summary": "마이크론 장중 19%대 급등, 메모리주 투심 개선",
+            "impact": "호재",
+            "url": "https://biz.heraldcorp.com/article/10946737"
+          },
+          {
+            "summary": "증권가 코스피 저점 4천 초반 거론, 변동성 경계",
+            "impact": "중립",
+            "url": "https://www.hankyung.com/article/2026112454021"
+          }
+        ]
+      },
+      {
+        "code": "000660",
+        "name": "SK하이닉스",
+        "prediction": "상승",
+        "reason": "ADR 장중 20%대 급등, 최대 고객 엔비디아 리스크 완화",
+        "factors": [
+          {
+            "summary": "하이닉스 ADR 장중 22% 급등, 국내 반등 신호",
+            "impact": "호재",
+            "url": "https://biz.heraldcorp.com/article/10946737"
+          },
+          {
+            "summary": "엔비디아 경영 공백 해소로 HBM 수요 기대 회복",
+            "impact": "호재",
+            "url": "https://www.hankyung.com/article/2026112454021"
+          },
+          {
+            "summary": "엔비디아 수출통제·지배구조 조사 계속, 재변동 소지",
+            "impact": "악재",
+            "url": "https://khan.co.kr/article/202611240610001"
+          }
+        ]
+      }
+    ]
+  },
+  "raw_data": {
+    "news_window": {
+      "from": "2026-11-23T07:00:00+09:00",
+      "to": "2026-11-24T07:00:00+09:00"
+    },
+    "us_market": {
+      "sp500": {
+        "price": 7237.22,
+        "changePct": 4.73
+      },
+      "nasdaq": {
+        "price": 24089.56,
+        "changePct": 6.51
+      },
+      "dow": {
+        "price": 49595.31,
+        "changePct": 3.01
+      },
+      "sox": {
+        "price": null,
+        "changePct": null
+      },
+      "usdkrw": {
+        "price": null,
+        "changePct": null
+      }
+    },
+    "kospi200_night_futures": {
+      "changePct": 7.0
+    },
+    "kospi_prev": {
+      "price": 4708.54,
+      "changePct": -3.31
+    },
+    "watchlist": [
+      {
+        "code": "005930",
+        "name": "삼성전자",
+        "price": 177500,
+        "changePct": -3.06
+      },
+      {
+        "code": "000660",
+        "name": "SK하이닉스",
+        "price": 1085000,
+        "changePct": -2.52
+      }
+    ],
+    "notes": "미 지수는 11/23(현지) 종가(이투데이). SOX 종가는 확인 못 해 비움(장중 약 15% 급등 보도만 있음). 원/달러 야간 종가 확인 못 해 비움. 야간선물은 '7% 넘게' 보도 기준 근사치. 관심 종목 전일 종가는 11/23 오후 분석(EBN 마감 기사) 기준. 직전 교훈(정책·수급 따라 실제 변동폭이 야간선물보다 작을 수 있음) 반영해 범위를 야간선물보다 낮게 잡음",
+    "sources": [
+      {
+        "name": "이투데이(뉴욕 마감)",
+        "url": "https://www.etoday.co.kr/news/view/2651913"
+      },
+      {
+        "name": "헤럴드경제",
+        "url": "https://biz.heraldcorp.com/article/10946751"
+      },
+      {
+        "name": "헤럴드경제(장중)",
+        "url": "https://biz.heraldcorp.com/article/10946737"
+      },
+      {
+        "name": "한국경제(야간선물)",
+        "url": "https://www.hankyung.com/article/2026112454041"
+      },
+      {
+        "name": "한국경제(하이닉스 ADR)",
+        "url": "https://www.hankyung.com/article/2026112454021"
+      },
+      {
+        "name": "경향신문",
+        "url": "https://khan.co.kr/article/202611240610001"
+      },
+      {
+        "name": "Fox Business",
+        "url": "https://www.foxbusiness.com/markets/stocks-november-23-2026"
+      },
+      {
+        "name": "서울파이낸스",
+        "url": "https://www.seoulfn.com/news/articleView.html?idxno=643697"
+      },
+      {
+        "name": "이투데이(코스피 마감)",
+        "url": "https://www.etoday.co.kr/news/view/2651779"
+      },
+      {
+        "name": "EBN(종목 마감)",
+        "url": "https://www.ebn.co.kr/news/articleView.html?idxno=1732707"
+      }
+    ]
+  }
+}
