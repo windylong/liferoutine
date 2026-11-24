@@ -1,0 +1,185 @@
+{
+  "type": "morning",
+  "date": "2026-11-25",
+  "generated_at": "2026-11-25T06:22:38+09:00",
+  "analysis": {
+    "kospi_prediction": "하락",
+    "kospi_change_range": "-1.5~-3.5%",
+    "kospi_confidence": "높음",
+    "kospi_reason": "SOX 7.9% 급락·야간선물 3%대 하락. 전날 6% 급등분 차익실현 압력 크나 나스닥 낙폭은 1.5%로 제한",
+    "us_market_summary": "반도체 급락에 나스닥 1.48%↓, 다우는 0.85%↑ 혼조",
+    "kospi_news_summary": "엔비디아 급반락에 美 반도체지수 7.9% 급락, 코스피 야간선물 3%대 하락",
+    "kospi_news": [
+      {
+        "summary": "뉴욕증시 혼조, 나스닥 1.5%↓·SOX 7.9% 급락",
+        "source": "이투데이",
+        "url": "https://www.etoday.co.kr/news/view/2652483"
+      },
+      {
+        "summary": "엔비디아 8%대·마이크론 11% 급락, 랠리 하루 만에 꺾여",
+        "source": "파이낸셜뉴스",
+        "url": "https://www.fnnews.com/news/202611250140018986"
+      },
+      {
+        "summary": "앤트로픽 공모가 붕괴, AI 투자 수익성 우려 재부각",
+        "source": "미디어펜",
+        "url": "https://www.mediapen.com/news/view/1139804"
+      },
+      {
+        "summary": "코스피200 야간선물 3%대 하락, EWY도 2%대 약세",
+        "source": "스톡플러스",
+        "url": "https://newsroom.stockplus.com/breaking-news/44849"
+      },
+      {
+        "summary": "연준 12월 인상 확률 100% 근접, 오늘 10월 PCE 발표",
+        "source": "뉴스핌",
+        "url": "https://www.newspim.com/news/view/20261124001464"
+      }
+    ],
+    "watchlist": [
+      {
+        "code": "005930",
+        "name": "삼성전자",
+        "prediction": "하락",
+        "reason": "美 메모리주 급락·야간선물 약세로 전날 급등분 일부 반납 예상",
+        "factors": [
+          {
+            "summary": "마이크론 11%대 급락, 메모리 업종 투심 위축",
+            "impact": "악재",
+            "url": "https://www.fnnews.com/news/202611250140018986"
+          },
+          {
+            "summary": "2027년 HBM 가격 협상 마쳐, 다년 공급계약 확대",
+            "impact": "호재",
+            "url": "https://www.newspim.com/news/view/20261124001464"
+          },
+          {
+            "summary": "전날 6.7% 급등해 차익실현 매물 출회 가능성",
+            "impact": "악재",
+            "url": "https://news.jkn.co.kr/post/1119008"
+          }
+        ]
+      },
+      {
+        "code": "000660",
+        "name": "SK하이닉스",
+        "prediction": "하락",
+        "reason": "뉴욕 ADR 9%대 급락, 엔비디아 반락으로 HBM 투심 약화",
+        "factors": [
+          {
+            "summary": "하이닉스 美 상장주 장중 9~10% 급락",
+            "impact": "악재",
+            "url": "https://www.fnnews.com/news/202611250140018986"
+          },
+          {
+            "summary": "엔비디아 지배구조·수출통제 불확실성 지속",
+            "impact": "악재",
+            "url": "https://www.mediapen.com/news/view/1139804"
+          },
+          {
+            "summary": "14개 고객과 장기공급계약, 27~28년 물량 절반 확보",
+            "impact": "호재",
+            "url": "https://www.newspim.com/news/view/20261124001464"
+          }
+        ]
+      }
+    ]
+  },
+  "raw_data": {
+    "news_window": {
+      "from": "2026-11-24T15:30:00+09:00",
+      "to": "2026-11-25T07:00:00+09:00"
+    },
+    "us_market": {
+      "sp500": {
+        "price": 7201.09,
+        "changePct": -0.5
+      },
+      "nasdaq": {
+        "price": 23733.54,
+        "changePct": -1.48
+      },
+      "dow": {
+        "price": 50018.7,
+        "changePct": 0.85
+      },
+      "sox": {
+        "price": null,
+        "changePct": -7.88
+      },
+      "usdkrw": {
+        "price": 1342.4,
+        "changePct": -0.26
+      },
+      "kospi200_night_futures": {
+        "price": 754.75,
+        "changePct": -3.07,
+        "note": "11/24 19:37 KST 시점"
+      },
+      "ewy": {
+        "changePct": -2.37,
+        "note": "11/24 19:37 KST 시점"
+      }
+    },
+    "kospi_prev": {
+      "price": 5006.03,
+      "changePct": 6.32
+    },
+    "watchlist": [
+      {
+        "code": "005930",
+        "name": "삼성전자",
+        "price": 189400,
+        "changePct": 6.7
+      },
+      {
+        "code": "000660",
+        "name": "SK하이닉스",
+        "price": 1158000,
+        "changePct": 6.73
+      }
+    ],
+    "sources": [
+      {
+        "name": "이투데이(뉴욕증시 마감)",
+        "url": "https://www.etoday.co.kr/news/view/2652483"
+      },
+      {
+        "name": "블루밍비트(뉴욕증시 마감)",
+        "url": "https://bloomingbit.io/feed/news/125156"
+      },
+      {
+        "name": "파이낸셜뉴스(기술주 급락)",
+        "url": "https://www.fnnews.com/news/202611250140018986"
+      },
+      {
+        "name": "미디어펜(반도체 급락)",
+        "url": "https://www.mediapen.com/news/view/1139804"
+      },
+      {
+        "name": "이코노미블록(SOX 장중)",
+        "url": "https://economybloc.com/news/126542/"
+      },
+      {
+        "name": "스톡플러스(야간선물)",
+        "url": "https://newsroom.stockplus.com/breaking-news/44849"
+      },
+      {
+        "name": "뉴스핌(프리뷰·연준·종목)",
+        "url": "https://www.newspim.com/news/view/20261124001464"
+      },
+      {
+        "name": "아시아경제(환율)",
+        "url": "https://view.asiae.co.kr/article/2026112415312978173"
+      },
+      {
+        "name": "재경일보(SK하이닉스 마감)",
+        "url": "https://news.jkn.co.kr/post/1119008"
+      },
+      {
+        "name": "전일 오후 분석(코스피·종목 종가)",
+        "url": "https://github.com/windylong/liferoutine/blob/main/web/public/stock/afternoon/2026-11-24.json"
+      }
+    ]
+  }
+}
