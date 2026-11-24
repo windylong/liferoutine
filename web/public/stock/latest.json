@@ -181,83 +181,87 @@
   },
   "afternoon": {
     "type": "afternoon",
-    "date": "2026-11-23",
-    "generated_at": "2026-11-23T15:57:57+09:00",
+    "date": "2026-11-24",
+    "generated_at": "2026-11-24T15:52:25+09:00",
     "analysis": {
-      "kospi_predicted": "하락",
-      "kospi_actual": "하락",
-      "kospi_change_text": "▼3.31%",
+      "kospi_predicted": "상승",
+      "kospi_actual": "상승",
+      "kospi_change_text": "▲6.32%",
       "kospi_match": "적중",
-      "kospi_miss_reason": "美 반도체 폭락 전이로 하락을 맞혔고 낙폭도 예상 범위 상단(-3%대)에 들어옴. 정부 대책·기관 매수로 야간선물보다 덜 빠짐",
+      "kospi_miss_reason": "엔비디아·美 반도체 폭등이 그대로 전이돼 방향을 맞힘. 상승폭은 예상 범위(+3~6%) 상단을 소폭 넘었고 5000선 회복",
       "watchlist_accuracy": [
         {
           "code": "005930",
           "name": "삼성전자",
-          "predicted": "하락",
-          "actual": "하락",
-          "change_text": "▼3.06%",
+          "predicted": "상승",
+          "actual": "상승",
+          "change_text": "▲6.70%",
           "match": "적중",
-          "reason": "미 반도체 급락 여파는 맞혔고 추정가보다 낙폭은 작음"
+          "reason": "美 반도체 급반등과 외국인 매수 유입으로 전날 낙폭 회복"
         },
         {
           "code": "000660",
           "name": "SK하이닉스",
-          "predicted": "하락",
-          "actual": "하락",
-          "change_text": "▼2.52%",
+          "predicted": "상승",
+          "actual": "상승",
+          "change_text": "▲6.73%",
           "match": "적중",
-          "reason": "ADR 폭락 대비 기관 저가매수로 낙폭이 크게 줄어듦"
+          "reason": "엔비디아 리스크 완화로 반등, 장중 9%대서 상승폭은 축소"
         }
       ],
       "overall_accuracy": "3/3",
       "accuracy": "적중",
-      "market_analysis": "2.77% 하락 출발 뒤 오전 4%대까지 밀리며 매도 사이드카, 4708선 마감. 은행·제약·조선 약세 두드러짐. 외국인·개인 순매도, 기관만 2천억대 순매수",
-      "lessons": "정부 시장안정 대책이 나온 날은 야간선물·해외 추정가보다 실제 낙폭이 작을 수 있음을 반영"
+      "market_analysis": "3.6% 갭상승 출발 후 매수 사이드카 발동, 5006선 마감. 반도체·2차전지·자동차 대형주 강세. 외국인 7255억·기관 8692억 순매수, 개인 2조 순매도",
+      "lessons": "급반등은 숏커버링 비중이 커 지속성 확인 필요. 야간선물 대비 실제 상승폭도 소폭 작았음"
     },
     "raw_data": {
       "kospi": {
-        "price": 4708.54,
-        "changePct": -3.31
+        "price": 5006.03,
+        "changePct": 6.32
       },
       "kosdaq": {
-        "price": 635.45,
-        "changePct": -1.58
+        "price": 665.88,
+        "changePct": 4.79
       },
       "watchlist": [
         {
           "code": "005930",
           "name": "삼성전자",
-          "price": 177500,
-          "changePct": -3.06
+          "price": 189400,
+          "changePct": 6.7
         },
         {
           "code": "000660",
           "name": "SK하이닉스",
-          "price": 1085000,
-          "changePct": -2.52
+          "price": 1158000,
+          "changePct": 6.73
         }
       ],
-      "notes": "네이버 증권 페이지 접근이 막혀 언론 마감 기사 수치 사용. 지수는 이투데이 속보, 종목·수급·업종은 EBN 마감 기사 기준",
+      "usdkrw": {
+        "price": 1342.4,
+        "change": -3.5
+      },
+      "investor_flow_kospi": {
+        "foreign_100m_krw": 7255,
+        "institution_100m_krw": 8692,
+        "individual_100m_krw": -20430
+      },
       "sources": [
         {
-          "name": "이투데이(코스피 마감)",
-          "url": "https://www.etoday.co.kr/news/view/2651779"
+          "name": "블록미디어(마감시황)",
+          "url": "https://www.blockmedia.co.kr/archives/1169839"
         },
         {
-          "name": "이투데이(코스닥 마감)",
-          "url": "https://www.etoday.co.kr/news/view/2651778"
+          "name": "위키트리(마감)",
+          "url": "https://www.wikitree.co.kr/articles/1177381"
         },
         {
-          "name": "EBN",
-          "url": "https://www.ebn.co.kr/news/articleView.html?idxno=1732707"
+          "name": "아시아경제(코스닥 마감)",
+          "url": "https://view.asiae.co.kr/article/2026112415391950437"
         },
         {
-          "name": "아시아경제",
-          "url": "https://view.asiae.co.kr/article/2026112310315844683"
-        },
-        {
-          "name": "잡포스트",
-          "url": "https://www.job-post.co.kr/news/articleView.html?idxno=240065"
+          "name": "콕스뉴스(장중)",
+          "url": "https://www.coxnews.co.kr/news/articleView.html?idxno=6903"
         }
       ]
     }

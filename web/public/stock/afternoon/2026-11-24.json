@@ -1,0 +1,87 @@
+{
+  "type": "afternoon",
+  "date": "2026-11-24",
+  "generated_at": "2026-11-24T15:52:25+09:00",
+  "analysis": {
+    "kospi_predicted": "상승",
+    "kospi_actual": "상승",
+    "kospi_change_text": "▲6.32%",
+    "kospi_match": "적중",
+    "kospi_miss_reason": "엔비디아·美 반도체 폭등이 그대로 전이돼 방향을 맞힘. 상승폭은 예상 범위(+3~6%) 상단을 소폭 넘었고 5000선 회복",
+    "watchlist_accuracy": [
+      {
+        "code": "005930",
+        "name": "삼성전자",
+        "predicted": "상승",
+        "actual": "상승",
+        "change_text": "▲6.70%",
+        "match": "적중",
+        "reason": "美 반도체 급반등과 외국인 매수 유입으로 전날 낙폭 회복"
+      },
+      {
+        "code": "000660",
+        "name": "SK하이닉스",
+        "predicted": "상승",
+        "actual": "상승",
+        "change_text": "▲6.73%",
+        "match": "적중",
+        "reason": "엔비디아 리스크 완화로 반등, 장중 9%대서 상승폭은 축소"
+      }
+    ],
+    "overall_accuracy": "3/3",
+    "accuracy": "적중",
+    "market_analysis": "3.6% 갭상승 출발 후 매수 사이드카 발동, 5006선 마감. 반도체·2차전지·자동차 대형주 강세. 외국인 7255억·기관 8692억 순매수, 개인 2조 순매도",
+    "lessons": "급반등은 숏커버링 비중이 커 지속성 확인 필요. 야간선물 대비 실제 상승폭도 소폭 작았음"
+  },
+  "raw_data": {
+    "kospi": {
+      "price": 5006.03,
+      "changePct": 6.32
+    },
+    "kosdaq": {
+      "price": 665.88,
+      "changePct": 4.79
+    },
+    "watchlist": [
+      {
+        "code": "005930",
+        "name": "삼성전자",
+        "price": 189400,
+        "changePct": 6.7
+      },
+      {
+        "code": "000660",
+        "name": "SK하이닉스",
+        "price": 1158000,
+        "changePct": 6.73
+      }
+    ],
+    "usdkrw": {
+      "price": 1342.4,
+      "change": -3.5
+    },
+    "investor_flow_kospi": {
+      "foreign_100m_krw": 7255,
+      "institution_100m_krw": 8692,
+      "individual_100m_krw": -20430
+    },
+    "sources": [
+      {
+        "name": "블록미디어(마감시황)",
+        "url": "https://www.blockmedia.co.kr/archives/1169839"
+      },
+      {
+        "name": "위키트리(마감)",
+        "url": "https://www.wikitree.co.kr/articles/1177381"
+      },
+      {
+        "name": "아시아경제(코스닥 마감)",
+        "url": "https://view.asiae.co.kr/article/2026112415391950437"
+      },
+      {
+        "name": "콕스뉴스(장중)",
+        "url": "https://www.coxnews.co.kr/news/articleView.html?idxno=6903"
+      }
+    ]
+  }
+}
