@@ -1,0 +1,75 @@
+{
+  "type": "afternoon",
+  "date": "2026-11-26",
+  "generated_at": "2026-11-26T15:58:00+09:00",
+  "analysis": {
+    "kospi_predicted": "상승",
+    "kospi_actual": "보합",
+    "kospi_change_text": "▲0.29%",
+    "kospi_match": "빗나감",
+    "kospi_miss_reason": "반등 자체는 맞았으나 장중 +2.56%까지 오른 뒤 외국인 매수가 끊기며 상승분 대부분을 반납, +0.29%로 보합 범위에 그침",
+    "watchlist_accuracy": [
+      {
+        "code": "005930",
+        "name": "삼성전자",
+        "predicted": "상승",
+        "actual": "상승",
+        "change_text": "▲0.35%",
+        "match": "적중",
+        "reason": "급락 뒤 반발 매수로 소폭 상승, 장중 고점 대비 크게 밀림"
+      },
+      {
+        "code": "000660",
+        "name": "SK하이닉스",
+        "predicted": "보합",
+        "actual": "상승",
+        "change_text": "▲2.23%",
+        "match": "빗나감",
+        "reason": "美 반도체 부담을 과대평가, 낙폭 과대 반발 매수가 더 강했음"
+      }
+    ],
+    "overall_accuracy": "1/3",
+    "accuracy": "부분적중",
+    "market_analysis": "전날 폭락 뒤 1%대 갭상승 출발, 장중 2.5%대까지 올랐으나 오후 외국인 매수 둔화로 상승폭 대부분 반납. 기관이 장중 매수 주도, 코스닥이 상대적 강세",
+    "lessons": "폭락 다음날 반등은 장중 되밀림이 커 상승 폭을 좁게 잡거나 보합 가능성을 함께 볼 것"
+  },
+  "raw_data": {
+    "kospi": {
+      "price": 4711.21,
+      "changePct": 0.29
+    },
+    "kosdaq": {
+      "price": 655.71,
+      "changePct": 0.78
+    },
+    "watchlist": [
+      {
+        "code": "005930",
+        "name": "삼성전자",
+        "price": 171300,
+        "changePct": 0.35
+      },
+      {
+        "code": "000660",
+        "name": "SK하이닉스",
+        "price": 1053000,
+        "changePct": 2.23
+      }
+    ],
+    "intraday_note": "13:25 KST 코스피 4769.01(+1.52%), 기관 +5380억·개인 -8279억·외국인 -11억(파이낸셜뉴스). 장중 고가 4817.77",
+    "sources": [
+      {
+        "name": "위키트리(코스피·코스닥 마감, 종목 종가)",
+        "url": "https://www.wikitree.co.kr/articles/1178066"
+      },
+      {
+        "name": "파이낸셜뉴스(장중 수급·흐름)",
+        "url": "https://www.fnnews.com/news/202611261331395454"
+      },
+      {
+        "name": "톱스타뉴스(삼성전자 종가)",
+        "url": "https://www.topstarnews.net/news/articleView.html?idxno=16287038"
+      }
+    ]
+  }
+}
