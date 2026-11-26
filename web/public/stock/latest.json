@@ -1,63 +1,63 @@
 {
   "morning": {
     "type": "morning",
-    "date": "2026-11-26",
-    "generated_at": "2026-11-26T06:24:00+09:00",
+    "date": "2026-11-27",
+    "generated_at": "2026-11-27T06:27:26+09:00",
     "analysis": {
-      "kospi_prediction": "상승",
-      "kospi_change_range": "+0.3~3.0%",
-      "kospi_confidence": "보통",
-      "kospi_reason": "전날 6% 폭락 뒤 美 증시가 장중 급락분 대부분 회복(SOX -0.5%). 관세·금리인상 우려로 변동성은 큼",
-      "us_market_summary": "장중 나스닥 -4.6%서 회복, -0.62% 마감. 다우 +0.33%",
-      "kospi_news_summary": "美 증시 장중 급락 뒤 낙폭 대부분 만회, 코스피 전날 6.16% 폭락에 반등 여부 주목",
+      "kospi_prediction": "보합",
+      "kospi_change_range": "-0.5~+0.5%",
+      "kospi_confidence": "낮음",
+      "kospi_reason": "美 휴장으로 새 재료 부족, 야간선물 +0.2%대 소폭 강세. 증안펀드 기대와 외국인 매도가 맞섬",
+      "us_market_summary": "美 추수감사절 휴장, 27일 조기 폐장. 직전 나스닥 -0.6%",
+      "kospi_news_summary": "금융위 증안펀드 투자관리위 29일 긴급 소집, 30일 금융지주 회장 회의",
       "kospi_news": [
         {
-          "summary": "뉴욕증시 혼조 마감, 나스닥 장중 낙폭 대부분 회복",
-          "source": "블록미디어",
-          "url": "https://www.blockmedia.co.kr/archives/1170757"
+          "summary": "금융위, 29일 증안펀드 투자관리위 긴급 소집",
+          "source": "한국경제",
+          "url": "https://www.hankyung.com/article/202611262408i"
         },
         {
-          "summary": "코스피 6.16% 폭락해 4697, 매도 사이드카 발동",
-          "source": "서울신문",
-          "url": "https://seoul.co.kr/news/economy/securities/2026/11/26/20261126001002"
+          "summary": "30일 5대 금융지주 회장 불러 시장안정 점검회의",
+          "source": "MTN",
+          "url": "https://news.mtn.co.kr/article/2026112619032039358"
         },
         {
-          "summary": "美 근원 PCE 3.3%로 예상 상회, 12월 금리인상 우려",
-          "source": "국제뉴스",
-          "url": "https://www.gukjenews.com/news/articleView.html?idxno=3763357"
+          "summary": "한은 기준금리 3.25%로 인상, 점도표 매파적",
+          "source": "머니투데이",
+          "url": "https://supple.kr/news/cmwx7q7hwpa0mkwp8kqn0k4rn"
         },
         {
-          "summary": "美 과잉생산 관세 조사, 한국 포함 발표 임박",
-          "source": "세계일보",
-          "url": "https://www.segye.com/newsView/20261125514399"
+          "summary": "코스피 장중 2.5% 올랐다 0.29% 상승 마감",
+          "source": "콕스뉴스",
+          "url": "https://www.coxnews.co.kr/news/articleView.html?idxno=6981"
         },
         {
-          "summary": "정부 증안펀드 확대 준비, 대형 증권사에 출자 타진",
-          "source": "서울신문",
-          "url": "https://seoul.co.kr/news/economy/securities/2026/11/26/20261126001002"
+          "summary": "美 증시 휴장, 야간선물은 0.2%대 소폭 상승",
+          "source": "콕스뉴스",
+          "url": "https://www.coxnews.co.kr/news/articleView.html?idxno=6981"
         }
       ],
       "watchlist": [
         {
           "code": "005930",
           "name": "삼성전자",
-          "prediction": "상승",
-          "reason": "하루 9.9% 급락 후 美 반도체지수 낙폭 축소로 반발 매수 기대",
+          "prediction": "보합",
+          "reason": "30조 배당 지급일, 반발 매수와 외국인 매도 공방 예상",
           "factors": [
             {
-              "summary": "필라델피아 반도체지수 장중 -8%서 -0.5%로 회복",
+              "summary": "27일 30조원 현금배당 지급, 재투자 기대",
               "impact": "호재",
-              "url": "https://www.chickstockfi.com/report/2026-11-26?market=us"
+              "url": "https://segye.com/newsView/20261125514800"
             },
             {
-              "summary": "BNP, 2028년 이후 메모리 공급과잉 우려 제기",
-              "impact": "악재",
-              "url": "https://www.segye.com/newsView/20261125514399"
+              "summary": "외국인 몫 약 15.8조, 환전 수요로 환율 변수",
+              "impact": "중립",
+              "url": "https://segye.com/newsView/20261125514800"
             },
             {
-              "summary": "시총 1000조 하회, 외국인 대규모 매도 지속",
+              "summary": "엔비디아 등 美 AI 반도체주 약세 여진",
               "impact": "악재",
-              "url": "https://seoul.co.kr/news/economy/securities/2026/11/26/20261126001002"
+              "url": "https://www.topstarnews.net/news/articleView.html?idxno=16287337"
             }
           ]
         },
@@ -65,22 +65,22 @@
           "code": "000660",
           "name": "SK하이닉스",
           "prediction": "보합",
-          "reason": "반발 매수 여지 있으나 엔비디아·마이크론 5% 안팎 하락 마감 부담",
+          "reason": "전일 2%대 반등 뒤 美 재료 공백, 방향성 약할 듯",
           "factors": [
             {
-              "summary": "엔비디아·마이크론 종가 기준 약 5% 하락",
-              "impact": "악재",
-              "url": "https://www.blockmedia.co.kr/archives/1170757"
+              "summary": "전일 2.23% 반등, 낙폭 과대 매수 유입",
+              "impact": "호재",
+              "url": "https://www.topstarnews.net/news/articleView.html?idxno=16287051"
             },
             {
-              "summary": "베라 루빈 울트라 HBM 탑재량 축소 전망 거론",
+              "summary": "마이크론 4%대 하락 등 메모리주 약세",
               "impact": "악재",
-              "url": "https://www.segye.com/newsView/20261125514399"
+              "url": "https://www.topstarnews.net/news/articleView.html?idxno=16287337"
             },
             {
-              "summary": "전날 11% 급락으로 가격 부담 일부 해소",
-              "impact": "중립",
-              "url": "https://seoul.co.kr/news/economy/securities/2026/11/26/20261126001002"
+              "summary": "증안펀드 가동 준비, 대형주 수급 기대",
+              "impact": "호재",
+              "url": "https://www.hankyung.com/article/202611262408i"
             }
           ]
         }
@@ -88,8 +88,8 @@
     },
     "raw_data": {
       "news_window": {
-        "from": "2026-11-25T07:00:00+09:00",
-        "to": "2026-11-26T07:00:00+09:00"
+        "from": "2026-11-26T15:30:00+09:00",
+        "to": "2026-11-27T07:00:00+09:00"
       },
       "us_market": {
         "sp500": {
@@ -101,78 +101,78 @@
           "changePct": -0.62
         },
         "dow": {
-          "price": 50182.9,
+          "price": 50182.95,
           "changePct": 0.33
         },
         "sox": {
-          "price": null,
-          "changePct": -0.51
+          "price": 8774.86,
+          "changePct": -0.65
         },
         "usdkrw": {
-          "price": 1343.2,
-          "changePct": 0.06
+          "price": 1342.7,
+          "changePct": -0.04
         },
         "kospi200_night_futures": {
-          "price": 702.95,
-          "changePct": -2.88,
-          "note": "11/25 22:31 KST 시점(현물 종가 723.81 대비), 美 장중 저점 무렵"
-        },
-        "ewy": {
-          "changePct": -4.45,
-          "note": "11/25 22:31 KST 시점"
+          "price": 728.44,
+          "changePct": 0.23,
+          "note": "11/26 21:29 KST 시점(정규장 선물 종가 726.76 대비)"
         }
       },
       "kospi_prev": {
-        "price": 4697.51,
-        "changePct": -6.16
+        "price": 4711.21,
+        "changePct": 0.29
       },
       "watchlist": [
         {
           "code": "005930",
           "name": "삼성전자",
-          "price": 170700,
-          "changePct": -9.87
+          "price": 171300,
+          "changePct": 0.35
         },
         {
           "code": "000660",
           "name": "SK하이닉스",
-          "price": 1030000,
-          "changePct": -11.05
+          "price": 1053000,
+          "changePct": 2.23
         }
       ],
-      "notes": "美 증시 11/26 추수감사절 휴장, 11/27 조기 폐장",
+      "notes": "美 증시 11/25 종가 기준(11/26 추수감사절 휴장, 11/27 조기 폐장). 뉴스 범위는 직전 거래일 장 마감 이후",
       "sources": [
         {
-          "name": "블록미디어(뉴욕증시 마감 지수)",
-          "url": "https://www.blockmedia.co.kr/archives/1170757"
+          "name": "톱스타뉴스(美 지수 11/25 종가·휴장)",
+          "url": "https://www.topstarnews.net/news/articleView.html?idxno=16287337"
         },
         {
-          "name": "치킨스탁(SOX 등락률)",
-          "url": "https://www.chickstockfi.com/report/2026-11-26?market=us"
+          "name": "머니투데이/서플(코스피·종목 종가, SOX, 금리 인상)",
+          "url": "https://supple.kr/news/cmwx7q7hwpa0mkwp8kqn0k4rn"
         },
         {
-          "name": "국제뉴스(PCE·관세·장중 흐름)",
-          "url": "https://www.gukjenews.com/news/articleView.html?idxno=3763357"
+          "name": "콕스뉴스(야간선물)",
+          "url": "https://www.coxnews.co.kr/news/articleView.html?idxno=6981"
         },
         {
-          "name": "서울신문(코스피·종목 종가, 증안펀드)",
-          "url": "https://seoul.co.kr/news/economy/securities/2026/11/26/20261126001002"
+          "name": "뉴스1(원/달러 1342.7원 마감)",
+          "url": "https://www.news1.kr/finance/market-exr/6367344"
         },
         {
-          "name": "세계일보(메모리 과잉·관세)",
-          "url": "https://www.segye.com/newsView/20261125514399"
+          "name": "한국경제(증안펀드 투자관리위 소집)",
+          "url": "https://www.hankyung.com/article/202611262408i"
         },
         {
-          "name": "아시아경제(원/달러 1343.2원 마감)",
-          "url": "https://view.asiae.co.kr/article/2026112515363125699"
+          "name": "MTN(증안펀드·금융지주 회의)",
+          "url": "https://news.mtn.co.kr/article/2026112619032039358"
         },
         {
-          "name": "스톡플러스(야간선물·EWY)",
-          "url": "https://newsroom.stockplus.com/breaking-news/45056"
+          "name": "세계일보(삼성전자 배당)",
+          "url": "https://segye.com/newsView/20261125514800"
         },
         {
-          "name": "콕스뉴스(야간선물·휴장 일정)",
-          "url": "https://www.coxnews.co.kr/news/articleView.html?idxno=6964"
+          "name": "톱스타뉴스(SK하이닉스 종가)",
+          "url": "https://www.topstarnews.net/news/articleView.html?idxno=16287051"
+        },
+        {
+          "name": "이투데이(투자전략·증안펀드 쟁점)",
+          "url": "https://www.etoday.co.kr/news/view/2653081"
         }
       ]
     }

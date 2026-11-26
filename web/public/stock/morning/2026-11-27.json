@@ -1,0 +1,178 @@
+{
+  "type": "morning",
+  "date": "2026-11-27",
+  "generated_at": "2026-11-27T06:27:26+09:00",
+  "analysis": {
+    "kospi_prediction": "보합",
+    "kospi_change_range": "-0.5~+0.5%",
+    "kospi_confidence": "낮음",
+    "kospi_reason": "美 휴장으로 새 재료 부족, 야간선물 +0.2%대 소폭 강세. 증안펀드 기대와 외국인 매도가 맞섬",
+    "us_market_summary": "美 추수감사절 휴장, 27일 조기 폐장. 직전 나스닥 -0.6%",
+    "kospi_news_summary": "금융위 증안펀드 투자관리위 29일 긴급 소집, 30일 금융지주 회장 회의",
+    "kospi_news": [
+      {
+        "summary": "금융위, 29일 증안펀드 투자관리위 긴급 소집",
+        "source": "한국경제",
+        "url": "https://www.hankyung.com/article/202611262408i"
+      },
+      {
+        "summary": "30일 5대 금융지주 회장 불러 시장안정 점검회의",
+        "source": "MTN",
+        "url": "https://news.mtn.co.kr/article/2026112619032039358"
+      },
+      {
+        "summary": "한은 기준금리 3.25%로 인상, 점도표 매파적",
+        "source": "머니투데이",
+        "url": "https://supple.kr/news/cmwx7q7hwpa0mkwp8kqn0k4rn"
+      },
+      {
+        "summary": "코스피 장중 2.5% 올랐다 0.29% 상승 마감",
+        "source": "콕스뉴스",
+        "url": "https://www.coxnews.co.kr/news/articleView.html?idxno=6981"
+      },
+      {
+        "summary": "美 증시 휴장, 야간선물은 0.2%대 소폭 상승",
+        "source": "콕스뉴스",
+        "url": "https://www.coxnews.co.kr/news/articleView.html?idxno=6981"
+      }
+    ],
+    "watchlist": [
+      {
+        "code": "005930",
+        "name": "삼성전자",
+        "prediction": "보합",
+        "reason": "30조 배당 지급일, 반발 매수와 외국인 매도 공방 예상",
+        "factors": [
+          {
+            "summary": "27일 30조원 현금배당 지급, 재투자 기대",
+            "impact": "호재",
+            "url": "https://segye.com/newsView/20261125514800"
+          },
+          {
+            "summary": "외국인 몫 약 15.8조, 환전 수요로 환율 변수",
+            "impact": "중립",
+            "url": "https://segye.com/newsView/20261125514800"
+          },
+          {
+            "summary": "엔비디아 등 美 AI 반도체주 약세 여진",
+            "impact": "악재",
+            "url": "https://www.topstarnews.net/news/articleView.html?idxno=16287337"
+          }
+        ]
+      },
+      {
+        "code": "000660",
+        "name": "SK하이닉스",
+        "prediction": "보합",
+        "reason": "전일 2%대 반등 뒤 美 재료 공백, 방향성 약할 듯",
+        "factors": [
+          {
+            "summary": "전일 2.23% 반등, 낙폭 과대 매수 유입",
+            "impact": "호재",
+            "url": "https://www.topstarnews.net/news/articleView.html?idxno=16287051"
+          },
+          {
+            "summary": "마이크론 4%대 하락 등 메모리주 약세",
+            "impact": "악재",
+            "url": "https://www.topstarnews.net/news/articleView.html?idxno=16287337"
+          },
+          {
+            "summary": "증안펀드 가동 준비, 대형주 수급 기대",
+            "impact": "호재",
+            "url": "https://www.hankyung.com/article/202611262408i"
+          }
+        ]
+      }
+    ]
+  },
+  "raw_data": {
+    "news_window": {
+      "from": "2026-11-26T15:30:00+09:00",
+      "to": "2026-11-27T07:00:00+09:00"
+    },
+    "us_market": {
+      "sp500": {
+        "price": 7182.78,
+        "changePct": -0.25
+      },
+      "nasdaq": {
+        "price": 23585.8,
+        "changePct": -0.62
+      },
+      "dow": {
+        "price": 50182.95,
+        "changePct": 0.33
+      },
+      "sox": {
+        "price": 8774.86,
+        "changePct": -0.65
+      },
+      "usdkrw": {
+        "price": 1342.7,
+        "changePct": -0.04
+      },
+      "kospi200_night_futures": {
+        "price": 728.44,
+        "changePct": 0.23,
+        "note": "11/26 21:29 KST 시점(정규장 선물 종가 726.76 대비)"
+      }
+    },
+    "kospi_prev": {
+      "price": 4711.21,
+      "changePct": 0.29
+    },
+    "watchlist": [
+      {
+        "code": "005930",
+        "name": "삼성전자",
+        "price": 171300,
+        "changePct": 0.35
+      },
+      {
+        "code": "000660",
+        "name": "SK하이닉스",
+        "price": 1053000,
+        "changePct": 2.23
+      }
+    ],
+    "notes": "美 증시 11/25 종가 기준(11/26 추수감사절 휴장, 11/27 조기 폐장). 뉴스 범위는 직전 거래일 장 마감 이후",
+    "sources": [
+      {
+        "name": "톱스타뉴스(美 지수 11/25 종가·휴장)",
+        "url": "https://www.topstarnews.net/news/articleView.html?idxno=16287337"
+      },
+      {
+        "name": "머니투데이/서플(코스피·종목 종가, SOX, 금리 인상)",
+        "url": "https://supple.kr/news/cmwx7q7hwpa0mkwp8kqn0k4rn"
+      },
+      {
+        "name": "콕스뉴스(야간선물)",
+        "url": "https://www.coxnews.co.kr/news/articleView.html?idxno=6981"
+      },
+      {
+        "name": "뉴스1(원/달러 1342.7원 마감)",
+        "url": "https://www.news1.kr/finance/market-exr/6367344"
+      },
+      {
+        "name": "한국경제(증안펀드 투자관리위 소집)",
+        "url": "https://www.hankyung.com/article/202611262408i"
+      },
+      {
+        "name": "MTN(증안펀드·금융지주 회의)",
+        "url": "https://news.mtn.co.kr/article/2026112619032039358"
+      },
+      {
+        "name": "세계일보(삼성전자 배당)",
+        "url": "https://segye.com/newsView/20261125514800"
+      },
+      {
+        "name": "톱스타뉴스(SK하이닉스 종가)",
+        "url": "https://www.topstarnews.net/news/articleView.html?idxno=16287051"
+      },
+      {
+        "name": "이투데이(투자전략·증안펀드 쟁점)",
+        "url": "https://www.etoday.co.kr/news/view/2653081"
+      }
+    ]
+  }
+}
