@@ -1,0 +1,706 @@
+{
+  "date": "2026-11-28",
+  "generated_at": "2026-11-28T07:52:19+09:00",
+  "headline": "미국 추수감사절로 소식이 적은 하루였다. 스위스 정부가 AI 에이전트 공격 피해를 공식 확인했고, 텐센트·알리바바는 추론 가속과 다국어 음성 모델을 내놨으며, 오픈AI는 에이전트용 데이터 플랫폼을 준비 중이라는 보도가 나왔다.",
+  "others": [
+    {
+      "category": "피지컬AI",
+      "id": "2026-11-28-06",
+      "links": [
+        {
+          "name": "The Decoder",
+          "url": "https://the-decoder.com/three-studies-from-meta-and-ami-labs-back-yann-lecuns-bet-on-jepa-world-models-over-large-language-models/"
+        }
+      ],
+      "one_line": "로봇 계획, 학습 효율, 오류 수정을 다룬 세 연구가 LLM 대신 JEPA 월드모델에 건 르쿤의 방향을 뒷받침하지만, 아직 하나로 통합되지는 않았다.",
+      "region": "유럽",
+      "score": 9,
+      "tier": "핵심",
+      "title": "르쿤의 AMI 랩스·메타, JEPA 월드모델 연구 3편 공개"
+    },
+    {
+      "category": "상용 LLM",
+      "id": "2026-11-28-07",
+      "links": [
+        {
+          "name": "kendell.dev",
+          "url": "https://kendell.dev/blog/arkwrapper/"
+        },
+        {
+          "name": "AI Weekly",
+          "url": "https://aiweekly.co/ai-news-today"
+        }
+      ],
+      "one_line": "한 개발자가 IP·요청 ID·검열 응답을 대조해 Novita·StreamLake·앤트디지털이 바이트댄스 Ark를 감싼 것으로 보인다고 분석했고, 앤트의 딥시크 가격도 BytePlus와 똑같았다.",
+      "region": "중국",
+      "score": 9,
+      "tier": "핵심",
+      "title": "중국 API 업체 3곳, '직접 서빙' 모델 호출을 바이트댄스 Ark로 넘긴 정황"
+    },
+    {
+      "category": "피지컬AI",
+      "id": "2026-11-28-08",
+      "links": [
+        {
+          "name": "Hugging Face Papers",
+          "url": "https://huggingface.co/papers/2611.33144"
+        }
+      ],
+      "one_line": "시연 없이 병렬 코딩 에이전트가 기술을 탐색·증류해 Bench2Dex 72.9점(최고), DexJoCo 81% 성공을 냈고, 실제 22자유도 양손 로봇이 새 악보를 30분 만에 익혔다.",
+      "paper_year": 2026,
+      "region": "중국",
+      "score": 9,
+      "tier": "핵심",
+      "title": "[논문] PyRUA-Dex: 코딩 에이전트로 양손 정밀 조작 정책을 프로그램으로 학습"
+    },
+    {
+      "category": "정책·규제",
+      "id": "2026-11-28-09",
+      "links": [
+        {
+          "name": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-27/nvidia-blackwell-chips-turn-up-at-china-site-tied-to-alice-huang"
+        },
+        {
+          "name": "The Decoder",
+          "url": "https://the-decoder.com/banned-nvidia-blackwell-chips-turn-up-in-a-shanghai-data-center-linked-to-alice-huang-bloomberg-reports/"
+        },
+        {
+          "name": "AI Weekly",
+          "url": "https://aiweekly.co/alerts/nvidia-gb300-rack-pledged-for-14m-loan-at-shanghai-site"
+        }
+      ],
+      "one_line": "블룸버그가 GB300 NVL72 랙이 9600만 위안 대출 담보로 잡힌 기록을 찾았고, 해당 업체는 이달 미국 거래 제한 명단에 오른 싱가포르 메가스피드와 연결된다.",
+      "region": "중국",
+      "score": 8,
+      "tier": "주목",
+      "title": "수출 금지된 엔비디아 블랙웰 랙, 상하이 데이터센터서 대출 담보로 발견"
+    },
+    {
+      "category": "산업·투자",
+      "id": "2026-11-28-10",
+      "links": [
+        {
+          "name": "The Decoder",
+          "url": "https://the-decoder.com/openai-countersues-apple-over-trade-secret-theft-and-alleged-coercion-of-shared-suppliers/"
+        }
+      ],
+      "one_line": "FT에 따르면 오픈AI는 올여름 애플이 낸 영업비밀 소송에 대응해 애플이 공동 협력사를 압박했다는 취지의 반소를 캘리포니아 법원에 냈다.",
+      "region": "미국",
+      "score": 8,
+      "tier": "주목",
+      "title": "오픈AI, 애플에 맞소송… \"영업비밀 탈취·협력사 압박\""
+    },
+    {
+      "category": "산업·투자",
+      "id": "2026-11-28-11",
+      "links": [
+        {
+          "name": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-26/huawei-teases-next-gen-ai-memory-chip-to-take-on-samsung-hynix"
+        },
+        {
+          "name": "블로터",
+          "url": "https://www.bloter.net/news/articleView.html?idxno=679839"
+        }
+      ],
+      "one_line": "화웨이가 자체 차세대 고대역폭메모리를 예고해 미국 제재 속 AI 메모리 자립을 노린다는 보도가 나왔다.",
+      "region": "중국",
+      "score": 8,
+      "tier": "주목",
+      "title": "화웨이, 삼성·SK하이닉스 겨냥한 차세대 HBM 예고"
+    },
+    {
+      "category": "정책·규제",
+      "id": "2026-11-28-12",
+      "links": [
+        {
+          "name": "The Next Web",
+          "url": "https://thenextweb.com/news/canada-ai-compute-access-fund-700m-expansion"
+        },
+        {
+          "name": "BetaKit",
+          "url": "https://betakit.com/feds-will-now-pay-80-percent-of-costs-under-ai-compute-access-fund-if-purchased-from-a-sovereign-provider/"
+        }
+      ],
+      "one_line": "총 10억 캐나다달러로 늘어난 기금은 자국 '소버린' 클라우드 사업자를 쓰면 비용의 최대 80%를 보전한다.",
+      "region": "글로벌",
+      "score": 8,
+      "tier": "주목",
+      "title": "캐나다, AI 컴퓨팅 지원기금 7억 캐나다달러 증액… 주권 사업자 이용 시 80% 지원"
+    },
+    {
+      "category": "피지컬AI",
+      "id": "2026-11-28-13",
+      "links": [
+        {
+          "name": "MONOist(ITmedia)",
+          "url": "https://monoist.itmedia.co.jp/mn/articles/2611/27/news050.html"
+        }
+      ],
+      "one_line": "일본 공작기계사 아마다와 히타치가 AI 에이전트 실증에서 효과를 확인하고 공장 현장의 피지컬AI 적용으로 넓히기로 했다.",
+      "region": "일본",
+      "score": 8,
+      "tier": "주목",
+      "title": "아마다·히타치, 제조 현장 AI 에이전트 PoC 효과 확인… 피지컬AI 실장 추진"
+    },
+    {
+      "category": "연구 논문",
+      "id": "2026-11-28-14",
+      "links": [
+        {
+          "name": "Hugging Face Papers",
+          "url": "https://huggingface.co/papers/2611.34923"
+        }
+      ],
+      "one_line": "루프 간 KV 메모리를 재사용하는 구조로 700M 규모에서 OLMo3 대비 토큰 효율 1.7배를 내면서 지연 시간은 비루프 모델과 같게 유지했다.",
+      "paper_year": 2026,
+      "region": "중국",
+      "score": 8,
+      "tier": "주목",
+      "title": "[논문] 바이트댄스 시드 'Mixture-of-Loops Transformer'"
+    },
+    {
+      "category": "연구 논문",
+      "id": "2026-11-28-15",
+      "links": [
+        {
+          "name": "Hugging Face Papers",
+          "url": "https://huggingface.co/papers/2611.34849"
+        }
+      ],
+      "one_line": "코딩 에이전트 47종과 비에이전트 방법 5종을 6개 벤치마크에서 원래 채점기로 한 번에 평가할 수 있게 했다(베이징대).",
+      "paper_year": 2026,
+      "region": "중국",
+      "score": 8,
+      "tier": "주목",
+      "title": "[논문] Real2SimLab: 실제→시뮬레이션 변환 방법 통합 평가 플랫폼"
+    },
+    {
+      "category": "연구 논문",
+      "id": "2026-11-28-16",
+      "links": [
+        {
+          "name": "Hugging Face Papers",
+          "url": "https://huggingface.co/papers/2611.34907"
+        }
+      ],
+      "one_line": "별도 GPU의 메모리 에이전트가 인물·장소 상태를 관리해 기준 모델 대비 주인공 일관성을 44.9점 높였고, 추가 생성 시간은 약 1%였다.",
+      "paper_year": 2026,
+      "region": "미국",
+      "score": 7,
+      "tier": "주목",
+      "title": "[논문] 엔비디아 Agentic LongLive: 비동기 메모리 에이전트로 긴 영상 일관성 개선"
+    },
+    {
+      "category": "기타",
+      "id": "2026-11-28-17",
+      "links": [
+        {
+          "name": "The Decoder",
+          "url": "https://the-decoder.com/hackers-breached-the-us-air-forces-flagship-cloud-one-platform-report-says/"
+        },
+        {
+          "name": "The Week",
+          "url": "https://www.theweek.in/news/world/2026/11/27/us-air-force-cloud-security-breach.html"
+        }
+      ],
+      "one_line": "MS·아마존·오라클·구글 클라우드를 묶은 공군 플랫폼이 침해돼 이전 작업이 중단되고 관리자 권한이 회수됐다고 로이터가 전했다.",
+      "region": "미국",
+      "score": 7,
+      "tier": "주목",
+      "title": "미 공군 핵심 클라우드 'Cloud One' 해킹 피해"
+    },
+    {
+      "category": "상용 LLM",
+      "id": "2026-11-28-18",
+      "links": [
+        {
+          "name": "Kimi",
+          "url": "https://www.kimi.ai/news/kimi-for-science-program"
+        }
+      ],
+      "one_line": "연구 과제에 API 비용을 지원하는 프로그램으로, 1기 신청 마감은 12월 8일이다.",
+      "region": "중국",
+      "score": 7,
+      "tier": "주목",
+      "title": "문샷AI '키미 포 사이언스' 시작… 과제당 최대 2만 달러 API 크레딧"
+    },
+    {
+      "category": "정책·규제",
+      "id": "2026-11-28-19",
+      "links": [
+        {
+          "name": "The Next Web",
+          "url": "https://thenextweb.com/news/nvidia-gpu-sellers-neoclouds-no-chinese-renters"
+        },
+        {
+          "name": "Crypto Briefing",
+          "url": "https://cryptobriefing.com/chip-sellers-withhold-nvidia-gpus-neoclouds-china/"
+        }
+      ],
+      "one_line": "11월 19일 미 상무부 원격 접근 규정 이후 단속이 재판매·임대 단계까지 내려오고 있다.",
+      "region": "미국",
+      "score": 7,
+      "tier": "주목",
+      "title": "엔비디아 유통사, 중국 기업에 GPU 임대하는 네오클라우드에 공급 중단 경고"
+    },
+    {
+      "category": "산업·투자",
+      "id": "2026-11-28-20",
+      "links": [
+        {
+          "name": "StockAnalysis",
+          "url": "https://stockanalysis.com/news/boe-financial-stability-report-ai-november-2026/"
+        }
+      ],
+      "one_line": "금융안정보고서에서 장부 외 항목을 포함한 하이퍼스케일러의 AI 관련 노출이 4조 달러를 넘고, 올해 회사채 발행도 약 3050억 달러라고 짚었다.",
+      "region": "유럽",
+      "score": 7,
+      "tier": "주목",
+      "title": "영란은행 \"하이퍼스케일러 AI 익스포저 4조 달러 넘어\""
+    },
+    {
+      "category": "피지컬AI",
+      "id": "2026-11-28-21",
+      "links": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/technology/eu-may-vote-authorising-tesla-assisted-driving-system-dec-15-meeting-2026-11-26/"
+        }
+      ],
+      "one_line": "로이터는 EU 회원국이 테슬라의 감독형 주행보조 기능 승인 여부를 다음 달 회의에서 표결할 수 있다고 전했다.",
+      "region": "유럽",
+      "score": 7,
+      "tier": "주목",
+      "title": "EU, 12월 15일 회의서 테슬라 주행보조 시스템 승인 표결 가능성"
+    },
+    {
+      "category": "정책·규제",
+      "id": "2026-11-28-22",
+      "links": [
+        {
+          "name": "AI타임스",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=217882"
+        }
+      ],
+      "one_line": "개인정보위는 10월까지 유출 신고가 지난해 전체(447건)의 두 배를 넘자 긴급 대응 체계를 가동한다.",
+      "region": "한국",
+      "score": 7,
+      "tier": "주목",
+      "title": "개인정보 유출 신고 올해 1019건, 작년 2배 넘어… AI 해킹 확산"
+    },
+    {
+      "category": "연구 논문",
+      "id": "2026-11-28-23",
+      "links": [
+        {
+          "name": "AI타임스",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=217863"
+        }
+      ],
+      "one_line": "사고 사슬(CoT) 모니터링을 보완하도록 모델 내부 뉴런 신호로 위험 행동을 탐지하는 방법을 제시했다.",
+      "paper_year": 2026,
+      "region": "미국",
+      "score": 7,
+      "tier": "주목",
+      "title": "앤트로픽, 뉴런 단위로 숨은 위험 행동 찾는 해석 가능성 연구 2편 공개"
+    },
+    {
+      "category": "정책·규제",
+      "id": "2026-11-28-24",
+      "links": [
+        {
+          "name": "AI타임스",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=217871"
+        }
+      ],
+      "one_line": "FT에 따르면 EU는 AI·양자 기업 지분에 장기 투자하는 펀드를 구상 중이다.",
+      "region": "유럽",
+      "score": 7,
+      "tier": "주목",
+      "title": "EU, 최대 500억 유로 기술주권 펀드 검토"
+    },
+    {
+      "category": "피지컬AI",
+      "id": "2026-11-28-25",
+      "links": [
+        {
+          "name": "量子位",
+          "url": "https://www.qbitai.com/2026/11/512897.html"
+        }
+      ],
+      "one_line": "니오 자율주행 책임자 런샤오칭이 차세대 월드모델로 운전자 보조 학습 효율을 다섯 배 높였다고 소개했다.",
+      "region": "중국",
+      "score": 7,
+      "tier": "주목",
+      "title": "니오, 자율주행용 '월드모델 3.0' 공개… 학습 효율 5배"
+    },
+    {
+      "category": "LLM",
+      "id": "2026-11-28-26",
+      "links": [
+        {
+          "name": "Hugging Face Blog",
+          "url": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench"
+        }
+      ],
+      "one_line": "라데온 8060S·AI Pro R9700S에서 로컬 추론 성능을 매주 10회 반복 측정해 공개한다.",
+      "region": "미국",
+      "score": 7,
+      "tier": "주목",
+      "title": "허깅페이스, AMD GPU용 llama.cpp 벤치마크 대시보드 공개"
+    },
+    {
+      "category": "산업·투자",
+      "id": "2026-11-28-27",
+      "links": [
+        {
+          "name": "@IT(ITmedia)",
+          "url": "https://atmarkit.itmedia.co.jp/ait/articles/2611/27/news038.html"
+        }
+      ],
+      "one_line": "일본 광고사 덴츠가 제미나이를 현업에 붙이는 전방 배치 엔지니어 등 3000명을 키우는 교육을 시작했다.",
+      "region": "일본",
+      "score": 6,
+      "tier": "주목",
+      "title": "덴츠, '제미나이 활용 FDE' 등 3000명 육성 프로그램 시작"
+    },
+    {
+      "category": "기타",
+      "id": "2026-11-28-28",
+      "links": [
+        {
+          "name": "The Decoder",
+          "url": "https://the-decoder.com/rockstars-ai-dilemma-can-gta-6s-staggered-release-model-survive-coding-agents/"
+        }
+      ],
+      "one_line": "유출된 엑스박스 빌드를 역설계하는 프로젝트가 40개를 넘었고, 코딩 에이전트가 작업 속도를 끌어올리고 있다.",
+      "region": "미국",
+      "score": 6,
+      "tier": "주목",
+      "title": "GTA 6 유출 빌드 PC 이식에 AI 코딩 에이전트 동원… 단계적 출시 전략 흔들"
+    },
+    {
+      "category": "산업·투자",
+      "id": "2026-11-28-29",
+      "links": [
+        {
+          "name": "NGlobe News",
+          "url": "https://nglobenews.com/en/article/us-stock-futures-surge-nasdaq-ai-rebound-2026-11-27"
+        }
+      ],
+      "one_line": "나스닥100 선물이 3% 가까이 올랐지만 S&P·나스닥은 2008년 이후 최악의 11월을 향하고 있다.",
+      "region": "미국",
+      "score": 6,
+      "tier": "주목",
+      "title": "추수감사절 뒤 AI주 반등… 엔비디아 4.7%·코어위브 7.9%↑"
+    },
+    {
+      "category": "정책·규제",
+      "id": "2026-11-28-30",
+      "links": [
+        {
+          "name": "pasqualepillitteri.it",
+          "url": "https://pasqualepillitteri.it/en/news/36841/openai-sued-in-germany-over-chatgpt-cancellation-and-price"
+        }
+      ],
+      "one_line": "브란덴부르크 소비자센터가 오픈AI 아일랜드 법인을 상대로 일방적 가격 변경 조항 등을 문제 삼았다.",
+      "region": "유럽",
+      "score": 6,
+      "tier": "주목",
+      "title": "독일 소비자단체, 챗GPT 해지 절차·가격 변경 조항으로 오픈AI 제소"
+    },
+    {
+      "category": "기타",
+      "id": "2026-11-28-31",
+      "links": [
+        {
+          "name": "AI타임스",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=217875"
+        }
+      ],
+      "one_line": "ALS 환자 대상 본임상 승인으로, 회사는 이식형 BCI로는 미국 첫 사례라고 밝혔다.",
+      "region": "미국",
+      "score": 6,
+      "tier": "주목",
+      "title": "뉴럴링크, 미국 첫 이식형 BCI 본임상 FDA 승인"
+    },
+    {
+      "category": "기타",
+      "id": "2026-11-28-32",
+      "links": [
+        {
+          "name": "AI타임스",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=217864"
+        }
+      ],
+      "one_line": "스탠퍼드 물리학자가 아카이브에 올린 AI 기반 이론에 다른 AI로 작성한 반박이 나오며 AI 과학 검증 논쟁이 이어졌다.",
+      "region": "미국",
+      "score": 6,
+      "tier": "주목",
+      "title": "GPT-6 아스트라로 만든 양자중력 이론에 클로드로 쓴 반박 논문 등장"
+    },
+    {
+      "category": "산업·투자",
+      "id": "2026-11-28-33",
+      "links": [
+        {
+          "name": "서울경제(영문)",
+          "url": "https://en.sedaily.com/world/2026/11/27/taiwan-lifts-2026-growth-forecast-to-1328-percent-on-ai-boom"
+        }
+      ],
+      "one_line": "TSMC와 AI 칩 수출 호조로 기존 11.05%에서 크게 올렸다.",
+      "region": "글로벌",
+      "score": 5,
+      "tier": "참고",
+      "title": "대만, 올해 성장률 전망 13.28%로 상향… AI 칩 수출 견인"
+    },
+    {
+      "category": "산업·투자",
+      "id": "2026-11-28-34",
+      "links": [
+        {
+          "name": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-27/foreign-funds-on-pace-for-record-taiwan-stock-exodus-in-ai-rout"
+        },
+        {
+          "name": "AI Weekly",
+          "url": "https://aiweekly.co/alerts/foreign-funds-pull-record-nt109t-from-taiwan-in-ai-rout"
+        }
+      ],
+      "one_line": "AI주 조정 속에 10월 기록을 넘어선 자금 이탈이다.",
+      "region": "글로벌",
+      "score": 5,
+      "tier": "참고",
+      "title": "외국인, 11월 대만 증시서 사상 최대 1.09조 대만달러 순매도"
+    },
+    {
+      "category": "산업·투자",
+      "id": "2026-11-28-35",
+      "links": [
+        {
+          "name": "ZDNet Korea",
+          "url": "https://zdnet.co.kr/view/?no=20261127121806"
+        }
+      ],
+      "one_line": "AI 데이터센터 확대로 기업용 SSD 수요가 기대 이상이라는 입장을 밝혔다.",
+      "region": "한국",
+      "score": 5,
+      "tier": "참고",
+      "title": "삼성전자 \"AI 인프라용 SSD 수요 예상 웃돌아\""
+    },
+    {
+      "category": "정책·규제",
+      "id": "2026-11-28-36",
+      "links": [
+        {
+          "name": "ZDNet Korea",
+          "url": "https://zdnet.co.kr/view/?no=20261127175932"
+        }
+      ],
+      "one_line": "AI 안전, 취약계층 보호, 국제 협력을 주제로 제도 정비 방향을 다뤘다.",
+      "region": "한국",
+      "score": 5,
+      "tier": "참고",
+      "title": "NIA, AI 이용자 피해·격차 해소 위한 법·제도 개선 논의"
+    },
+    {
+      "category": "기타",
+      "id": "2026-11-28-37",
+      "links": [
+        {
+          "name": "AI타임스",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=217872"
+        }
+      ],
+      "one_line": "언어·비전·이미지·음성 모델을 PC에서 돌리고 에이전트 작업 공간을 더했다.",
+      "region": "한국",
+      "score": 5,
+      "tier": "참고",
+      "title": "랩업, 로컬 AI 데스크톱 앱 'AI:GO 2.0' 출시"
+    }
+  ],
+  "sources_checked": [
+    "AI Weekly",
+    "The Neuron",
+    "Rio Rundown",
+    "AI Agents Directory",
+    "Distill Intelligence",
+    "TechCrunch AI(11/27 기사 없음)",
+    "The Decoder",
+    "ITmedia AI+",
+    "Anthropic News·Research",
+    "OpenAI 뉴스(기간 내 발표 없음)",
+    "Google 블로그·DeepMind(스냅샷 미갱신)",
+    "Hugging Face Papers",
+    "AI타임스",
+    "전자신문",
+    "ZDNet Korea",
+    "블로터",
+    "量子位",
+    "36Kr(보안 확인 페이지로 접근 실패)"
+  ],
+  "top": [
+    {
+      "category": "정책·규제",
+      "id": "2026-11-28-01",
+      "links": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/legal/litigation/ai-agents-used-five-cyber-attacks-switzerland-government-says-2026-11-26/"
+        },
+        {
+          "name": "Global Banking & Finance",
+          "url": "https://www.globalbankingandfinance.com/ai-agents-used-five-cyber-attacks-switzerland-government/"
+        },
+        {
+          "name": "The Neuron",
+          "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-november-27-2026/"
+        }
+      ],
+      "region": "유럽",
+      "score": 10,
+      "scores": {
+        "coverage": 2,
+        "impact": 2,
+        "novelty": 2,
+        "relevance": 2,
+        "trust": 2
+      },
+      "summary": [
+        "스위스 국가사이버보안청(BACS)이 자국 기업·기반시설을 노린 공격 5건에 AI 에이전트가 쓰였다고 밝혔다.",
+        "이 중 4건은 실제 침투에 성공했으며, 정찰부터 침투까지 여러 단계가 자동화된 것으로 파악됐다.",
+        "전날 MS의 국가 해커 ARTEX 공개에 이어, 정부 기관이 에이전트 공격 피해를 공식 집계로 확인한 사례다."
+      ],
+      "tier": "핵심",
+      "title": "스위스 정부 \"AI 에이전트 이용한 사이버공격 5건, 4건 성공\"",
+      "why": "에이전트형 공격이 연구 사례를 넘어 정부 통계에 잡히기 시작해, 기업의 에이전트 보안·권한 설계가 현실 과제가 됐다."
+    },
+    {
+      "category": "LLM",
+      "id": "2026-11-28-02",
+      "links": [
+        {
+          "name": "AI Daily Post",
+          "url": "https://aidailypost.com/news/tencents-dfly2-reuses-kv-cache-faster"
+        },
+        {
+          "name": "Tencent AI (X)",
+          "url": "https://x.com/TencentAI_News/status/2125968859450802415"
+        },
+        {
+          "name": "AI Weekly",
+          "url": "https://aiweekly.co/ai-news-today"
+        }
+      ],
+      "region": "중국",
+      "score": 10,
+      "scores": {
+        "coverage": 2,
+        "impact": 1,
+        "novelty": 2,
+        "relevance": 3,
+        "trust": 2
+      },
+      "summary": [
+        "텐센트가 KV 캐시를 재사용하는 0.85B 파라미터 투기적 디코딩(드래프트) 모델 DFly2를 공개했다.",
+        "64K 컨텍스트에서 DeepSeek-V4.1-Flash 처리량을 최대 81% 끌어올렸다고 밝혔다.",
+        "vLLM·SGLang에 바로 붙여 쓸 수 있어 오픈모델 서빙 비용 절감에 활용 가능하다."
+      ],
+      "tier": "핵심",
+      "title": "텐센트, 0.85B 투기적 디코더 'DFly2' 오픈소스… 딥시크 V4.1 플래시 처리량 최대 81%↑",
+      "why": "긴 컨텍스트 추론 비용을 모델 교체 없이 낮추는 실용 도구로, 오픈모델 자체 서빙 시 바로 적용할 수 있다."
+    },
+    {
+      "category": "상용 LLM",
+      "id": "2026-11-28-03",
+      "links": [
+        {
+          "name": "AlphaSignal",
+          "url": "https://alphasignal.ai/news/alibaba-s-qwen-audio-3-1-expands-to-65-languages-across-three-voice-apis"
+        },
+        {
+          "name": "Qwen (X)",
+          "url": "https://x.com/Alibaba_Qwen/status/2125798914490249411"
+        }
+      ],
+      "region": "중국",
+      "score": 10,
+      "scores": {
+        "coverage": 2,
+        "impact": 1,
+        "novelty": 2,
+        "relevance": 3,
+        "trust": 2
+      },
+      "summary": [
+        "알리바바 큐원팀이 음성 모델 Qwen-Audio-3.1의 지원 언어를 음성합성 65개, 음성인식 59개로 늘렸다.",
+        "중국어 방언 지원도 추가했고, 세 가지 음성 API로 제공된다.",
+        "다국어 음성 서비스와 현지화 파이프라인에서 쓸 수 있는 상용 선택지가 넓어졌다."
+      ],
+      "tier": "핵심",
+      "title": "알리바바 'Qwen-Audio-3.1', TTS 65개·ASR 59개 언어와 중국 방언으로 확대",
+      "why": "번역·현지화 업무에 직결되는 다국어 음성 모델로, 언어 범위가 상용 경쟁 모델과 비교할 기준점이 된다."
+    },
+    {
+      "category": "상용 LLM",
+      "id": "2026-11-28-04",
+      "links": [
+        {
+          "name": "The Decoder",
+          "url": "https://the-decoder.com/openai-is-building-athena-data-platform-to-cut-down-on-ai-agent-guesswork/"
+        }
+      ],
+      "region": "미국",
+      "score": 9,
+      "scores": {
+        "coverage": 1,
+        "impact": 2,
+        "novelty": 2,
+        "relevance": 3,
+        "trust": 1
+      },
+      "summary": [
+        "오픈AI가 매출·고객 수 같은 비즈니스 지표의 표준 정의를 에이전트에 제공하는 시맨틱 레이어 플랫폼 '아테나'를 만들고 있다고 디인포메이션이 보도했다.",
+        "챗GPT 워크의 데이터 분석 에이전트 정확도가 부족하다는 고객 평가가 계기가 된 것으로 전해졌다.",
+        "초기 개발 단계로 일정·가격은 없으며, 스노우플레이크·데이터브릭스와 경쟁할 가능성이 거론된다."
+      ],
+      "tier": "핵심",
+      "title": "오픈AI, 에이전트용 비즈니스 데이터 플랫폼 '아테나' 개발 중(디인포메이션)",
+      "why": "에이전트의 '추측' 문제를 데이터 계층에서 풀려는 시도로, 기업용 에이전트 경쟁이 데이터 플랫폼 영역으로 번지고 있다."
+    },
+    {
+      "category": "연구 논문",
+      "id": "2026-11-28-05",
+      "links": [
+        {
+          "name": "Hugging Face Papers",
+          "url": "https://huggingface.co/papers/2611.34232"
+        },
+        {
+          "name": "AI Weekly",
+          "url": "https://aiweekly.co/alerts/os-omni-benchmark-top-agents-succeed-on-linux-but-collapse-to-188-on-ios-tasks"
+        }
+      ],
+      "paper_year": 2026,
+      "region": "글로벌",
+      "score": 9,
+      "scores": {
+        "coverage": 1,
+        "impact": 1,
+        "novelty": 2,
+        "relevance": 3,
+        "trust": 2
+      },
+      "summary": [
+        "윈도·우분투·맥OS·iOS·안드로이드·웹에서 플랫폼당 48개 과제와 12개 교차 플랫폼 워크플로를 실행형 평가기로 채점하는 벤치마크다.",
+        "과제당 평균 67.5단계로 OSWorld(15단계)보다 훨씬 길며, 최고 성적은 클로드 오퍼스 5.5의 68.5%(사람 77.3%)였다.",
+        "제미나이 4 아르곤은 iOS에서 18.8%로 떨어지는 등 플랫폼별 편차가 컸다."
+      ],
+      "tier": "핵심",
+      "title": "[논문] OS-Omni: 6개 플랫폼 장기 작업 벤치마크… 최고 에이전트 68.5%, iOS에선 급락",
+      "why": "컴퓨터 사용 에이전트의 실제 업무 수준과 플랫폼별 약점을 수치로 보여, 에이전트 도입 범위를 정할 때 참고가 된다."
+    }
+  ]
+}
