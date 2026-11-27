@@ -1,0 +1,87 @@
+{
+  "type": "afternoon",
+  "date": "2026-11-27",
+  "generated_at": "2026-11-27T15:52:44+09:00",
+  "analysis": {
+    "kospi_predicted": "보합",
+    "kospi_actual": "상승",
+    "kospi_change_text": "▲4.34%",
+    "kospi_match": "빗나감",
+    "kospi_miss_reason": "美 휴장 속 AI주 매도 압력 완화로 저가 매수가 몰렸고, 외국인이 1조원 넘게 순매수하며 증안펀드 기대까지 겹쳐 4%대 급등. 수급 반전 강도를 과소평가",
+    "watchlist_accuracy": [
+      {
+        "code": "005930",
+        "name": "삼성전자",
+        "predicted": "보합",
+        "actual": "상승",
+        "change_text": "▲4.55%",
+        "match": "빗나감",
+        "reason": "외국인 매수가 반도체로 확산, 배당 재투자 수요도 가세"
+      },
+      {
+        "code": "000660",
+        "name": "SK하이닉스",
+        "predicted": "보합",
+        "actual": "상승",
+        "change_text": "▲5.41%",
+        "match": "빗나감",
+        "reason": "장 초반 약세 뒤 반도체 매수 확산으로 5%대 급등"
+      }
+    ],
+    "overall_accuracy": "0/3",
+    "accuracy": "빗나감",
+    "market_analysis": "외국인 1.1조·기관 0.2조 순매수에 코스피 4.34% 급등, 4900선 회복. 원전·전력기기·이차전지가 먼저 오르고 반도체로 확산. 코스닥은 8%대 급등에 매수 사이드카",
+    "lessons": "美 휴장일엔 재료 공백보다 낙폭 과대 반발과 정책 기대 수급을 더 크게 봐야 함"
+  },
+  "raw_data": {
+    "kospi": {
+      "price": 4915.68,
+      "changePct": 4.34
+    },
+    "kosdaq": {
+      "price": 708.99,
+      "changePct": 8.13
+    },
+    "watchlist": [
+      {
+        "code": "005930",
+        "name": "삼성전자",
+        "price": 179100,
+        "changePct": 4.55
+      },
+      {
+        "code": "000660",
+        "name": "SK하이닉스",
+        "price": 1110000,
+        "changePct": 5.41
+      }
+    ],
+    "investor_flow_kospi_krw_100m": {
+      "foreign": 11256,
+      "institution": 2388,
+      "individual": -17746
+    },
+    "usdkrw": {
+      "price": 1337.9,
+      "changePct": -0.35
+    },
+    "sources": [
+      {
+        "name": "블록미디어 마감시황(지수·수급·종목·환율)",
+        "url": "https://www.blockmedia.co.kr/archives/1171445"
+      },
+      {
+        "name": "국제뉴스(코스피·코스닥·종목 종가)",
+        "url": "https://www.gukjenews.com/news/articleView.html?idxno=3765372"
+      },
+      {
+        "name": "뉴스핌(장중 주도 업종·증안펀드)",
+        "url": "https://www.newspim.com/news/view/20261127000926"
+      },
+      {
+        "name": "한국경제 오후시황",
+        "url": "https://www.hankyung.com/article/202611274700i"
+      }
+    ]
+  }
+}
